@@ -1,0 +1,83 @@
+version: "v1"
+
+questions:
+
+  - id: Q01
+    question: "What is the fund's investment objective?"
+    expected_behavior: "Answer only if the retrieved document explicitly states the investment objective."
+
+  - id: Q02
+    question: "What is the fund's current NAV?"
+    expected_behavior: "Return the NAV only when supported by the retrieved document and include the document page citation."
+
+  - id: Q03
+    question: "What was the fund's NAV on the previous reporting date?"
+    expected_behavior: "Return the historical NAV only when the retrieved evidence contains the relevant date and value."
+
+  - id: Q04
+    question: "What are the fund's largest holdings?"
+    expected_behavior: "Identify holdings and their weights from the retrieved portfolio/holdings data."
+
+  - id: Q05
+    question: "What percentage of the portfolio is invested in the technology sector?"
+    expected_behavior: "Return the sector allocation from the retrieved evidence."
+
+  - id: Q06
+    question: "Which sector has the highest allocation?"
+    expected_behavior: "Identify the highest sector only from retrieved evidence."
+
+  - id: Q07
+    question: "How did the technology allocation change compared with the previous period?"
+    expected_behavior: "Describe the change using only the retrieved historical evidence."
+
+  - id: Q08
+    question: "Which holdings increased their portfolio weight?"
+    expected_behavior: "Compare the retrieved portfolio snapshots and identify increased weights."
+
+  - id: Q09
+    question: "Which holdings decreased their portfolio weight?"
+    expected_behavior: "Compare the retrieved portfolio snapshots and identify decreased weights."
+
+  - id: Q10
+    question: "Why did the fund increase its exposure to this company?"
+    expected_behavior: "Provide a reason only if a retrieved fund document or announcement explicitly explains the change. Otherwise say that the available documents do not provide a reason."
+
+  - id: Q11
+    question: "Why did the fund reduce its exposure to this company?"
+    expected_behavior: "Do not invent a reason. State that the reason is unavailable when the retrieved documents do not explain it."
+
+  - id: Q12
+    question: "What does the latest factsheet say about the fund's portfolio?"
+    expected_behavior: "Summarize only information contained in the retrieved factsheet and cite the relevant pages."
+
+  - id: Q13
+    question: "What benchmark does the fund use?"
+    expected_behavior: "Return the benchmark only when explicitly stated in the retrieved document."
+
+  - id: Q14
+    question: "What is the fund's expense ratio?"
+    expected_behavior: "Return the expense ratio from the retrieved evidence with a page citation."
+
+  - id: Q15
+    question: "What changed between the latest and previous portfolio snapshots?"
+    expected_behavior: "Summarize supported changes in holdings, weights, or sectors without inventing explanations."
+
+  - id: Q16
+    question: "Does the available documentation explain why this portfolio change occurred?"
+    expected_behavior: "Answer yes only when the retrieved documents provide an explicit explanation; otherwise state that no explanation was found."
+
+  - id: Q17
+    question: "Which document supports this statement?"
+    expected_behavior: "Return the document and page corresponding to the retrieved evidence."
+
+  - id: Q18
+    question: "Can you find evidence supporting this company's exposure in the fund?"
+    expected_behavior: "Return the relevant holding/document evidence and page citation."
+
+  - id: Q19
+    question: "Is there enough evidence in the retrieved documents to answer this question?"
+    expected_behavior: "If the evidence is insufficient, explicitly say so rather than using outside knowledge."
+
+  - id: Q20
+    question: "What does the available documentation say about this fund?"
+    expected_behavior: "Provide a concise evidence-based summary and cite the retrieved documents and pages."
