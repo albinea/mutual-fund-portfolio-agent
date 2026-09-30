@@ -46,6 +46,8 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'health',
+    'chat',
+    
 ]
 
 MIDDLEWARE = [
