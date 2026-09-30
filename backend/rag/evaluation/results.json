@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "model": "llama3.1",
+  "embedding_model": "intfloat/multilingual-e5-base",
+  "vector_store": "qdrant",
+  "total_questions": 20,
+  "evaluated_questions": 0,
+  "metrics": {
+    "answer_accuracy": null,
+    "citation_accuracy": null,
+    "citation_completeness": null,
+    "groundedness": null,
+    "average_confidence": null
+  },
+  "questions": []
+}
