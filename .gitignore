@@ -6,13 +6,13 @@
 # Python
 __pycache__/
 *.py[cod]
-*.sqlite3
 
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
 
 # Django
+*.sqlite3
 staticfiles/
 media/
 
@@ -22,5 +22,3 @@ media/
 
 # OS
 .DS_Store
-
-
