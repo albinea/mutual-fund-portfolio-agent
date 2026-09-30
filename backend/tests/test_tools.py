@@ -1,4 +1,20 @@
 from app.tools import core as t
+from unittest.mock import patch
+
+
+class _NavResponse:
+    def raise_for_status(self):
+        return None
+
+    def json(self):
+        return {
+            "data": [
+                {"date": "01-01-2026", "nav": "140"},
+                {"date": "01-01-2025", "nav": "120"},
+                {"date": "01-01-2024", "nav": "110"},
+                {"date": "01-01-2023", "nav": "100"},
+            ]
+        }
 
 def test_portfolio_totals():
     p=t.get_portfolio("USER001")
@@ -26,3 +42,16 @@ def test_errors_and_validation():
     assert t.get_portfolio("absent")["error_code"]=="PORTFOLIO_NOT_FOUND"
     v=t.validate_analysis(["Guaranteed return of 20%"],[{}])
     assert not v["valid"] and len(v["issues"])==2
+
+
+@patch("app.tools.nav.requests.get", return_value=_NavResponse())
+def test_public_nav_analytics(mock_get):
+    cagr=t.calculate_cagr(119551,3)
+    volatility=t.calculate_volatility(119551,3)
+    drawdown=t.calculate_drawdown(119551,3)
+    comparison=t.compare_funds([119551,119552],3)
+    assert cagr["success"] and cagr["cagr_percent"]==11.87
+    assert volatility["success"] and volatility["annualized_volatility_percent"]>0
+    assert drawdown["success"] and drawdown["maximum_drawdown_percent"]==0
+    assert comparison["success"] and len(comparison["funds"])==2
+    assert mock_get.call_count==5

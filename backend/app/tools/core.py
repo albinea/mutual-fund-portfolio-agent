@@ -29,7 +29,7 @@ def _source(name, url=None, published=None, asof=None):
 def _run(name, fn, **kwargs):
     started=time.perf_counter()
     try:
-        result=fn(**kwargs); ok=result.get("success",True)
+        result=fn(); ok=result.get("success",True)
         log.info("tool_call",extra={"tool_name":name,"user_id":kwargs.get("user_id"),"input":{k:v for k,v in kwargs.items() if k!="user_id"},"execution_time_ms":round((time.perf_counter()-started)*1000,2),"success":ok,"data_source":"mock_data"})
         return result
     except (ValueError, ValidationError) as e: result=_err("INVALID_INPUT",str(e))
@@ -184,5 +184,7 @@ def validate_analysis(claims:list[str],sources:list[dict],data_as_of_dates:list[
         if i>=len(sources) or not sources[i].get("source_url") and not sources[i].get("url") and not sources[i].get("source_name") and not sources[i].get("name"):problems.append({"claim_index":i,"issue":"MISSING_SOURCE"})
     return {"success":True,"valid":not problems,"issues":problems,"checks":["No guaranteed-return language","Each claim has source metadata"],"source":None}
 
-FUNCTIONS=[get_portfolio,get_fund_holdings,calculate_exposure,calculate_fund_overlap,calculate_sector_exposure,calculate_portfolio_risk,search_financial_documents,get_mutual_fund_details,get_historical_performance,web_search,search_company_news,get_market_data,research_company,simulate_allocation,compare_scenarios,calculate_tax_impact,analyze_goal,validate_analysis]
+from .nav import get_nav_history, calculate_cagr, calculate_volatility, calculate_drawdown, compare_funds
+
+FUNCTIONS=[get_portfolio,get_fund_holdings,calculate_exposure,calculate_fund_overlap,calculate_sector_exposure,calculate_portfolio_risk,search_financial_documents,get_mutual_fund_details,get_historical_performance,web_search,search_company_news,get_market_data,research_company,simulate_allocation,compare_scenarios,calculate_tax_impact,analyze_goal,validate_analysis,get_nav_history,calculate_cagr,calculate_volatility,calculate_drawdown,compare_funds]
 DESCRIPTIONS={f.__name__:f.__doc__ or f.__name__.replace("_"," ").capitalize()+" using validated inputs; returns structured data and provenance." for f in FUNCTIONS}

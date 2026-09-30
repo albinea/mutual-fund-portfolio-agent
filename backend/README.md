@@ -31,6 +31,12 @@ Analysis: `simulate_allocation`, `compare_scenarios`, `calculate_tax_impact`, `a
 
 Every tool is available in `TOOLS` and can also be imported and called directly. Unknown tools and malformed calls return structured errors. Portfolio endpoints currently accept a user ID for local demonstration; production authentication must derive the user identity from verified auth context and enforce ownership before invoking these functions. Avoid logging portfolio payloads; call logs record tool, user ID, timing, status and source label, with financial arguments omitted.
 
+## NAV analytics and Gemini agent
+
+The standalone MF agent's public NAV calculations are now available through the FastAPI backend: `GET /nav/{scheme_code}`, `POST /nav/cagr`, `POST /nav/volatility`, `POST /nav/drawdown`, and `POST /nav/compare`. They query `api.mfapi.in`, retain the original CAGR, annualized-volatility, and maximum-drawdown formulas, and return source metadata with every result.
+
+`POST /agent/query` connects Gemini to these NAV tools and to the caller's portfolio summary, risk, sector exposure, and overlap tools. Set `GEMINI_API_KEY` (and optionally `GEMINI_MODEL`) in the backend environment. The agent never accepts a model-supplied user ID: portfolio calls are bound to the `user_id` supplied to the endpoint until real authentication is added.
+
 ## Dependencies and example workflow
 
 `get_portfolio` and `get_fund_holdings` supply inputs to exposure, sector, overlap, and risk calculations. Scenario simulation composes current fund values with contributions, then recomputes fund, company, and sector composition. `research_company` combines market data, news, and document search and returns source records without recommendations.

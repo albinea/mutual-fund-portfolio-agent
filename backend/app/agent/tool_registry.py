@@ -7,7 +7,8 @@ CATEGORY={
  "get_portfolio":"portfolio","get_fund_holdings":"portfolio","calculate_exposure":"portfolio","calculate_fund_overlap":"portfolio","calculate_sector_exposure":"portfolio","calculate_portfolio_risk":"portfolio",
  "search_financial_documents":"rag","get_mutual_fund_details":"rag","get_historical_performance":"rag",
  "web_search":"external","search_company_news":"external","get_market_data":"external","research_company":"external",
- "simulate_allocation":"analysis","compare_scenarios":"analysis","calculate_tax_impact":"analysis","analyze_goal":"analysis","validate_analysis":"analysis"}
+ "simulate_allocation":"analysis","compare_scenarios":"analysis","calculate_tax_impact":"analysis","analyze_goal":"analysis","validate_analysis":"analysis",
+ "get_nav_history":"market_data","calculate_cagr":"market_data","calculate_volatility":"market_data","calculate_drawdown":"market_data","compare_funds":"market_data"}
 def registry() -> list[dict[str,Any]]:
     result=[]
     for fn in FUNCTIONS:
