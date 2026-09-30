@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from ..tools import core as t
+from ..agent.gemini import answer_question
 
 app=FastAPI(title="Mutual Fund Portfolio Intelligence Tools",version="0.1.0")
 class ExposureRequest(BaseModel): user_id:str; company_id:str|None=None
@@ -9,6 +10,9 @@ class SimulateRequest(BaseModel): user_id:str; additional_amount:float=Field(ge=
 class CompareRequest(BaseModel): user_id:str; additional_amount:float=Field(ge=0); scenarios:list[dict]
 class SearchRequest(BaseModel): query:str; fund_id:str|None=None; company_id:str|None=None; top_k:int=Field(5,ge=1,le=50)
 class ValidationRequest(BaseModel): claims:list[str]; sources:list[dict]; data_as_of_dates:list[str]|None=None
+class NavMetricRequest(BaseModel): scheme_code:int=Field(gt=0); years:int=Field(gt=0)
+class FundComparisonRequest(BaseModel): scheme_codes:list[int]=Field(min_length=2); years:int=Field(gt=0)
+class AgentRequest(BaseModel): user_id:str=Field(min_length=1); question:str=Field(min_length=1, max_length=4000)
 
 @app.get("/portfolio/{user_id}")
 def portfolio(user_id:str): return t.get_portfolio(user_id)
@@ -39,6 +43,18 @@ def simulate(req:SimulateRequest): return t.simulate_allocation(**req.model_dump
 def compare(req:CompareRequest): return t.compare_scenarios(**req.model_dump())
 @app.post("/analysis/validate")
 def validate(req:ValidationRequest): return t.validate_analysis(**req.model_dump())
+@app.get("/nav/{scheme_code}")
+def nav_history(scheme_code:int,limit:int=30): return t.get_nav_history(scheme_code,limit)
+@app.post("/nav/cagr")
+def nav_cagr(req:NavMetricRequest): return t.calculate_cagr(**req.model_dump())
+@app.post("/nav/volatility")
+def nav_volatility(req:NavMetricRequest): return t.calculate_volatility(**req.model_dump())
+@app.post("/nav/drawdown")
+def nav_drawdown(req:NavMetricRequest): return t.calculate_drawdown(**req.model_dump())
+@app.post("/nav/compare")
+def nav_compare(req:FundComparisonRequest): return t.compare_funds(**req.model_dump())
+@app.post("/agent/query")
+def agent_query(req:AgentRequest): return answer_question(**req.model_dump())
 @app.get("/tools")
 def tools():
     from ..agent.tool_registry import registry
