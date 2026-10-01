@@ -1,17 +1,24 @@
 import json
 import os
 
+from dotenv import load_dotenv
 from langchain_ollama import ChatOllama
 
 from app.schemas import LLMResponse
 
 
+load_dotenv()
+
+
 def get_llm():
     """
-    Create the primary LLM.
+    Create the primary cloud LLM.
     """
 
-    model = os.getenv("OLLAMA_MODEL", "llama3.1")
+    model = os.getenv(
+        "OLLAMA_MODEL",
+        "gpt-oss:120b-cloud",
+    )
 
     return ChatOllama(
         model=model,
@@ -24,7 +31,8 @@ def generate_response(
     llm=None,
 ) -> LLMResponse:
     """
-    Send the prompt to the LLM and validate the response with Pydantic.
+    Send the prompt to the LLM and validate
+    the response with Pydantic.
     """
 
     if llm is None:
@@ -41,6 +49,7 @@ def generate_response(
 
     try:
         parsed = json.loads(raw_content)
+
     except json.JSONDecodeError as exc:
         raise ValueError(
             "LLM returned invalid JSON."
