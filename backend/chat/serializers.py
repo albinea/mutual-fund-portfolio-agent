@@ -2,6 +2,11 @@ from rest_framework import serializers
 
 
 class ChatRequestSerializer(serializers.Serializer):
+    conversation_id = serializers.UUIDField(
+    required=False,
+    allow_null=True,
+    )
+    
     message = serializers.CharField(
         required=True,
         allow_blank=False,
@@ -34,6 +39,8 @@ class ChatRequestSerializer(serializers.Serializer):
 
 
 class ChatResponseSerializer(serializers.Serializer):
+    conversation_id = serializers.UUIDField(required=False)
+
     success = serializers.BooleanField()
     answer = serializers.CharField(required=False, allow_blank=True)
     sources = serializers.ListField(child=serializers.JSONField(), required=False)
