@@ -1,0 +1,42 @@
+from django.urls import path
+
+from .views import (
+    CompanyFundExposureView,
+    ExpectedWealthCalculatorView,
+    FundCompareView,
+    FundDetailView,
+    FundsView,
+    NotConfiguredView,
+    PortfolioAllocationView,
+    PortfolioHoldingsView,
+    PortfolioOverlapView,
+    PortfolioSummaryView,
+    SipCalculatorView,
+    WatchlistItemView,
+    WatchlistView,
+)
+
+urlpatterns = [
+    path("portfolio/summary/", PortfolioSummaryView.as_view(), name="portfolio-summary"),
+    path("portfolio/holdings/", PortfolioHoldingsView.as_view(), name="portfolio-holdings"),
+    path("portfolio/allocation/", PortfolioAllocationView.as_view(), name="portfolio-allocation"),
+    path("portfolio/overlap/", PortfolioOverlapView.as_view(), name="portfolio-overlap"),
+    path("portfolio/import/", NotConfiguredView.as_view(capability="Portfolio file import is pending the upload parser and normalized holdings storage."), name="portfolio-import"),
+    path("portfolio/changes/", NotConfiguredView.as_view(capability="Portfolio changes require historical snapshots, which are not configured yet."), name="portfolio-changes"),
+    path("portfolio/changes/<str:change_id>/explanation/", NotConfiguredView.as_view(capability="Change explanations require historical snapshots and factsheet RAG, which are not configured yet."), name="portfolio-change-explanation"),
+    path("uploads/", NotConfiguredView.as_view(capability="Chat file upload is pending secure file storage and CSV/XLSX/PDF parsing."), name="uploads"),
+    path("funds/", FundsView.as_view(), name="funds"),
+    path("funds/compare/", FundCompareView.as_view(), name="fund-compare"),
+    path("funds/discovery/", NotConfiguredView.as_view(capability="Fund discovery requires return-history and risk-adjusted-rating data, which are not configured yet."), name="fund-discovery"),
+    path("funds/<str:fund_id>/", FundDetailView.as_view(), name="fund-detail"),
+    path("funds/<str:fund_id>/rolling-returns/", NotConfiguredView.as_view(capability="Rolling returns require a configured NAV series for the selected fund."), name="rolling-returns"),
+    path("funds/<str:fund_id>/manager-commentary/", NotConfiguredView.as_view(capability="Manager commentary requires factsheet RAG, which is not configured yet."), name="manager-commentary"),
+    path("calculators/sip/", SipCalculatorView.as_view(), name="sip-calculator"),
+    path("calculators/expected-wealth/", ExpectedWealthCalculatorView.as_view(), name="expected-wealth-calculator"),
+    path("companies/<str:company_id>/fund-exposure/", CompanyFundExposureView.as_view(), name="company-fund-exposure"),
+    path("market/overview/", NotConfiguredView.as_view(capability="Market-index overview requires a live market-data provider, which is not configured yet."), name="market-overview"),
+    path("market/summary/", NotConfiguredView.as_view(capability="Market summary requires a live market-data provider and verified current-news source, which are not configured yet."), name="market-summary"),
+    path("watchlist/", WatchlistView.as_view(), name="watchlist"),
+    path("watchlist/<int:item_id>/", WatchlistItemView.as_view(), name="watchlist-item"),
+    path("exports/excel/", NotConfiguredView.as_view(capability="Excel export is pending generated-file storage and signed download URLs."), name="excel-export"),
+]
