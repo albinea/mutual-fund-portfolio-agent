@@ -28,6 +28,35 @@ class WatchlistCreateSerializer(serializers.Serializer):
     symbol = serializers.CharField(max_length=40)
 
 
+class PortfolioImportRequestSerializer(serializers.Serializer):
+    user_id = serializers.CharField(max_length=255)
+    file = serializers.FileField()
+    as_of_date = serializers.DateField(required=False)
+
+    def validate_file(self, uploaded_file):
+        suffix = uploaded_file.name.rsplit(".", 1)[-1].casefold() if "." in uploaded_file.name else ""
+        if suffix not in {"csv", "xlsx"}:
+            raise serializers.ValidationError("Upload a CSV or XLSX statement. PDF parsing is not enabled yet.")
+        if uploaded_file.size > 2 * 1024 * 1024:
+            raise serializers.ValidationError("The file must be 2 MB or smaller.")
+        return uploaded_file
+
+
+class FundDisclosureImportRequestSerializer(serializers.Serializer):
+    file = serializers.FileField()
+    disclosure_date = serializers.DateField(required=False)
+    source_name = serializers.CharField(max_length=255, required=False, allow_blank=True)
+    source_url = serializers.URLField(required=False, allow_blank=True)
+
+    def validate_file(self, uploaded_file):
+        suffix = uploaded_file.name.rsplit(".", 1)[-1].casefold() if "." in uploaded_file.name else ""
+        if suffix not in {"csv", "xlsx"}:
+            raise serializers.ValidationError("Upload a normalized CSV or XLSX disclosure file. PDF parsing is not enabled.")
+        if uploaded_file.size > 2 * 1024 * 1024:
+            raise serializers.ValidationError("The file must be 2 MB or smaller.")
+        return uploaded_file
+
+
 class ApiEnvelopeSerializer(serializers.Serializer):
     success = serializers.BooleanField()
     data = serializers.JSONField(required=False)

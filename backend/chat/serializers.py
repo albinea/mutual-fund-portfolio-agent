@@ -47,3 +47,37 @@ class ChatResponseSerializer(serializers.Serializer):
     tool_trace = serializers.ListField(child=serializers.JSONField(), required=False)
     metadata = serializers.JSONField(required=False)
     error_code = serializers.CharField(required=False)
+
+
+class ConversationQuerySerializer(serializers.Serializer):
+    user_id = serializers.CharField(
+        required=True,
+        allow_blank=False,
+        max_length=255,
+    )
+
+
+class ConversationMessageSerializer(serializers.Serializer):
+    role = serializers.ChoiceField(choices=["user", "assistant"])
+    content = serializers.CharField()
+    created_at = serializers.DateTimeField()
+
+
+class ConversationSummarySerializer(serializers.Serializer):
+    id = serializers.UUIDField()
+    title = serializers.CharField()
+    latest_message_preview = serializers.CharField(allow_blank=True)
+    message_count = serializers.IntegerField()
+    created_at = serializers.DateTimeField()
+    updated_at = serializers.DateTimeField()
+
+
+class ConversationListSerializer(serializers.Serializer):
+    results = ConversationSummarySerializer(many=True)
+
+
+class ConversationDetailSerializer(serializers.Serializer):
+    id = serializers.UUIDField()
+    created_at = serializers.DateTimeField()
+    updated_at = serializers.DateTimeField()
+    messages = ConversationMessageSerializer(many=True)

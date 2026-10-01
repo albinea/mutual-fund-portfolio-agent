@@ -24,11 +24,11 @@ PORTFOLIO_SCOPED = {
 }
 
 DESCRIPTIONS.update({
-    "get_portfolio": "Retrieve the authenticated user's total invested value, current value, and fund positions.",
-    "get_fund_holdings": "Retrieve a fund's disclosed company holdings and disclosure date.",
-    "calculate_exposure": "Deterministically calculate the user's effective company exposure.",
-    "calculate_fund_overlap": "Deterministically calculate companies held through multiple portfolio funds.",
-    "calculate_sector_exposure": "Deterministically calculate sector exposure across the user's funds.",
+    "get_portfolio": "Retrieve the authenticated user's active statement, total invested value, current value, and fund positions.",
+    "get_fund_holdings": "Retrieve a fund's uploaded disclosure holdings and disclosure date for the authenticated user's active imported portfolio.",
+    "calculate_exposure": "Calculate the authenticated user's company or issuer exposure from matching uploaded fund disclosures. Results include fund_count and fund names: use fund_count for 'held by most funds' and percentage for 'highest exposure'.",
+    "calculate_fund_overlap": "Calculate companies or issuers held through two or more funds in the authenticated user's active imported portfolio. Never infer overlap when a required fund disclosure is unavailable.",
+    "calculate_sector_exposure": "Calculate sector exposure from matching uploaded disclosures for the authenticated user's active imported portfolio.",
     "calculate_portfolio_risk": "Calculate portfolio concentration and supplied historical-return risk metrics.",
     "search_financial_documents": "Search trusted internal factsheets and financial documents; use for historical/document questions.",
     "web_search": "Search current external information; use for latest or recent questions, not calculations.",
