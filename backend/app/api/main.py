@@ -1,9 +1,10 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from pydantic import BaseModel, Field
+from typing import Literal
 from ..tools import core as t
-from ..agent.gemini import answer_question
+from ..agent.ollama import answer_question
 
-app=FastAPI(title="Mutual Fund Portfolio Intelligence Tools",version="0.1.0")
+app=FastAPI(title="Mutual Fund Portfolio Intelligence Agent",version="0.2.0")
 class ExposureRequest(BaseModel): user_id:str; company_id:str|None=None
 class UserRequest(BaseModel): user_id:str
 class SimulateRequest(BaseModel): user_id:str; additional_amount:float=Field(ge=0); allocation:dict[str,float]
@@ -13,6 +14,11 @@ class ValidationRequest(BaseModel): claims:list[str]; sources:list[dict]; data_a
 class NavMetricRequest(BaseModel): scheme_code:int=Field(gt=0); years:int=Field(gt=0)
 class FundComparisonRequest(BaseModel): scheme_codes:list[int]=Field(min_length=2); years:int=Field(gt=0)
 class AgentRequest(BaseModel): user_id:str=Field(min_length=1); question:str=Field(min_length=1, max_length=4000)
+class ConversationMessage(BaseModel): role:Literal["user","assistant","model"]; content:str=Field(min_length=1,max_length=4000)
+class ChatRequest(BaseModel):
+    user_id:str=Field(min_length=1)
+    message:str=Field(min_length=1,max_length=4000)
+    conversation_context:list[ConversationMessage]=Field(default_factory=list,max_length=20)
 
 @app.get("/portfolio/{user_id}")
 def portfolio(user_id:str): return t.get_portfolio(user_id)
@@ -55,6 +61,13 @@ def nav_drawdown(req:NavMetricRequest): return t.calculate_drawdown(**req.model_
 def nav_compare(req:FundComparisonRequest): return t.compare_funds(**req.model_dump())
 @app.post("/agent/query")
 def agent_query(req:AgentRequest): return answer_question(**req.model_dump())
+@app.post("/api/chat")
+def chat(req:ChatRequest):
+    return answer_question(
+        question=req.message,
+        user_id=req.user_id,
+        conversation_context=[item.model_dump() for item in req.conversation_context],
+    )
 @app.get("/tools")
 def tools():
     from ..agent.tool_registry import registry

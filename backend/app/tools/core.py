@@ -30,7 +30,7 @@ def _run(name, fn, **kwargs):
     started=time.perf_counter()
     try:
         result=fn(); ok=result.get("success",True)
-        log.info("tool_call",extra={"tool_name":name,"user_id":kwargs.get("user_id"),"input":{k:v for k,v in kwargs.items() if k!="user_id"},"execution_time_ms":round((time.perf_counter()-started)*1000,2),"success":ok,"data_source":"mock_data"})
+        log.info("tool_call",extra={"tool_name":name,"user_id":kwargs.get("user_id"),"input_fields":sorted(k for k in kwargs if k!="user_id"),"execution_time_ms":round((time.perf_counter()-started)*1000,2),"success":ok,"data_source":"mock_data"})
         return result
     except (ValueError, ValidationError) as e: result=_err("INVALID_INPUT",str(e))
     except Exception: log.exception("tool failure: %s",name); result=_err("TOOL_FAILURE","Tool could not complete the request.")
