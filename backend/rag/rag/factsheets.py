@@ -14,6 +14,7 @@ FACTSHEET_DIRECTORIES = (
     PROJECT_ROOT / "evaluation" / "documents" / "factsheets",
 )
 CHUNKS_DIRECTORY = PROJECT_ROOT / "data" / "chunks"
+MARKDOWN_DIRECTORY = PROJECT_ROOT / "data" / "markdown"
 
 
 def find_factsheets() -> list[Path]:
@@ -52,6 +53,7 @@ def ensure_factsheets_indexed() -> list[str]:
             chunks = ingest_pdf(
                 pdf_path=pdf_path,
                 output_path=CHUNKS_DIRECTORY / f"{pdf_path.stem}.json",
+                markdown_path=MARKDOWN_DIRECTORY / f"{pdf_path.stem}.md",
                 source_url=pdf_path.resolve().as_uri(),
                 document_type="factsheet",
             )
