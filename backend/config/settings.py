@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'health',
     'chat',
+    'drf_spectacular',
     
 ]
 
@@ -143,4 +144,15 @@ MAILERS = {
     'default': {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
+}
+
+REST_FRAMEWORK = {
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Mutual Fund Portfolio Agent API",
+    "DESCRIPTION": "API documentation for the mutual-fund portfolio assistant.",
+    "VERSION": "1.0.0",
+    "SERVE_INCLUDE_SCHEMA": False,
 }
