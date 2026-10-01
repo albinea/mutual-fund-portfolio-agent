@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'health',
     'chat',
+    'portfolio_api',
     'drf_spectacular',
     
 ]
