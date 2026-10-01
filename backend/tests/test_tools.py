@@ -16,6 +16,56 @@ class _NavResponse:
             ]
         }
 
+
+class _MarketResponse:
+    def raise_for_status(self):
+        return None
+
+    def json(self):
+        return {
+            "symbol": "HDFCBANK",
+            "exchange": "NSE",
+            "currency": "INR",
+            "close": "1750.50",
+            "previous_close": "1700.00",
+            "percent_change": "2.9706",
+            "datetime": "2026-10-01",
+        }
+
+
+class _Response:
+    def __init__(self, payload=None, text=""):
+        self.payload = payload
+        self.text = text
+
+    def raise_for_status(self):
+        return None
+
+    def json(self):
+        return self.payload
+
+
+class _YahooSession:
+    def __init__(self):
+        self.calls = []
+
+    def get(self, url, **kwargs):
+        self.calls.append((url, kwargs))
+        if url == "https://fc.yahoo.com":
+            return _Response()
+        if url.endswith("/v1/test/getcrumb"):
+            return _Response(text="crumb-value")
+        return _Response(
+            {
+                "quoteResponse": {
+                    "result": [
+                        {"symbol": "HDFCBANK.NS", "fullExchangeName": "NSE", "currency": "INR", "regularMarketPrice": 950.25, "regularMarketChangePercent": 1.25, "regularMarketTime": 1790847900, "exchangeDataDelayedBy": 15},
+                        {"symbol": "RELIANCE.NS", "fullExchangeName": "NSE", "currency": "INR", "regularMarketPrice": 1400.0, "regularMarketChangePercent": -0.5, "regularMarketTime": 1790847900, "exchangeDataDelayedBy": 15},
+                    ]
+                }
+            }
+        )
+
 def test_portfolio_totals():
     p=t.get_portfolio("USER001")
     assert p["success"] and p["total_invested"]==110000 and p["current_value"]==125000
@@ -55,3 +105,34 @@ def test_public_nav_analytics(mock_get):
     assert drawdown["success"] and drawdown["maximum_drawdown_percent"]==0
     assert comparison["success"] and len(comparison["funds"])==2
     assert mock_get.call_count==5
+
+
+@patch("app.tools.core.requests.get", return_value=_MarketResponse())
+def test_twelve_data_quote_uses_configured_symbol_and_preserves_provider_metadata(mock_get, monkeypatch):
+    monkeypatch.setenv("TWELVE_DATA_API_KEY", "test-key")
+    t.MarketDataProvider._cache.clear()
+
+    quote = t.get_market_data("C001")
+
+    assert quote["success"]
+    assert quote["data"]["price"] == 1750.50
+    assert quote["data"]["price_change_percentage"] == 2.9706
+    assert quote["data"]["data_mode"] == "Latest available quote (Indian exchange coverage may be EOD)"
+    assert quote["source"]["name"] == "Twelve Data"
+    assert mock_get.call_args.kwargs["params"]["symbol"] == "HDFCBANK"
+    assert mock_get.call_args.kwargs["params"]["exchange"] == "NSE"
+
+
+def test_community_market_fallback_batches_unavailable_nse_quotes():
+    t.CommunityMarketDataProvider._cache.clear()
+    session = _YahooSession()
+    provider = t.CommunityMarketDataProvider(session=session)
+
+    quotes = provider.get_many(["C001", "C002"])
+
+    assert quotes["C001"]["price"] == 950.25
+    assert quotes["C002"]["price_change_percentage"] == -0.5
+    assert quotes["C001"]["source"] == "Community fallback via Yahoo Finance"
+    assert len(session.calls) == 3
+    assert session.calls[-1][0] == "https://query1.finance.yahoo.com/v7/finance/quote"
+    assert session.calls[-1][1]["params"]["symbols"] == "HDFCBANK.NS,RELIANCE.NS"

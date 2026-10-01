@@ -1,12 +1,42 @@
-from drf_spectacular.utils import OpenApiResponse, extend_schema
+from drf_spectacular.utils import (
+    OpenApiParameter,
+    OpenApiResponse,
+    OpenApiTypes,
+    extend_schema,
+)
 from rest_framework import status
 from rest_framework.exceptions import NotFound
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from .models import ChatMessage, Conversation
-from .serializers import ChatRequestSerializer, ChatResponseSerializer
+from .serializers import (
+    ChatRequestSerializer,
+    ChatResponseSerializer,
+    ConversationDetailSerializer,
+    ConversationListSerializer,
+    ConversationQuerySerializer,
+)
 from .services import run_chat
+
+
+def _conversation_title(messages: list[ChatMessage]) -> str:
+    first_user_message = next(
+        (message.content for message in messages if message.role == ChatMessage.Role.USER),
+        "New conversation",
+    )
+    normalized = " ".join(first_user_message.split())
+    return normalized[:80] + ("…" if len(normalized) > 80 else "")
+
+
+def _conversation_or_404(conversation_id, user_id: str) -> Conversation:
+    try:
+        return Conversation.objects.prefetch_related("messages").get(
+            id=conversation_id,
+            user_id=user_id,
+        )
+    except Conversation.DoesNotExist:
+        raise NotFound("Conversation was not found for this user.")
 
 
 @extend_schema(
@@ -91,3 +121,91 @@ class ChatView(APIView):
         )
 
         return Response(result, status=response_status)
+
+
+@extend_schema(
+    tags=["Chat"],
+    parameters=[
+        OpenApiParameter(
+            "user_id",
+            OpenApiTypes.STR,
+            OpenApiParameter.QUERY,
+            required=True,
+        ),
+    ],
+    responses={200: ConversationListSerializer},
+    description="Lists saved conversations for one portfolio user, newest first.",
+)
+class ConversationListView(APIView):
+    """List a user's persisted chat sessions without exposing other users."""
+
+    @extend_schema(operation_id="chat-conversation-list")
+    def get(self, request):
+        serializer = ConversationQuerySerializer(data=request.query_params)
+        serializer.is_valid(raise_exception=True)
+        user_id = serializer.validated_data["user_id"]
+
+        conversations = Conversation.objects.filter(user_id=user_id).prefetch_related(
+            "messages"
+        )
+        results = []
+        for conversation in conversations:
+            messages = list(conversation.messages.all())
+            latest_content = messages[-1].content if messages else ""
+            results.append(
+                {
+                    "id": conversation.id,
+                    "title": _conversation_title(messages),
+                    "latest_message_preview": latest_content[:140],
+                    "message_count": len(messages),
+                    "created_at": conversation.created_at,
+                    "updated_at": conversation.updated_at,
+                }
+            )
+
+        return Response({"results": results})
+
+
+@extend_schema(
+    tags=["Chat"],
+    parameters=[
+        OpenApiParameter(
+            "user_id",
+            OpenApiTypes.STR,
+            OpenApiParameter.QUERY,
+            required=True,
+        ),
+    ],
+    responses={
+        200: ConversationDetailSerializer,
+        404: OpenApiResponse(description="Conversation was not found for this user."),
+    },
+    description="Loads the saved messages for one conversation owned by the user.",
+)
+class ConversationDetailView(APIView):
+    """Return a persisted conversation for the assistant history panel."""
+
+    @extend_schema(operation_id="chat-conversation-detail")
+    def get(self, request, conversation_id):
+        serializer = ConversationQuerySerializer(data=request.query_params)
+        serializer.is_valid(raise_exception=True)
+        conversation = _conversation_or_404(
+            conversation_id,
+            serializer.validated_data["user_id"],
+        )
+
+        return Response(
+            {
+                "id": conversation.id,
+                "created_at": conversation.created_at,
+                "updated_at": conversation.updated_at,
+                "messages": [
+                    {
+                        "role": message.role,
+                        "content": message.content,
+                        "created_at": message.created_at,
+                    }
+                    for message in conversation.messages.all()
+                ],
+            }
+        )

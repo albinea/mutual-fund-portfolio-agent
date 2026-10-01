@@ -1,14 +1,21 @@
 """Mock-backed portfolio intelligence tools. Replace DataStore methods with DB/API adapters."""
 from __future__ import annotations
-import json, logging, math, time
-from datetime import date, datetime, timedelta
+import json, logging, math, os, time
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+import requests
+from dotenv import load_dotenv
 from pydantic import BaseModel, Field, ValidationError
 from ..schemas import Source, ToolError, ToolSpec
 
 log = logging.getLogger("portfolio.tools")
 DATA = Path(__file__).resolve().parents[2] / "mock_data"
+
+# Django loads the repository-root .env, while the standalone agent uses
+# backend/.env. Loading this file as well keeps the market adapter usable in
+# both entry points without ever putting a key in source control.
+load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 
 class DataStore:
     def __init__(self, root: Path = DATA):
@@ -42,23 +49,103 @@ def _fund_positions(uid):
     funds=store.funds(); total=sum(x["current_value"] for x in p["holdings"])
     return [{**x,"fund_name":funds.get(x["fund_id"],{}).get("name",x["fund_id"]),"allocation_percentage":round(x["current_value"]/total*100,4) if total else 0} for x in p["holdings"]], total
 
+
+def _active_imported_portfolio_services(user_id: str):
+    """Return Django portfolio services only when this user has an active statement.
+
+    The tools module is also used by a standalone FastAPI demo, so Django imports
+    stay lazy.  A user without an imported statement keeps the existing development
+    mock behaviour; a user with one must never silently fall back to that mock data.
+    """
+
+    try:
+        from django.apps import apps
+        from django.conf import settings
+    except ImportError:
+        return None
+    if not settings.configured or not apps.ready:
+        return None
+
+    from portfolio_api import services
+
+    return services if services.active_import_for_user(user_id) is not None else None
+
+
+def _source_fields(sources: list[dict[str, Any]]) -> dict[str, Any]:
+    """Keep the legacy single-source shape while retaining every disclosure source."""
+
+    primary = sources[0] if sources else None
+    return {"source": primary, "sources": sources}
+
+
+def _unavailable(message: str) -> dict[str, Any]:
+    return _err("DATA_UNAVAILABLE", message)
+
+
 def get_portfolio(user_id:str):
     def f():
+        services = _active_imported_portfolio_services(user_id)
+        if services is not None:
+            return services.get_portfolio_data(user_id)
         p=store.portfolio(user_id)
         if p is None:return _err("PORTFOLIO_NOT_FOUND","Portfolio was not found.")
         positions,total=_fund_positions(user_id); invested=sum(x["invested_amount"] for x in positions)
         return {"success":True,"user_id":user_id,"total_invested":invested,"current_value":total,"funds":positions,"source":_source("Mock portfolio store",asof=date.today().isoformat())}
     return _run("get_portfolio",f,user_id=user_id)
 
-def get_fund_holdings(fund_id:str, as_of_date:str|None=None):
+def get_fund_holdings(fund_id:str, as_of_date:str|None=None, user_id:str|None=None):
     def f():
+        services = _active_imported_portfolio_services(user_id) if user_id else None
+        if services is not None:
+            try:
+                portfolio = services.get_portfolio_data(user_id)
+                fund = next(
+                    (
+                        item for item in portfolio["funds"]
+                        if item["fund_id"] == fund_id
+                        or item["fund_name"].casefold() == fund_id.casefold()
+                    ),
+                    None,
+                )
+                if fund is None:
+                    return _err("FUND_NOT_FOUND", "This fund is not in the active imported portfolio.")
+                disclosure = services.imported_disclosure_exposure(user_id)
+            except services.ImportedDisclosureUnavailable as exc:
+                return _unavailable(str(exc))
+
+            holdings = []
+            for company in disclosure["companies"]:
+                for position in company["funds"]:
+                    if position["fund_name"] == fund["fund_name"]:
+                        holdings.append(
+                            {
+                                "company_id": company["isin"] or company["company"],
+                                "company_name": company["company"],
+                                "sector": company["sector"],
+                                "weight_percentage": position["fund_holding_percent"],
+                            }
+                        )
+            data_as_of = max(
+                (source.get("data_as_of") for source in disclosure["sources"] if source.get("data_as_of")),
+                default=None,
+            )
+            if as_of_date and data_as_of and data_as_of > as_of_date:
+                return _unavailable("No fund disclosure is available on or before the requested date.")
+            return {
+                "success": True,
+                "fund_id": fund["fund_id"],
+                "fund_name": fund["fund_name"],
+                "as_of_date": data_as_of,
+                "holdings": holdings,
+                **_source_fields(disclosure["sources"]),
+            }
         allh=store.holdings(); rec=allh.get(fund_id)
         if not rec:return _err("FUND_NOT_FOUND","Fund holdings were not found.")
         effective=date.fromisoformat(rec["as_of_date"])
         if as_of_date and effective>date.fromisoformat(as_of_date): return _err("DATA_UNAVAILABLE","No holdings are available on or before the requested date.")
         funds=store.funds(); companies=store.companies()
         return {"success":True,"fund_id":fund_id,"fund_name":funds.get(fund_id,{}).get("name",fund_id),"as_of_date":effective.isoformat(),"holdings":[{"company_id":h["company_id"],"company_name":companies.get(h["company_id"],{}).get("name",h["company_id"]),"sector":companies.get(h["company_id"],{}).get("sector","Unknown"),"weight_percentage":h["weight_percentage"]} for h in rec["holdings"]],"source":_source(rec["source"]["name"],rec["source"].get("url"),rec["source"].get("published_date"),effective.isoformat())}
-    return _run("get_fund_holdings",f,fund_id=fund_id,as_of_date=as_of_date)
+    return _run("get_fund_holdings",f,fund_id=fund_id,as_of_date=as_of_date,user_id=user_id)
 
 def _exposures(positions):
     companies=store.companies(); hdb=store.holdings(); total=sum(x["current_value"] for x in positions); cvals={}; svals={}; cfunds={}
@@ -71,6 +158,37 @@ def _exposures(positions):
 
 def calculate_exposure(user_id:str, company_id:str|None=None):
     def f():
+        services = _active_imported_portfolio_services(user_id)
+        if services is not None:
+            try:
+                disclosure = services.imported_disclosure_exposure(user_id)
+            except services.ImportedDisclosureUnavailable as exc:
+                return _unavailable(str(exc))
+            query = company_id.casefold() if company_id else None
+            rows = [
+                {
+                    "company_id": company["isin"] or company["company"],
+                    "company": company["company"],
+                    "exposure_value": round(
+                        company["portfolio_exposure_percent"]
+                        * services.get_portfolio_data(user_id)["current_value"]
+                        / 100,
+                        2,
+                    ),
+                    "portfolio_weight_percentage": company["portfolio_exposure_percent"],
+                    "fund_count": len(company["funds"]),
+                    "funds": [position["fund_name"] for position in company["funds"]],
+                }
+                for company in disclosure["companies"]
+                if query is None
+                or query in {
+                    company["company"].casefold(),
+                    (company["isin"] or "").casefold(),
+                }
+            ]
+            if company_id and not rows:
+                return _err("COMPANY_NOT_FOUND", "Company was not found in the active fund disclosures.")
+            return {"success": True, "exposures": rows, **_source_fields(disclosure["sources"])}
         positions,_=_fund_positions(user_id); total,companies,cv,_,_= _exposures(positions)
         if company_id and company_id not in companies:return _err("COMPANY_NOT_FOUND","Company was not found.")
         rows=[{"company_id":cid,"company":companies.get(cid,{}).get("name",cid),"exposure_value":round(v,2),"portfolio_weight_percentage":round(v/total*100,4) if total else 0} for cid,v in cv.items() if company_id is None or cid==company_id]
@@ -79,12 +197,51 @@ def calculate_exposure(user_id:str, company_id:str|None=None):
 
 def calculate_sector_exposure(user_id:str):
     def f():
+        services = _active_imported_portfolio_services(user_id)
+        if services is not None:
+            try:
+                disclosure = services.imported_disclosure_exposure(user_id)
+            except services.ImportedDisclosureUnavailable as exc:
+                return _unavailable(str(exc))
+            return {
+                "success": True,
+                "sectors": [
+                    {"sector": item["name"], "value": item["value"], "percentage": item["percentage"]}
+                    for item in disclosure["sectors"]
+                ],
+                **_source_fields(disclosure["sources"]),
+            }
         positions,_=_fund_positions(user_id); total,_,_,sv,_=_exposures(positions)
         return {"success":True,"sectors":[{"sector":s,"value":round(v,2),"percentage":round(v/total*100,4) if total else 0} for s,v in sorted(sv.items(),key=lambda z:-z[1])],"source":_source("Mock portfolio and fund disclosures")}
     return _run("calculate_sector_exposure",f,user_id=user_id)
 
 def calculate_fund_overlap(user_id:str):
     def f():
+        services = _active_imported_portfolio_services(user_id)
+        if services is not None:
+            try:
+                overlap = services.calculate_imported_overlap(user_id)
+            except services.ImportedDisclosureUnavailable as exc:
+                return _unavailable(str(exc))
+            return {
+                "success": True,
+                "overlapping_companies": [
+                    {
+                        "company_id": company["isin"] or company["company"],
+                        "company_name": company["company"],
+                        "fund_count": len(company["funds"]),
+                        "funds": [position["fund_name"] for position in company["funds"]],
+                        "effective_portfolio_exposure": company["portfolio_exposure_percent"],
+                    }
+                    for company in overlap["companies"]
+                ],
+                "sector_exposure": [
+                    {"sector": item["name"], "value": item["value"], "percentage": item["percentage"]}
+                    for item in overlap["sectors"]
+                ],
+                "overall_overlap_percent": overlap["overall_overlap_percent"],
+                **_source_fields(overlap["sources"]),
+            }
         positions,_=_fund_positions(user_id); total,companies,cv,sv,cf=_exposures(positions); funds=store.funds()
         overlaps=[{"company_id":cid,"company_name":companies.get(cid,{}).get("name",cid),"fund_count":len(ids),"funds":[funds.get(i,{}).get("name",i) for i in sorted(ids)],"effective_portfolio_exposure":round(cv[cid]/total*100,4) if total else 0} for cid,ids in cf.items() if len(ids)>1]
         return {"success":True,"overlapping_companies":sorted(overlaps,key=lambda x:-x["effective_portfolio_exposure"]),"sector_exposure":[{"sector":s,"value":round(v,2),"percentage":round(v/total*100,4) if total else 0} for s,v in sv.items()],"source":_source("Mock portfolio and fund disclosures")}
@@ -130,12 +287,291 @@ def search_company_news(company_name:str,recency_days:int=30,max_results:int=10)
         except (ValueError,KeyError): continue
     return {"success":True,"company":company_name,"results":matches[:max_results],"source":_source("Mock news feed")}
 
+MARKET_SYMBOLS = {
+    "C001": {"symbol": "HDFCBANK", "exchange": "NSE"},
+    "C002": {"symbol": "RELIANCE", "exchange": "NSE"},
+    "C003": {"symbol": "INFY", "exchange": "NSE"},
+    "C004": {"symbol": "ICICIBANK", "exchange": "NSE"},
+    "C005": {"symbol": "LT", "exchange": "NSE"},
+}
+
+
+class MarketDataProviderError(Exception):
+    """A safe, user-facing failure returned by a market-data provider."""
+
+    def __init__(self, code: str, message: str):
+        super().__init__(message)
+        self.code = code
+        self.message = message
+
+
 class MarketDataProvider:
-    def get(self, company_id): return store.read("market_data").get(company_id)
-def get_market_data(company_id:str,provider:MarketDataProvider|None=None):
-    d=(provider or MarketDataProvider()).get(company_id)
-    if d is None:return _err("DATA_UNAVAILABLE","Market data is unavailable for this company.")
-    return {"success":True,"company_id":company_id,"data":d,"source":_source(d["source"],asof=d["timestamp"])}
+    """Twelve Data quote adapter for configured Indian equities.
+
+    Twelve Data's Indian exchange coverage is end-of-day.  The provider can
+    return the latest available quote, but callers must retain that wording
+    instead of presenting the value as a real-time tradeable price.
+    """
+
+    endpoint = "https://api.twelvedata.com/quote"
+    cache_ttl_seconds = 60
+    _cache: dict[str, tuple[float, dict[str, Any]]] = {}
+
+    def __init__(self, api_key: str | None = None):
+        # MARKET_DATA_API_KEY remains a temporary backwards-compatible alias.
+        self.api_key = api_key or os.getenv("TWELVE_DATA_API_KEY") or os.getenv("MARKET_DATA_API_KEY")
+
+    @property
+    def is_configured(self) -> bool:
+        return bool(self.api_key)
+
+    def get(self, company_id: str) -> dict[str, Any] | None:
+        if not self.is_configured:
+            raise MarketDataProviderError(
+                "PROVIDER_NOT_CONFIGURED",
+                "Set TWELVE_DATA_API_KEY in backend/.env to load market quotes.",
+            )
+
+        instrument = MARKET_SYMBOLS.get(company_id)
+        if instrument is None:
+            return None
+
+        cached = self._cache.get(company_id)
+        if cached and time.monotonic() - cached[0] < self.cache_ttl_seconds:
+            return cached[1]
+
+        try:
+            response = requests.get(
+                self.endpoint,
+                params={
+                    "symbol": instrument["symbol"],
+                    "exchange": instrument["exchange"],
+                    "apikey": self.api_key,
+                },
+                timeout=10,
+            )
+            response.raise_for_status()
+            payload = response.json()
+        except requests.HTTPError as exc:
+            response_status = getattr(exc.response, "status_code", None)
+            if response_status == 429:
+                raise MarketDataProviderError(
+                    "RATE_LIMITED",
+                    "Twelve Data's request limit was reached. Wait until the next minute, then refresh the page.",
+                ) from exc
+            if response_status in {401, 403}:
+                raise MarketDataProviderError(
+                    "PROVIDER_UNAVAILABLE",
+                    "Twelve Data rejected the request. Check the API key and market access on the selected plan.",
+                ) from exc
+            log.warning("Twelve Data returned HTTP %s for %s", response_status, company_id)
+            raise MarketDataProviderError(
+                "PROVIDER_UNAVAILABLE",
+                "Twelve Data could not provide this quote. Please try again shortly.",
+            ) from exc
+        except (requests.RequestException, ValueError) as exc:
+            log.warning("Twelve Data request failed for %s: %s", company_id, type(exc).__name__)
+            raise MarketDataProviderError(
+                "PROVIDER_UNAVAILABLE",
+                "The Twelve Data price feed could not be reached. Please try again shortly.",
+            ) from exc
+
+        if payload.get("status") == "error" or payload.get("code"):
+            log.warning("Twelve Data rejected %s: %s", company_id, payload.get("code") or "error")
+            raise MarketDataProviderError(
+                "PROVIDER_UNAVAILABLE",
+                "Twelve Data could not provide this quote. Check the API key and plan access.",
+            )
+
+        def number(field: str) -> float | None:
+            value = payload.get(field)
+            try:
+                return float(value) if value not in (None, "") else None
+            except (TypeError, ValueError):
+                return None
+
+        price = number("close") or number("price")
+        if price is None:
+            raise MarketDataProviderError(
+                "DATA_UNAVAILABLE",
+                "Twelve Data returned no usable price for this company.",
+            )
+        change_percent = number("percent_change")
+        previous_close = number("previous_close")
+        if change_percent is None and previous_close not in (None, 0):
+            change_percent = round((price - previous_close) / previous_close * 100, 4)
+
+        quote = {
+            "price": price,
+            "price_change_percentage": change_percent,
+            "timestamp": payload.get("datetime") or payload.get("timestamp") or payload.get("date"),
+            "symbol": payload.get("symbol") or instrument["symbol"],
+            "exchange": payload.get("exchange") or instrument["exchange"],
+            "currency": payload.get("currency") or "INR",
+            "source": "Twelve Data",
+            "data_mode": "Latest available quote (Indian exchange coverage may be EOD)",
+        }
+        self._cache[company_id] = (time.monotonic(), quote)
+        return quote
+
+
+class CommunityMarketDataProvider:
+    """No-key Yahoo Finance fallback based on the selected MIT-licensed project.
+
+    The project's published public proxy may be unavailable, so this adapter uses
+    its documented Yahoo cookie-and-crumb technique directly. It is still an
+    unofficial community data source, and every result retains that provenance.
+    """
+
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    timeout_seconds = 4
+    _cache: dict[str, tuple[float, dict[str, Any]]] = {}
+
+    def __init__(self, session: requests.Session | None = None):
+        self.session = session or requests.Session()
+        self._crumb: str | None = None
+        self._crumb_expires_at = 0.0
+
+    def get(self, company_id: str) -> dict[str, Any] | None:
+        return self.get_many([company_id]).get(company_id)
+
+    def get_many(self, company_ids: list[str]) -> dict[str, dict[str, Any]]:
+        requested = [company_id for company_id in company_ids if company_id in MARKET_SYMBOLS]
+        if not requested:
+            return {}
+
+        cached_quotes: dict[str, dict[str, Any]] = {}
+        missing: list[str] = []
+        for company_id in requested:
+            cached = self._cache.get(company_id)
+            if cached and time.monotonic() - cached[0] < MarketDataProvider.cache_ttl_seconds:
+                cached_quotes[company_id] = cached[1]
+            else:
+                missing.append(company_id)
+        if not missing:
+            return cached_quotes
+
+        symbols = ",".join(f"{MARKET_SYMBOLS[company_id]['symbol']}.NS" for company_id in missing)
+        try:
+            crumb = self._get_crumb()
+            response = self.session.get(
+                "https://query1.finance.yahoo.com/v7/finance/quote",
+                params={"symbols": symbols, "crumb": crumb},
+                headers={"User-Agent": self.user_agent},
+                timeout=self.timeout_seconds,
+            )
+            response.raise_for_status()
+            payload = response.json()
+        except (requests.RequestException, ValueError) as exc:
+            log.warning("Community market fallback failed: %s", type(exc).__name__)
+            raise MarketDataProviderError(
+                "PROVIDER_UNAVAILABLE",
+                "The community market-data fallback is unavailable. Please try again later.",
+            ) from exc
+
+        records = payload.get("quoteResponse", {}).get("result")
+        if not isinstance(records, list):
+            raise MarketDataProviderError(
+                "PROVIDER_UNAVAILABLE",
+                "The community market-data fallback returned no usable quote data.",
+            )
+
+        def number(value: Any) -> float | None:
+            try:
+                return float(value) if value not in (None, "") else None
+            except (TypeError, ValueError):
+                return None
+
+        by_symbol = {item.get("symbol"): item for item in records}
+        for company_id in missing:
+            symbol = MARKET_SYMBOLS[company_id]["symbol"]
+            item = by_symbol.get(f"{symbol}.NS")
+            if item is None:
+                continue
+            price = number(item.get("regularMarketPrice"))
+            if price is None:
+                continue
+            market_time = item.get("regularMarketTime")
+            try:
+                timestamp = datetime.fromtimestamp(float(market_time), tz=timezone.utc).isoformat() if market_time else None
+            except (TypeError, ValueError, OSError):
+                timestamp = None
+            delay = number(item.get("exchangeDataDelayedBy"))
+            delay_label = f"{int(delay)}-minute delayed quote" if delay is not None else "Latest available quote"
+            quote = {
+                "price": price,
+                "price_change_percentage": number(item.get("regularMarketChangePercent")),
+                "timestamp": timestamp,
+                "symbol": symbol,
+                "exchange": item.get("fullExchangeName") or "NSE",
+                "currency": item.get("currency") or "INR",
+                "source": "Community fallback via Yahoo Finance",
+                "source_url": "https://github.com/0xramm/Indian-Stock-Market-API",
+                "data_mode": f"{delay_label} (Yahoo Finance community data)",
+            }
+            self._cache[company_id] = (time.monotonic(), quote)
+            cached_quotes[company_id] = quote
+        return cached_quotes
+
+    def _get_crumb(self) -> str:
+        if self._crumb and time.monotonic() < self._crumb_expires_at:
+            return self._crumb
+        # Yahoo may respond to this cookie bootstrap with a non-2xx page while
+        # still setting the cookie needed by the following crumb request.
+        self.session.get(
+            "https://fc.yahoo.com",
+            headers={"User-Agent": self.user_agent},
+            timeout=self.timeout_seconds,
+        )
+        response = self.session.get(
+            "https://query1.finance.yahoo.com/v1/test/getcrumb",
+            headers={"User-Agent": self.user_agent},
+            timeout=self.timeout_seconds,
+        )
+        response.raise_for_status()
+        crumb = response.text.strip()
+        if not crumb or "<" in crumb:
+            raise ValueError("Yahoo Finance did not return an authentication crumb.")
+        self._crumb = crumb
+        self._crumb_expires_at = time.monotonic() + 50 * 60
+        return crumb
+
+
+def _market_success(company_id: str, data: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "success": True,
+        "company_id": company_id,
+        "data": data,
+        "source": _source(data["source"], data.get("source_url"), asof=data.get("timestamp")),
+    }
+
+
+def get_market_data(
+    company_id: str,
+    provider: MarketDataProvider | None = None,
+    fallback_provider: CommunityMarketDataProvider | None = None,
+    use_fallback: bool = True,
+):
+    primary_error: MarketDataProviderError | None = None
+    try:
+        d = (provider or MarketDataProvider()).get(company_id)
+    except MarketDataProviderError as exc:
+        primary_error = exc
+        d = None
+    if d is not None:
+        return _market_success(company_id, d)
+
+    if use_fallback:
+        try:
+            fallback_data = (fallback_provider or CommunityMarketDataProvider()).get(company_id)
+            if fallback_data is not None:
+                return _market_success(company_id, fallback_data)
+        except MarketDataProviderError:
+            pass
+
+    if primary_error is not None:
+        return _err(primary_error.code, primary_error.message)
+    return _err("DATA_UNAVAILABLE", "Market data is unavailable for this company.")
 def research_company(company_id:str):
     c=store.companies().get(company_id)
     if not c:return _err("COMPANY_NOT_FOUND","Company was not found.")
