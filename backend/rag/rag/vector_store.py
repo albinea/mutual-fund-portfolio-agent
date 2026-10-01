@@ -14,9 +14,9 @@ from rag.embeddings import get_embedding_model
 
 
 # Page-sized chunks preserve tables whose headers, labels, and values would
-# otherwise be split apart. A new collection name triggers a safe automatic
-# rebuild without deleting the earlier index.
-COLLECTION_NAME = "fundlens_documents_v5"
+# otherwise be split apart. Fund-scoped metadata requires a new collection;
+# this triggers a safe rebuild without deleting the earlier index.
+COLLECTION_NAME = "fundlens_documents_v6"
 VECTOR_SIZE = 768
 
 

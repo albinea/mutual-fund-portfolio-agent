@@ -2,9 +2,12 @@
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
+from typing import Any
 
 from ingestion.ingest import ingest_pdf
+from ingestion.fund_metadata import attach_fund_names_to_chunks
 from rag.vector_store import VectorStore
 
 
@@ -50,13 +53,22 @@ def ensure_factsheets_indexed() -> list[str]:
             if pdf_path.name in indexed:
                 continue
 
-            chunks = ingest_pdf(
-                pdf_path=pdf_path,
-                output_path=CHUNKS_DIRECTORY / f"{pdf_path.stem}.json",
-                markdown_path=MARKDOWN_DIRECTORY / f"{pdf_path.stem}.md",
-                source_url=pdf_path.resolve().as_uri(),
-                document_type="factsheet",
-            )
+            chunks_path = CHUNKS_DIRECTORY / f"{pdf_path.stem}.json"
+            if chunks_path.exists():
+                # Migrate existing chunk data in memory. This avoids
+                # reprocessing PDFs or overwriting a user's Markdown/chunk
+                # files just to add fund metadata to the new collection.
+                chunks = _load_existing_chunks(chunks_path, pdf_path.name)
+                chunks = attach_fund_names_to_chunks(chunks)
+            else:
+                chunks = ingest_pdf(
+                    pdf_path=pdf_path,
+                    output_path=chunks_path,
+                    markdown_path=MARKDOWN_DIRECTORY / f"{pdf_path.stem}.md",
+                    source_url=pdf_path.resolve().as_uri(),
+                    document_type="factsheet",
+                )
+
             store.add_documents(chunks)
             newly_indexed.append(pdf_path.name)
     finally:
@@ -65,3 +77,28 @@ def ensure_factsheets_indexed() -> list[str]:
         store.client.close()
 
     return newly_indexed
+
+
+def _load_existing_chunks(path: Path, expected_document: str) -> list[dict[str, Any]]:
+    """Load a chunk JSON file for indexing without rewriting its source data."""
+    try:
+        chunks = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"Invalid chunk JSON file: {path}") from exc
+
+    if not isinstance(chunks, list) or not chunks:
+        raise ValueError(f"Chunk JSON must contain a non-empty list: {path}")
+
+    normalized: list[dict[str, Any]] = []
+    for index, chunk in enumerate(chunks):
+        if not isinstance(chunk, dict) or not str(chunk.get("text", "")).strip():
+            raise ValueError(f"Invalid chunk at index {index} in {path}")
+        document = chunk.get("document")
+        if document and document != expected_document:
+            raise ValueError(
+                f"Chunk {index} in {path} belongs to {document}, "
+                f"not {expected_document}"
+            )
+        normalized.append({**chunk, "document": expected_document})
+
+    return normalized

@@ -214,6 +214,15 @@ The Nifty Realty Index's P/B ratio peaked at 6.50x in H1 2024 and has steadily d
 | 10 year          | 16.3%                      | 13.6%                   | 29.1%                                   | 16.2%                                |
 | 15 year          | 8.9%                       | 13.0%                   | 31.5%                                   | 16.2%                                |
 
+**Table values by row and column (derived from the table above):**
+- The Nifty Realty TRI has outperformed the Nifty 500 TRI over 3, 5, 7, and 10-year horizons — 1 year: CAGR* - Nifty Realty TRI = -0.7%; CAGR* - Nifty 500 TRI = 3.4%; Standard Deviation - Nifty Realty TRI = 26.3%; Standard Deviation - Nifty 500 TRI = 14.2%
+- The Nifty Realty TRI has outperformed the Nifty 500 TRI over 3, 5, 7, and 10-year horizons — 3 year: CAGR* - Nifty Realty TRI = 17.1%; CAGR* - Nifty 500 TRI = 12.3%; Standard Deviation - Nifty Realty TRI = 27.5%; Standard Deviation - Nifty 500 TRI = 14.3%
+- The Nifty Realty TRI has outperformed the Nifty 500 TRI over 3, 5, 7, and 10-year horizons — 5 year: CAGR* - Nifty Realty TRI = 18.1%; CAGR* - Nifty 500 TRI = 12.5%; Standard Deviation - Nifty Realty TRI = 28.1%; Standard Deviation - Nifty 500 TRI = 14.5%
+- The Nifty Realty TRI has outperformed the Nifty 500 TRI over 3, 5, 7, and 10-year horizons — 7 year: CAGR* - Nifty Realty TRI = 19.4%; CAGR* - Nifty 500 TRI = 15.8%; Standard Deviation - Nifty Realty TRI = 29.9%; Standard Deviation - Nifty 500 TRI = 17.6%
+- The Nifty Realty TRI has outperformed the Nifty 500 TRI over 3, 5, 7, and 10-year horizons — 10 year: CAGR* - Nifty Realty TRI = 16.3%; CAGR* - Nifty 500 TRI = 13.6%; Standard Deviation - Nifty Realty TRI = 29.1%; Standard Deviation - Nifty 500 TRI = 16.2%
+- The Nifty Realty TRI has outperformed the Nifty 500 TRI over 3, 5, 7, and 10-year horizons — 15 year: CAGR* - Nifty Realty TRI = 8.9%; CAGR* - Nifty 500 TRI = 13.0%; Standard Deviation - Nifty Realty TRI = 31.5%; Standard Deviation - Nifty 500 TRI = 16.2%
+
+
 Heatmap Key Rank 1
 
 Rank 2
@@ -378,6 +387,39 @@ Source: MFI360 Explorer, Bloomberg, internal calculations. *Gold and Silver pric
 | HDFCNIFTY SDL Plus G-Sec Jun 2027 40:60 Index Fund..................                                                                      | 40         |
 | HDFCNifty SDL Oct 2026 Index Fund.........................................................                                                | 41         |
 
+**Table values by row and column (derived from the table above):**
+- CONTENTS — HDFCNifty 50 Index Fund................................................................................: PAGE NO. = 8-9
+- CONTENTS — HDFCNIFTY 100 Index Fund..........................................................................: PAGE NO. = 10
+- CONTENTS — HDFCBSE Sensex Index Fund.........................................................................: PAGE NO. = 11
+- CONTENTS — HDFCBSE500 Index Fund...............................................................................: PAGE NO. = 12
+- CONTENTS — HDFCBSE India Sector Leaders Index Fund.............................................: PAGE NO. = 13
+- CONTENTS — HDFCNIFTY Next 50 Index Fund..................................................................: PAGE NO. = 14-15
+- CONTENTS — HDFCNIFTY Midcap 150 Index Fund..........................................................: PAGE NO. = 16
+- CONTENTS — HDFCNIFTY Smallcap 250 Index Fund......................................................: PAGE NO. = 17
+- CONTENTS — HDFCNifty LargeMidcap 250 Index Fund.................................................: PAGE NO. = 18
+- CONTENTS — HDFCNIFTY500 MULTICAP 50:25:25 INDEX FUND............................: PAGE NO. = 19
+- CONTENTS — HDFCNIFTY Realty Index Fund.....................................................................: PAGE NO. = 20
+- CONTENTS — HDFCNifty India Digital Index Fund............................................................: PAGE NO. = 21-22
+- CONTENTS — HDFCNifty India Consumption Index Fund..............................................: PAGE NO. = 23
+- CONTENTS — HDFCNifty Auto Index Fund...........................................................................: PAGE NO. = 24
+- CONTENTS — HDFCNifty Top 20 Equal Weight Index Fund.........................................: PAGE NO. = 25
+- CONTENTS — HDFCNIFTY50 Equal Weight Index Fund.................................................: PAGE NO. = 26-27
+- CONTENTS — HDFCNIFTY 100 Equal Weight Index Fund.............................................: PAGE NO. = 28
+- CONTENTS — HDFCNIFTY200 Momentum30 Index Fund...........................................: PAGE NO. = 29
+- CONTENTS — HDFCNIFTY100 Low Volatility 30 Index Fund.......................................: PAGE NO. = 30
+- CONTENTS — HDFCNifty100 Quality 30 Index Fund........................................................: PAGE NO. = 31
+- CONTENTS — HDFC CRISIL-IBX Financial Services 3-6 Months Debt Index: PAGE NO. = 32
+- CONTENTS — Fund ………………………………………………………………………………………. HDFC CRISIL-IBX Financial Services 9-12 Months Debt Index Fund ……………………………………………………………………………………….: PAGE NO. = 33
+- CONTENTS — HDFCNifty G-Sec Dec 2026 Index Fund.....................................................: PAGE NO. = 34
+- CONTENTS — HDFCNifty G-Sec Jun 2027 Index Fund.....................................................: PAGE NO. = 35
+- CONTENTS — HDFCNIFTY G-Sec Apr 2029 Index Fund.................................................: PAGE NO. = 36
+- CONTENTS — HDFCNifty G-Sec Jul 2031 Index Fund.......................................................: PAGE NO. = 37
+- CONTENTS — HDFCNifty G-Sec Sep 2032 Index Fund.....................................................: PAGE NO. = 38
+- CONTENTS — HDFCNIFTY G-sec Jun 2036 Index Fund...................................................: PAGE NO. = 39
+- CONTENTS — HDFCNIFTY SDL Plus G-Sec Jun 2027 40:60 Index Fund..................: PAGE NO. = 40
+- CONTENTS — HDFCNifty SDL Oct 2026 Index Fund.........................................................: PAGE NO. = 41
+
+
 |                                                                                                                     |   PAGE NO. |
 |---------------------------------------------------------------------------------------------------------------------|------------|
 | HDFCNIFTY 50 ETF............................................................................................        |         42 |
@@ -403,6 +445,32 @@ Source: MFI360 Explorer, Bloomberg, internal calculations. *Gold and Silver pric
 | HDFCGold ETF Fund of Fund..........................................................................                 |         62 |
 | HDFC Silver ETF Fund of Fund.......................................................................                 |         63 |
 | HDFCDeveloped World Overseas Equity Passive FOF........................                                             |         64 |
+
+**Table values by row and column (derived from the table above):**
+- CONTENTS — HDFCNIFTY 50 ETF............................................................................................: PAGE NO. = 42
+- CONTENTS — HDFCNIFTY 100 ETF.........................................................................................: PAGE NO. = 43
+- CONTENTS — HDFCBSE SENSEX ETF......................................................................................: PAGE NO. = 44
+- CONTENTS — HDFCBSE500 ETF..............................................................................................: PAGE NO. = 45
+- CONTENTS — HDFCNIFTY Next 50 ETF.................................................................................: PAGE NO. = 46
+- CONTENTS — HDFCNIFTY Midcap 150 ETF.........................................................................: PAGE NO. = 47
+- CONTENTS — HDFCNIFTY Smallcap 250 ETF......................................................................: PAGE NO. = 48
+- CONTENTS — HDFCNIFTY Bank ETF.......................................................................................: PAGE NO. = 49
+- CONTENTS — HDFCNIFTY Private Bank ETF.......................................................................: PAGE NO. = 50
+- CONTENTS — HDFCNIFTYPSUBANK ETF............................................................................: PAGE NO. = 51
+- CONTENTS — HDFCNIFTY IT ETF.............................................................................................: PAGE NO. = 52
+- CONTENTS — HDFCNifty Metal ETF.........................................................................................: PAGE NO. = 53
+- CONTENTS — HDFCNIFTY100 Quality 30 ETF....................................................................: PAGE NO. = 54
+- CONTENTS — HDFCNIFTY50 VALUE 20 ETF.......................................................................: PAGE NO. = 55
+- CONTENTS — HDFCNIFTY Growth Sectors 15 ETF...........................................................: PAGE NO. = 56
+- CONTENTS — HDFCNIFTY200 Momentum30 ETF...........................................................: PAGE NO. = 57
+- CONTENTS — HDFCNIFTY100 Low Volatility 30 ETF......................................................: PAGE NO. = 58
+- CONTENTS — HDFCNIFTY 1D RATE LIQUID ETF - Growth...........................................: PAGE NO. = 59
+- CONTENTS — HDFCGold ETF......................................................................................................: PAGE NO. = 60
+- CONTENTS — HDFC Silver ETF....................................................................................................: PAGE NO. = 61
+- CONTENTS — HDFCGold ETF Fund of Fund..........................................................................: PAGE NO. = 62
+- CONTENTS — HDFC Silver ETF Fund of Fund.......................................................................: PAGE NO. = 63
+- CONTENTS — HDFCDeveloped World Overseas Equity Passive FOF........................: PAGE NO. = 64
+
 
 Fund Details Annexure
 
@@ -459,6 +527,11 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to generate retu
 | Arun Agarwal    | August 24, 2020       | Over 27 years             |
 | Nandita Menezes | March 29, 2025        | Over 3 years              |
 
+**Table values by row and column (derived from the table above):**
+- HDFC Nifty 50 Index Fund — Arun Agarwal: FUNDMANAGER - Since = August 24, 2020; FUNDMANAGER - Total Exp = Over 27 years
+- HDFC Nifty 50 Index Fund — Nandita Menezes: FUNDMANAGER - Since = March 29, 2025; FUNDMANAGER - Total Exp = Over 3 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -471,6 +544,11 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to generate retu
 |------------------------------|------------------|
 | Regular Plan - Growth Option |         232.8693 |
 | Direct Plan - Growth Option  |         238.4460 |
+
+**Table values by row and column (derived from the table above):**
+- July 17, 2002 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 232.8693
+- July 17, 2002 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 238.4460
+
 
 <!-- image -->
 
@@ -586,6 +664,48 @@ Direct: 0.03%
 | Oil &Natural Gas                           |                                | 0.84      |
 | Corporation Ltd.                           | Oil                            |           |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — HDFCBank Ltd.£: Industry+ = Banks; %to NAV = 10.23
+- PORTFOLIO — ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 9.18
+- PORTFOLIO — Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 7.89
+- PORTFOLIO — Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 5.36
+- PORTFOLIO — Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 4.12
+- PORTFOLIO — State Bank of India: Industry+ = Banks; %to NAV = 3.79
+- PORTFOLIO — Infosys Limited: Industry+ = IT - Software; %to NAV = 3.54
+- PORTFOLIO — Axis Bank Ltd.: Industry+ = Banks; %to NAV = 3.15
+- PORTFOLIO — Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 2.73
+- PORTFOLIO — Mahindra &MahindraLtd.: Industry+ = Automobiles; %to NAV = 2.71
+- PORTFOLIO — Kotak Mahindra Bank Limited: Industry+ = Banks; %to NAV = 2.57
+- PORTFOLIO — ITC LIMITED: Industry+ = DiversifiedFmcg; %to NAV = 2.42
+- PORTFOLIO — Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 2.16
+- PORTFOLIO — Eternal Limited: Industry+ = Retailing; %to NAV = 1.95
+- PORTFOLIO — Sun Pharmaceutical Industries Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 1.88
+- PORTFOLIO — Titan CompanyLtd.: Industry+ = Consumer Durables; %to NAV = 1.80
+- PORTFOLIO — Hindustan Unilever Ltd.: Industry+ = DiversifiedFmcg; %to NAV = 1.67
+- PORTFOLIO — Maruti Suzuki India Limited: Industry+ = Automobiles; %to NAV = 1.66
+- PORTFOLIO — NTPCLimited: Industry+ = Power; %to NAV = 1.47
+- PORTFOLIO — Tata Steel Ltd.: Industry+ = Ferrous Metals; %to NAV = 1.40
+- PORTFOLIO — Shriram Finance Ltd.: Industry+ = Finance; %to NAV = 1.31
+- PORTFOLIO — HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 1.27
+- PORTFOLIO — Hindalco Industries Ltd.: Industry+ = Non-Ferrous Metals; %to NAV = 1.26
+- PORTFOLIO — UltraTech Cement Limited: Industry+ = Cement&Cement Products; %to NAV = 1.26
+- PORTFOLIO — Bharat Electronics Ltd.: Industry+ = Aerospace &Defense; %to NAV = 1.24
+- PORTFOLIO — Power Grid Corporation of India Ltd.: Industry+ = Power; %to NAV = 1.15
+- PORTFOLIO — Bajaj Auto Limited: Industry+ = Automobiles; %to NAV = 1.14
+- PORTFOLIO — Adani Ports &Special Economic Zone: Industry+ = Transport Infrastructure; %to NAV = 1.12
+- PORTFOLIO — Asian Paints Limited: Industry+ = Consumer Durables; %to NAV = 1.11
+- PORTFOLIO — JSW Steel Ltd.: Industry+ = Ferrous Metals; %to NAV = 1.06
+- PORTFOLIO — Bajaj Finserv Ltd.: Industry+ = Finance; %to NAV = 1.05
+- PORTFOLIO — Grasim Industries Ltd.: Industry+ = Cement&Cement Products; %to NAV = 1.05 1.05
+- PORTFOLIO — InterGlobe Aviation Ltd. Nestle India Ltd.: Industry+ = Transport Services
+- PORTFOLIO — Eicher Motors Ltd.: Industry+ = Automobiles; %to NAV = 0.96
+- PORTFOLIO — Tech Mahindra Ltd.: Industry+ = IT - Software; %to NAV = 0.94
+- PORTFOLIO — Trent Ltd.: Industry+ = Retailing; %to NAV = 0.89
+- PORTFOLIO — Oil &Natural Gas: %to NAV = 0.84
+- PORTFOLIO — Corporation Ltd.: Industry+ = Oil
+
+
 CATEGORY OF SCHEME
 
 INDEX FUND
@@ -607,6 +727,23 @@ INDEX FUND
 | Cash,Cash Equivalents and Net Current Assets              | Cash,Cash Equivalents and Net Current Assets |      0.32 |
 | Grand Total                                               | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Apollo Hospitals Enterprise Ltd.: Industry+ = Healthcare Services; %to NAV = 0.82
+- PORTFOLIO — ADANI ENTERPRISES LIMTIED: Industry+ = Metals &Minerals Trading; %to NAV = 0.78
+- PORTFOLIO — SBI Life Insurance CompanyLtd.: Industry+ = Insurance; %to NAV = 0.76
+- PORTFOLIO — Jio Financial Services Limited: Industry+ = Finance; %to NAV = 0.75
+- PORTFOLIO — Cipla Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 0.74
+- PORTFOLIO — Max Healthcare Institute Limited: Industry+ = Healthcare Services; %to NAV = 0.73
+- PORTFOLIO — Dr Reddys Laboratories Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 0.63
+- PORTFOLIO — Tata Consumer Products Limited: Industry+ = Agricultural Food& Other Products; %to NAV = 0.63
+- PORTFOLIO — Tata Motors Passenger Vehicles Limited HDFCLife Insurance: Industry+ = Automobiles; %to NAV = 0.63
+- PORTFOLIO — CompanyLimited: Industry+ = Insurance; %to NAV = 0.53
+- PORTFOLIO — Wipro Ltd.: Industry+ = IT - Software; %to NAV = 0.44
+- PORTFOLIO — Sub Total: %to NAV = 99.68
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.32
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 ## Exposure to top seven groups
@@ -620,6 +757,16 @@ INDEX FUND
 | PSU                |     5.59 |
 | Bharti             |     5.36 |
 | Bajaj              |     4.92 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — HDFC: %toNAV = 10.76
+- Exposure to top seven groups — ICICI: %toNAV = 9.18
+- Exposure to top seven groups — Mukesh Ambani: %toNAV = 8.64
+- Exposure to top seven groups — Tata: %toNAV = 7.51
+- Exposure to top seven groups — PSU: %toNAV = 5.59
+- Exposure to top seven groups — Bharti: %toNAV = 5.36
+- Exposure to top seven groups — Bajaj: %toNAV = 4.92
+
 
 Face Value / Allotment NAV per Unit: ₹ 10.3260, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -743,11 +890,19 @@ Agricultural Food    ther  roducts
 
 |                                            |   Since Inception SIP |   15 year SIP |   10 year SIP |   5 year SIP |   3 year SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|---------------|---------------|--------------|--------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                 28.90 |         18.00 |         12.00 |         6.00 |         3.60 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 28.90 | 18.00 | 12.00 | 6.00 | 3.60 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                153.02 |         46.61 |         21.73 |         7.28 |         3.82 |         1.19 |
 | Returns (%)                                |                 12.02 |         11.75 |         11.42 |         7.69 |         3.95 |        -1.03 |
-| Benchmark Returns (%)#                     |                 13.45 |         12.31 |         11.97 |         8.16 |         4.39 |        -0.61 |
-| Additional Benchmark Returns (%)# #        |                 13.48 |         11.96 |         11.34 |         6.73 |         2.66 |        -2.75 |
+| Benchmark Returns (%) | 13.45 | 12.31 | 11.97 | 8.16 | 4.39 | -0.61 |
+| Additional Benchmark Returns (%) | 13.48 | 11.96 | 11.34 | 6.73 | 2.66 | -2.75 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 28.90; 15 year SIP = 18.00; 10 year SIP = 12.00; 5 year SIP = 6.00; 3 year SIP = 3.60; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 153.02; 15 year SIP = 46.61; 10 year SIP = 21.73; 5 year SIP = 7.28; 3 year SIP = 3.82; 1 year SIP = 1.19
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Returns (%): Since Inception SIP = 12.02; 15 year SIP = 11.75; 10 year SIP = 11.42; 5 year SIP = 7.69; 3 year SIP = 3.95; 1 year SIP = -1.03
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Benchmark Returns (%): Since Inception SIP = 13.45; 15 year SIP = 12.31; 10 year SIP = 11.97; 5 year SIP = 8.16; 3 year SIP = 4.39; 1 year SIP = -0.61
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 13.48; 15 year SIP = 11.96; 10 year SIP = 11.34; 5 year SIP = 6.73; 3 year SIP = 2.66; 1 year SIP = -2.75
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed after accounting for the cash flow by using XIRR method (investment internal rate of return) for Regular Plan - Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -762,6 +917,14 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 | Jul 30, 21 | Last 5 Years    |                   9.91 |                      10.39 |                                    9.53 |                                      16,047 |                                          16,405 |                                                      15,771 |
 | Jul 29, 16 | Last 10 Years   |                  11.72 |                      12.27 |                                   12.10 |                                      30,316 |                                          31,857 |                                                      31,377 |
 | Jul 17, 02 | Since Inception |                  13.83 |                      15.60 |                                   15.84 |                                     225,517 |                                         326,749 |                                                     343,733 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = -0.84; Benchmark - Returns (%)# = -0.43; Additional Benchmark Returns (%) - ## = -2.76; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 9,916; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 9,957; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,724
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 8.10; Benchmark - Returns (%)# = 8.56; Additional Benchmark Returns (%) - ## = 6.75; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,637; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,798; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,168
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 30, 21: Period = Last 5 Years; Scheme - Returns (%) = 9.91; Benchmark - Returns (%)# = 10.39; Additional Benchmark Returns (%) - ## = 9.53; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 16,047; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 16,405; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 15,771
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 29, 16: Period = Last 10 Years; Scheme - Returns (%) = 11.72; Benchmark - Returns (%)# = 12.27; Additional Benchmark Returns (%) - ## = 12.10; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 30,316; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 31,857; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 31,377
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 17, 02: Period = Since Inception; Scheme - Returns (%) = 13.83; Benchmark - Returns (%)# = 15.60; Additional Benchmark Returns (%) - ## = 15.84; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 225,517; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 326,749; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 343,733
+
 
 eturns greater than 1 year are compounded annualized   AG  . Since inception returns are calculated on ₹ 10.3260   allotment price) For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -807,6 +970,11 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to generate retu
 | Regular Plan - Growth Option |          14.8877 |
 | Direct Plan - Growth Option  |          15.2157 |
 
+**Table values by row and column (derived from the table above):**
+- February 23, 2022 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 14.8877
+- February 23, 2022 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 15.2157
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT
@@ -841,6 +1009,11 @@ Average for Month of July, 2026
 |----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ | Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ |
 | Regular: 0.75%                                                                                                                                     | Direct: 0.29%                                                                                                                                      |
+
+**Table values by row and column (derived from the table above):**
+- QUANTITATIVE DATA — Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^: EXPENSE RATIO (As On July 31, 2026) = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^
+- QUANTITATIVE DATA — Regular: 0.75%: EXPENSE RATIO (As On July 31, 2026) = Direct: 0.29%
+
 
 <!-- image -->
 
@@ -891,6 +1064,25 @@ Nil
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.38 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 8.34
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 7.48
+- PORTFOLIO — • Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 6.43
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 4.36
+- PORTFOLIO — • Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 3.35
+- PORTFOLIO — • State Bank of India: Industry+ = Banks; %to NAV = 3.09
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 2.88
+- PORTFOLIO — • Axis Bank Ltd.: Industry+ = Banks; %to NAV = 2.57
+- PORTFOLIO — • Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 2.23
+- PORTFOLIO — • Mahindra &Mahindra Ltd.: Industry+ = Automobiles; %to NAV = 2.21
+- PORTFOLIO — Other Equity: %to NAV = 56.68
+- PORTFOLIO — Sub Total: %to NAV = 99.62
+- PORTFOLIO — Total: %to NAV = 99.62
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.38
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 ## Exposure to top seven groups
@@ -904,6 +1096,16 @@ Nil
 | Mukesh Ambani      |     7.04 |
 | Bajaj              |     4.37 |
 | Bharti             |     4.36 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — HDFC: %toNAV = 9.15
+- Exposure to top seven groups — PSU: %toNAV = 8.61
+- Exposure to top seven groups — Tata: %toNAV = 7.85
+- Exposure to top seven groups — ICICI: %toNAV = 7.48
+- Exposure to top seven groups — Mukesh Ambani: %toNAV = 7.04
+- Exposure to top seven groups — Bajaj: %toNAV = 4.37
+- Exposure to top seven groups — Bharti: %toNAV = 4.36
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -923,11 +1125,19 @@ For detailed portfolio refer to the monthly portfolios disclosed on the website 
 
 |                                            |   Since Inception SIP |   3 year SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|--------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                  5.40 |         3.60 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 5.40 | 3.60 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                  6.50 |         3.87 |         1.21 |
 | Returns (%)                                |                  8.19 |         4.81 |         1.46 |
-| Benchmark Returns (%)#                     |                  9.14 |         5.68 |         2.26 |
-| Additional Benchmark Returns (%)# #        |                  8.00 |         4.39 |        -0.61 |
+| Benchmark Returns (%) | 9.14 | 5.68 | 2.26 |
+| Additional Benchmark Returns (%) | 8.00 | 4.39 | -0.61 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 5.40; 3 year SIP = 3.60; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 6.50; 3 year SIP = 3.87; 1 year SIP = 1.21
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Returns (%): Since Inception SIP = 8.19; 3 year SIP = 4.81; 1 year SIP = 1.46
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Benchmark Returns (%): Since Inception SIP = 9.14; 3 year SIP = 5.68; 1 year SIP = 2.26
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 8.00; 3 year SIP = 4.39; 1 year SIP = -0.61
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed after accounting for the cash flow by using XIRR method (investment internal rate of return) for Regular Plan  Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -940,6 +1150,12 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 | Jul 31, 25 | Last 1 Year     |                   0.73 |                       1.54 |                                   -0.43 |                                      10,073 |                                          10,154 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                   9.32 |                      10.23 |                                    8.56 |                                      13,069 |                                          13,397 |                                                      12,798 |
 | Feb 23, 22 | Since Inception |                   9.39 |                      10.42 |                                    9.70 |                                      14,888 |                                          15,521 |                                                      15,077 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 0.73; Benchmark - Returns (%)# = 1.54; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,073; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,154; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 9.32; Benchmark - Returns (%)# = 10.23; Additional Benchmark - Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 13,069; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 13,397; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE ^ - Regular Plan - Growth Option — Feb 23, 22: Period = Since Inception; Scheme - Returns (%) = 9.39; Benchmark - Returns (%)# = 10.42; Additional Benchmark - Returns (%) ## = 9.70; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 14,888; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 15,521; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 15,077
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -976,6 +1192,11 @@ July 17, 2002
 |------------------------------|------------------|
 | Regular Plan - Growth Option |         728.0769 |
 | Direct Plan - Growth Option  |         746.8940 |
+
+**Table values by row and column (derived from the table above):**
+- DATE OF ALLOTMENT/INCEPTION DATE — Regular Plan - Growth Option: NAVPER UNIT(₹) = 728.0769
+- DATE OF ALLOTMENT/INCEPTION DATE — Direct Plan - Growth Option: NAVPER UNIT(₹) = 746.8940
+
 
 <!-- image -->
 
@@ -1076,6 +1297,35 @@ For Product label and Riskometers, refer page no: 80-92
 | Power Grid Corporation of India Ltd. | Power                          |      1.39 |
 | Adani Ports &Special Economic Zone   | Transport Infrastructure       |      1.35 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • HDFCBank Ltd.£: Industry+ = Banks; %to NAV = 12.27
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 11.08
+- PORTFOLIO — • Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 9.52
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 6.47
+- PORTFOLIO — • Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 4.96
+- PORTFOLIO — • State Bank of India: Industry+ = Banks; %to NAV = 4.59
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 4.24
+- PORTFOLIO — • Axis Bank Ltd.: Industry+ = Banks; %to NAV = 3.79
+- PORTFOLIO — • Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 3.29
+- PORTFOLIO — • Mahindra &MahindraLtd.: Industry+ = Automobiles; %to NAV = 3.27
+- PORTFOLIO — Kotak Mahindra Bank Limited: Industry+ = Banks; %to NAV = 3.09
+- PORTFOLIO — ITC LIMITED: Industry+ = DiversifiedFmcg; %to NAV = 2.92
+- PORTFOLIO — Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 2.58
+- PORTFOLIO — Eternal Limited: Industry+ = Retailing; %to NAV = 2.36
+- PORTFOLIO — Sun Pharmaceutical Industries Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 2.31
+- PORTFOLIO — Titan CompanyLtd.: Industry+ = Consumer Durables; %to NAV = 2.14
+- PORTFOLIO — Hindustan Unilever Ltd.: Industry+ = DiversifiedFmcg; %to NAV = 2.02
+- PORTFOLIO — Maruti Suzuki India Limited: Industry+ = Automobiles; %to NAV = 1.98
+- PORTFOLIO — NTPCLimited: Industry+ = Power; %to NAV = 1.78
+- PORTFOLIO — Tata Steel Ltd.: Industry+ = Ferrous Metals; %to NAV = 1.68
+- PORTFOLIO — HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 1.53
+- PORTFOLIO — UltraTech Cement Limited: Industry+ = Cement&Cement Products; %to NAV = 1.51
+- PORTFOLIO — Bharat Electronics Ltd.: Industry+ = Aerospace& Defense; %to NAV = 1.50
+- PORTFOLIO — Power Grid Corporation of India Ltd.: Industry+ = Power; %to NAV = 1.39
+- PORTFOLIO — Adani Ports &Special Economic Zone: Industry+ = Transport Infrastructure; %to NAV = 1.35
+
+
 <!-- image -->
 
 | Company                                      | Industry+                                    |   %to NAV |
@@ -1088,6 +1338,17 @@ For Product label and Riskometers, refer page no: 80-92
 | Sub Total                                    |                                              |     99.62 |
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.38 |
 | Grand Total                                  |                                              |    100.00 |
+
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Asian Paints Limited: Industry+ = Consumer Durables; %to NAV = 1.33
+- PORTFOLIO — InterGlobe Aviation Ltd.: Industry+ = Transport Services; %to NAV = 1.25
+- PORTFOLIO — Bajaj Finserv Ltd.: Industry+ = Finance; %to NAV = 1.22
+- PORTFOLIO — Tech Mahindra Ltd.: Industry+ = IT - Software; %to NAV = 1.13
+- PORTFOLIO — Trent Ltd.: Industry+ = Retailing; %to NAV = 1.07
+- PORTFOLIO — Sub Total: %to NAV = 99.62
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.38
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
 
 - Top Ten Holdings, £ Sponsor
 
@@ -1103,6 +1364,16 @@ For Product label and Riskometers, refer page no: 80-92
 | L&T                |     4.96 |
 | PSU                |     4.67 |
 
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — HDFC: %toNAV = 12.27
+- Exposure to top seven groups — ICICI: %toNAV = 11.08
+- Exposure to top seven groups — Mukesh Ambani: %toNAV = 9.52
+- Exposure to top seven groups — Tata: %toNAV = 7.48
+- Exposure to top seven groups — Bharti: %toNAV = 6.47
+- Exposure to top seven groups — L&T: %toNAV = 4.96
+- Exposure to top seven groups — PSU: %toNAV = 4.67
+
+
 Face Value / Allotment NAV per Unit: ₹ 32.1610, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
 Please refer Minimum Application Amount, Plans &amp; Options, on Page no. 65 to 70.
@@ -1115,11 +1386,19 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 
 |                                            |   Since Inception SIP |   15 year SIP |   10 year SIP |   5 year SIP |   3 year SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|---------------|---------------|--------------|--------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                 28.90 |         18.00 |         12.00 |         6.00 |         3.60 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 28.90 | 18.00 | 12.00 | 6.00 | 3.60 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                151.52 |         45.23 |         21.01 |         7.03 |         3.72 |         1.18 |
 | Returns (%)                                |                 11.96 |         11.40 |         10.79 |         6.26 |         2.23 |        -3.17 |
-| Benchmark Returns (%)#                     |                 13.48 |         11.96 |         11.34 |         6.73 |         2.66 |        -2.75 |
-| Additional Benchmark Returns (%)# #        |                 13.45 |         12.31 |         11.97 |         8.16 |         4.39 |        -0.61 |
+| Benchmark Returns (%) | 13.48 | 11.96 | 11.34 | 6.73 | 2.66 | -2.75 |
+| Additional Benchmark Returns (%) | 13.45 | 12.31 | 11.97 | 8.16 | 4.39 | -0.61 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 28.90; 15 year SIP = 18.00; 10 year SIP = 12.00; 5 year SIP = 6.00; 3 year SIP = 3.60; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 151.52; 15 year SIP = 45.23; 10 year SIP = 21.01; 5 year SIP = 7.03; 3 year SIP = 3.72; 1 year SIP = 1.18
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Returns (%): Since Inception SIP = 11.96; 15 year SIP = 11.40; 10 year SIP = 10.79; 5 year SIP = 6.26; 3 year SIP = 2.23; 1 year SIP = -3.17
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Benchmark Returns (%): Since Inception SIP = 13.48; 15 year SIP = 11.96; 10 year SIP = 11.34; 5 year SIP = 6.73; 3 year SIP = 2.66; 1 year SIP = -2.75
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 13.45; 15 year SIP = 12.31; 10 year SIP = 11.97; 5 year SIP = 8.16; 3 year SIP = 4.39; 1 year SIP = -0.61
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed  after  accounting  for  the  cash  flow  by  using  XIRR  method  (investment  internal  rate  of  return)  for  Regular  Plan  Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -1134,6 +1413,14 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 | Jul 30, 21 | Last 5 Years    |                   9.06 |                     9.53 |                                   10.39 |                                      15,433 |                                          15,771 |                                                      16,405 |
 | Jul 29, 16 | Last 10 Years   |                  11.57 |                    12.10 |                                   12.27 |                                      29,910 |                                          31,377 |                                                      31,857 |
 | Jul 17, 02 | Since Inception |                  13.85 |                    15.84 |                                   15.60 |                                     226,385 |                                         343,733 |                                                     326,749 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = -3.17; Benchmark Returns (%)# = -2.76; Additional Benchmark Returns (%) - ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 9,683; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 9,724; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 6.31; Benchmark Returns (%)# = 6.75; Additional Benchmark Returns (%) - ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,016; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,168; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 30, 21: Period = Last 5 Years; Scheme - Returns (%) = 9.06; Benchmark Returns (%)# = 9.53; Additional Benchmark Returns (%) - ## = 10.39; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 15,433; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 15,771; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 16,405
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 29, 16: Period = Last 10 Years; Scheme - Returns (%) = 11.57; Benchmark Returns (%)# = 12.10; Additional Benchmark Returns (%) - ## = 12.27; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 29,910; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 31,377; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 31,857
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 17, 02: Period = Since Inception; Scheme - Returns (%) = 13.85; Benchmark Returns (%)# = 15.84; Additional Benchmark Returns (%) - ## = 15.60; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 226,385; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 343,733; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 326,749
+
 
 eturns greater than 1 year are compounded annualized   AG  . Since inception returns are calculated on ₹ 32.1610 allotment price) For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -1159,6 +1446,12 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Arun Agarwal    | April 21, 2023 | Over 27 years |
 | Nandita Menezes | March 29, 2025 | Over 3 years  |
 
+**Table values by row and column (derived from the table above):**
+- HDFC BSE 500 Index Fund — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC BSE 500 Index Fund — Arun Agarwal: FUNDMANAGER = April 21, 2023; FUNDMANAGER = Over 27 years
+- HDFC BSE 500 Index Fund — Nandita Menezes: FUNDMANAGER = March 29, 2025; FUNDMANAGER = Over 3 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -1171,6 +1464,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 |------------------------------|------------------|
 | Regular Plan - Growth Option |          15.5567 |
 | Direct Plan - Growth Option  |          15.8474 |
+
+**Table values by row and column (derived from the table above):**
+- April 21, 2023 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 15.5567
+- April 21, 2023 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 15.8474
+
 
 <!-- image -->
 
@@ -1206,6 +1504,11 @@ Average for Month of July, 2026
 |----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ | Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ |
 | Regular: 0.77%                                                                                                                                     | Direct: 0.28%                                                                                                                                      |
+
+**Table values by row and column (derived from the table above):**
+- QUANTITATIVE DATA — Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^: EXPENSE RATIO (As OnJuly 31, 2026) = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^
+- QUANTITATIVE DATA — Regular: 0.77%: EXPENSE RATIO (As OnJuly 31, 2026) = Direct: 0.28%
+
 
 <!-- image -->
 
@@ -1255,6 +1558,23 @@ Nil
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets | 0.41        |
 | Grand Total                                  |                                              | 100.00      |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 5.75
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 5.19
+- PORTFOLIO — • Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 4.46
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 3.03
+- PORTFOLIO — • Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 2.32
+- PORTFOLIO — • State Bank of India: Industry+ = Banks; %to NAV = 2.15
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 1.99
+- PORTFOLIO — • Axis Bank Ltd.: Industry+ = Banks; %to NAV = 1.77
+- PORTFOLIO — • Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 1.54
+- PORTFOLIO — • Mahindra &Mahindra Ltd.: Industry+ = Automobiles; %to NAV = 1.53
+- PORTFOLIO — Other Equity Sub Total: %to NAV = 69.86 99.59
+- PORTFOLIO — Total: %to NAV = 99.59
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.41
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 ## Exposure to top seven groups
@@ -1268,6 +1588,16 @@ Nil
 | ICICI              |     5.57 |
 | Mukesh Ambani      |     4.90 |
 | Bharti             |     3.35 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Private: %toNAV = 10.30
+- Exposure to top seven groups — PSU: %toNAV = 9.06
+- Exposure to top seven groups — HDFC: %toNAV = 6.39
+- Exposure to top seven groups — Tata: %toNAV = 5.92
+- Exposure to top seven groups — ICICI: %toNAV = 5.57
+- Exposure to top seven groups — Mukesh Ambani: %toNAV = 4.90
+- Exposure to top seven groups — Bharti: %toNAV = 3.35
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -1287,11 +1617,19 @@ For detailed portfolio refer to the monthly portfolios disclosed on the website 
 
 |                                            |   Since Inception SIP |   3 year SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|--------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                  4.00 |         3.60 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 4.00 | 3.60 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                  4.53 |         3.93 |         1.23 |
 | Returns (%)                                |                  7.39 |         5.85 |         4.48 |
-| Benchmark Returns (%)#                     |                  8.52 |         6.92 |         5.37 |
-| Additional Benchmark Returns (%)# #        |                  5.68 |         4.39 |        -0.61 |
+| Benchmark Returns (%) | 8.52 | 6.92 | 5.37 |
+| Additional Benchmark Returns (%) | 5.68 | 4.39 | -0.61 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 4.00; 3 year SIP = 3.60; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 4.53; 3 year SIP = 3.93; 1 year SIP = 1.23
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Returns (%): Since Inception SIP = 7.39; 3 year SIP = 5.85; 1 year SIP = 4.48
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Benchmark Returns (%): Since Inception SIP = 8.52; 3 year SIP = 6.92; 1 year SIP = 5.37
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 5.68; 3 year SIP = 4.39; 1 year SIP = -0.61
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed after accounting for the cash flow by using XIRR method (investment internal rate of return) for Regular Plan  Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -1304,6 +1642,12 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 | Jul 31, 25 | Last 1 Year     |                   2.12 |                       2.98 |                                   -0.43 |                                      10,212 |                                          10,298 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                  10.66 |                      11.88 |                                    8.56 |                                      13,554 |                                          14,010 |                                                      12,798 |
 | Apr 21, 23 | Since Inception |                  14.43 |                      15.76 |                                   11.81 |                                      15,557 |                                          16,162 |                                                      14,423 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 2.12; Benchmark - Returns (%)# = 2.98; Additional - Benchmark Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,212; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,298; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 10.66; Benchmark - Returns (%)# = 11.88; Additional - Benchmark Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 13,554; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 14,010; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE ^ - Regular Plan - Growth Option — Apr 21, 23: Period = Since Inception; Scheme - Returns (%) = 14.43; Benchmark - Returns (%)# = 15.76; Additional - Benchmark Returns (%) ## = 11.81; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 15,557; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 16,162; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,423
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -1330,6 +1674,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Arun Agarwal    | November 26, 2025     | Over 27 years             |
 | Nandita Menezes | November 26, 2025     | Over 3 years              |
 
+**Table values by row and column (derived from the table above):**
+- HDFC BSE India Sector Leaders Index Fund — Arun Agarwal: FUNDMANAGER - Since = November 26, 2025; FUNDMANAGER - Total Exp = Over 27 years
+- HDFC BSE India Sector Leaders Index Fund — Nandita Menezes: FUNDMANAGER - Since = November 26, 2025; FUNDMANAGER - Total Exp = Over 3 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -1342,6 +1691,11 @@ November 26, 2025
 |------------------------------|------------------|
 | Regular Plan - Growth Option |           9.5995 |
 | Direct Plan - Growth Option  |           9.6328 |
+
+**Table values by row and column (derived from the table above):**
+- DATE OF ALLOTMENT/INCEPTION DATE — Regular Plan - Growth Option: NAVPER UNIT(₹) = 9.5995
+- DATE OF ALLOTMENT/INCEPTION DATE — Direct Plan - Growth Option: NAVPER UNIT(₹) = 9.6328
+
 
 <!-- image -->
 
@@ -1389,6 +1743,11 @@ NIFTY 50 (TRI)
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Annualised Standard Deviation (tracking error) has been calculated based on the available data, i.e. since inception: | Annualised Standard Deviation (tracking error) has been calculated based on the available data, i.e. since inception: |
 | Regular: 0.04%                                                                                                        | Direct: 0.04%                                                                                                         |
+
+**Table values by row and column (derived from the table above):**
+- ADDL. BENCHMARK INDEX — Annualised Standard Deviation (tracking error) has been calculated based on the available data, i.e. since inception:: TRACKING ERROR = Annualised Standard Deviation (tracking error) has been calculated based on the available data, i.e. since inception:
+- ADDL. BENCHMARK INDEX — Regular: 0.04%: TRACKING ERROR = Direct: 0.04%
+
 
 <!-- image -->
 
@@ -1454,6 +1813,10 @@ Nil
 |------------|---------------|----------------------|----------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------------|-------------------------------------------------------------|
 | Jan 30, 26 | Last 6 Months |                 1.33 |                       6.42 |                                   -5.98 |                                      10,066 |                                          10,320 |                                                       9,702 |
 
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jan 30, 26: Period = Last 6 Months; Scheme Returns (%) = 1.33; Benchmark - Returns (%)# = 6.42; Additional - Benchmark Returns (%) ## = -5.98; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,066; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,320; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,702
+
+
 Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.66%. For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
 ^Past performance may or may not be sustained in future and is not a guarantee of any future returns. Load is not
@@ -1512,6 +1875,24 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Annualised tracking error is calculated based on                                                                                                   | Annualised tracking error is calculated based on                                                                                                   | Annualised tracking error is calculated based on                                                                                                   | Annualised tracking error is calculated based on                                                                                                   |
 | Regular: 0.05% Direct: 0.06% EXIT LOAD$$                                                                                                           | Regular: 0.05% Direct: 0.06% EXIT LOAD$$                                                                                                           | Regular: 0.05% Direct: 0.06% EXIT LOAD$$                                                                                                           | Regular: 0.05% Direct: 0.06% EXIT LOAD$$                                                                                                           |
 
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY Next 50 Index Fund — Arun Agarwal: FUNDMANAGER - Since = February 01, 2022; FUNDMANAGER = Total Exp Over 27 years; FUNDMANAGER = Total Exp Over 27 years
+- HDFC NIFTY Next 50 Index Fund — Nandita Menezes: FUNDMANAGER - Since = March 29, 2025; FUNDMANAGER = Over 3 years; FUNDMANAGER = Over 3 years
+- HDFC NIFTY Next 50 Index Fund — DATE OF ALLOTMENT/INCEPTION DATE: FUNDMANAGER - Since = DATE OF ALLOTMENT/INCEPTION DATE; FUNDMANAGER = DATE OF ALLOTMENT/INCEPTION DATE; FUNDMANAGER = DATE OF ALLOTMENT/INCEPTION DATE
+- HDFC NIFTY Next 50 Index Fund — NAV (As On JULY 31, 2026): FUNDMANAGER - Since = NAV (As On JULY 31, 2026); FUNDMANAGER = NAV (As On JULY 31, 2026); FUNDMANAGER = NAVPER UNIT(₹)
+- HDFC NIFTY Next 50 Index Fund — Regular Plan - Growth Option: FUNDMANAGER - Since = Regular Plan - Growth Option; FUNDMANAGER = Regular Plan - Growth Option; FUNDMANAGER = 17.0758
+- HDFC NIFTY Next 50 Index Fund — Direct Plan - Growth Option: FUNDMANAGER - Since = Direct Plan - Growth Option; FUNDMANAGER = Direct Plan - Growth Option; FUNDMANAGER = 17.4245
+- HDFC NIFTY Next 50 Index Fund — As on July 31, 2026 Average for Month of July, 2026: FUNDMANAGER - Since = As on July 31, 2026 Average for Month of July, 2026; FUNDMANAGER = As on July 31, 2026 Average for Month of July, 2026; FUNDMANAGER = ₹ 2,659.43Cr. ₹ 2,582.01Cr.
+- HDFC NIFTY Next 50 Index Fund — QUANTITATIVEDATA: FUNDMANAGER - Since = QUANTITATIVEDATA; FUNDMANAGER = QUANTITATIVEDATA; FUNDMANAGER = QUANTITATIVEDATA
+- HDFC NIFTY Next 50 Index Fund — Portfolio Turnover Equity Turnover Total Turnover Total Turnover = Equity + Debt +: FUNDMANAGER - Since = Portfolio Turnover Equity Turnover Total Turnover Total Turnover = Equity + Debt +; FUNDMANAGER = Portfolio Turnover Equity Turnover Total Turnover Total Turnover = Equity + Debt +; FUNDMANAGER = 26.60% 26.60% Derivative
+- HDFC NIFTY Next 50 Index Fund — Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^: FUNDMANAGER - Since = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^; FUNDMANAGER = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^; FUNDMANAGER = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^
+- HDFC NIFTY Next 50 Index Fund — Regular: 0.66% Direct: 0.29%: FUNDMANAGER - Since = Regular: 0.66% Direct: 0.29%; FUNDMANAGER = Regular: 0.66% Direct: 0.29%; FUNDMANAGER = Regular: 0.66% Direct: 0.29%
+- HDFC NIFTY Next 50 Index Fund — Nifty 50 Index (TRI): FUNDMANAGER - Since = Nifty 50 Index (TRI); FUNDMANAGER = Nifty 50 Index (TRI); FUNDMANAGER = Nifty 50 Index (TRI)
+- HDFC NIFTY Next 50 Index Fund — TRACKING ERROR: FUNDMANAGER - Since = TRACKING ERROR; FUNDMANAGER = TRACKING ERROR; FUNDMANAGER = TRACKING ERROR
+- HDFC NIFTY Next 50 Index Fund — Annualised tracking error is calculated based on: FUNDMANAGER - Since = Annualised tracking error is calculated based on; FUNDMANAGER = Annualised tracking error is calculated based on; FUNDMANAGER = Annualised tracking error is calculated based on
+- HDFC NIFTY Next 50 Index Fund — Regular: 0.05% Direct: 0.06% EXIT LOAD$$: FUNDMANAGER - Since = Regular: 0.05% Direct: 0.06% EXIT LOAD$$; FUNDMANAGER = Regular: 0.05% Direct: 0.06% EXIT LOAD$$; FUNDMANAGER = Regular: 0.05% Direct: 0.06% EXIT LOAD$$
+
+
 <!-- image -->
 
 ## PORTFOLIO
@@ -1553,6 +1934,41 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Steel Limited.                             | Ferrous                                         |           |
 | Jindal                                     | Metals                                          | 1.61      |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • Divis Laboratories Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 4.03
+- PORTFOLIO — • TVS Motor CompanyLtd.: Industry+ = Automobiles; %to NAV = 3.99
+- PORTFOLIO — • Tata Motors Limited: Industry+ = Agricultural, Commercial& Construction Vehicles; %to NAV = 3.59
+- PORTFOLIO — • Hindustan Aeronautics Limited: Industry+ = Aerospace &Defense; %to NAV = 3.47
+- PORTFOLIO — • Adani Power(Mundra) Limited •: Industry+ = Power; %to NAV = 3.45
+- PORTFOLIO — Cholamandalam Investment &Finance Co. Ltd.: Industry+ = Finance; %to NAV = 3.15
+- PORTFOLIO — • Torrent Pharmaceuticals Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 2.96
+- PORTFOLIO — • CumminsIndia Ltd.: Industry+ = Industrial Products; %to NAV = 2.94
+- PORTFOLIO — • Samvardhana Motherson International Ltd.: Industry+ = Auto Components; %to NAV = 2.62
+- PORTFOLIO — • Bharat Petroleum Corporation Ltd.: Industry+ = Petroleum Products; %to NAV = 2.55
+- PORTFOLIO — Indian Hotels CompanyLtd.: Industry+ = Leisure Services; %to NAV = 2.55
+- PORTFOLIO — Britannia Industries Ltd.: Industry+ = Food Products; %to NAV = 2.51
+- PORTFOLIO — The TataPower Company Ltd.: Industry+ = Power; %to NAV = 2.50
+- PORTFOLIO — Avenue Supermarts Ltd.: Industry+ = Retailing; %to NAV = 2.49
+- PORTFOLIO — Power Finance Corporation Ltd.: Industry+ = Finance; %to NAV = 2.43
+- PORTFOLIO — Varun Beverages Ltd: Industry+ = Beverages; %to NAV = 2.38
+- PORTFOLIO — CGPower and Industrial Solutions Ltd.: Industry+ = Electrical Equipment; %to NAV = 2.33
+- PORTFOLIO — Adani Energy Solutions Limited: Industry+ = Power; %to NAV = 2.13
+- PORTFOLIO — HDFCAsset Management CompanyLtd.: Industry+ = Capital Markets; %to NAV = 2.10
+- PORTFOLIO — Indian Oil Corporation Ltd.: Industry+ = Petroleum Products; %to NAV = 2.06
+- PORTFOLIO — Pidilite Industries Ltd.: Industry+ = Chemicals& Petrochemicals; %to NAV = 1.97
+- PORTFOLIO — Ltd GAIL (India) Ltd.: Industry+ = Finance; %to NAV = 1.93
+- PORTFOLIO — Adani Green Energy Limited: Industry+ = Gas Power; %to NAV = 1.93 1.83
+- PORTFOLIO — Bank of Baroda: Industry+ = Banks; %to NAV = 1.77
+- PORTFOLIO — Solar Industries India Ltd.: Industry+ = Chemicals& Petrochemicals; %to NAV = 1.77
+- PORTFOLIO — Vedanta Ltd.: Industry+ = Diversified Metals; %to NAV = 1.77
+- PORTFOLIO — United Spirits Limited: Industry+ = Beverages; %to NAV = 1.76
+- PORTFOLIO — Godrej Consumer Products Ltd.: Industry+ = Personal Products; %to NAV = 1.69 1.67
+- PORTFOLIO — DLFLIMITED Canara Bank: Industry+ = Realty Banks; %to NAV = 1.65
+- PORTFOLIO — Steel Limited.: Industry+ = Ferrous
+- PORTFOLIO — Jindal: Industry+ = Metals; %to NAV = 1.61
+
+
 | Company                                      | Industry+                                    |   %to NAV |
 |----------------------------------------------|----------------------------------------------|-----------|
 | LTMLimited                                   | IT - Software                                |      1.60 |
@@ -1576,6 +1992,29 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.21 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — LTMLimited: Industry+ = IT - Software; %to NAV = 1.60
+- PORTFOLIO — Punjab National Bank: Industry+ = Banks; %to NAV = 1.53
+- PORTFOLIO — ABBIndia Ltd.: Industry+ = Electrical Equipment; %to NAV = 1.51
+- PORTFOLIO — Bosch Limited: Industry+ = Auto Components; %to NAV = 1.40
+- PORTFOLIO — Shree Cement Ltd.: Industry+ = Cement&Cement Products; %to NAV = 1.37
+- PORTFOLIO — Lodha Developers Limited: Industry+ = Realty; %to NAV = 1.36
+- PORTFOLIO — Muthoot Finance Ltd.: Industry+ = Finance; %to NAV = 1.32
+- PORTFOLIO — Siemens Ltd.: Industry+ = Electrical Equipment; %to NAV = 1.31
+- PORTFOLIO — Union Bank of India: Industry+ = Banks; %to NAV = 1.30
+- PORTFOLIO — Hyundai Motor India Limited: Industry+ = Automobiles; %to NAV = 1.22
+- PORTFOLIO — Siemens Energy India Limited: Industry+ = Electrical Equipment; %to NAV = 1.13
+- PORTFOLIO — Zydus Lifesciences Limited: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 1.11
+- PORTFOLIO — Ambuja Cements Ltd.: Industry+ = Cement&Cement Products; %to NAV = 1.06
+- PORTFOLIO — Hindustan Zinc Ltd.: Industry+ = Non- Ferrous Metals; %to NAV = 1.02
+- PORTFOLIO — Tata Capital Ltd.: Industry+ = Finance; %to NAV = 0.72
+- PORTFOLIO — Indian Railways Finance Corp. Ltd.: Industry+ = Finance; %to NAV = 0.71
+- PORTFOLIO — Mazagon Dock Shipbuilders Ltd: Industry+ = Industrial Manufacturing; %to NAV = 0.71
+- PORTFOLIO — Sub Total: Industry+ = Sub Total; %to NAV = 99.79
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.21
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 ## Exposure to top seven groups
@@ -1589,6 +2028,16 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Murugappa Chettiar |     5.48 |
 | Divis Labs         |     4.03 |
 | TVS Iyengar        |     3.99 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — PSU: %toNAV = 21.96
+- Exposure to top seven groups — Tata: %toNAV = 9.37
+- Exposure to top seven groups — Adani: %toNAV = 7.41
+- Exposure to top seven groups — Private: %toNAV = 5.51
+- Exposure to top seven groups — Murugappa Chettiar: %toNAV = 5.48
+- Exposure to top seven groups — Divis Labs: %toNAV = 4.03
+- Exposure to top seven groups — TVS Iyengar: %toNAV = 3.99
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -1626,11 +2075,19 @@ An open ended scheme replicating/tracking NIFTY Next 50 Index (TRI)
 
 |                                            |   Since Inception SIP |   3 year SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|--------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                  5.70 |         3.60 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 5.70 | 3.60 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                  7.99 |         4.24 |         1.30 |
 | Returns (%)                                |                 14.24 |        10.98 |        15.35 |
-| Benchmark Returns (%)#                     |                 15.31 |        11.98 |        16.28 |
-| Additional Benchmark Returns (%)# #        |                  8.04 |         4.39 |        -0.61 |
+| Benchmark Returns (%) | 15.31 | 11.98 | 16.28 |
+| Additional Benchmark Returns (%) | 8.04 | 4.39 | -0.61 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 5.70; 3 year SIP = 3.60; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 7.99; 3 year SIP = 4.24; 1 year SIP = 1.30
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Returns (%): Since Inception SIP = 14.24; 3 year SIP = 10.98; 1 year SIP = 15.35
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Benchmark Returns (%): Since Inception SIP = 15.31; 3 year SIP = 11.98; 1 year SIP = 16.28
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 8.04; 3 year SIP = 4.39; 1 year SIP = -0.61
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed after accounting for the cash flow by using XIRR method (investment internal rate of return) for Regular Plan - Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -1643,6 +2100,12 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 | Jul 31, 25 | Last 1 Year     |                  10.03 |                    10.89 |                                   -0.43 |                                      11,003 |                                          11,089 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                  17.47 |                    18.56 |                                    8.56 |                                      16,219 |                                          16,672 |                                                      12,798 |
 | Nov 03, 21 | Since Inception |                  11.94 |                    13.08 |                                    8.10 |                                      17,076 |                                          17,915 |                                                      14,470 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 10.03; Benchmark Returns (%)# = 10.89; Additional Benchmark Returns (%) - ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 11,003; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 11,089; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 17.47; Benchmark Returns (%)# = 18.56; Additional Benchmark Returns (%) - ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 16,219; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 16,672; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Nov 03, 21: Period = Since Inception; Scheme - Returns (%) = 11.94; Benchmark Returns (%)# = 13.08; Additional Benchmark Returns (%) - ## = 8.10; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 17,076; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 17,915; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,470
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -1681,6 +2144,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 |------------------------------|------------------|
 | Regular Plan - Growth Option |          19.4066 |
 | Direct Plan - Growth Option  |          19.7673 |
+
+**Table values by row and column (derived from the table above):**
+- April 21, 2023 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 19.4066
+- April 21, 2023 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 19.7673
+
 
 <!-- image -->
 
@@ -1779,6 +2247,24 @@ For Product label and Riskometers, refer page no: 80-92
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.16 |
 | Grand Total                                  |                                              |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • Bombay Stock Exchange Limited (BSE): Industry+ = Capital Markets; %to NAV = 3.57
+- PORTFOLIO — • The Federal Bank Ltd.: Industry+ = Banks; %to NAV = 2.12
+- PORTFOLIO — • Laurus Labs Ltd.: Industry+ = Pharmaceuticals &Biotechnology; %to NAV = 1.69
+- PORTFOLIO — • Hero MotoCorp Ltd.: Industry+ = Automobiles; %to NAV = 1.67
+- PORTFOLIO — • Multi Commodity Exchange of India L: Industry+ = Capital Markets; %to NAV = 1.64
+- PORTFOLIO — • Indusind Bank Ltd.: Industry+ = Banks; %to NAV = 1.60
+- PORTFOLIO — • Persistent Systems Limited: Industry+ = IT - Software; %to NAV = 1.44
+- PORTFOLIO — • Coforge Limited: Industry+ = IT - Software; %to NAV = 1.43
+- PORTFOLIO — • Au Small Finance Bank Ltd.: Industry+ = Banks; %to NAV = 1.42
+- PORTFOLIO — • Bharat Heavy Electricals Ltd.: Industry+ = Electrical Equipment; %to NAV = 1.42
+- PORTFOLIO — Other Equity: %to NAV = 81.84
+- PORTFOLIO — Sub Total: %to NAV = 99.84
+- PORTFOLIO — Total: %to NAV = 99.84
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.16
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 ## Exposure to top seven groups
@@ -1792,6 +2278,16 @@ For Product label and Riskometers, refer page no: 80-92
 | Federal Bank       |     2.12 |
 | OmPrakash Jindal   |     1.81 |
 | ICICI              |     1.80 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Private: %toNAV = 23.66
+- Exposure to top seven groups — PSU: %toNAV = 11.43
+- Exposure to top seven groups — MNC: %toNAV = 4.32
+- Exposure to top seven groups — Hinduja: %toNAV = 2.74
+- Exposure to top seven groups — Federal Bank: %toNAV = 2.12
+- Exposure to top seven groups — OmPrakash Jindal: %toNAV = 1.81
+- Exposure to top seven groups — ICICI: %toNAV = 1.80
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -1811,11 +2307,19 @@ For detailed portfolio refer to the monthly portfolios disclosed on the website 
 
 |                                            |   Since Inception SIP |   3 year SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|--------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                  4.00 |         3.60 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 4.00 | 3.60 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                  4.98 |         4.25 |         1.28 |
 | Returns (%)                                |                 13.28 |        11.08 |        12.77 |
-| Benchmark Returns (%)#                     |                 14.46 |        12.17 |        13.78 |
-| Additional Benchmark Returns (%)# #        |                  5.68 |         4.39 |        -0.61 |
+| Benchmark Returns (%) | 14.46 | 12.17 | 13.78 |
+| Additional Benchmark Returns (%) | 5.68 | 4.39 | -0.61 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 4.00; 3 year SIP = 3.60; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 4.98; 3 year SIP = 4.25; 1 year SIP = 1.28
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Returns (%): Since Inception SIP = 13.28; 3 year SIP = 11.08; 1 year SIP = 12.77
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Benchmark Returns (%): Since Inception SIP = 14.46; 3 year SIP = 12.17; 1 year SIP = 13.78
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 5.68; 3 year SIP = 4.39; 1 year SIP = -0.61
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed after accounting for the cash flow by using XIRR method (investment internal rate of return) for Regular Plan  Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -1828,6 +2332,12 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 | Jul 31, 25 | Last 1 Year     |                   8.02 |                       9.01 |                                   -0.43 |                                      10,802 |                                          10,901 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                  17.28 |                      18.53 |                                    8.56 |                                      16,139 |                                          16,659 |                                                      12,798 |
 | Apr 21, 23 | Since Inception |                  22.41 |                      23.86 |                                   11.81 |                                      19,407 |                                          20,173 |                                                      14,423 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 8.02; Benchmark - Returns (%)# = 9.01; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,802; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,901; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 17.28; Benchmark - Returns (%)# = 18.53; Additional Benchmark - Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 16,139; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 16,659; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE ^ - Regular Plan - Growth Option — Apr 21, 23: Period = Since Inception; Scheme - Returns (%) = 22.41; Benchmark - Returns (%)# = 23.86; Additional Benchmark - Returns (%) ## = 11.81; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 19,407; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 20,173; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,423
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -1855,6 +2365,12 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Arun Agarwal    | April 21, 2023 | Over 27 years |
 | Nandita Menezes | March 29, 2025 | Over 3 years  |
 
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY Smallcap 250 Index Fund — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC NIFTY Smallcap 250 Index Fund — Arun Agarwal: FUNDMANAGER = April 21, 2023; FUNDMANAGER = Over 27 years
+- HDFC NIFTY Smallcap 250 Index Fund — Nandita Menezes: FUNDMANAGER = March 29, 2025; FUNDMANAGER = Over 3 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -1867,6 +2383,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 |------------------------------|------------------|
 | Regular Plan - Growth Option |          19.1859 |
 | Direct Plan - Growth Option  |          19.5332 |
+
+**Table values by row and column (derived from the table above):**
+- April 21, 2023 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 19.1859
+- April 21, 2023 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 19.5332
+
 
 <!-- image -->
 
@@ -1969,6 +2490,24 @@ For Product label and Riskometers, refer page no: 80-92
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.16 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • Sona Blw Precision Forgings: Industry+ = Auto Components; %to NAV = 1.60
+- PORTFOLIO — • Karur Vysya Bank Ltd.: Industry+ = Banks; %to NAV = 1.50
+- PORTFOLIO — • Navin Fluorine International Ltd.: Industry+ = Chemicals& Petrochemicals; %to NAV = 1.29
+- PORTFOLIO — • Delhivery Limited: Industry+ = Transport Services; %to NAV = 1.25
+- PORTFOLIO — • Piramal Finance Ltd.: Industry+ = Finance; %to NAV = 1.15
+- PORTFOLIO — • Ather Energy Limited: Industry+ = Automobiles; %to NAV = 1.12
+- PORTFOLIO — • Central Depository Services (India) Ltd.: Industry+ = Capital Markets; %to NAV = 1.10
+- PORTFOLIO — • RBL Bank Ltd.: Industry+ = Banks; %to NAV = 1.08
+- PORTFOLIO — • WELSPUN CORP LIMITED: Industry+ = Industrial Products; %to NAV = 1.00
+- PORTFOLIO — • Aster DMQuality Care Limited: Industry+ = Healthcare Services; %to NAV = 0.97
+- PORTFOLIO — Other Equity: %to NAV = 87.78
+- PORTFOLIO — Sub Total: %to NAV = 99.84
+- PORTFOLIO — Total: %to NAV = 99.84
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.16
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 ## Exposure to top seven groups
@@ -1982,6 +2521,16 @@ For Product label and Riskometers, refer page no: 80-92
 | Tata               |     1.38 |
 | RP Sanjiv Goenka   |     1.36 |
 | Arvind Mafatlal    |     1.29 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Private: %toNAV = 40.50
+- Exposure to top seven groups — PSU: %toNAV = 6.75
+- Exposure to top seven groups — MNC: %toNAV = 2.63
+- Exposure to top seven groups — Murugappa Chettiar: %toNAV = 1.64
+- Exposure to top seven groups — Tata: %toNAV = 1.38
+- Exposure to top seven groups — RP Sanjiv Goenka: %toNAV = 1.36
+- Exposure to top seven groups — Arvind Mafatlal: %toNAV = 1.29
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -2001,11 +2550,19 @@ For detailed portfolio refer to the monthly portfolios disclosed on the website 
 
 |                                            |   Since Inception SIP |   3 year SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|--------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                  4.00 |         3.60 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 4.00 | 3.60 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                  4.83 |         4.11 |         1.30 |
 | Returns (%)                                |                 11.31 |         8.76 |        15.84 |
-| Benchmark Returns (%)#                     |                 12.57 |         9.91 |        16.89 |
-| Additional Benchmark Returns (%)# #        |                  5.68 |         4.39 |        -0.61 |
+| Benchmark Returns (%) | 12.57 | 9.91 | 16.89 |
+| Additional Benchmark Returns (%) | 5.68 | 4.39 | -0.61 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 4.00; 3 year SIP = 3.60; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 4.83; 3 year SIP = 4.11; 1 year SIP = 1.30
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Returns (%): Since Inception SIP = 11.31; 3 year SIP = 8.76; 1 year SIP = 15.84
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Benchmark Returns (%): Since Inception SIP = 12.57; 3 year SIP = 9.91; 1 year SIP = 16.89
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 5.68; 3 year SIP = 4.39; 1 year SIP = -0.61
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed after accounting for the cash flow by using XIRR method (investment internal rate of return) for Regular Plan  Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -2018,6 +2575,12 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 | Jul 31, 25 | Last 1 Year     |                   4.18 |                       5.19 |                                   -0.43 |                                      10,418 |                                          10,519 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                  15.77 |                      17.13 |                                    8.56 |                                      15,523 |                                          16,078 |                                                      12,798 |
 | Apr 21, 23 | Since Inception |                  21.98 |                      23.60 |                                   11.81 |                                      19,186 |                                          20,034 |                                                      14,423 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 4.18; Benchmark - Returns (%)# = 5.19; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,418; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,519; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 15.77; Benchmark - Returns (%)# = 17.13; Additional Benchmark - Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 15,523; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 16,078; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE ^ - Regular Plan - Growth Option — Apr 21, 23: Period = Since Inception; Scheme - Returns (%) = 21.98; Benchmark - Returns (%)# = 23.60; Additional Benchmark - Returns (%) ## = 11.81; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 19,186; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 20,034; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,423
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -2061,6 +2624,11 @@ October 9, 2024
 | Regular Plan - Growth Option |          10.1890 |
 | Direct Plan - Growth Option  |          10.2785 |
 
+**Table values by row and column (derived from the table above):**
+- DATE OF ALLOTMENT/INCEPTION DATE — Regular Plan - Growth Option: NAVPER UNIT(₹) = 10.1890
+- DATE OF ALLOTMENT/INCEPTION DATE — Direct Plan - Growth Option: NAVPER UNIT(₹) = 10.2785
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT
@@ -2095,6 +2663,11 @@ Average for Month of July, 2026
 |----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ | Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ |
 | Regular: 0.66%                                                                                                                                     | Direct: 0.21%                                                                                                                                      |
+
+**Table values by row and column (derived from the table above):**
+- QUANTITATIVE DATA — Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^: EXPENSE RATIO (As OnJuly 31, 2026) = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^
+- QUANTITATIVE DATA — Regular: 0.66%: EXPENSE RATIO (As OnJuly 31, 2026) = Direct: 0.21%
+
 
 <!-- image -->
 
@@ -2145,6 +2718,25 @@ Nil
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.55 |
 | Grand Total                                  |                                              |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 4.16
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 3.74
+- PORTFOLIO — • Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 3.21
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 2.18
+- PORTFOLIO — • Bombay Stock Exchange Limited (BSE): Industry+ = Capital Markets; %to NAV = 1.78
+- PORTFOLIO — • Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 1.67
+- PORTFOLIO — • State Bank of India: Industry+ = Banks; %to NAV = 1.54
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 1.44
+- PORTFOLIO — • Axis Bank Ltd.: Industry+ = Banks; %to NAV = 1.28
+- PORTFOLIO — • Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 1.11
+- PORTFOLIO — Other Equity: %to NAV = 77.34
+- PORTFOLIO — Sub Total: %to NAV = 99.45
+- PORTFOLIO — Total: %to NAV = 99.45
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.55
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 ## Exposure to top seven groups
@@ -2158,6 +2750,16 @@ Nil
 | ICICI              |     4.63 |
 | Mukesh Ambani      |     3.52 |
 | Bharti             |     2.92 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Private: %toNAV = 13.07
+- Exposure to top seven groups — PSU: %toNAV = 9.99
+- Exposure to top seven groups — Tata: %toNAV = 4.78
+- Exposure to top seven groups — HDFC: %toNAV = 4.74
+- Exposure to top seven groups — ICICI: %toNAV = 4.63
+- Exposure to top seven groups — Mukesh Ambani: %toNAV = 3.52
+- Exposure to top seven groups — Bharti: %toNAV = 2.92
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -2177,11 +2779,19 @@ For detailed portfolio refer to the monthly portfolios disclosed on the website 
 
 |                                            |   Since Inception SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                  2.20 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 2.20 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                  2.33 |         1.25 |
 | Returns (%)                                |                  6.23 |         7.11 |
-| Benchmark Returns (%)#                     |                  7.07 |         7.95 |
-| Additional Benchmark Returns (%)# #        |                  1.47 |        -0.61 |
+| Benchmark Returns (%) | 7.07 | 7.95 |
+| Additional Benchmark Returns (%) | 1.47 | -0.61 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 2.20; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 2.33; 1 year SIP = 1.25
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Returns (%): Since Inception SIP = 6.23; 1 year SIP = 7.11
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Benchmark Returns (%): Since Inception SIP = 7.07; 1 year SIP = 7.95
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 1.47; 1 year SIP = -0.61
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed after accounting for the cash flow by using XIRR method (investment internal rate of return) for Regular Plan  Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -2193,6 +2803,11 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 |------------|-----------------|----------------------|----------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------------|-------------------------------------------------------------|
 | Jul 31, 25 | Last 1 Year     |                 4.46 |                       5.27 |                                   -0.43 |                                      10,446 |                                          10,527 |                                                       9,957 |
 | Oct 09, 24 | Since Inception |                 1.04 |                       1.86 |                                   -0.13 |                                      10,189 |                                          10,339 |                                                       9,977 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme Returns (%) = 4.46; Benchmark - Returns (%)# = 5.27; Additional - Benchmark Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,446; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,527; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE ^ - Regular Plan - Growth Option — Oct 09, 24: Period = Since Inception; Scheme Returns (%) = 1.04; Benchmark - Returns (%)# = 1.86; Additional - Benchmark Returns (%) ## = -0.13; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,189; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,339; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,977
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -2233,6 +2848,11 @@ August 23, 2024
 |------------------------------|------------------|
 | Regular Plan - Growth Option |          10.0941 |
 | Direct Plan - Growth Option  |          10.1890 |
+
+**Table values by row and column (derived from the table above):**
+- DATE OF ALLOTMENT/INCEPTION DATE — Regular Plan - Growth Option: NAVPER UNIT(₹) = 10.0941
+- DATE OF ALLOTMENT/INCEPTION DATE — Direct Plan - Growth Option: NAVPER UNIT(₹) = 10.1890
+
 
 <!-- image -->
 
@@ -2327,6 +2947,25 @@ Total Turnover = Equity + Debt + Derivative
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.55 |
 | Grand Total                                  |                                              |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 4.18
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 3.75
+- PORTFOLIO — • Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 3.22
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 2.19
+- PORTFOLIO — • Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 1.68
+- PORTFOLIO — • State Bank of India: Industry+ = Banks; %to NAV = 1.55
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 1.45
+- PORTFOLIO — • Axis Bank Ltd.: Industry+ = Banks; %to NAV = 1.29
+- PORTFOLIO — • Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 1.12
+- PORTFOLIO — • Mahindra &Mahindra Ltd.: Industry+ = Automobiles; %to NAV = 1.11
+- PORTFOLIO — Other Equity: %to NAV = 77.91
+- PORTFOLIO — Sub Total: %to NAV = 99.45
+- PORTFOLIO — Total: %to NAV = 99.45
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.55
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 ## Exposure to top seven groups
@@ -2340,6 +2979,16 @@ Total Turnover = Equity + Debt + Derivative
 | ICICI              |     4.20 |
 | Mukesh Ambani      |     3.53 |
 | Bharti             |     2.56 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Private: %toNAV = 17.21
+- Exposure to top seven groups — PSU: %toNAV = 8.83
+- Exposure to top seven groups — Tata: %toNAV = 4.71
+- Exposure to top seven groups — HDFC: %toNAV = 4.68
+- Exposure to top seven groups — ICICI: %toNAV = 4.20
+- Exposure to top seven groups — Mukesh Ambani: %toNAV = 3.53
+- Exposure to top seven groups — Bharti: %toNAV = 2.56
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -2359,11 +3008,19 @@ For detailed portfolio refer to the monthly portfolios disclosed on the website 
 
 |                                            |   Since Inception SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                  2.40 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 2.40 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                  2.52 |         1.25 |
 | Returns (%)                                |                  4.89 |         7.87 |
-| Benchmark Returns (%)#                     |                  5.81 |         8.82 |
-| Additional Benchmark Returns (%)# #        |                  1.08 |        -0.61 |
+| Benchmark Returns (%) | 5.81 | 8.82 |
+| Additional Benchmark Returns (%) | 1.08 | -0.61 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 2.40; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 2.52; 1 year SIP = 1.25
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Returns (%): Since Inception SIP = 4.89; 1 year SIP = 7.87
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Benchmark Returns (%): Since Inception SIP = 5.81; 1 year SIP = 8.82
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 1.08; 1 year SIP = -0.61
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed after accounting for the cash flow by using XIRR method (investment internal rate of return) for Regular Plan  Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -2375,6 +3032,11 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 |------------|-----------------|------------------------|----------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------------|-------------------------------------------------------------|
 | Jul 31, 25 | Last 1 Year     |                   3.54 |                       4.46 |                                   -0.43 |                                      10,354 |                                          10,446 |                                                       9,957 |
 | Aug 23, 24 | Since Inception |                   0.48 |                       1.42 |                                    0.21 |                                      10,094 |                                          10,278 |                                                      10,041 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 3.54; Benchmark - Returns (%)# = 4.46; Additional - Benchmark Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,354; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,446; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE ^ - Regular Plan - Growth Option — Aug 23, 24: Period = Since Inception; Scheme - Returns (%) = 0.48; Benchmark - Returns (%)# = 1.42; Additional - Benchmark Returns (%) ## = 0.21; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,094; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,278; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,041
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -2403,6 +3065,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Arun Agarwal    | March 26, 2024        | Over 27 years             |
 | Nandita Menezes | March 29, 2025        | Over 3 years              |
 
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY Realty Index Fund — Arun Agarwal: FUNDMANAGER - Since = March 26, 2024; FUNDMANAGER - Total Exp = Over 27 years
+- HDFC NIFTY Realty Index Fund — Nandita Menezes: FUNDMANAGER - Since = March 29, 2025; FUNDMANAGER - Total Exp = Over 3 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -2416,6 +3083,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Regular Plan - Growth Option |          10.0189 |
 | Direct Plan - Growth Option  |          10.1322 |
 
+**Table values by row and column (derived from the table above):**
+- March 26, 2024 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 10.0189
+- March 26, 2024 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 10.1322
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT
@@ -2423,6 +3095,10 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | As on July 31, 2026             | ₹ 145.60Cr.   |
 |---------------------------------|---------------|
 | Average for Month of July, 2026 | ₹ 142.28Cr.   |
+
+**Table values by row and column (derived from the table above):**
+- ASSETS UNDER MANAGEMENT — Average for Month of July, 2026: ₹ 145.60Cr. = ₹ 142.28Cr.
+
 
 <!-- image -->
 
@@ -2441,6 +3117,10 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^   | Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^   |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Regular: 0.83%                                                                                                                                       | Direct: 0.37%                                                                                                                                        |
+
+**Table values by row and column (derived from the table above):**
+- EXPENSE RATIO (As On July 31, 2026) — Regular: 0.83%: Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ = Direct: 0.37%
+
 
 <!-- image -->
 
@@ -2489,6 +3169,22 @@ Nil
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.40 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • DLF LIMITED: Industry+ = Realty; %to NAV = 18.87
+- PORTFOLIO — • The Phoenix Mills Limited: Industry+ = Realty; %to NAV = 15.77
+- PORTFOLIO — • Lodha Developers Limited: Industry+ = Realty; %to NAV = 15.40
+- PORTFOLIO — • Godrej Properties Ltd.: Industry+ = Realty; %to NAV = 12.71
+- PORTFOLIO — • Prestige Estates Projects Ltd.: Industry+ = Realty; %to NAV = 12.16
+- PORTFOLIO — • Oberoi Realty Ltd.: Industry+ = Realty; %to NAV = 9.60
+- PORTFOLIO — • Brigade Enterprises Limited.: Industry+ = Realty; %to NAV = 4.80
+- PORTFOLIO — • ANANT RAJ LIMITED: Industry+ = Realty; %to NAV = 4.25
+- PORTFOLIO — • Aditya Birla Real Estate Limited: Industry+ = Realty; %to NAV = 3.31
+- PORTFOLIO — • Sobha Ltd.: Industry+ = Realty; %to NAV = 2.73
+- PORTFOLIO — Sub Total: %to NAV = 99.60
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.40
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 <!-- image -->
@@ -2505,6 +3201,16 @@ Nil
 | Vikas Oberoi       |     9.60 |
 | MRJaishankar       |     4.80 |
 
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Private: %toNAV = 19.65
+- Exposure to top seven groups — DLF: %toNAV = 18.87
+- Exposure to top seven groups — Phoenix: %toNAV = 15.77
+- Exposure to top seven groups — Godrej: %toNAV = 12.71
+- Exposure to top seven groups — Prestige: %toNAV = 12.16
+- Exposure to top seven groups — Vikas Oberoi: %toNAV = 9.60
+- Exposure to top seven groups — MRJaishankar: %toNAV = 4.80
+
+
 Face Value / Allotment NAV per Unit: ₹ 10,  ata is as of July 31, 2026 unless otherwise specified.
 
 Please refer Minimum Application Amount, Plans &amp; Options, on Page no. 65 to 70.
@@ -2519,6 +3225,11 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 |------------|-----------------|------------------------|----------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------------|-------------------------------------------------------------|
 | Jul 31, 25 | Last 1 Year     |                  -1.64 |                      -0.74 |                                   -0.43 |                                       9,836 |                                           9,926 |                                                       9,957 |
 | Mar 26, 24 | Since Inception |                   0.08 |                       1.03 |                                    5.83 |                                      10,019 |                                          10,244 |                                                      11,422 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = -1.64; Benchmark Returns - (%)# = -0.74; Additional Benchmark Returns (%) - ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 9,836; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 9,926; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Mar 26, 24: Period = Since Inception; Scheme - Returns (%) = 0.08; Benchmark Returns - (%)# = 1.03; Additional Benchmark Returns (%) - ## = 5.83; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,019; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,244; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 11,422
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -2576,6 +3287,26 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Regular: 0.06%                                                                                | Regular: 0.06%                                                                                | Direct: 0.07%                                                                                 | Direct: 0.07%                                                                                 |
 | Nil                                                                                           | Nil                                                                                           | Nil                                                                                           | Nil                                                                                           |
 
+**Table values by row and column (derived from the table above):**
+- HDFC Nifty India Digital Index Fund — Arun Agarwal: FUNDMANAGER - Since = December 11, 2024; FUNDMANAGER - Total Exp = Over 27 years; FUNDMANAGER - Total Exp = Over 27 years
+- HDFC Nifty India Digital Index Fund — Nandita Menezes: FUNDMANAGER - Since = March 29, 2025; FUNDMANAGER - Total Exp = Over 3 years; FUNDMANAGER - Total Exp = Over 3 years
+- HDFC Nifty India Digital Index Fund — DATE OF ALLOTMENT/INCEPTION DATE: FUNDMANAGER - Since = DATE OF ALLOTMENT/INCEPTION DATE; FUNDMANAGER - Total Exp = DATE OF ALLOTMENT/INCEPTION DATE; FUNDMANAGER - Total Exp = DATE OF ALLOTMENT/INCEPTION DATE
+- HDFC Nifty India Digital Index Fund — December 11, 2024: FUNDMANAGER - Since = December 11, 2024; FUNDMANAGER - Total Exp = December 11, 2024; FUNDMANAGER - Total Exp = December 11, 2024
+- HDFC Nifty India Digital Index Fund — NAV (As On JULY 31, 2026): FUNDMANAGER - Since = NAV (As On JULY 31, 2026); FUNDMANAGER - Total Exp = NAV (As On JULY 31, 2026); FUNDMANAGER - Total Exp = NAVPER UNIT(₹)
+- HDFC Nifty India Digital Index Fund — Regular Plan - Growth Option: FUNDMANAGER - Since = Regular Plan - Growth Option; FUNDMANAGER - Total Exp = Regular Plan - Growth Option; FUNDMANAGER - Total Exp = 8.5407
+- HDFC Nifty India Digital Index Fund — Direct Plan - Growth Option: FUNDMANAGER - Since = Direct Plan - Growth Option; FUNDMANAGER - Total Exp = Direct Plan - Growth Option; FUNDMANAGER - Total Exp = 8.6085
+- HDFC Nifty India Digital Index Fund — ASSETSUNDERMANAGEMENT: FUNDMANAGER - Since = ASSETSUNDERMANAGEMENT; FUNDMANAGER - Total Exp = ASSETSUNDERMANAGEMENT; FUNDMANAGER - Total Exp = ASSETSUNDERMANAGEMENT
+- HDFC Nifty India Digital Index Fund — As on July 31, 2026: FUNDMANAGER - Since = As on July 31, 2026; FUNDMANAGER - Total Exp = As on July 31, 2026; FUNDMANAGER - Total Exp = ₹ 153.72Cr.
+- HDFC Nifty India Digital Index Fund — Average for Month QUANTITATIVEDATA: FUNDMANAGER - Since = of July, 2026; FUNDMANAGER - Total Exp = Average for Month QUANTITATIVEDATA; FUNDMANAGER - Total Exp = ₹ 147.74Cr.
+- HDFC Nifty India Digital Index Fund — Portfolio Turnover Equity Turnover Total Turnover Total Turnover = Equity + Debt +: FUNDMANAGER - Since = Portfolio Turnover Equity Turnover Total Turnover Total Turnover = Equity + Debt +; FUNDMANAGER - Total Exp = Portfolio Turnover Equity Turnover Total Turnover Total Turnover = Equity + Debt +; FUNDMANAGER - Total Exp = 30.69% 30.69% Derivative
+- HDFC Nifty India Digital Index Fund — EXPENSE RATIO (As OnJuly 31, 2026) Base expense Ratio Including statutory levieson: FUNDMANAGER - Since = EXPENSE RATIO (As OnJuly 31, 2026) Base expense Ratio Including statutory levieson; FUNDMANAGER - Total Exp = EXPENSE RATIO (As OnJuly 31, 2026) Base expense Ratio Including statutory levieson; FUNDMANAGER - Total Exp = EXPENSE RATIO (As OnJuly 31, 2026) Base expense Ratio Including statutory levieson
+- HDFC Nifty India Digital Index Fund — cost andexecution related statutory levies^ Regular: 0.81% Direct: 0.34%: FUNDMANAGER - Since = cost andexecution related statutory levies^ Regular: 0.81% Direct: 0.34%; FUNDMANAGER - Total Exp = cost andexecution related statutory levies^ Regular: 0.81% Direct: 0.34%; FUNDMANAGER - Total Exp = cost andexecution related statutory levies^ Regular: 0.81% Direct: 0.34%
+- HDFC Nifty India Digital Index Fund — #BENCHMARK INDEX Nifty India Digital Index (TRI) ##ADDL. BENCHMARK INDEX Nifty 50 Index (TRI): FUNDMANAGER - Since = #BENCHMARK INDEX Nifty India Digital Index (TRI) ##ADDL. BENCHMARK INDEX Nifty 50 Index (TRI); FUNDMANAGER - Total Exp = #BENCHMARK INDEX Nifty India Digital Index (TRI) ##ADDL. BENCHMARK INDEX Nifty 50 Index (TRI); FUNDMANAGER - Total Exp = #BENCHMARK INDEX Nifty India Digital Index (TRI) ##ADDL. BENCHMARK INDEX Nifty 50 Index (TRI)
+- HDFC Nifty India Digital Index Fund — TRACKING ERROR: FUNDMANAGER - Since = TRACKING ERROR; FUNDMANAGER - Total Exp = TRACKING ERROR; FUNDMANAGER - Total Exp = TRACKING ERROR
+- HDFC Nifty India Digital Index Fund — Regular: 0.06%: FUNDMANAGER - Since = Regular: 0.06%; FUNDMANAGER - Total Exp = Direct: 0.07%; FUNDMANAGER - Total Exp = Direct: 0.07%
+- HDFC Nifty India Digital Index Fund — Nil: FUNDMANAGER - Since = Nil; FUNDMANAGER - Total Exp = Nil; FUNDMANAGER - Total Exp = Nil
+
+
 <!-- image -->
 
 ## PORTFOLIO
@@ -2621,6 +3352,47 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | (FirstCry) Cyient Ltd.                                     | Retailing IT - Services        | 0.41 0.40 |
 | URBAN COMPANY LIMITED                                      | Retailing                      | 0.37      |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 8.29
+- PORTFOLIO — • Eternal Limited: Industry+ = Retailing; %to NAV = 8.09
+- PORTFOLIO — • Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 7.69
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 7.33
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 7.20
+- PORTFOLIO — • Tech Mahindra Ltd.: Industry+ = IT - Software; %to NAV = 5.77
+- PORTFOLIO — • One 97 Communications Limited: Industry+ = Financial Technology (Fintech); %to NAV = 4.81
+- PORTFOLIO — • PB Fintech Limited: Industry+ = Financial Technology (Fintech); %to NAV = 4.72
+- PORTFOLIO — • INFO EDGE (INDIA) LIMITED: Industry+ = Retailing; %to NAV = 4.00
+- PORTFOLIO — • Fsn Ecommerce Ventures Limited (Nykaa): Industry+ = Retailing; %to NAV = 3.88
+- PORTFOLIO — Swiggy Limited: Industry+ = Retailing; %to NAV = 3.44
+- PORTFOLIO — Persistent Systems Limited: Industry+ = IT - Software; %to NAV = 3.32
+- PORTFOLIO — Coforge Limited: Industry+ = IT - Software; %to NAV = 3.30
+- PORTFOLIO — VODAFONE IDEA LIMITED: Industry+ = Telecom - Services; %to NAV = 3.05
+- PORTFOLIO — Wipro Ltd.: Industry+ = IT - Software; %to NAV = 2.74
+- PORTFOLIO — LTM Limited: Industry+ = IT - Software; %to NAV = 2.23
+- PORTFOLIO — Tata Communications Limited: Industry+ = Telecom - Services; %to NAV = 1.76
+- PORTFOLIO — MphasiS Limited.: Industry+ = IT - Software; %to NAV = 1.71
+- PORTFOLIO — Software Ltd.: Industry+ = IT - Software; %to NAV = 1.47
+- PORTFOLIO — Indian Railway Catering And Tourism Corp Ltd: Industry+ = Leisure Services; %to NAV = 1.26
+- PORTFOLIO — Bharti Hexacom Limited: Industry+ = Telecom - Services; %to NAV = 1.03
+- PORTFOLIO — CarTrade Tech Limited: Industry+ = Retailing; %to NAV = 0.98
+- PORTFOLIO — Meesho Limited: Industry+ = Retailing; %to NAV = 0.86
+- PORTFOLIO — Tata Technologies Limited: Industry+ = IT - Services; %to NAV = 0.71
+- PORTFOLIO — Tata Elxsi Ltd.: Industry+ = IT - Software; %to NAV = 0.70
+- PORTFOLIO — Physicswallah Limited.: Industry+ = Other Consumer Services; %to NAV = 0.58
+- PORTFOLIO — AFFLE 3I LIMITED: Industry+ = IT - Services; %to NAV = 0.55
+- PORTFOLIO — Sagility Limited: Industry+ = IT - Services; %to NAV = 0.55
+- PORTFOLIO — KPIT Technologies Ltd: Industry+ = IT - Software; %to NAV = 0.54
+- PORTFOLIO — L&T Technology Services Ltd.: Industry+ = IT - Services; %to NAV = 0.54
+- PORTFOLIO — Inventurus Knowledge Solutions Limited Indiamart Intermesh: Industry+ = IT - Services; %to NAV = 0.52
+- PORTFOLIO — Limited Netweb Technologies India: Industry+ = Retailing; %to NAV = 0.47
+- PORTFOLIO — Limited: Industry+ = IT - Services; %to NAV = 0.47
+- PORTFOLIO — Hexaware Technologies Ltd.: Industry+ = IT - Software; %to NAV = 0.46
+- PORTFOLIO — TBO TEK LIMITED: Industry+ = Leisure Services; %to NAV = 0.45
+- PORTFOLIO — (FirstCry) Cyient Ltd.: Industry+ = Retailing IT - Services; %to NAV = 0.41 0.40
+- PORTFOLIO — URBAN COMPANY LIMITED: Industry+ = Retailing; %to NAV = 0.37
+
+
 | Company                                      | Industry+                                    |   %to NAV |
 |----------------------------------------------|----------------------------------------------|-----------|
 | Intellect Design Arena Limited               | IT - Software                                |      0.36 |
@@ -2640,6 +3412,25 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.13 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Intellect Design Arena Limited: Industry+ = IT - Software; %to NAV = 0.36
+- PORTFOLIO — Tejas Networks Limited: Industry+ = Telecom - Equipment &Accessories; %to NAV = 0.36
+- PORTFOLIO — Sonata Software Ltd.: Industry+ = IT - Software; %to NAV = 0.34
+- PORTFOLIO — Zensar Technologies Ltd.: Industry+ = IT - Software; %to NAV = 0.32
+- PORTFOLIO — Birlasoft Limited: Industry+ = IT - Software; %to NAV = 0.28
+- PORTFOLIO — Pine Labs Limited: Industry+ = Financial Technology (Fintech); %to NAV = 0.26
+- PORTFOLIO — BLS International Services Ltd: Industry+ = Leisure Services; %to NAV = 0.25
+- PORTFOLIO — ITI Ltd: Industry+ = Telecom - Equipment &Accessories; %to NAV = 0.23
+- PORTFOLIO — RailTel Corporation of India Limited: Industry+ = Telecom - Services; %to NAV = 0.21
+- PORTFOLIO — Newgen Software Technologies Ltd.: Industry+ = IT - Software; %to NAV = 0.20
+- PORTFOLIO — Tata Teleservices (Maharashtra) Ltd.: Industry+ = Telecom - Services; %to NAV = 0.17
+- PORTFOLIO — LATENT VIEW ANALYTICS LIMITED: Industry+ = IT - Software; %to NAV = 0.13
+- PORTFOLIO — C.E. INFO SYSTEMS LIMITED: Industry+ = IT - Software; %to NAV = 0.11
+- PORTFOLIO — Sub Total: Industry+ = Sub Total; %to NAV = 99.87
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.13
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 • Top Ten Holdings
 
 ## Exposure to top seven groups
@@ -2653,6 +3444,16 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Infosys              |     7.33 |
 | Mahindra &Mahindra   |     5.77 |
 | Sanjeev Bikhchandani |     4.00 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Private: %toNAV = 35.27
+- Exposure to top seven groups — Tata: %toNAV = 11.38
+- Exposure to top seven groups — Shiv Nadar: %toNAV = 8.29
+- Exposure to top seven groups — Bharti: %toNAV = 8.23
+- Exposure to top seven groups — Infosys: %toNAV = 7.33
+- Exposure to top seven groups — Mahindra &Mahindra: %toNAV = 5.77
+- Exposure to top seven groups — Sanjeev Bikhchandani: %toNAV = 4.00
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -2688,11 +3489,19 @@ An open ended scheme replicating/tracking Nifty India Digital Index (TRI).
 
 |                                            |   Since Inception SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                  2.00 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 2.00 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                  1.98 |         1.21 |
 | Returns (%)                                |                 -1.22 |         1.60 |
-| Benchmark Returns (%)#                     |                 -0.23 |         2.61 |
-| Additional Benchmark Returns (%)# #        |                  1.48 |        -0.61 |
+| Benchmark Returns (%) | -0.23 | 2.61 |
+| Additional Benchmark Returns (%) | 1.48 | -0.61 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 2.00; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 1.98; 1 year SIP = 1.21
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Returns (%): Since Inception SIP = -1.22; 1 year SIP = 1.60
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Benchmark Returns (%): Since Inception SIP = -0.23; 1 year SIP = 2.61
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 1.48; 1 year SIP = -0.61
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed  after  accounting  for  the  cash  flow  by  using  XIRR  method  (investment  internal  rate  of  return)  for  Regular  Plan  Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -2704,6 +3513,11 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 |------------|-----------------|------------------------|--------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------------|-------------------------------------------------------------|
 | Jul 31, 25 | Last 1 Year     |                  -4.03 |                    -3.05 |                                   -0.43 |                                       9,597 |                                           9,695 |                                                       9,957 |
 | Dec 11, 24 | Since Inception |                  -9.19 |                    -8.24 |                                    0.60 |                                       8,541 |                                           8,688 |                                                      10,099 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = -4.03; Benchmark Returns (%)# = -3.05; Additional Benchmark Returns (%) - ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 9,597; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 9,695; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE ^ - Regular Plan - Growth Option — Dec 11, 24: Period = Since Inception; Scheme - Returns (%) = -9.19; Benchmark Returns (%)# = -8.24; Additional Benchmark Returns (%) - ## = 0.60; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 8,541; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 8,688; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,099
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -2729,6 +3543,12 @@ INVESTMENT OBJECTIVE: Passive investment in equity and equity related securities
 | Arun Agarwal    | February 18, 2026 | Over 27 years |
 | Nandita Menezes | February 18, 2026 | Over 3 years  |
 
+**Table values by row and column (derived from the table above):**
+- HDFC Nifty India Consumption Index Fund — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC Nifty India Consumption Index Fund — Arun Agarwal: FUNDMANAGER = February 18, 2026; FUNDMANAGER = Over 27 years
+- HDFC Nifty India Consumption Index Fund — Nandita Menezes: FUNDMANAGER = February 18, 2026; FUNDMANAGER = Over 3 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -2741,6 +3561,11 @@ February 18, 2026
 |------------------------------|------------------|
 | Regular Plan - Growth Option |          10.1512 |
 | Direct Plan - Growth Option  |          10.1720 |
+
+**Table values by row and column (derived from the table above):**
+- DATE OF ALLOTMENT/INCEPTION DATE — Regular Plan - Growth Option: NAVPER UNIT(₹) = 10.1512
+- DATE OF ALLOTMENT/INCEPTION DATE — Direct Plan - Growth Option: NAVPER UNIT(₹) = 10.1720
+
 
 <!-- image -->
 
@@ -2764,6 +3589,11 @@ Average for Month of July, 2026
 |----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ | Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ |
 | Regular: 0.78%                                                                                                                                     | Direct: 0.34%                                                                                                                                      |
+
+**Table values by row and column (derived from the table above):**
+- ASSETS UNDER MANAGEMENT — Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^: EXPENSE RATIO (As On July 31, 2026) = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^
+- ASSETS UNDER MANAGEMENT — Regular: 0.78%: EXPENSE RATIO (As On July 31, 2026) = Direct: 0.34%
+
 
 <!-- image -->
 
@@ -2833,6 +3663,37 @@ Nil
 | United Spirits Limited           | Beverages                         |      1.27 |
 | Godrej Consumer Products Ltd.    | Personal Products                 |      1.22 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 9.86
+- PORTFOLIO — • Mahindra &MahindraLtd.: Industry+ = Automobiles; %to NAV = 8.58
+- PORTFOLIO — • ITC LIMITED: Industry+ = DiversifiedFmcg; %to NAV = 7.66
+- PORTFOLIO — • Eternal Limited: Industry+ = Retailing; %to NAV = 6.18
+- PORTFOLIO — • Titan CompanyLtd.: Industry+ = Consumer Durables; %to NAV = 5.69
+- PORTFOLIO — • Hindustan Unilever Ltd.: Industry+ = DiversifiedFmcg; %to NAV = 5.27
+- PORTFOLIO — • Maruti Suzuki India Limited: Industry+ = Automobiles; %to NAV = 5.25
+- PORTFOLIO — • Bajaj Auto Limited: Industry+ = Automobiles; %to NAV = 3.61
+- PORTFOLIO — • Asian Paints Limited: Industry+ = Consumer Durables; %to NAV = 3.51
+- PORTFOLIO — • InterGlobe Aviation Ltd.: Industry+ = Transport Services; %to NAV = 3.31
+- PORTFOLIO — Nestle India Ltd.: Industry+ = Food Products; %to NAV = 3.06
+- PORTFOLIO — Eicher Motors Ltd.: Industry+ = Automobiles; %to NAV = 3.05
+- PORTFOLIO — TVS Motor CompanyLtd.: Industry+ = Automobiles; %to NAV = 2.86
+- PORTFOLIO — Trent Ltd.: Industry+ = Retailing; %to NAV = 2.83
+- PORTFOLIO — Apollo Hospitals Enterprise Ltd.: Industry+ = Healthcare Services; %to NAV = 2.61
+- PORTFOLIO — Adani Power(Mundra) Limited: Industry+ = Power; %to NAV = 2.48
+- PORTFOLIO — Max Healthcare Institute Limited: Industry+ = Healthcare Services; %to NAV = 2.31
+- PORTFOLIO — Tata Consumer Products Limited: Industry+ = Agricultural Food& Other Products; %to NAV = 1.99
+- PORTFOLIO — Hero MotoCorp Ltd.: Industry+ = Automobiles; %to NAV = 1.98
+- PORTFOLIO — Indian Hotels CompanyLtd.: Industry+ = Leisure Services; %to NAV = 1.83
+- PORTFOLIO — Britannia Industries Ltd.: Industry+ = Food Products; %to NAV = 1.80
+- PORTFOLIO — Avenue Supermarts Ltd.: Industry+ = Retailing; %to NAV = 1.79
+- PORTFOLIO — The TataPower CompanyLtd.: Industry+ = Power; %to NAV = 1.79
+- PORTFOLIO — Varun Beverages Ltd: Industry+ = Beverages; %to NAV = 1.71
+- PORTFOLIO — Dixon Technologies (India) Ltd.: Industry+ = Consumer Durables; %to NAV = 1.65
+- PORTFOLIO — INFO EDGE(INDIA) LIMITED: Industry+ = Retailing; %to NAV = 1.33
+- PORTFOLIO — United Spirits Limited: Industry+ = Beverages; %to NAV = 1.27
+- PORTFOLIO — Godrej Consumer Products Ltd.: Industry+ = Personal Products; %to NAV = 1.22
+
+
 <!-- image -->
 
 | Company                                      | Industry+                                    |   %to NAV |
@@ -2842,6 +3703,14 @@ Nil
 | Sub Total                                    |                                              |     98.58 |
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      1.42 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
+
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — DLFLIMITED: Industry+ = Realty; %to NAV = 1.20
+- PORTFOLIO — Havells India Ltd.: Industry+ = Consumer Durables; %to NAV = 0.90
+- PORTFOLIO — Sub Total: %to NAV = 98.58
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 1.42
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
 
 - Top Ten Holdings
 
@@ -2856,6 +3725,16 @@ Nil
 | ITC - MNC               |     7.66 |
 | Hindustan Unilever -MNC |     5.27 |
 | Maruti Suzuki -MNC      |     5.25 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Tata: %toNAV = 14.14
+- Exposure to top seven groups — Bharti: %toNAV = 9.86
+- Exposure to top seven groups — Mahindra &Mahindra: %toNAV = 8.58
+- Exposure to top seven groups — Private: %toNAV = 7.89
+- Exposure to top seven groups — ITC - MNC: %toNAV = 7.66
+- Exposure to top seven groups — Hindustan Unilever -MNC: %toNAV = 5.27
+- Exposure to top seven groups — Maruti Suzuki -MNC: %toNAV = 5.25
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -2914,6 +3793,22 @@ INVESTMENT OBJECTIVE: Passive investment in equity and equity related securities
 | EXIT LOAD$$                                                                                                                                        | EXIT LOAD$$                                                                                                                                        | EXIT LOAD$$                                                                                                                                        | EXIT LOAD$$                                                                                                                                        | EXIT LOAD$$                                                                                                                                        |
 | Nil                                                                                                                                                | Nil                                                                                                                                                | Nil                                                                                                                                                | Nil                                                                                                                                                | Nil                                                                                                                                                |
 
+**Table values by row and column (derived from the table above):**
+- HDFC Nifty Auto Index Fund — Name: FUNDMANAGER = Name; FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC Nifty Auto Index Fund — Arun Agarwal: FUNDMANAGER = Arun Agarwal; FUNDMANAGER = July 7, 2026; FUNDMANAGER = Over 27 years
+- HDFC Nifty Auto Index Fund — Nandita Menezes: FUNDMANAGER = Nandita Menezes; FUNDMANAGER = July 7, 2026; FUNDMANAGER = Over 3 years
+- HDFC Nifty Auto Index Fund — DATE OF ALLOTMENT/INCEPTION: FUNDMANAGER = DATE; FUNDMANAGER = DATE; FUNDMANAGER = DATE; FUNDMANAGER = DATE
+- HDFC Nifty Auto Index Fund — (As On JULY 31, 2026): FUNDMANAGER = NAV; FUNDMANAGER = NAV; FUNDMANAGER = NAVPER UNIT(₹)
+- HDFC Nifty Auto Index Fund — Regular Plan - Growth Option: FUNDMANAGER = Regular Plan - Growth Option; FUNDMANAGER = Regular Plan - Growth Option; FUNDMANAGER = 10.5221
+- HDFC Nifty Auto Index Fund — Direct Plan - Growth Option: FUNDMANAGER = Direct Plan - Growth Option; FUNDMANAGER = Direct Plan - Growth Option; FUNDMANAGER = 10.5258
+- HDFC Nifty Auto Index Fund — As on July 31, 2026 Average for Month of July, 2026: FUNDMANAGER = As on July 31, 2026 Average for Month of July, 2026; FUNDMANAGER = As on July 31, 2026 Average for Month of July, 2026; FUNDMANAGER = ₹ 167.08Cr. ₹ 166.87Cr.
+- HDFC Nifty Auto Index Fund — Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^: FUNDMANAGER = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^; FUNDMANAGER = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^; FUNDMANAGER = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^; FUNDMANAGER = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^
+- HDFC Nifty Auto Index Fund — Regular: 0.92% Direct: 0.29% #BENCHMARK INDEX Nifty Auto Index (TRI): FUNDMANAGER = Regular: 0.92% Direct: 0.29% #BENCHMARK INDEX Nifty Auto Index (TRI); FUNDMANAGER = Regular: 0.92% Direct: 0.29% #BENCHMARK INDEX Nifty Auto Index (TRI); FUNDMANAGER = Regular: 0.92% Direct: 0.29% #BENCHMARK INDEX Nifty Auto Index (TRI); FUNDMANAGER = Regular: 0.92% Direct: 0.29% #BENCHMARK INDEX Nifty Auto Index (TRI)
+- HDFC Nifty Auto Index Fund — Annualised Standard Deviation (tracking has been calculated based on the available data, i.e. since inception:: FUNDMANAGER = error); FUNDMANAGER = error); FUNDMANAGER = error); FUNDMANAGER = error)
+- HDFC Nifty Auto Index Fund — EXIT LOAD$$: FUNDMANAGER = EXIT LOAD$$; FUNDMANAGER = EXIT LOAD$$; FUNDMANAGER = EXIT LOAD$$; FUNDMANAGER = EXIT LOAD$$
+- HDFC Nifty Auto Index Fund — Nil: FUNDMANAGER = Nil; FUNDMANAGER = Nil; FUNDMANAGER = Nil; FUNDMANAGER = Nil
+
+
 <!-- image -->
 
 ## PORTFOLIO
@@ -2940,6 +3835,28 @@ INVESTMENT OBJECTIVE: Passive investment in equity and equity related securities
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets    |      1.85 |
 | Grand Total                                  | Grand Total                                     |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • Mahindra &Mahindra Ltd.: Industry+ = Automobiles; %to NAV = 23.25
+- PORTFOLIO — • Maruti Suzuki India Limited: Industry+ = Automobiles; %to NAV = 14.23
+- PORTFOLIO — • Bajaj Auto Limited: Industry+ = Automobiles; %to NAV = 9.77
+- PORTFOLIO — • Eicher Motors Ltd.: Industry+ = Automobiles; %to NAV = 8.27
+- PORTFOLIO — • TVS Motor Company Ltd.: Industry+ = Automobiles; %to NAV = 7.76
+- PORTFOLIO — • Tata Motors Passenger Vehicles Limited: Industry+ = Automobiles; %to NAV = 5.44
+- PORTFOLIO — • Hero MotoCorp Ltd.: Industry+ = Automobiles; %to NAV = 5.36
+- PORTFOLIO — Samvardhana Motherson International Ltd.: Industry+ = Auto Components; %to NAV = 5.10
+- PORTFOLIO — • Bharat Forge Ltd.: Industry+ = Auto Components; %to NAV = 4.49
+- PORTFOLIO — • Ashok Leyland Ltd: Industry+ = Agricultural, Commercial& Construction Vehicles; %to NAV = 3.64
+- PORTFOLIO — Bosch Limited: Industry+ = Auto Components; %to NAV = 2.73
+- PORTFOLIO — Sona Blw Precision Forgings: Industry+ = Auto Components; %to NAV = 2.64
+- PORTFOLIO — Tube Investments of India Ltd.: Industry+ = Auto Components; %to NAV = 2.25
+- PORTFOLIO — UNOMinda Limited: Industry+ = Auto Components; %to NAV = 1.65
+- PORTFOLIO — Exide Industries Ltd.: Industry+ = Auto Components; %to NAV = 1.57
+- PORTFOLIO — Sub Total: %to NAV = 98.15
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 1.85
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 E uity
@@ -2961,6 +3878,16 @@ ash,  ash E ui alents and Net  urrent Assets
 | TVS Iyengar        |     7.76 |
 | Tata               |     5.44 |
 | Hero               |     5.36 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Mahindra &Mahindra: %toNAV = 23.25
+- Exposure to top seven groups — Maruti Suzuki -MNC: %toNAV = 14.23
+- Exposure to top seven groups — Bajaj: %toNAV = 9.77
+- Exposure to top seven groups — Eicher: %toNAV = 8.27
+- Exposure to top seven groups — TVS Iyengar: %toNAV = 7.76
+- Exposure to top seven groups — Tata: %toNAV = 5.44
+- Exposure to top seven groups — Hero: %toNAV = 5.36
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -3126,6 +4053,33 @@ Total Turnover = Equity + Debt + Derivative
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.29 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 5.79
+- PORTFOLIO — • Eternal Limited: Industry+ = Retailing; %to NAV = 5.65
+- PORTFOLIO — • Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 5.51
+- PORTFOLIO — • Titan Company Ltd.: Industry+ = Consumer Durables; %to NAV = 5.39
+- PORTFOLIO — • Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 5.37
+- PORTFOLIO — • Mahindra &Mahindra Ltd.: Industry+ = Automobiles; %to NAV = 5.31
+- PORTFOLIO — • Maruti Suzuki India Limited: Industry+ = Automobiles; %to NAV = 5.14
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 5.12
+- PORTFOLIO — • Sun Pharmaceutical Industries Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 5.08
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 5.03
+- PORTFOLIO — ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 5.00
+- PORTFOLIO — Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 4.76
+- PORTFOLIO — State Bank of India: Industry+ = Banks; %to NAV = 4.75
+- PORTFOLIO — Hindustan Unilever Ltd.: Industry+ = Diversified Fmcg; %to NAV = 4.66
+- PORTFOLIO — NTPC Limited: Industry+ = Power; %to NAV = 4.65
+- PORTFOLIO — ITC LIMITED: Industry+ = Diversified Fmcg; %to NAV = 4.63
+- PORTFOLIO — Kotak Mahindra Bank Limited: Industry+ = Banks; %to NAV = 4.60
+- PORTFOLIO — HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 4.51
+- PORTFOLIO — Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 4.51
+- PORTFOLIO — Axis Bank Ltd.: Industry+ = Banks; %to NAV = 4.25
+- PORTFOLIO — Sub Total: Industry+ = Sub Total; %to NAV = 99.71
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.29
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 ## Exposure to top seven groups
@@ -3139,6 +4093,16 @@ Total Turnover = Equity + Debt + Derivative
 | Mahindra &Mahindra |     5.31 |
 | Maruti Suzuki -MNC |     5.14 |
 | Infosys            |     5.12 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Tata: %toNAV = 10.76
+- Exposure to top seven groups — Shiv Nadar: %toNAV = 5.79
+- Exposure to top seven groups — Private: %toNAV = 5.65
+- Exposure to top seven groups — Bajaj: %toNAV = 5.51
+- Exposure to top seven groups — Mahindra &Mahindra: %toNAV = 5.31
+- Exposure to top seven groups — Maruti Suzuki -MNC: %toNAV = 5.14
+- Exposure to top seven groups — Infosys: %toNAV = 5.12
+
 
 Please refer Minimum Application Amount, Plans &amp; Options, on Page no. 65 to 70.
 
@@ -3158,6 +4122,11 @@ Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recomm
 |------------|-----------------|------------------------|----------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------------|-------------------------------------------------------------|
 | Jul 31, 25 | Last 1 Year     |                   0.34 |                       1.28 |                                   -0.43 |                                      10,034 |                                          10,128 |                                                       9,957 |
 | Mar 25, 25 | Since Inception |                   1.93 |                       2.91 |                                    3.60 |                                      10,262 |                                          10,395 |                                                      10,489 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 0.34; Benchmark - Returns (%)# = 1.28; Additional - Benchmark Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,034; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,128; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE ^ - Regular Plan - Growth Option — Mar 25, 25: Period = Since Inception; Scheme - Returns (%) = 1.93; Benchmark - Returns (%)# = 2.91; Additional - Benchmark Returns (%) ## = 3.60; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,262; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,395; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,489
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -3184,6 +4153,12 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Name            | Since             | Total Exp     |
 | Arun Agarwal    | February 01, 2022 | Over 27 years |
 | Nandita Menezes | March 29, 2025    | Over 3 years  |
+
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY50 Equal Weight Index Fund — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC NIFTY50 Equal Weight Index Fund — Arun Agarwal: FUNDMANAGER = February 01, 2022; FUNDMANAGER = Over 27 years
+- HDFC NIFTY50 Equal Weight Index Fund — Nandita Menezes: FUNDMANAGER = March 29, 2025; FUNDMANAGER = Over 3 years
+
 
 <!-- image -->
 
@@ -3324,6 +4299,46 @@ Nil
 | NTPC Limited                                | Power                                      |           |
 |                                             |                                            | 1.90      |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 2.36
+- PORTFOLIO — • Bajaj Auto Limited: Industry+ = Automobiles; %to NAV = 2.31
+- PORTFOLIO — • Eternal Limited: Industry+ = Retailing; %to NAV = 2.30
+- PORTFOLIO — • Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 2.25
+- PORTFOLIO — • Bajaj Finserv Ltd.: Industry+ = Finance; %to NAV = 2.22
+- PORTFOLIO — • Tech Mahindra Ltd.: Industry+ = IT - Software; %to NAV = 2.20
+- PORTFOLIO — • Titan Company Ltd.: Industry+ = Consumer Durables; %to NAV = 2.20
+- PORTFOLIO — • Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 2.19
+- PORTFOLIO — • Mahindra &Mahindra Ltd.: Industry+ = Automobiles; %to NAV = 2.16
+- PORTFOLIO — • Nestle India Ltd.: Industry+ = Food Products; %to NAV = 2.13
+- PORTFOLIO — Maruti Suzuki India Limited: Industry+ = Automobiles; %to NAV = 2.10
+- PORTFOLIO — Infosys Limited: Industry+ = IT - Software; %to NAV = 2.09
+- PORTFOLIO — Jio Financial Services Limited: Industry+ = Finance; %to NAV = 2.09
+- PORTFOLIO — SBI Life Insurance Company Ltd.: Industry+ = Insurance; %to NAV = 2.08
+- PORTFOLIO — Sun Pharmaceutical Industries Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 2.07
+- PORTFOLIO — Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 2.05
+- PORTFOLIO — Wipro Ltd.: Industry+ = IT - Software; %to NAV = 2.05
+- PORTFOLIO — Apollo Hospitals Enterprise Ltd.: Industry+ = Healthcare Services; %to NAV = 2.04
+- PORTFOLIO — ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 2.04
+- PORTFOLIO — UltraTech Cement Limited Eicher Motors Ltd.: Industry+ = Cement& Cement Products Automobiles; %to NAV = 2.03 2.02
+- PORTFOLIO — Asian Paints Limited: Industry+ = Consumer Durables; %to NAV = 2.01
+- PORTFOLIO — JSW Steel Ltd.: Industry+ = Ferrous Metals; %to NAV = 2.01
+- PORTFOLIO — Cipla Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 2.00
+- PORTFOLIO — Shriram Finance Ltd. Max Healthcare: Industry+ = Finance; %to NAV = 2.00
+- PORTFOLIO — Institute Limited: Industry+ = Healthcare Services; %to NAV = 1.98
+- PORTFOLIO — Corporation Ltd. Hindalco Industries Ltd.: Industry+ = Oil Non - Ferrous Metals; %to NAV = 1.97 1.95
+- PORTFOLIO — Tata Steel Ltd.: Industry+ = Ferrous Metals; %to NAV = 1.95
+- PORTFOLIO — InterGlobe Aviation Ltd.: Industry+ = Transport Services; %to NAV = 1.94
+- PORTFOLIO — Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 1.94
+- PORTFOLIO — State Bank of India: Industry+ = Banks
+- PORTFOLIO — Grasim Industries Ltd.: Industry+ = Cement& Cement; %to NAV = 1.94
+- PORTFOLIO — Tata Consumer Products Limited: Industry+ = Products Agricultural Food& Other Products; %to NAV = 1.93 1.92
+- PORTFOLIO — ADANI ENTERPRISES LIMTIED: Industry+ = Metals &Minerals Trading; %to NAV = 1.91
+- PORTFOLIO — Power Grid Corporation of India Ltd.: Industry+ = Power; %to NAV = 1.91
+- PORTFOLIO — Hindustan Unilever Ltd.: Industry+ = Diversified Fmcg; %to NAV = 1.90
+- PORTFOLIO — NTPC Limited: Industry+ = Power
+
+
 | Company                                      | Industry+                                    |   %to NAV |
 |----------------------------------------------|----------------------------------------------|-----------|
 | Tata Motors Passenger Vehicles Limited       | Automobiles                                  |      1.90 |
@@ -3342,6 +4357,24 @@ Nil
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |     -0.02 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Tata Motors Passenger Vehicles Limited: Industry+ = Automobiles; %to NAV = 1.90
+- PORTFOLIO — ITC LIMITED: Industry+ = Diversified Fmcg; %to NAV = 1.89
+- PORTFOLIO — Kotak Mahindra Bank Limited: Industry+ = Banks; %to NAV = 1.88
+- PORTFOLIO — HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 1.84
+- PORTFOLIO — Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 1.84
+- PORTFOLIO — Adani Ports &Special Economic Zone: Industry+ = Transport Infrastructure; %to NAV = 1.83
+- PORTFOLIO — Bharat Electronics Ltd.: Industry+ = Aerospace & Defense; %to NAV = 1.83
+- PORTFOLIO — Coal India Ltd. HDFC Life Insurance: Industry+ = Consumable Fuels; %to NAV = 1.83
+- PORTFOLIO — Company Limited: Industry+ = Insurance; %to NAV = 1.81
+- PORTFOLIO — Trent Ltd.: Industry+ = Retailing; %to NAV = 1.81
+- PORTFOLIO — Axis Bank Ltd.: Industry+ = Banks; %to NAV = 1.73
+- PORTFOLIO — Dr Reddys Laboratories Ltd.: Industry+ = Pharmaceuticals &Biotechnology; %to NAV = 1.69
+- PORTFOLIO — Sub Total: %to NAV = 100.02
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = -0.02
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 ## Exposure to top seven groups
@@ -3355,6 +4388,16 @@ Nil
 | Mahindra &Mahindra |     4.37 |
 | Mukesh Ambani      |     4.04 |
 | SBI                |     4.01 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Tata: %toNAV = 11.96
+- Exposure to top seven groups — PSU: %toNAV = 9.43
+- Exposure to top seven groups — Bajaj: %toNAV = 6.78
+- Exposure to top seven groups — Birla Aditya: %toNAV = 5.91
+- Exposure to top seven groups — Mahindra &Mahindra: %toNAV = 4.37
+- Exposure to top seven groups — Mukesh Ambani: %toNAV = 4.04
+- Exposure to top seven groups — SBI: %toNAV = 4.01
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry
 
@@ -3530,11 +4573,19 @@ Aerospace    efense
 
 |                                            |   Since Inception SIP |   3 year SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|--------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                  6.00 |         3.60 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 6.00 | 3.60 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                  8.18 |         4.11 |         1.25 |
 | Returns (%)                                |                 12.38 |         8.82 |         7.78 |
-| Benchmark Returns (%)#                     |                 13.52 |         9.87 |         8.83 |
-| Additional Benchmark Returns (%)# #        |                  8.13 |         4.39 |        -0.61 |
+| Benchmark Returns (%) | 13.52 | 9.87 | 8.83 |
+| Additional Benchmark Returns (%) | 8.13 | 4.39 | -0.61 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 6.00; 3 year SIP = 3.60; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 8.18; 3 year SIP = 4.11; 1 year SIP = 1.25
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Returns (%): Since Inception SIP = 12.38; 3 year SIP = 8.82; 1 year SIP = 7.78
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Benchmark Returns (%): Since Inception SIP = 13.52; 3 year SIP = 9.87; 1 year SIP = 8.83
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 8.13; 3 year SIP = 4.39; 1 year SIP = -0.61
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed  after  accounting  for  the  cash  flow  by  using  XIRR  method  (investment  internal  rate  of  return)  for  Regular  Plan  Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -3547,6 +4598,12 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 | Jul 31, 25 | Last 1 Year     |                 7.84 |                       8.90 |                                   -0.43 |                                      10,784 |                                          10,890 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                13.17 |                      14.25 |                                    8.56 |                                      14,500 |                                          14,920 |                                                      12,798 |
 | Aug 20, 21 | Since Inception |                13.21 |                      14.39 |                                    9.56 |                                      18,473 |                                          19,449 |                                                      15,712 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme Returns (%) = 7.84; Benchmark - Returns (%)# = 8.90; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,784; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,890; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme Returns (%) = 13.17; Benchmark - Returns (%)# = 14.25; Additional Benchmark - Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 14,500; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 14,920; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE ^ - Regular Plan - Growth Option — Aug 20, 21: Period = Since Inception; Scheme Returns (%) = 13.21; Benchmark - Returns (%)# = 14.39; Additional Benchmark - Returns (%) ## = 9.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 18,473; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 19,449; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 15,712
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -3572,6 +4629,12 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to generate retu
 | Arun Agarwal    | March 4, 2022  | Over 27 years |
 | Nandita Menezes | March 29, 2025 | Over 3 years  |
 
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY 100 Equal Weight Index Fund — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC NIFTY 100 Equal Weight Index Fund — Arun Agarwal: FUNDMANAGER = March 4, 2022; FUNDMANAGER = Over 27 years
+- HDFC NIFTY 100 Equal Weight Index Fund — Nandita Menezes: FUNDMANAGER = March 29, 2025; FUNDMANAGER = Over 3 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -3584,6 +4647,11 @@ February 23, 2022
 |------------------------------|------------------|
 | Regular Plan - Growth Option |          17.4987 |
 | Direct Plan - Growth Option  |          17.8691 |
+
+**Table values by row and column (derived from the table above):**
+- DATE OF ALLOTMENT/INCEPTION DATE — Regular Plan - Growth Option: NAVPER UNIT(₹) = 17.4987
+- DATE OF ALLOTMENT/INCEPTION DATE — Direct Plan - Growth Option: NAVPER UNIT(₹) = 17.8691
+
 
 <!-- image -->
 
@@ -3625,6 +4693,11 @@ Total Turnover = Equity + Debt + Derivative
 |----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ | Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ |
 | Regular: 0.88%                                                                                                                                     | Direct: 0.42%                                                                                                                                      |
+
+**Table values by row and column (derived from the table above):**
+- Portfolio Turnover — Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^: EXPENSE RATIO (As On July 31, 2026) = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^
+- Portfolio Turnover — Regular: 0.88%: EXPENSE RATIO (As On July 31, 2026) = Direct: 0.42%
+
 
 <!-- image -->
 
@@ -3675,6 +4748,24 @@ For Product label and Riskometers, refer page no: 80-92
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.26 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • Lodha Developers Limited: Industry+ = Realty; %to NAV = 1.29
+- PORTFOLIO — • TVS Motor Company Ltd.: Industry+ = Automobiles; %to NAV = 1.22
+- PORTFOLIO — • HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 1.18
+- PORTFOLIO — • Divis Laboratories Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 1.16
+- PORTFOLIO — • Bajaj Auto Limited: Industry+ = Automobiles; %to NAV = 1.15
+- PORTFOLIO — • Eternal Limited: Industry+ = Retailing; %to NAV = 1.15
+- PORTFOLIO — • Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 1.12
+- PORTFOLIO — • LTM Limited: Industry+ = IT - Software; %to NAV = 1.12
+- PORTFOLIO — • Bajaj Finserv Ltd.: Industry+ = Finance; %to NAV = 1.11
+- PORTFOLIO — • Torrent Pharmaceuticals Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 1.11
+- PORTFOLIO — Other Equity: Industry+ = Other Equity; %to NAV = 88.13
+- PORTFOLIO — Sub Total: Industry+ = Sub Total; %to NAV = 99.74
+- PORTFOLIO — Total: Industry+ = Total; %to NAV = 99.74
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.26
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 ## Exposure to top seven groups
@@ -3688,6 +4779,16 @@ For Product label and Riskometers, refer page no: 80-92
 | Private            |     4.29 |
 | Birla Aditya       |     2.95 |
 | HDFC               |     2.79 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — PSU: %toNAV = 16.25
+- Exposure to top seven groups — Tata: %toNAV = 9.95
+- Exposure to top seven groups — Adani: %toNAV = 4.72
+- Exposure to top seven groups — Bajaj: %toNAV = 4.43
+- Exposure to top seven groups — Private: %toNAV = 4.29
+- Exposure to top seven groups — Birla Aditya: %toNAV = 2.95
+- Exposure to top seven groups — HDFC: %toNAV = 2.79
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -3707,11 +4808,19 @@ For detailed portfolio refer to the monthly portfolios disclosed on the website 
 
 |                                            |   Since Inception SIP |   3 year SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|--------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                  5.40 |         3.60 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 5.40 | 3.60 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                  7.30 |         4.18 |         1.27 |
 | Returns (%)                                |                 13.40 |        10.00 |        11.76 |
-| Benchmark Returns (%)#                     |                 14.59 |        11.11 |        12.94 |
-| Additional Benchmark Returns (%)# #        |                  8.00 |         4.39 |        -0.61 |
+| Benchmark Returns (%) | 14.59 | 11.11 | 12.94 |
+| Additional Benchmark Returns (%) | 8.00 | 4.39 | -0.61 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 5.40; 3 year SIP = 3.60; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 7.30; 3 year SIP = 4.18; 1 year SIP = 1.27
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Returns (%): Since Inception SIP = 13.40; 3 year SIP = 10.00; 1 year SIP = 11.76
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Benchmark Returns (%): Since Inception SIP = 14.59; 3 year SIP = 11.11; 1 year SIP = 12.94
+- SIP PERFORMANCE ^ - Regular Plan - Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 8.00; 3 year SIP = 4.39; 1 year SIP = -0.61
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed after accounting for the cash flow by using XIRR method (investment internal rate of return) for Regular Plan  Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -3724,6 +4833,12 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 | Jul 31, 25 | Last 1 Year     |                   8.83 |                       9.94 |                                   -0.43 |                                      10,883 |                                          10,994 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                  15.13 |                      16.29 |                                    8.56 |                                      15,265 |                                          15,733 |                                                      12,798 |
 | Feb 23, 22 | Since Inception |                  13.44 |                      14.70 |                                    9.70 |                                      17,499 |                                          18,371 |                                                      15,077 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 8.83; Benchmark - Returns (%)# = 9.94; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,883; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,994; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 15.13; Benchmark - Returns (%)# = 16.29; Additional Benchmark - Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 15,265; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 15,733; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE ^ - Regular Plan - Growth Option — Feb 23, 22: Period = Since Inception; Scheme - Returns (%) = 13.44; Benchmark - Returns (%)# = 14.70; Additional Benchmark - Returns (%) ## = 9.70; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 17,499; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 18,371; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 15,077
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -3780,6 +4895,27 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Regular: 0.27%                                                                     | Direct: 0.28%                                                                      | Direct: 0.28%                                                            |
 | EXIT LOAD$$                                                                        | EXIT LOAD$$                                                                        | EXIT LOAD$$                                                              |
 
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY200 Momentum 30 Index Fund — Arun Agarwal: FUNDMANAGER - Since = February 28, 2024; FUNDMANAGER - Total Exp = Over 27 years
+- HDFC NIFTY200 Momentum 30 Index Fund — Nandita Menezes: FUNDMANAGER - Since = March 29, 2025; FUNDMANAGER - Total Exp = Over 3 years
+- HDFC NIFTY200 Momentum 30 Index Fund — DATE OF ALLOTMENT/INCEPTION DATE: FUNDMANAGER - Since = DATE OF ALLOTMENT/INCEPTION DATE; FUNDMANAGER - Total Exp = DATE OF ALLOTMENT/INCEPTION DATE
+- HDFC NIFTY200 Momentum 30 Index Fund — February 28, 2024: FUNDMANAGER - Since = February 28, 2024; FUNDMANAGER - Total Exp = February 28, 2024
+- HDFC NIFTY200 Momentum 30 Index Fund — NAV (As On JULY 31, 2026): FUNDMANAGER - Since = NAV (As On JULY 31, 2026); FUNDMANAGER - Total Exp = NAVPER UNIT(₹)
+- HDFC NIFTY200 Momentum 30 Index Fund — Regular Plan - Growth Option: FUNDMANAGER - Since = Regular Plan - Growth Option; FUNDMANAGER - Total Exp = 10.1290
+- HDFC NIFTY200 Momentum 30 Index Fund — Direct Plan - Growth Option: FUNDMANAGER - Since = Direct Plan - Growth Option; FUNDMANAGER - Total Exp = 10.2495
+- HDFC NIFTY200 Momentum 30 Index Fund — ASSETSUNDERMANAGEMENT: FUNDMANAGER - Since = ASSETSUNDERMANAGEMENT; FUNDMANAGER - Total Exp = ASSETSUNDERMANAGEMENT
+- HDFC NIFTY200 Momentum 30 Index Fund — As on July 31, 2026 Average for Month of July, 2026: FUNDMANAGER - Since = As on July 31, 2026 Average for Month of July, 2026; FUNDMANAGER - Total Exp = ₹ 608.83Cr. ₹ 608.19Cr.
+- HDFC NIFTY200 Momentum 30 Index Fund — QUANTITATIVEDATA: FUNDMANAGER - Since = QUANTITATIVEDATA; FUNDMANAGER - Total Exp = QUANTITATIVEDATA
+- HDFC NIFTY200 Momentum 30 Index Fund — Portfolio Turnover Equity Turnover Total Turnover Total Turnover = Equity + Debt +: FUNDMANAGER - Since = Portfolio Turnover Equity Turnover Total Turnover Total Turnover = Equity + Debt +; FUNDMANAGER - Total Exp = 143.48% 143.48% Derivative
+- HDFC NIFTY200 Momentum 30 Index Fund — EXPENSE RATIO (As On July 31, 2026): FUNDMANAGER - Since = EXPENSE RATIO (As On July 31, 2026); FUNDMANAGER - Total Exp = EXPENSE RATIO (As On July 31, 2026)
+- HDFC NIFTY200 Momentum 30 Index Fund — cost andexecution related statutory levies^ Regular: 0.83% Direct: 0.36%: FUNDMANAGER - Since = cost andexecution related statutory levies^ Regular: 0.83% Direct: 0.36%; FUNDMANAGER - Total Exp = cost andexecution related statutory levies^ Regular: 0.83% Direct: 0.36%
+- HDFC NIFTY200 Momentum 30 Index Fund — #BENCHMARK INDEX NIFTY200 Momentum 30 Total Returns Index: FUNDMANAGER - Since = #BENCHMARK INDEX NIFTY200 Momentum 30 Total Returns Index; FUNDMANAGER - Total Exp = #BENCHMARK INDEX NIFTY200 Momentum 30 Total Returns Index
+- HDFC NIFTY200 Momentum 30 Index Fund — TRACKING ERROR: FUNDMANAGER - Since = TRACKING ERROR; FUNDMANAGER - Total Exp = TRACKING ERROR
+- HDFC NIFTY200 Momentum 30 Index Fund — Annualised tracking error is calculated based on: FUNDMANAGER - Since = Annualised tracking error is calculated based on; FUNDMANAGER - Total Exp = Annualised tracking error is calculated based on
+- HDFC NIFTY200 Momentum 30 Index Fund — Regular: 0.27%: FUNDMANAGER - Since = Direct: 0.28%; FUNDMANAGER - Total Exp = Direct: 0.28%
+- HDFC NIFTY200 Momentum 30 Index Fund — EXIT LOAD$$: FUNDMANAGER - Since = EXIT LOAD$$; FUNDMANAGER - Total Exp = EXIT LOAD$$
+
+
 <!-- image -->
 
 <!-- image -->
@@ -3818,6 +4954,38 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | KEI Industries Ltd.                   | Industrial Products                   |      1.53 |
 | Steel Authority Of India Ltd.         | Ferrous Metals                        |      1.51 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • Laurus Labs Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 5.78
+- PORTFOLIO — • Shriram Finance Ltd.: Industry+ = Finance; %to NAV = 5.15
+- PORTFOLIO — • Hindalco Industries Ltd.: Industry+ = Non-Ferrous Metals; %to NAV = 5.00
+- PORTFOLIO — • Tata Steel Ltd.: Industry+ = Ferrous Metals; %to NAV = 5.00
+- PORTFOLIO — • CumminsIndia Ltd.: Industry+ = Industrial Products; %to NAV = 4.98
+- PORTFOLIO — • NTPCLimited: Industry+ = Power; %to NAV = 4.88
+- PORTFOLIO — • Multi Commodity Exchange of India L: Industry+ = Capital Markets; %to NAV = 4.75
+- PORTFOLIO — • BombayStock Exchange Limited (BSE): Industry+ = Capital Markets; %to NAV = 4.70
+- PORTFOLIO — • Adani Power(Mundra) Limited: Industry+ = Power; %to NAV = 4.61
+- PORTFOLIO — • GEVernova T&DIndia Limited: Industry+ = Electrical Equipment; %to NAV = 4.29
+- PORTFOLIO — Vedanta Ltd.: Industry+ = Diversified Metals; %to NAV = 4.19
+- PORTFOLIO — The Federal Bank Ltd.: Industry+ = Banks; %to NAV = 4.08
+- PORTFOLIO — Bharat Forge Ltd.: Industry+ = Auto Components; %to NAV = 3.52
+- PORTFOLIO — Bharat Heavy Electricals Ltd.: Industry+ = Electrical Equipment; %to NAV = 3.44
+- PORTFOLIO — Adani Energy Solutions Limited: Industry+ = Power; %to NAV = 3.37
+- PORTFOLIO — International Ltd.: Industry+ = Auto Components; %to NAV = 2.97
+- PORTFOLIO — CGPower and Industrial Solutions Ltd.: Industry+ = Electrical Equipment; %to NAV = 2.96
+- PORTFOLIO — Hitachi Energy India Ltd.: Industry+ = Electrical Equipment Pharmaceuticals&; %to NAV = 2.95
+- PORTFOLIO — Torrent Pharmaceuticals Ltd.: Industry+ = Biotechnology; %to NAV = 2.93
+- PORTFOLIO — Polycab India Limited: Industry+ = Industrial Products; %to NAV = 2.71
+- PORTFOLIO — National Aluminium Co. Ltd.: Industry+ = Non-Ferrous Metals; %to NAV = 2.63
+- PORTFOLIO — Adani Green Energy Limited: Industry+ = Power; %to NAV = 2.16
+- PORTFOLIO — VODAFONE IDEA LIMITED: Industry+ = Telecom - Services; %to NAV = 1.96
+- PORTFOLIO — Solar Industries India Ltd.: Industry+ = Chemicals& Petrochemicals; %to NAV = 1.94
+- PORTFOLIO — ABBIndia Ltd.: Industry+ = Electrical Equipment; %to NAV = 1.92
+- PORTFOLIO — Glenmark Pharmaceuticals Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 1.61
+- PORTFOLIO — KEI Industries Ltd.: Industry+ = Industrial Products; %to NAV = 1.53
+- PORTFOLIO — Steel Authority Of India Ltd.: Industry+ = Ferrous Metals; %to NAV = 1.51
+
+
 <!-- image -->
 
 ## PERFORMANCE  ^ - Regular Plan - Growth Option
@@ -3826,6 +4994,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 |------------|-----------------|----------------------|----------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------------|-------------------------------------------------------------|
 | Jul 31, 25 | Last 1 Year     |                 0.57 |                       1.85 |                                   -0.43 |                                      10,057 |                                          10,185 |                                                       9,957 |
 | Feb 28, 24 | Since Inception |                 0.53 |                       1.84 |                                    5.75 |                                      10,129 |                                          10,451 |                                                      11,450 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme Returns (%) = 0.57; Benchmark - Returns (%)# = 1.85; Additional - Benchmark Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,057; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,185; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Feb 28, 24: Period = Since Inception; Scheme Returns (%) = 0.53; Benchmark - Returns (%)# = 1.84; Additional - Benchmark Returns (%) ## = 5.75; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,129; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,451; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 11,450
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -3838,6 +5011,14 @@ Returns greater than 1 year are compounded annualized (CAGR). For performance of
 | Sub Total                                    |                                              |     99.89 |
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.11 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Aditya Birla Capital ltd.: Industry+ = Finance; %to NAV = 1.37
+- PERFORMANCE  ^ - Regular Plan - Growth Option — L&TFinance Ltd.: Industry+ = Finance; %to NAV = 1.00
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Sub Total: %to NAV = 99.89
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.11
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
 
 - Top Ten Holdings
 
@@ -3852,6 +5033,16 @@ Returns greater than 1 year are compounded annualized (CAGR). For performance of
 | Shriram Transport  |     5.15 |
 | Tata               |     5.00 |
 | Cummins India -MNC |     4.98 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Private: %toNAV = 21.19
+- Exposure to top seven groups — PSU: %toNAV = 12.45
+- Exposure to top seven groups — Adani: %toNAV = 10.14
+- Exposure to top seven groups — Birla Aditya: %toNAV = 8.33
+- Exposure to top seven groups — Shriram Transport: %toNAV = 5.15
+- Exposure to top seven groups — Tata: %toNAV = 5.00
+- Exposure to top seven groups — Cummins India -MNC: %toNAV = 4.98
+
 
 Face Value / Allotment NAV per Unit: ₹ 10,  ata is as of July 31, 2026 unless otherwise specified.
 
@@ -3883,6 +5074,12 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Arun Agarwal    | July 10, 2024  | Over 27 years |
 | Nandita Menezes | March 29, 2025 | Over 3 years  |
 
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY100 Low Volatility 30 Index Fund — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC NIFTY100 Low Volatility 30 Index Fund — Arun Agarwal: FUNDMANAGER = July 10, 2024; FUNDMANAGER = Over 27 years
+- HDFC NIFTY100 Low Volatility 30 Index Fund — Nandita Menezes: FUNDMANAGER = March 29, 2025; FUNDMANAGER = Over 3 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -3895,6 +5092,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 |------------------------------|------------------|
 | Regular Plan - Growth Option |          10.5730 |
 | Direct Plan - Growth Option  |          10.6834 |
+
+**Table values by row and column (derived from the table above):**
+- July 10, 2024 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 10.5730
+- July 10, 2024 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 10.6834
+
 
 <!-- image -->
 
@@ -4008,6 +5210,37 @@ Nil
 | Infosys Limited                      | IT - Software                  |      2.87 |
 | Shree Cement Ltd.                    | Cement&Cement Products         |      2.87 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 3.96
+- PORTFOLIO — • SBI Life InsuranceCompany Ltd.: Industry+ = Insurance; %to NAV = 3.77
+- PORTFOLIO — • Sun Pharmaceutical Industries Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 3.74
+- PORTFOLIO — • Bajaj Auto Limited: Industry+ = Automobiles; %to NAV = 3.70
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 3.70
+- PORTFOLIO — • Nestle India Ltd.: Industry+ = Food Products; %to NAV = 3.70
+- PORTFOLIO — • Apollo Hospitals Enterprise Ltd.: Industry+ = Healthcare Services; %to NAV = 3.66
+- PORTFOLIO — • NTPCLimited: Industry+ = Power; %to NAV = 3.66
+- PORTFOLIO — • Bajaj Finserv Ltd.: Industry+ = Finance; %to NAV = 3.53
+- PORTFOLIO — • Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 3.52
+- PORTFOLIO — Britannia Industries Ltd.: Industry+ = Food Products; %to NAV = 3.47
+- PORTFOLIO — ITC LIMITED: Industry+ = DiversifiedFmcg; %to NAV = 3.40
+- PORTFOLIO — Cipla Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 3.39
+- PORTFOLIO — Hindustan Unilever Ltd.: Industry+ = DiversifiedFmcg; %to NAV = 3.39
+- PORTFOLIO — HDFCBank Ltd.£: Industry+ = Banks; %to NAV = 3.38
+- PORTFOLIO — Titan CompanyLtd.: Industry+ = Consumer Durables; %to NAV = 3.37
+- PORTFOLIO — Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 3.33
+- PORTFOLIO — HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 3.29
+- PORTFOLIO — Torrent Pharmaceuticals Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 3.28
+- PORTFOLIO — UltraTech Cement Limited: Industry+ = Cement&Cement Products; %to NAV = 3.19
+- PORTFOLIO — Maruti Suzuki India Limited: Industry+ = Automobiles; %to NAV = 3.18
+- PORTFOLIO — Kotak Mahindra Bank Limited: Industry+ = Banks; %to NAV = 3.11
+- PORTFOLIO — Wipro Ltd.: Industry+ = IT - Software; %to NAV = 3.09
+- PORTFOLIO — State Bank of India: Industry+ = Banks; %to NAV = 3.04
+- PORTFOLIO — Asian Paints Limited: Industry+ = Consumer Durables; %to NAV = 2.99
+- PORTFOLIO — Pidilite Industries Ltd.: Industry+ = Chemicals& Petrochemicals; %to NAV = 2.94
+- PORTFOLIO — Infosys Limited: Industry+ = IT - Software; %to NAV = 2.87
+- PORTFOLIO — Shree Cement Ltd.: Industry+ = Cement&Cement Products; %to NAV = 2.87
+
+
 <!-- image -->
 
 | Company                                      | Industry+                                    |   %to NAV |
@@ -4017,6 +5250,14 @@ Nil
 | Sub Total                                    | Sub Total                                    |     99.73 |
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.27 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
+
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 2.63
+- PORTFOLIO — Dr Reddys Laboratories Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 2.58
+- PORTFOLIO — Sub Total: Industry+ = Sub Total; %to NAV = 99.73
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.27
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
 
 - Top Ten Holdings, £ Sponsor
 
@@ -4032,6 +5273,16 @@ Nil
 | Bharti             |     3.70 |
 | Nestle India -MNC  |     3.70 |
 
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Bajaj: %toNAV = 7.23
+- Exposure to top seven groups — Tata: %toNAV = 6.89
+- Exposure to top seven groups — SBI: %toNAV = 6.81
+- Exposure to top seven groups — ICICI: %toNAV = 3.96
+- Exposure to top seven groups — Sun Pharma: %toNAV = 3.74
+- Exposure to top seven groups — Bharti: %toNAV = 3.70
+- Exposure to top seven groups — Nestle India -MNC: %toNAV = 3.70
+
+
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
 Please refer Minimum Application Amount, Plans &amp; Options, on Page no. 65 to 70.
@@ -4044,11 +5295,19 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 
 |                                            |   Since Inception SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                  2.50 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 2.50 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                  2.60 |         1.23 |
 | Returns (%)                                |                  3.83 |         5.23 |
-| Benchmark Returns (%)#                     |                  4.88 |         6.30 |
-| Additional Benchmark Returns (%)# #        |                  1.07 |        -0.61 |
+| Benchmark Returns (%) | 4.88 | 6.30 |
+| Additional Benchmark Returns (%) | 1.07 | -0.61 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 2.50; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 2.60; 1 year SIP = 1.23
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Returns (%): Since Inception SIP = 3.83; 1 year SIP = 5.23
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Benchmark Returns (%): Since Inception SIP = 4.88; 1 year SIP = 6.30
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Additional Benchmark Returns (%): Since Inception SIP = 1.07; 1 year SIP = -0.61
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed  after  accounting  for  the  cash  flow  by  using  XIRR  method  (investment  internal  rate  of  return)  for  Regular  Plan  Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -4060,6 +5319,11 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 |------------|-----------------|------------------------|----------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------------|-------------------------------------------------------------|
 | Jul 31, 25 | Last 1 Year     |                   3.03 |                       4.08 |                                   -0.43 |                                      10,303 |                                          10,408 |                                                       9,957 |
 | Jul 10, 24 | Since Inception |                   2.75 |                       3.74 |                                    1.32 |                                      10,573 |                                          10,785 |                                                      10,274 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 3.03; Benchmark - Returns (%)# = 4.08; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,303; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,408; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 10, 24: Period = Since Inception; Scheme - Returns (%) = 2.75; Benchmark - Returns (%)# = 3.74; Additional Benchmark - Returns (%) ## = 1.32; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,573; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,785; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,274
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -4085,6 +5349,12 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Arun Agarwal    | February 20, 2025 | Over 27 years |
 | Nandita Menezes | March 29, 2025    | Over 3 years  |
 
+**Table values by row and column (derived from the table above):**
+- HDFC Nifty100 Quality 30 Index Fund — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC Nifty100 Quality 30 Index Fund — Arun Agarwal: FUNDMANAGER = February 20, 2025; FUNDMANAGER = Over 27 years
+- HDFC Nifty100 Quality 30 Index Fund — Nandita Menezes: FUNDMANAGER = March 29, 2025; FUNDMANAGER = Over 3 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -4097,6 +5367,11 @@ February 20, 2025
 |------------------------------|------------------|
 | Regular Plan - Growth Option |          10.8996 |
 | Direct Plan - Growth Option  |          10.9747 |
+
+**Table values by row and column (derived from the table above):**
+- DATE OF ALLOTMENT/INCEPTION DATE — Regular Plan - Growth Option: NAVPER UNIT(₹) = 10.8996
+- DATE OF ALLOTMENT/INCEPTION DATE — Direct Plan - Growth Option: NAVPER UNIT(₹) = 10.9747
+
 
 <!-- image -->
 
@@ -4204,6 +5479,38 @@ Nil
 | Bosch Limited                    | Auto Components                |      1.95 |
 | Godrej Consumer Products Ltd.    | Personal Products              |      1.78 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 5.36
+- PORTFOLIO — • Nestle India Ltd.: Industry+ = Food Products; %to NAV = 5.22
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 5.12
+- PORTFOLIO — • HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 4.69
+- PORTFOLIO — • ITC LIMITED: Industry+ = DiversifiedFmcg; %to NAV = 4.63
+- PORTFOLIO — • Hindustan Unilever Ltd.: Industry+ = DiversifiedFmcg; %to NAV = 4.58
+- PORTFOLIO — • Maruti Suzuki India Limited: Industry+ = Automobiles; %to NAV = 4.51
+- PORTFOLIO — • Bharat Electronics Ltd.: Industry+ = Aerospace &Defense; %to NAV = 4.46
+- PORTFOLIO — • Bajaj Auto Limited: Industry+ = Automobiles; %to NAV = 4.30
+- PORTFOLIO — • Britannia Industries Ltd.: Industry+ = Food Products; %to NAV = 4.16
+- PORTFOLIO — Coal India Ltd.: Industry+ = Consumable Fuels; %to NAV = 3.77
+- PORTFOLIO — Asian Paints Limited: Industry+ = Consumer Durables; %to NAV = 3.68
+- PORTFOLIO — Eicher Motors Ltd.: Industry+ = Automobiles; %to NAV = 3.60
+- PORTFOLIO — Divis Laboratories Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 3.42
+- PORTFOLIO — Hindustan Aeronautics Limited: Industry+ = Aerospace &Defense; %to NAV = 3.42
+- PORTFOLIO — Tech Mahindra Ltd.: Industry+ = IT - Software; %to NAV = 3.15
+- PORTFOLIO — HDFCAsset Management CompanyLtd.: Industry+ = Capital Markets; %to NAV = 3.02
+- PORTFOLIO — Hindustan Zinc Ltd.: Industry+ = Non-Ferrous Metals; %to NAV = 2.82
+- PORTFOLIO — Solar Industries India Ltd.: Industry+ = Chemicals& Petrochemicals; %to NAV = 2.72
+- PORTFOLIO — Pidilite Industries Ltd.: Industry+ = Chemicals& Petrochemicals; %to NAV = 2.51
+- PORTFOLIO — Dr Reddys Laboratories Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 2.41
+- PORTFOLIO — LTMLimited: Industry+ = IT - Software; %to NAV = 2.27
+- PORTFOLIO — United Spirits Limited: Industry+ = Beverages; %to NAV = 2.26
+- PORTFOLIO — ABBIndia Ltd.: Industry+ = Electrical Equipment; %to NAV = 2.20
+- PORTFOLIO — Varun Beverages Ltd: Industry+ = Beverages; %to NAV = 2.18
+- PORTFOLIO — Wipro Ltd.: Industry+ = IT - Software; %to NAV = 2.15
+- PORTFOLIO — Bosch Limited: Industry+ = Auto Components; %to NAV = 1.95
+- PORTFOLIO — Godrej Consumer Products Ltd.: Industry+ = Personal Products; %to NAV = 1.78
+
+
 <!-- image -->
 
 ## PERFORMANCE  ^ - Regular Plan - Growth Option
@@ -4212,6 +5519,11 @@ Nil
 |------------|-----------------|------------------------|----------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------------|-------------------------------------------------------------|
 | Jul 31, 25 | Last 1 Year     |                   3.65 |                       4.59 |                                   -0.43 |                                      10,365 |                                          10,459 |                                                       9,957 |
 | Feb 20, 25 | Since Inception |                   6.16 |                       7.09 |                                    5.72 |                                      10,900 |                                          11,038 |                                                      10,835 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 3.65; Benchmark - Returns (%)# = 4.59; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,365; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,459; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Feb 20, 25: Period = Since Inception; Scheme - Returns (%) = 6.16; Benchmark - Returns (%)# = 7.09; Additional Benchmark - Returns (%) ## = 5.72; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,900; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 11,038; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,835
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -4224,6 +5536,14 @@ Returns greater than 1 year are compounded annualized (CAGR). For performance of
 | Sub Total                                    | Sub Total                                    |     99.71 |
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.29 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Zydus Lifesciences Limited: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 1.73
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Mazagon Dock Shipbuilders Ltd: Industry+ = Industrial Manufacturing; %to NAV = 1.64
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Sub Total: Industry+ = Sub Total; %to NAV = 99.71
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.29
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
 
 - Top Ten Holdings
 
@@ -4238,6 +5558,16 @@ Returns greater than 1 year are compounded annualized (CAGR). For performance of
 | Private            |     4.89 |
 | Shiv Nadar         |     4.69 |
 | ITC - MNC          |     4.63 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — PSU: %toNAV = 13.29
+- Exposure to top seven groups — Tata: %toNAV = 5.36
+- Exposure to top seven groups — Nestle India -MNC: %toNAV = 5.22
+- Exposure to top seven groups — Infosys: %toNAV = 5.12
+- Exposure to top seven groups — Private: %toNAV = 4.89
+- Exposure to top seven groups — Shiv Nadar: %toNAV = 4.69
+- Exposure to top seven groups — ITC - MNC: %toNAV = 4.63
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -4268,6 +5598,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Name         | Since         | Total Exp     |
 | Anupam Joshi | May 6, 2025   | Over 20 years |
 
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- Exposure to top seven groups — Anupam Joshi: FUNDMANAGER = May 6, 2025; FUNDMANAGER = Over 20 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -4281,6 +5616,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Regular Plan - Growth Option |          10.8652 |
 | Direct Plan - Growth Option  |          10.8893 |
 
+**Table values by row and column (derived from the table above):**
+- May 6, 2025 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 10.8652
+- May 6, 2025 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 10.8893
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT €
@@ -4288,6 +5628,10 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | As on July 31, 2026             | ₹ 2,238.78Cr.   |
 |---------------------------------|-----------------|
 | Average for Month of July, 2026 | ₹ 2,315.81Cr.   |
+
+**Table values by row and column (derived from the table above):**
+- ASSETS UNDER MANAGEMENT € — Average for Month of July, 2026: ₹ 2,238.78Cr. = ₹ 2,315.81Cr.
+
 
 <!-- image -->
 
@@ -4303,6 +5647,17 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | securities (including accrued interest),   | securities (including accrued interest),   |
 | deployment of funds in TREPS and Reverse   | deployment of funds in TREPS and Reverse   |
 | Repo and net receivable/ payable           | Repo and net receivable/ payable           |
+
+**Table values by row and column (derived from the table above):**
+- QUANTITATIVE DATA — Macaulay Duration *: 113 Days = 112 Days
+- QUANTITATIVE DATA — Modified Duration *: 113 Days = 105 Days
+- QUANTITATIVE DATA — Annualized Portfolio YTM#*: 113 Days = 6.92%
+- QUANTITATIVE DATA — #semi annual YTMhas been annualised.: 113 Days = #semi annual YTMhas been annualised.
+- QUANTITATIVE DATA — *Calculated on the amount invested in debt: 113 Days = *Calculated on the amount invested in debt
+- QUANTITATIVE DATA — securities (including accrued interest),: 113 Days = securities (including accrued interest),
+- QUANTITATIVE DATA — deployment of funds in TREPS and Reverse: 113 Days = deployment of funds in TREPS and Reverse
+- QUANTITATIVE DATA — Repo and net receivable/ payable: 113 Days = Repo and net receivable/ payable
+
 
 <!-- image -->
 
@@ -4374,6 +5729,31 @@ Debt Index Replication Factor (DIRF): 63.73%
 | • Indian Bank                        | CRISIL -A1+                     |      6.55 |
 | • Small Industries Development Bank  | CRISIL -A1+                     |      6.31 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Credit Exposure (Non Perpetual): Rating = Credit Exposure (Non Perpetual)
+- PORTFOLIO — • Indian Railways Finance Corp. Ltd.: Rating = CRISIL-AAA; %to NAV = 9.61
+- PORTFOLIO — • SMFGIndia Credit Company Ltd: Rating = ICRA-AAA; %to NAV = 7.82
+- PORTFOLIO — • Bharti Telecom Limited: Rating = CRISIL-AAA; %to NAV = 6.50
+- PORTFOLIO — • National Bank for Agri &Rural Dev.: Rating = CRISIL-AAA; %to NAV = 6.25
+- PORTFOLIO — • LIC Housing Finance Ltd.: Rating = CRISIL-AAA; %to NAV = 6.02
+- PORTFOLIO — Tata Capital Ltd.: Rating = CRISIL-AAA / ICRA-AAA; %to NAV = 2.35
+- PORTFOLIO — Power Finance Corporation Ltd.: Rating = CRISIL-AAA; %to NAV = 2.23
+- PORTFOLIO — HDBFinancial Services Ltd.: Rating = CRISIL-AAA; %to NAV = 2.23
+- PORTFOLIO — Bajaj Housing Finance Ltd.: Rating = CRISIL-AAA; %to NAV = 1.34
+- PORTFOLIO — Kotak Mahindra Prime Ltd.: Rating = CRISIL-AAA; %to NAV = 1.34
+- PORTFOLIO — Bajaj Finance Ltd.: Rating = CRISIL-AAA; %to NAV = 1.12
+- PORTFOLIO — HDFCBank Ltd.£: Rating = CRISIL-AAA; %to NAV = 1.12
+- PORTFOLIO — Sub Total: %to NAV = 47.93
+- PORTFOLIO — MONEY MARKET INSTRUMENTS: Rating = MONEY MARKET INSTRUMENTS
+- PORTFOLIO — Tata Capital Ltd.: Rating = CRISIL -A1+; %to NAV = 2.21
+- PORTFOLIO — L&TFinance Ltd.: Rating = CRISIL -A1+; %to NAV = 1.11
+- PORTFOLIO — Sub Total: %to NAV = 3.32
+- PORTFOLIO — • Axis Bank Ltd.: Rating = CRISIL -A1+; %to NAV = 10.90
+- PORTFOLIO — • Canara Bank: Rating = CRISIL -A1+; %to NAV = 10.90
+- PORTFOLIO — • Indian Bank: Rating = CRISIL -A1+; %to NAV = 6.55
+- PORTFOLIO — • Small Industries Development Bank: Rating = CRISIL -A1+; %to NAV = 6.31
+
+
 <!-- image -->
 
 | Company                                      | Rating                                       |   %to NAV |
@@ -4385,6 +5765,16 @@ Debt Index Replication Factor (DIRF): 63.73%
 | Total                                        |                                              |     48.88 |
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      3.19 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
+
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • Bank of Baroda: Rating = CARE-A1+; %to NAV = 5.43
+- PORTFOLIO — Kotak Mahindra Bank Limited: Rating = CRISIL -A1+; %to NAV = 3.31
+- PORTFOLIO — Punjab National Bank: Rating = CRISIL -A1+; %to NAV = 2.16
+- PORTFOLIO — Sub Total: %to NAV = 45.56
+- PORTFOLIO — Total: %to NAV = 48.88
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Rating = Cash,Cash Equivalents and Net Current Assets; %to NAV = 3.19
+- PORTFOLIO — Grand Total: Rating = Grand Total; %to NAV = 100.00
+
 
 - Top Ten Holdings, £ Sponsor
 
@@ -4399,6 +5789,16 @@ Debt Index Replication Factor (DIRF): 63.73%
 | Kotak              |     4.65 |
 | Tata               |     4.56 |
 | HDFC               |     3.35 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — PSU: %toNAV = 55.46
+- Exposure to top seven groups — Axis Bank: %toNAV = 10.91
+- Exposure to top seven groups — MNC: %toNAV = 7.82
+- Exposure to top seven groups — Bharti: %toNAV = 6.50
+- Exposure to top seven groups — Kotak: %toNAV = 4.65
+- Exposure to top seven groups — Tata: %toNAV = 4.56
+- Exposure to top seven groups — HDFC: %toNAV = 3.35
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -4420,6 +5820,11 @@ CP - Commercial Papers; CD - Certificate of Deposit;
 |------------|-----------------|------------------------|--------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------------|-------------------------------------------------------------|
 | Jul 31, 25 | Last 1 Year     |                   6.83 |                     6.80 |                                    4.21 |                                      10,683 |                                          10,680 |                                                      10,421 |
 | May 06, 25 | Since Inception |                   6.95 |                     6.85 |                                    4.61 |                                      10,865 |                                          10,853 |                                                      10,573 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 6.83; Benchmark Returns (%)# = 6.80; Additional Benchmark Returns (%) - ## = 4.21; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,683; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,680; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,421
+- PERFORMANCE  ^ - Regular Plan - Growth Option — May 06, 25: Period = Since Inception; Scheme - Returns (%) = 6.95; Benchmark Returns (%)# = 6.85; Additional Benchmark Returns (%) - ## = 4.61; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,865; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,853; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,573
+
 
 <!-- image -->
 
@@ -4457,6 +5862,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Regular Plan - Growth Option |          10.2717 |
 | Direct Plan - Growth Option  |          10.2793 |
 
+**Table values by row and column (derived from the table above):**
+- March 24, 2026 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 10.2717
+- March 24, 2026 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 10.2793
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT
@@ -4484,6 +5894,14 @@ Average for Month of July, 2026
 | Annualized Portfolio YTM#*                                                                                                                                    | 7.22%                                                                                                                                                         |
 | #semi annual YTM has been annualised.                                                                                                                         | #semi annual YTM has been annualised.                                                                                                                         |
 | *Calculated on the amount invested in debt securities (including accrued interest), deployment of funds in TREPS and Reverse Repo and net receivable/ payable | *Calculated on the amount invested in debt securities (including accrued interest), deployment of funds in TREPS and Reverse Repo and net receivable/ payable |
+
+**Table values by row and column (derived from the table above):**
+- QUANTITATIVE DATA — Macaulay Duration *: 221 Days = 218 Days
+- QUANTITATIVE DATA — Modified Duration *: 221 Days = 204 Days
+- QUANTITATIVE DATA — Annualized Portfolio YTM#*: 221 Days = 7.22%
+- QUANTITATIVE DATA — #semi annual YTM has been annualised.: 221 Days = #semi annual YTM has been annualised.
+- QUANTITATIVE DATA — *Calculated on the amount invested in debt securities (including accrued interest), deployment of funds in TREPS and Reverse Repo and net receivable/ payable: 221 Days = *Calculated on the amount invested in debt securities (including accrued interest), deployment of funds in TREPS and Reverse Repo and net receivable/ payable
+
 
 <!-- image -->
 
@@ -4555,6 +5973,33 @@ Not Applicable
 | Punjab National Bank                        | CARE-A1+             |      2.88 |
 | Canara Bank                                 | CRISIL -A1+          |      2.86 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • RECLimited.: Rating = CRISIL-AAA; %to NAV = 8.96
+- PORTFOLIO — • Bajaj Finance Ltd.: Rating = CRISIL-AAA; %to NAV = 7.17
+- PORTFOLIO — • LIC Housing Finance Ltd.: Rating = CRISIL-AAA; %to NAV = 6.56
+- PORTFOLIO — • Mahindra &MahindraFinancial Services Ltd.: Rating = CRISIL-AAA; %to NAV = 6.40
+- PORTFOLIO — • Tata Capital Ltd.: Rating = CRISIL-AAA/ ICRA-AAA; %to NAV = 6.04
+- PORTFOLIO — • National Bank for Agri &Rural Dev.: Rating = ICRA-AAA; %to NAV = 5.98
+- PORTFOLIO — • Power Finance Corporation Ltd.: Rating = CRISIL-AAA; %to NAV = 5.98
+- PORTFOLIO — Small Industries Development Bank: Rating = CRISIL-AAA; %to NAV = 4.78
+- PORTFOLIO — Kotak Mahindra Investments Ltd.: Rating = CRISIL-AAA; %to NAV = 1.07
+- PORTFOLIO — HDBFinancial Services Ltd.: Rating = CRISIL-AAA; %to NAV = 0.72
+- PORTFOLIO — Aditya Birla Capital ltd.: Rating = CRISIL-AAA; %to NAV = 0.12
+- PORTFOLIO — Sundaram Finance Ltd.: Rating = ICRA-AAA; %to NAV = 0.12
+- PORTFOLIO — Sub Total: %to NAV = 53.90
+- PORTFOLIO — • Panatone Finvest Ltd.: Rating = CRISIL -A1+; %to NAV = 5.77
+- PORTFOLIO — Sub Total: %to NAV = 5.77
+- PORTFOLIO — • Axis Bank Ltd.: Rating = CRISIL -A1+; %to NAV = 6.34
+- PORTFOLIO — • Kotak Mahindra Bank Limited: Rating = CRISIL -A1+; %to NAV = 5.76
+- PORTFOLIO — Small Industries Development Bank: Rating = CARE-A1+; %to NAV = 5.72
+- PORTFOLIO — National Bank for Agri &Rural Dev.: Rating = ICRA -A1+; %to NAV = 5.71
+- PORTFOLIO — Union Bank of India: Rating = ICRA -A1+; %to NAV = 2.89
+- PORTFOLIO — Bank of Baroda: Rating = CARE-A1+; %to NAV = 2.88
+- PORTFOLIO — Indian Bank: Rating = CRISIL -A1+; %to NAV = 2.88
+- PORTFOLIO — Punjab National Bank: Rating = CARE-A1+; %to NAV = 2.88
+- PORTFOLIO — Canara Bank: Rating = CRISIL -A1+; %to NAV = 2.86
+
+
 <!-- image -->
 
 - redit Exposure
@@ -4579,6 +6024,13 @@ CP - Commercial Papers; CD - Certificate of Deposit;
 | Grand Total                           |          |   100.00 |
 | • Top Ten Holdings                    |          |          |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Sub Total: %toNAV = 37.92
+- PORTFOLIO — Total: %toNAV = 43.69
+- PORTFOLIO — Cash,Cash Equivalents and Net Current: Rating = Assets; %toNAV = 2.41
+- PORTFOLIO — Grand Total: %toNAV = 100.00
+
+
 ## Exposure to top seven groups
 
 | Management Group   |   %toNAV |
@@ -4590,6 +6042,16 @@ CP - Commercial Papers; CD - Certificate of Deposit;
 | Mahindra &Mahindra |     6.40 |
 | Axis Bank          |     6.33 |
 | HDFC               |     0.72 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — PSU: %toNAV = 58.06
+- Exposure to top seven groups — Tata: %toNAV = 11.80
+- Exposure to top seven groups — Bajaj: %toNAV = 7.16
+- Exposure to top seven groups — Kotak: %toNAV = 6.84
+- Exposure to top seven groups — Mahindra &Mahindra: %toNAV = 6.40
+- Exposure to top seven groups — Axis Bank: %toNAV = 6.33
+- Exposure to top seven groups — HDFC: %toNAV = 0.72
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -4626,6 +6088,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Anupam Joshi | August 31, 2024 | Over 20 years |
 | Sankalp Baid | March 01, 2025  | Over 16 years |
 
+**Table values by row and column (derived from the table above):**
+- FUND MANAGER — Anupam Joshi: Since = August 31, 2024; Total Exp = Over 20 years
+- FUND MANAGER — Sankalp Baid: Since = March 01, 2025; Total Exp = Over 16 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -4639,6 +6106,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Regular Plan - Growth Option |          12.9001 |
 | Direct Plan - Growth Option  |          12.9731 |
 
+**Table values by row and column (derived from the table above):**
+- November 10, 2022 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 12.9001
+- November 10, 2022 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 12.9731
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT
@@ -4646,6 +6118,10 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | As on July 31, 2026             | ₹ 940.01Cr.   |
 |---------------------------------|---------------|
 | Average for Month of July, 2026 | ₹ 940.47Cr.   |
+
+**Table values by row and column (derived from the table above):**
+- ASSETS UNDER MANAGEMENT — Average for Month of July, 2026: ₹ 940.01Cr. = ₹ 940.47Cr.
+
 
 <!-- image -->
 
@@ -4704,6 +6180,11 @@ CRISIL 10 Year Gilt Index
 | Annualised tracking error is calculated based on daily rolling returns for the last 12 months: | Annualised tracking error is calculated based on daily rolling returns for the last 12 months: |
 | Regular: 0.40%                                                                                 | Direct: 0.40%                                                                                  |
 
+**Table values by row and column (derived from the table above):**
+- ADDL. BENCHMARK INDEX — Annualised tracking error is calculated based on daily rolling returns for the last 12 months:: TRACKING ERROR = Annualised tracking error is calculated based on daily rolling returns for the last 12 months:
+- ADDL. BENCHMARK INDEX — Regular: 0.40%: TRACKING ERROR = Direct: 0.40%
+
+
 Debt Index Replication Factor (DIRF): 98.07%
 
 <!-- image -->
@@ -4728,6 +6209,16 @@ Debt Index Replication Factor (DIRF): 98.07%
 | Grand Total                                  |                                              |    100.00 |
 | • Top Ten Holdings                           |                                              |           |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Government Securities (Central/State): Rating = Government Securities (Central/State)
+- PORTFOLIO — • 5.74 GOI 2026: Rating = Sovereign; %to NAV = 70.94
+- PORTFOLIO — • 6.97 GOI 2026: Rating = Sovereign; %to NAV = 16.72
+- PORTFOLIO — • 8.15 GOI 2026: Rating = Sovereign; %to NAV = 10.40
+- PORTFOLIO — Sub Total: %to NAV = 98.06
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Rating = Cash,Cash Equivalents and Net Current Assets; %to NAV = 1.94
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 <!-- image -->
 
 - G Sec
@@ -4740,6 +6231,10 @@ Debt Index Replication Factor (DIRF): 98.07%
 | Management Group   |   %toNAV |
 |--------------------|----------|
 | Central Government |    98.07 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Central Government: %toNAV = 98.07
+
 
 Face Value / Allotment NAV per Unit: ₹ 10,  ata is as of July 31, 2026 unless otherwise specified.
 
@@ -4760,6 +6255,12 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | Jul 31, 25 | Last 1 Year     |                   5.42 |                     5.77 |                                    2.27 |                                      10,542 |                                          10,577 |                                                      10,227 |
 | Jul 31, 23 | Last 3 Years    |                   6.99 |                     7.38 |                                    6.78 |                                      12,250 |                                          12,382 |                                                      12,176 |
 | Nov 10, 22 | Since Inception |                   7.08 |                     7.44 |                                    7.19 |                                      12,900 |                                          13,064 |                                                      12,949 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 5.42; Benchmark Returns (%)# = 5.77; Additional Benchmark Returns (%) - ## = 2.27; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,542; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,577; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,227
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 6.99; Benchmark Returns (%)# = 7.38; Additional Benchmark Returns (%) - ## = 6.78; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,250; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,382; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,176
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Nov 10, 22: Period = Since Inception; Scheme - Returns (%) = 7.08; Benchmark Returns (%)# = 7.44; Additional Benchmark Returns (%) - ## = 7.19; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,900; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 13,064; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,949
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). For performance of other schemes managed by Anupam Joshi &amp; Sankalp Baid, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -4786,6 +6287,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Anupam Joshi | August 31, 2024       | Over 20 years             |
 | Sankalp Baid | March 01, 2025        | Over 16 years             |
 
+**Table values by row and column (derived from the table above):**
+- HDFC Nifty G-Sec Jun 2027 Index Fund — Anupam Joshi: FUNDMANAGER - Since = August 31, 2024; FUNDMANAGER - Total Exp = Over 20 years
+- HDFC Nifty G-Sec Jun 2027 Index Fund — Sankalp Baid: FUNDMANAGER - Since = March 01, 2025; FUNDMANAGER - Total Exp = Over 16 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -4799,6 +6305,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Regular Plan - Growth Option |          12.8852 |
 | Direct Plan - Growth Option  |          12.9573 |
 
+**Table values by row and column (derived from the table above):**
+- December 09, 2022 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 12.8852
+- December 09, 2022 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 12.9573
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT
@@ -4806,6 +6317,10 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | As on July 31, 2026             | ₹ 576.54Cr.   |
 |---------------------------------|---------------|
 | Average for Month of July, 2026 | ₹ 580.19Cr.   |
+
+**Table values by row and column (derived from the table above):**
+- ASSETS UNDER MANAGEMENT — Average for Month of July, 2026: ₹ 576.54Cr. = ₹ 580.19Cr.
+
 
 <!-- image -->
 
@@ -4856,6 +6371,11 @@ NIFTY G-Sec Jun 2027 Index
 | Annualised tracking error is calculated based on daily rolling returns for the last 12 months: | Annualised tracking error is calculated based on daily rolling returns for the last 12 months: |
 | Regular: 0.42%                                                                                 | Direct: 0.42%                                                                                  |
 
+**Table values by row and column (derived from the table above):**
+- ADDL. BENCHMARK INDEX CRISIL 10 Year Gilt Index — Annualised tracking error is calculated based on daily rolling returns for the last 12 months:: TRACKING ERROR = Annualised tracking error is calculated based on daily rolling returns for the last 12 months:
+- ADDL. BENCHMARK INDEX CRISIL 10 Year Gilt Index — Regular: 0.42%: TRACKING ERROR = Direct: 0.42%
+
+
 Debt Index Replication Factor (DIRF): 98.56%
 
 <!-- image -->
@@ -4878,6 +6398,15 @@ Debt Index Replication Factor (DIRF): 98.56%
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      1.44 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Government Securities (Central/State): Rating = Government Securities (Central/State)
+- PORTFOLIO — • 7.38 GOI 2027: Rating = Sovereign; %to NAV = 81.25
+- PORTFOLIO — • 6.79 GOI 2027: Rating = Sovereign; %to NAV = 17.31
+- PORTFOLIO — Sub Total: %to NAV = 98.56
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Rating = Cash,Cash Equivalents and Net Current Assets; %to NAV = 1.44
+- PORTFOLIO — Grand Total: Rating = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 ## Exposure to top seven groups
@@ -4885,6 +6414,10 @@ Debt Index Replication Factor (DIRF): 98.56%
 | Management Group   |   %toNAV |
 |--------------------|----------|
 | Central Government |    98.56 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Central Government: %toNAV = 98.56
+
 
 <!-- image -->
 
@@ -4914,6 +6447,12 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | Jul 31, 23 | Last 3 Years    |                   7.23 |                       7.36 |                                    6.78 |                                      12,333 |                                          12,378 |                                                      12,176 |
 | Dec 09, 22 | Since Inception |                   7.20 |                       7.38 |                                    7.09 |                                      12,885 |                                          12,961 |                                                      12,837 |
 
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 5.40; Benchmark Returns - (%)# = 5.57; Additional Benchmark Returns (%) - ## = 2.27; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,540; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,557; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,227
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 7.23; Benchmark Returns - (%)# = 7.36; Additional Benchmark Returns (%) - ## = 6.78; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,333; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,378; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,176
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Dec 09, 22: Period = Since Inception; Scheme - Returns (%) = 7.20; Benchmark Returns - (%)# = 7.38; Additional Benchmark Returns (%) - ## = 7.09; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,885; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,961; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,837
+
+
 Returns greater than 1 year period are compounded annualized (CAGR). For performance of other schemes managed by Anupam Joshi &amp; Sankalp Baid, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
 ^Past performance may or may not be sustained in future and is not a guarantee of any future returns. Load is not taken into consideration for computation of performance.
@@ -4941,6 +6480,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Anupam Joshi | August 31, 2024 | Over 20 years |
 | Sankalp Baid | March 01, 2025  | Over 16 years |
 
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY G-Sec Apr 2029 Index Fund — Anupam Joshi: Since = August 31, 2024; Total Exp = Over 20 years
+- HDFC NIFTY G-Sec Apr 2029 Index Fund — Sankalp Baid: Since = March 01, 2025; Total Exp = Over 16 years
+
+
 <!-- image -->
 
 ## FUND MANAGER
@@ -4956,6 +6500,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Regular Plan - Growth Option |          12.9255 |
 | Direct Plan - Growth Option  |          12.9958 |
 
+**Table values by row and column (derived from the table above):**
+- March 10, 2023 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 12.9255
+- March 10, 2023 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 12.9958
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT
@@ -4963,6 +6512,10 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | As on July 31, 2026             | ₹ 157.07Cr.   |
 |---------------------------------|---------------|
 | Average for Month of July, 2026 | ₹ 156.64Cr.   |
+
+**Table values by row and column (derived from the table above):**
+- ASSETS UNDER MANAGEMENT — Average for Month of July, 2026: ₹ 157.07Cr. = ₹ 156.64Cr.
+
 
 <!-- image -->
 
@@ -5042,6 +6595,15 @@ Debt Index Replication Factor (DIRF): 96.91%
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      3.09 |
 | Grand Total                                  |                                              |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Government Securities (Central/State): Rating = Government Securities (Central/State)
+- PORTFOLIO — • 7.1 GOI 2029: Rating = Sovereign; %to NAV = 76.81
+- PORTFOLIO — • 7.59 GOI 2029: Rating = Sovereign; %to NAV = 20.10
+- PORTFOLIO — Sub Total: %to NAV = 96.91
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Rating = Cash,Cash Equivalents and Net Current Assets; %to NAV = 3.09
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 ## Exposure to top seven groups
@@ -5049,6 +6611,10 @@ Debt Index Replication Factor (DIRF): 96.91%
 | Management Group   |   %toNAV |
 |--------------------|----------|
 | Central Government |    96.91 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Central Government: %toNAV = 96.91
+
 
 <!-- image -->
 
@@ -5075,6 +6641,12 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | Jul 31, 25 | Last 1 Year     |                   5.06 |                       5.51 |                                    2.27 |                                      10,506 |                                          10,552 |                                                      10,227 |
 | Jul 31, 23 | Last 3 Years    |                   7.57 |                       7.99 |                                    6.78 |                                      12,449 |                                          12,595 |                                                      12,176 |
 | Mar 10, 23 | Since Inception |                   7.85 |                       8.26 |                                    7.33 |                                      12,926 |                                          13,091 |                                                      12,714 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 5.06; Benchmark Returns - (%)# = 5.51; Additional Benchmark Returns (%) - ## = 2.27; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,506; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,552; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,227
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 7.57; Benchmark Returns - (%)# = 7.99; Additional Benchmark Returns (%) - ## = 6.78; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,449; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,595; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,176
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Mar 10, 23: Period = Since Inception; Scheme - Returns (%) = 7.85; Benchmark Returns - (%)# = 8.26; Additional Benchmark Returns (%) - ## = 7.33; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,926; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 13,091; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,714
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). For performance of other schemes managed by Anupam Joshi &amp; Sankalp Baid, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -5105,6 +6677,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Anupam Joshi | August 31, 2024 | Over 20 years |
 | Sankalp Baid | March 01, 2025  | Over 16 years |
 
+**Table values by row and column (derived from the table above):**
+- FUND MANAGER — Anupam Joshi: Since = August 31, 2024; Total Exp = Over 20 years
+- FUND MANAGER — Sankalp Baid: Since = March 01, 2025; Total Exp = Over 16 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -5118,6 +6695,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Regular Plan - Growth Option |          13.3212 |
 | Direct Plan - Growth Option  |          13.4017 |
 
+**Table values by row and column (derived from the table above):**
+- November 10, 2022 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 13.3212
+- November 10, 2022 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 13.4017
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT
@@ -5125,6 +6707,10 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | As on July 31, 2026             | ₹ 637.63Cr.   |
 |---------------------------------|---------------|
 | Average for Month of July, 2026 | ₹ 635.83Cr.   |
+
+**Table values by row and column (derived from the table above):**
+- ASSETS UNDER MANAGEMENT — Average for Month of July, 2026: ₹ 637.63Cr. = ₹ 635.83Cr.
+
 
 ## QUANTITATIVE DATA
 
@@ -5181,6 +6767,11 @@ CRISIL 10 Year Gilt Index
 | Annualised tracking error is calculated based on daily rolling returns for the last 12 months: | Annualised tracking error is calculated based on daily rolling returns for the last 12 months: |
 | Regular: 1.31%                                                                                 | Direct: 1.31%                                                                                  |
 
+**Table values by row and column (derived from the table above):**
+- ADDL. BENCHMARK INDEX — Annualised tracking error is calculated based on daily rolling returns for the last 12 months:: TRACKING ERROR = Annualised tracking error is calculated based on daily rolling returns for the last 12 months:
+- ADDL. BENCHMARK INDEX — Regular: 1.31%: TRACKING ERROR = Direct: 1.31%
+
+
 Debt Index Replication Factor (DIRF): 98.79%
 
 <!-- image -->
@@ -5207,6 +6798,19 @@ Debt Index Replication Factor (DIRF): 98.79%
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      1.20 |
 | Grand Total                                  |                                              |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Government Securities (Central/State): Rating = Government Securities (Central/State)
+- PORTFOLIO — • 6.1 GOI 2031: Rating = Sovereign; %to NAV = 86.13
+- PORTFOLIO — • 8.97 GOI 2030: Rating = Sovereign; %to NAV = 4.59
+- PORTFOLIO — • 7.02 GOI 2031: Rating = Sovereign; %to NAV = 4.02
+- PORTFOLIO — • 5.77 GOI 2030: Rating = Sovereign; %to NAV = 3.45
+- PORTFOLIO — • 5.85 GOI 2030: Rating = Sovereign; %to NAV = 0.46
+- PORTFOLIO — • 5.79 GOI 2030: Rating = Sovereign; %to NAV = 0.15
+- PORTFOLIO — Sub Total: %to NAV = 98.80
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Rating = Cash,Cash Equivalents and Net Current Assets; %to NAV = 1.20
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 <!-- image -->
 
 <!-- image -->
@@ -5227,6 +6831,10 @@ G Sec
 |--------------------|----------|
 | Central Government |    98.79 |
 
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Central Government: %toNAV = 98.79
+
+
 Face Value / Allotment NAV per Unit: ₹ 10,  ata is as of July 31, 2026 unless otherwise specified.
 
 Please refer Minimum Application Amount, Plans &amp; Options, on Page no. 65 to 70.
@@ -5244,6 +6852,12 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | Jul 31, 25 | Last 1 Year     |                   5.14 |                     5.46 |                                    2.27 |                                      10,514 |                                          10,546 |                                                      10,227 |
 | Jul 31, 23 | Last 3 Years    |                   7.89 |                     8.25 |                                    6.78 |                                      12,561 |                                          12,689 |                                                      12,176 |
 | Nov 10, 22 | Since Inception |                   8.01 |                     8.38 |                                    7.19 |                                      13,321 |                                          13,494 |                                                      12,949 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 5.14; Benchmark Returns (%)# = 5.46; Additional Benchmark Returns (%) - ## = 2.27; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,514; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,546; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,227
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 7.89; Benchmark Returns (%)# = 8.25; Additional Benchmark Returns (%) - ## = 6.78; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,561; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,689; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,176
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Nov 10, 22: Period = Since Inception; Scheme - Returns (%) = 8.01; Benchmark Returns (%)# = 8.38; Additional Benchmark Returns (%) - ## = 7.19; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 13,321; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 13,494; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,949
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). For performance of other schemes managed by Anupam Joshi &amp; Sankalp Baid, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -5270,6 +6884,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Anupam Joshi | August 31, 2024 | Over 20 years |
 | Sankalp Baid | March 01, 2025  | Over 16 years |
 
+**Table values by row and column (derived from the table above):**
+- HDFC Nifty G-Sec Sep 2032 Index Fund — Anupam Joshi: Since = August 31, 2024; Total Exp = Over 20 years
+- HDFC Nifty G-Sec Sep 2032 Index Fund — Sankalp Baid: Since = March 01, 2025; Total Exp = Over 16 years
+
+
 <!-- image -->
 
 ## FUND MANAGER
@@ -5285,6 +6904,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Regular Plan - Growth Option |          13.1913 |
 | Direct Plan - Growth Option  |          13.2740 |
 
+**Table values by row and column (derived from the table above):**
+- December 09, 2022 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 13.1913
+- December 09, 2022 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 13.2740
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT
@@ -5292,6 +6916,10 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | As on July 31, 2026             | ₹ 629.44Cr.   |
 |---------------------------------|---------------|
 | Average for Month of July, 2026 | ₹ 628.65Cr.   |
+
+**Table values by row and column (derived from the table above):**
+- ASSETS UNDER MANAGEMENT — Average for Month of July, 2026: ₹ 629.44Cr. = ₹ 628.65Cr.
+
 
 <!-- image -->
 
@@ -5326,6 +6954,11 @@ CRISIL 10 Year Gilt Index
 | Annualised tracking error is calculated based on daily rolling returns for the last 12 months: | Annualised tracking error is calculated based on daily rolling returns for the last 12 months: |
 | Regular: 1.83%                                                                                 | Direct: 1.83%                                                                                  |
 
+**Table values by row and column (derived from the table above):**
+- ADDL. BENCHMARK INDEX — Annualised tracking error is calculated based on daily rolling returns for the last 12 months:: TRACKING ERROR = Annualised tracking error is calculated based on daily rolling returns for the last 12 months:
+- ADDL. BENCHMARK INDEX — Regular: 1.83%: TRACKING ERROR = Direct: 1.83%
+
+
 Debt Index Replication Factor (DIRF): 96.88%
 
 <!-- image -->
@@ -5350,6 +6983,16 @@ Debt Index Replication Factor (DIRF): 96.88%
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      3.13 |
 | Grand Total                                  |                                              |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • 7.26 GOI 2032: Rating = Sovereign; %to NAV = 91.17
+- PORTFOLIO — • 6.54 GOI 2032: Rating = Sovereign; %to NAV = 3.35
+- PORTFOLIO — • 7.95 GOI 2032: Rating = Sovereign; %to NAV = 2.33
+- PORTFOLIO — • 8.32 GOI 2032: Rating = Sovereign; %to NAV = 0.02
+- PORTFOLIO — Sub Total: %to NAV = 96.87
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Rating = Cash,Cash Equivalents and Net Current Assets; %to NAV = 3.13
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 <!-- image -->
@@ -5366,6 +7009,11 @@ G Sec
 |-----------------------------|----------|
 | Central Government          |    96.85 |
 | Central Government of India |     0.02 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Central Government: %toNAV = 96.85
+- Exposure to top seven groups — Central Government of India: %toNAV = 0.02
+
 
 Face Value / Allotment NAV per Unit: ₹ 10,  ata is as of July 31, 2026 unless otherwise specified.
 
@@ -5386,6 +7034,12 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | Jul 31, 25 | Last 1 Year     |                   4.72 |                     5.22 |                                    2.27 |                                      10,472 |                                          10,522 |                                                      10,227 |
 | Jul 31, 23 | Last 3 Years    |                   7.81 |                     8.28 |                                    6.78 |                                      12,535 |                                          12,698 |                                                      12,176 |
 | Dec 09, 22 | Since Inception |                   7.90 |                     8.35 |                                    7.09 |                                      13,191 |                                          13,395 |                                                      12,837 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 4.72; Benchmark Returns (%)# = 5.22; Additional Benchmark Returns (%) - ## = 2.27; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,472; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,522; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,227
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 7.81; Benchmark Returns (%)# = 8.28; Additional Benchmark Returns (%) - ## = 6.78; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,535; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,698; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,176
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Dec 09, 22: Period = Since Inception; Scheme - Returns (%) = 7.90; Benchmark Returns (%)# = 8.35; Additional Benchmark Returns (%) - ## = 7.09; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 13,191; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 13,395; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,837
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). For performance of other schemes managed by Anupam Joshi &amp; Sankalp Baid, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -5412,6 +7066,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Anupam Joshi | August 31, 2024       | Over 20 years             |
 | Sankalp Baid | March 01, 2025        | Over 16 years             |
 
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY G-sec Jun 2036 Index Fund — Anupam Joshi: FUNDMANAGER - Since = August 31, 2024; FUNDMANAGER - Total Exp = Over 20 years
+- HDFC NIFTY G-sec Jun 2036 Index Fund — Sankalp Baid: FUNDMANAGER - Since = March 01, 2025; FUNDMANAGER - Total Exp = Over 16 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -5425,6 +7084,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Regular Plan - Growth Option |          13.0795 |
 | Direct Plan - Growth Option  |          13.1614 |
 
+**Table values by row and column (derived from the table above):**
+- March 15, 2023 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 13.0795
+- March 15, 2023 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 13.1614
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT
@@ -5432,6 +7096,10 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | As on July 31, 2026             | ₹ 863.66Cr.   |
 |---------------------------------|---------------|
 | Average for Month of July, 2026 | ₹ 832.97Cr.   |
+
+**Table values by row and column (derived from the table above):**
+- ASSETS UNDER MANAGEMENT — Average for Month of July, 2026: ₹ 863.66Cr. = ₹ 832.97Cr.
+
 
 <!-- image -->
 
@@ -5484,6 +7152,11 @@ NIFTY G-Sec Jun 2036 Index
 | Annualised tracking error is calculated based on daily rolling returns for the last 12 months: | Annualised tracking error is calculated based on daily rolling returns for the last 12 months: |
 | Regular: 1.49%                                                                                 | Direct: 1.49%                                                                                  |
 
+**Table values by row and column (derived from the table above):**
+- ADDL. BENCHMARK INDEX CRISIL 10 Year Gilt Index — Annualised tracking error is calculated based on daily rolling returns for the last 12 months:: TRACKING ERROR = Annualised tracking error is calculated based on daily rolling returns for the last 12 months:
+- ADDL. BENCHMARK INDEX CRISIL 10 Year Gilt Index — Regular: 1.49%: TRACKING ERROR = Direct: 1.49%
+
+
 Debt Index Replication Factor (DIRF): 97.24%
 
 <!-- image -->
@@ -5507,6 +7180,15 @@ Debt Index Replication Factor (DIRF): 97.24%
 | Grand Total                                  |                                              |    100.00 |
 | • Top Ten Holdings                           |                                              |           |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Government Securities (Central/State): Rating = Government Securities (Central/State)
+- PORTFOLIO — • 7.54 GOI 2036: Rating = Sovereign; %to NAV = 87.94
+- PORTFOLIO — • 6.67 GOI 2035: Rating = Sovereign; %to NAV = 10.33
+- PORTFOLIO — Sub Total: %to NAV = 98.27
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Rating = Cash,Cash Equivalents and Net Current Assets; %to NAV = 1.73
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 <!-- image -->
 
 G Sec
@@ -5520,6 +7202,10 @@ ash,  ash E ui alents and Net  urrent Assets
 | Management Group   |   %toNAV |
 |--------------------|----------|
 | Central Government |    98.26 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Central Government: %toNAV = 98.26
+
 
 Face Value / Allotment NAV per Unit: ₹ 10,  ata is as of July 31, 2026 unless otherwise specified.
 
@@ -5540,6 +7226,12 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | Jul 31, 25 | Last 1 Year     |                   4.37 |                     3.70 |                                    2.27 |                                      10,437 |                                          10,370 |                                                      10,227 |
 | Jul 31, 23 | Last 3 Years    |                   7.77 |                     7.67 |                                    6.78 |                                      12,518 |                                          12,485 |                                                      12,176 |
 | Mar 15, 23 | Since Inception |                   8.26 |                     8.10 |                                    7.19 |                                      13,080 |                                          13,011 |                                                      12,644 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 4.37; Benchmark Returns (%)# = 3.70; Additional Benchmark Returns (%) - ## = 2.27; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,437; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,370; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,227
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 7.77; Benchmark Returns (%)# = 7.67; Additional Benchmark Returns (%) - ## = 6.78; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,518; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,485; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,176
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Mar 15, 23: Period = Since Inception; Scheme - Returns (%) = 8.26; Benchmark Returns (%)# = 8.10; Additional Benchmark Returns (%) - ## = 7.19; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 13,080; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 13,011; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,644
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). For performance of other schemes managed by Anupam Joshi &amp; Sankalp Baid, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -5564,6 +7256,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Anupam Joshi | August 31, 2024       | Over 20 years             |
 | Sankalp Baid | March 01, 2025        | Over 16 years             |
 
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Anupam Joshi: FUNDMANAGER - Since = August 31, 2024; FUNDMANAGER - Total Exp = Over 20 years
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Sankalp Baid: FUNDMANAGER - Since = March 01, 2025; FUNDMANAGER - Total Exp = Over 16 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -5577,6 +7274,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Regular Plan - Growth Option |          12.6723 |
 | Direct Plan - Growth Option  |          12.7345 |
 
+**Table values by row and column (derived from the table above):**
+- March 23, 2023 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 12.6723
+- March 23, 2023 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 12.7345
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT
@@ -5584,6 +7286,10 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | As on July 31, 2026             | ₹ 48.54Cr.   |
 |---------------------------------|--------------|
 | Average for Month of July, 2026 | ₹ 48.46Cr.   |
+
+**Table values by row and column (derived from the table above):**
+- ASSETS UNDER MANAGEMENT — Average for Month of July, 2026: ₹ 48.54Cr. = ₹ 48.46Cr.
+
 
 <!-- image -->
 
@@ -5618,6 +7324,11 @@ CRISIL 10 Year Gilt Index
 | Annualised tracking error is calculated based on daily rolling returns for the last 12 months: | Annualised tracking error is calculated based on daily rolling returns for the last 12 months: |
 | Regular: 0.45%                                                                                 | Direct: 0.45%                                                                                  |
 
+**Table values by row and column (derived from the table above):**
+- ADDL. BENCHMARK INDEX — Annualised tracking error is calculated based on daily rolling returns for the last 12 months:: TRACKING ERROR = Annualised tracking error is calculated based on daily rolling returns for the last 12 months:
+- ADDL. BENCHMARK INDEX — Regular: 0.45%: TRACKING ERROR = Direct: 0.45%
+
+
 Debt Index Replication Factor (DIRF): 95.28%
 
 <!-- image -->
@@ -5648,6 +7359,23 @@ Debt Index Replication Factor (DIRF): 95.28%
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      4.72 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Government Securities (Central/State): Rating = Government Securities (Central/State)
+- PORTFOLIO — • 7.38 GOI 2027: Rating = Sovereign; %to NAV = 43.38
+- PORTFOLIO — • 7.86% Karnataka SDL - Mat 150327: Rating = Sovereign; %to NAV = 17.31
+- PORTFOLIO — • 6.79 GOI 2027: Rating = Sovereign; %to NAV = 12.46
+- PORTFOLIO — • 7.22% Chhattisgarh SDL - Mat 250127: Rating = Sovereign; %to NAV = 10.37
+- PORTFOLIO — • 7.23% Tamil Nadu SDL MAT140627: Rating = Sovereign; %to NAV = 6.25
+- PORTFOLIO — • 7.69% Haryana SDL Mat 150627: Rating = Sovereign; %to NAV = 2.67
+- PORTFOLIO — • 7.77% Kerala SDL - Mat 010327: Rating = Sovereign; %to NAV = 1.04
+- PORTFOLIO — • 7.52% Gujarat SDL - Mat 240527: Rating = Sovereign; %to NAV = 0.86
+- PORTFOLIO — • 7.78% Uttar Pradesh SDL Mat 010327: Rating = Sovereign; %to NAV = 0.73
+- PORTFOLIO — • 7.51% Maharashtra SDL - Mat 240527: Rating = Sovereign; %to NAV = 0.21
+- PORTFOLIO — Sub Total: %to NAV = 95.28
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Rating = Cash,Cash Equivalents and Net Current Assets; %to NAV = 4.72
+- PORTFOLIO — Grand Total: Rating = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 - G Sec, S L
 - ash,  ash E ui alents and Net  urrent Assets
@@ -5664,6 +7392,11 @@ Debt Index Replication Factor (DIRF): 95.28%
 |--------------------|----------|
 | Central Government |    55.84 |
 | STATE GOVERNMENT   |    39.44 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Central Government: %toNAV = 55.84
+- Exposure to top seven groups — STATE GOVERNMENT: %toNAV = 39.44
+
 
 Face Value / Allotment NAV per Unit: ₹ 10,  ata is as of July 31, 2026 unless otherwise specified.
 
@@ -5682,6 +7415,12 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | Jul 31, 25 | Last 1 Year     |                   5.56 |                     5.83 |                                    2.27 |                                      10,556 |                                          10,583 |                                                      10,227 |
 | Jul 31, 23 | Last 3 Years    |                   7.28 |                     7.63 |                                    6.78 |                                      12,348 |                                          12,471 |                                                      12,176 |
 | Mar 23, 23 | Since Inception |                   7.31 |                     7.68 |                                    7.15 |                                      12,672 |                                          12,820 |                                                      12,610 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 5.56; Benchmark Returns (%)# = 5.83; Additional Benchmark Returns (%) - ## = 2.27; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,556; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,583; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,227
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 7.28; Benchmark Returns (%)# = 7.63; Additional Benchmark Returns (%) - ## = 6.78; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,348; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,471; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,176
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Mar 23, 23: Period = Since Inception; Scheme - Returns (%) = 7.31; Benchmark Returns (%)# = 7.68; Additional Benchmark Returns (%) - ## = 7.15; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,672; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,820; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,610
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). For performance of other schemes managed by Anupam Joshi &amp; Sankalp Baid, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -5722,6 +7461,11 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 |------------------------------|------------------|
 | Regular Plan - Growth Option |          12.7254 |
 | Direct Plan - Growth Option  |          12.7935 |
+
+**Table values by row and column (derived from the table above):**
+- February 24, 2023 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 12.7254
+- February 24, 2023 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 12.7935
+
 
 <!-- image -->
 
@@ -5838,6 +7582,29 @@ Direct: 0.42%
 | Cash,Cash Equivalents and Net Current Assets                | Cash,Cash Equivalents and Net Current Assets |      6.55 |
 | Grand Total                                                 | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • 7.37% MaharashtraSDL - Mat 140926: Rating = Sovereign; %to NAV = 23.12
+- PORTFOLIO — • 7.37% Tamil Nadu SDL Mat 140926: Rating = Sovereign; %to NAV = 13.37
+- PORTFOLIO — • 8.72% Tamil Nadu SDL Mat 190926: Rating = Sovereign; %to NAV = 10.12
+- PORTFOLIO — • 7.58% MaharashtraSDLMAT 240826: Rating = Sovereign; %to NAV = 9.46
+- PORTFOLIO — • 6.24% MaharashtraSDLMAT 110826: Rating = Sovereign; %to NAV = 9.45
+- PORTFOLIO — • 7.14% KarnatakaSDL - Mat 131026 •: Rating = Sovereign; %to NAV = 9.03
+- PORTFOLIO — 7.15% MaharashtraSDL - Mat 131026: Rating = Sovereign; %to NAV = 8.36
+- PORTFOLIO — • 7.16%UP SDL Mat 131026: Rating = Sovereign; %to NAV = 2.79
+- PORTFOLIO — • 7.16% MaharashtraSDL - Mat 280926: Rating = Sovereign; %to NAV = 2.56
+- PORTFOLIO — • 7.61% KeralaSDL Mat - 090826: Rating = Sovereign; %to NAV = 1.50
+- PORTFOLIO — 7.58% Tamilnadu SDL MAT240826 7.63% Uttar Pradesh SDL - Mat: Rating = Sovereign; %to NAV = 1.11
+- PORTFOLIO — 090826: Rating = Sovereign; %to NAV = 0.83
+- PORTFOLIO — 7.18% HaryanaSDL Mat 280926: Rating = Sovereign; %to NAV = 0.56
+- PORTFOLIO — 7.63% Andhra Pradesh SDL Mat 090826: Rating = Sovereign; %to NAV = 0.56
+- PORTFOLIO — 7.39% Uttarakhand SDL Mat 140926: Rating = Sovereign; %to NAV = 0.33
+- PORTFOLIO — 7.19% Uttar Pradesh SDL - Mat 280926: Rating = Sovereign; %to NAV = 0.25
+- PORTFOLIO — 7.15% KeralaSDL - Mat 131026: Rating = Sovereign; %to NAV = 0.05
+- PORTFOLIO — Sub Total: %to NAV = 93.45
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Rating = Cash,Cash Equivalents and Net Current Assets; %to NAV = 6.55
+- PORTFOLIO — Grand Total: Rating = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 <!-- image -->
@@ -5858,6 +7625,12 @@ ash,  ash E ui alents and Net  urrent Assets
 | Jul 31, 23 | Last 3 Years    |                   7.06 |                     7.45 |                                    6.78 |                                      12,275 |                                          12,410 |                                                      12,176 |
 | Feb 24, 23 | Since Inception |                   7.27 |                     7.63 |                                    7.33 |                                      12,725 |                                          12,870 |                                                      12,747 |
 
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 5.51; Benchmark Returns (%)# = 5.85; Additional Benchmark Returns (%) - ## = 2.27; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,551; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,585; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,227
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 7.06; Benchmark Returns (%)# = 7.45; Additional Benchmark Returns (%) - ## = 6.78; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,275; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,410; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,176
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Feb 24, 23: Period = Since Inception; Scheme - Returns (%) = 7.27; Benchmark Returns (%)# = 7.63; Additional Benchmark Returns (%) - ## = 7.33; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,725; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,870; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,747
+
+
 Returns greater than 1 year period are compounded annualized (CAGR). For performance of other schemes managed by Anupam Joshi &amp; Sankalp Baid, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
 ^Past performance may or may not be sustained in future and is not a guarantee of any future returns. Load is not taken into consideration for computation of performance.
@@ -5869,6 +7642,10 @@ Returns greater than 1 year period are compounded annualized (CAGR). For perform
 | Management Group   |   %toNAV |
 |--------------------|----------|
 | STATE GOVERNMENT   |    93.45 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — STATE GOVERNMENT: %toNAV = 93.45
+
 
 Face Value / Allotment NAV per Unit: ₹ 10,  ata is as of July 31, 2026 unless otherwise specified.
 
@@ -5906,6 +7683,11 @@ INVESTMENT OBJECTIVE: The investment objective of HDFC NIFTY 50 ETF is to genera
 |--------------|-----------------------|---------------------------|
 | Arun Agarwal | August 24, 2020       | Over 27 years             |
 | Abhishek Mor | February 15, 2023     | Over 8 years              |
+
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY 50 ETF — Arun Agarwal: FUNDMANAGER - Since = August 24, 2020; FUNDMANAGER - Total Exp = Over 27 years
+- HDFC NIFTY 50 ETF — Abhishek Mor: FUNDMANAGER - Since = February 15, 2023; FUNDMANAGER - Total Exp = Over 8 years
+
 
 ## Scrip Code: BSE: 539516/ NSE: HDFCNIFTY
 
@@ -6141,6 +7923,47 @@ For Product label and Riskometers, refer page no: 80-92
 | Trent Ltd.                                        | Retailing                      | 0.89      |
 | Oil &Natural Gas Corporation Ltd.                 | Oil                            | 0.84      |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 10.23
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 9.19
+- PORTFOLIO — • Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 7.89
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 5.36
+- PORTFOLIO — • Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 4.12
+- PORTFOLIO — • State Bank of India: Industry+ = Banks; %to NAV = 3.79
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 3.54
+- PORTFOLIO — • Axis Bank Ltd.: Industry+ = Banks; %to NAV = 3.15
+- PORTFOLIO — • Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 2.73
+- PORTFOLIO — • Mahindra &Mahindra Ltd.: Industry+ = Automobiles; %to NAV = 2.71
+- PORTFOLIO — Kotak Mahindra Bank Limited: Industry+ = Banks; %to NAV = 2.57
+- PORTFOLIO — ITC LIMITED: Industry+ = Diversified Fmcg; %to NAV = 2.42
+- PORTFOLIO — Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 2.16
+- PORTFOLIO — Eternal Limited: Industry+ = Retailing; %to NAV = 1.95
+- PORTFOLIO — Sun Pharmaceutical Industries Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 1.88
+- PORTFOLIO — Titan Company Ltd.: Industry+ = Consumer Durables; %to NAV = 1.80
+- PORTFOLIO — Hindustan Unilever Ltd.: Industry+ = Diversified Fmcg; %to NAV = 1.67
+- PORTFOLIO — Maruti Suzuki India Limited: Industry+ = Automobiles; %to NAV = 1.66
+- PORTFOLIO — NTPC Limited: Industry+ = Power; %to NAV = 1.47
+- PORTFOLIO — Tata Steel Ltd.: Industry+ = Ferrous Metals; %to NAV = 1.40
+- PORTFOLIO — Shriram Finance Ltd.: Industry+ = Finance; %to NAV = 1.31
+- PORTFOLIO — HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 1.27
+- PORTFOLIO — Hindalco Industries Ltd.: Industry+ = Non - Ferrous Metals; %to NAV = 1.26
+- PORTFOLIO — UltraTech Cement Limited: Industry+ = Cement& Cement Products; %to NAV = 1.26
+- PORTFOLIO — Bharat Electronics Ltd. Power Grid Corporation of: Industry+ = Aerospace &Defense; %to NAV = 1.24
+- PORTFOLIO — India Ltd.: Industry+ = Power; %to NAV = 1.15
+- PORTFOLIO — Bajaj Auto Limited: Industry+ = Automobiles; %to NAV = 1.14
+- PORTFOLIO — Adani Ports &Special Economic Zone: Industry+ = Transport Infrastructure; %to NAV = 1.12
+- PORTFOLIO — Asian Paints Limited: Industry+ = Consumer Durables; %to NAV = 1.11
+- PORTFOLIO — JSW Steel Ltd.: Industry+ = Ferrous Metals; %to NAV = 1.06
+- PORTFOLIO — Bajaj Finserv Ltd. Grasim Industries Ltd.: Industry+ = Finance Cement& Cement; %to NAV = 1.05 1.05
+- PORTFOLIO — InterGlobe Aviation Ltd.: Industry+ = Transport Services; %to NAV = 1.05
+- PORTFOLIO — Nestle India Ltd. Eicher Motors Ltd.: Industry+ = Food Products; %to NAV = 0.97
+- PORTFOLIO — Tech Mahindra Ltd.: Industry+ = IT - Software; %to NAV = 0.94
+- PORTFOLIO — Coal India Ltd.: Industry+ = Consumable Fuels; %to NAV = 0.89
+- PORTFOLIO — Trent Ltd.: Industry+ = Retailing; %to NAV = 0.89
+- PORTFOLIO — Oil &Natural Gas Corporation Ltd.: Industry+ = Oil; %to NAV = 0.84
+
+
 <!-- image -->
 
 ## PERFORMANCE *^
@@ -6152,6 +7975,14 @@ For Product label and Riskometers, refer page no: 80-92
 | Jul 30, 21 | Last 5 Years    |                10.33 |                      10.39 |                                    9.53 |                                      16,354 |                                          16,405 |                                                      15,771 |
 | Jul 29, 16 | Last 10 Years   |                12.16 |                      12.27 |                                   12.10 |                                      31,549 |                                          31,857 |                                                      31,377 |
 | Dec 09, 15 | Since Inception |                12.81 |                      12.93 |                                   12.65 |                                      36,091 |                                          36,521 |                                                      35,567 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE *^ — Jul 31, 25: Period = Last 1 Year; Scheme Returns (%) = -0.48; Benchmark - Returns (%)# = -0.43; Additional Benchmark Returns (%) - ## = -2.76; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 9,952; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 9,957; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,724
+- PERFORMANCE *^ — Jul 31, 23: Period = Last 3 Years; Scheme Returns (%) = 8.49; Benchmark - Returns (%)# = 8.56; Additional Benchmark Returns (%) - ## = 6.75; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,773; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,798; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,168
+- PERFORMANCE *^ — Jul 30, 21: Period = Last 5 Years; Scheme Returns (%) = 10.33; Benchmark - Returns (%)# = 10.39; Additional Benchmark Returns (%) - ## = 9.53; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 16,354; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 16,405; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 15,771
+- PERFORMANCE *^ — Jul 29, 16: Period = Last 10 Years; Scheme Returns (%) = 12.16; Benchmark - Returns (%)# = 12.27; Additional Benchmark Returns (%) - ## = 12.10; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 31,549; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 31,857; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 31,377
+- PERFORMANCE *^ — Dec 09, 15: Period = Since Inception; Scheme Returns (%) = 12.81; Benchmark - Returns (%)# = 12.93; Additional Benchmark Returns (%) - ## = 12.65; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 36,091; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 36,521; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 35,567
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -6175,6 +8006,24 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.31 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE *^ — Apollo Hospitals: Industry+ = Healthcare
+- PERFORMANCE *^ — Enterprise Ltd.: Industry+ = Services; %to NAV = 0.82
+- PERFORMANCE *^ — ADANI ENTERPRISES LIMTIED: Industry+ = Metals &Minerals Trading; %to NAV = 0.78
+- PERFORMANCE *^ — SBI Life Insurance Company Ltd.: Industry+ = Insurance; %to NAV = 0.76
+- PERFORMANCE *^ — Jio Financial Services Limited: Industry+ = Finance; %to NAV = 0.75
+- PERFORMANCE *^ — Cipla Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 0.74
+- PERFORMANCE *^ — Max Healthcare Institute Limited: Industry+ = Healthcare Services; %to NAV = 0.73
+- PERFORMANCE *^ — Dr Reddys Laboratories Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 0.63
+- PERFORMANCE *^ — Tata Consumer Products Limited: Industry+ = Agricultural Food &Other Products; %to NAV = 0.63
+- PERFORMANCE *^ — Tata Motors Passenger Vehicles Limited: Industry+ = Automobiles; %to NAV = 0.63
+- PERFORMANCE *^ — HDFC Life Insurance Company Limited: Industry+ = Insurance; %to NAV = 0.53
+- PERFORMANCE *^ — Wipro Ltd.: Industry+ = IT - Software; %to NAV = 0.44
+- PERFORMANCE *^ — Sub Total: %to NAV = 99.69
+- PERFORMANCE *^ — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.31
+- PERFORMANCE *^ — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 ## Exposure to top seven groups
@@ -6188,6 +8037,16 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | PSU                |     5.59 |
 | Bharti             |     5.36 |
 | Bajaj              |     4.92 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — HDFC: %toNAV = 10.76
+- Exposure to top seven groups — ICICI: %toNAV = 9.19
+- Exposure to top seven groups — Mukesh Ambani: %toNAV = 8.64
+- Exposure to top seven groups — Tata: %toNAV = 7.51
+- Exposure to top seven groups — PSU: %toNAV = 5.59
+- Exposure to top seven groups — Bharti: %toNAV = 5.36
+- Exposure to top seven groups — Bajaj: %toNAV = 4.92
+
 
 Face Value / Allotment NAV per Unit: ₹  6.12   w.e.f February 19, 2021), + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -6225,6 +8084,12 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to provide inves
 | Arun Agarwal | August 05, 2022   | Over 27 years |
 | Abhishek Mor | February 15, 2023 | Over 8 years  |
 
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY 100 ETF — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC NIFTY 100 ETF — Arun Agarwal: FUNDMANAGER = August 05, 2022; FUNDMANAGER = Over 27 years
+- HDFC NIFTY 100 ETF — Abhishek Mor: FUNDMANAGER = February 15, 2023; FUNDMANAGER = Over 8 years
+
+
 Scrip Code: BSE: 543569/ NSE: HDFCNIF100
 
 <!-- image -->
@@ -6238,6 +8103,10 @@ August 05, 2022
 | NAV (As On JULY 31, 2026)   |   NAVPER UNIT(₹) |
 |-----------------------------|------------------|
 | HDFC NIFTY 100 ETF          |          26.3548 |
+
+**Table values by row and column (derived from the table above):**
+- DATE OF ALLOTMENT/INCEPTION DATE — HDFC NIFTY 100 ETF: NAVPER UNIT(₹) = 26.3548
+
 
 <!-- image -->
 
@@ -6324,6 +8193,24 @@ Not Applicable
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.32 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 8.34
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 7.48
+- PORTFOLIO — • Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 6.43
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 4.36
+- PORTFOLIO — • Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 3.36
+- PORTFOLIO — • State Bank of India: Industry+ = Banks; %to NAV = 3.09
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 2.89
+- PORTFOLIO — • Axis Bank Ltd.: Industry+ = Banks; %to NAV = 2.57
+- PORTFOLIO — • Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 2.23
+- PORTFOLIO — • Mahindra &Mahindra Ltd.: Industry+ = Automobiles; %to NAV = 2.21
+- PORTFOLIO — Other Equity: %to NAV = 56.72
+- PORTFOLIO — Sub Total: %to NAV = 99.68
+- PORTFOLIO — Total: %to NAV = 99.68
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.32
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 ## Exposure to top seven groups
@@ -6337,6 +8224,16 @@ Not Applicable
 | Mukesh Ambani      |     7.04 |
 | Bajaj              |     4.37 |
 | Bharti             |     4.36 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — HDFC: %toNAV = 9.16
+- Exposure to top seven groups — PSU: %toNAV = 8.61
+- Exposure to top seven groups — Tata: %toNAV = 7.86
+- Exposure to top seven groups — ICICI: %toNAV = 7.48
+- Exposure to top seven groups — Mukesh Ambani: %toNAV = 7.04
+- Exposure to top seven groups — Bajaj: %toNAV = 4.37
+- Exposure to top seven groups — Bharti: %toNAV = 4.36
+
 
 Face Value / Allotment NAV per Unit: ₹ 1  .2 , + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -6353,6 +8250,12 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | Jul 31, 25 | Last 1 Year     |                   1.21 |                       1.54 |                                   -0.43 |                                      10,121 |                                          10,154 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                   9.87 |                      10.23 |                                    8.56 |                                      13,267 |                                          13,397 |                                                      12,798 |
 | Aug 05, 22 | Since Inception |                  10.45 |                      10.83 |                                   10.09 |                                      14,867 |                                          15,070 |                                                      14,674 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 1.21; Benchmark - Returns (%)# = 1.54; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,121; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,154; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE *^ — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 9.87; Benchmark - Returns (%)# = 10.23; Additional Benchmark - Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 13,267; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 13,397; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE *^ — Aug 05, 22: Period = Since Inception; Scheme - Returns (%) = 10.45; Benchmark - Returns (%)# = 10.83; Additional Benchmark - Returns (%) ## = 10.09; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 14,867; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 15,070; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,674
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -6383,6 +8286,12 @@ INVESTMENT OBJECTIVE: The investment objective of HDFC BSE SENSEX ETF is to gene
 | Name         | Since             | Total Exp     |
 | Arun Agarwal | August 24, 2020   | Over 27 years |
 | Abhishek Mor | February 15, 2023 | Over 8 years  |
+
+**Table values by row and column (derived from the table above):**
+- HDFC BSE SENSEX ETF — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC BSE SENSEX ETF — Arun Agarwal: FUNDMANAGER = August 24, 2020; FUNDMANAGER = Over 27 years
+- HDFC BSE SENSEX ETF — Abhishek Mor: FUNDMANAGER = February 15, 2023; FUNDMANAGER = Over 8 years
+
 
 Scrip Code: BSE: 539517/ NSE: HDFCSENSEX
 
@@ -6488,6 +8397,25 @@ Not Applicable
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.38 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 12.27
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 11.08
+- PORTFOLIO — • Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 9.52
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 6.47
+- PORTFOLIO — • Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 4.96
+- PORTFOLIO — • State Bank of India: Industry+ = Banks; %to NAV = 4.59
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 4.24
+- PORTFOLIO — • Axis Bank Ltd.: Industry+ = Banks; %to NAV = 3.79
+- PORTFOLIO — • Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 3.29
+- PORTFOLIO — • Mahindra &Mahindra Ltd.: Industry+ = Automobiles; %to NAV = 3.27
+- PORTFOLIO — Other Equity: %to NAV = 36.14
+- PORTFOLIO — Sub Total: %to NAV = 99.62
+- PORTFOLIO — Total: %to NAV = 99.62
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.38
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 ## Exposure to top seven groups
@@ -6501,6 +8429,16 @@ Not Applicable
 | Bharti             |     6.47 |
 | L&T                |     4.96 |
 | PSU                |     4.67 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — HDFC: %toNAV = 12.27
+- Exposure to top seven groups — ICICI: %toNAV = 11.08
+- Exposure to top seven groups — Mukesh Ambani: %toNAV = 9.52
+- Exposure to top seven groups — Tata: %toNAV = 7.48
+- Exposure to top seven groups — Bharti: %toNAV = 6.47
+- Exposure to top seven groups — L&T: %toNAV = 4.96
+- Exposure to top seven groups — PSU: %toNAV = 4.67
+
 
 Face Value / Allotment NAV per Unit: ₹ 2 .0361  w.e.f February 5, 2024), + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -6519,6 +8457,14 @@ Please refer Minimum Application Amount, Plans &amp; Options, on Page no. 65 to 
 | Jul 30, 21 | Last 5 Years    |                   9.46 |                       9.53 |                                   10.39 |                                      15,722 |                                          15,771 |                                                      16,405 |
 | Jul 29, 16 | Last 10 Years   |                  12.03 |                      12.10 |                                   12.27 |                                      31,185 |                                          31,377 |                                                      31,857 |
 | Dec 09, 15 | Since Inception |                  12.60 |                      12.65 |                                   12.93 |                                      35,377 |                                          35,567 |                                                      36,521 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = -2.82; Benchmark - Returns (%)# = -2.76; Additional - Benchmark Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 9,718; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 9,724; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE *^ — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 6.68; Benchmark - Returns (%)# = 6.75; Additional - Benchmark Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,145; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,168; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE *^ — Jul 30, 21: Period = Last 5 Years; Scheme - Returns (%) = 9.46; Benchmark - Returns (%)# = 9.53; Additional - Benchmark Returns (%) ## = 10.39; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 15,722; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 15,771; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 16,405
+- PERFORMANCE *^ — Jul 29, 16: Period = Last 10 Years; Scheme - Returns (%) = 12.03; Benchmark - Returns (%)# = 12.10; Additional - Benchmark Returns (%) ## = 12.27; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 31,185; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 31,377; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 31,857
+- PERFORMANCE *^ — Dec 09, 15: Period = Since Inception; Scheme - Returns (%) = 12.60; Benchmark - Returns (%)# = 12.65; Additional - Benchmark Returns (%) ## = 12.93; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 35,377; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 35,567; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 36,521
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -6556,6 +8502,13 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | Arun Agarwal    | February 15, 2023 | Over 27 years |
 | Abhishek Mor    | February 15, 2023 | Over 8 years  |
 | Nandita Menezes | March 29, 2025    | Over 3 years  |
+
+**Table values by row and column (derived from the table above):**
+- HDFC BSE 500 ETF — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC BSE 500 ETF — Arun Agarwal: FUNDMANAGER = February 15, 2023; FUNDMANAGER = Over 27 years
+- HDFC BSE 500 ETF — Abhishek Mor: FUNDMANAGER = February 15, 2023; FUNDMANAGER = Over 8 years
+- HDFC BSE 500 ETF — Nandita Menezes: FUNDMANAGER = March 29, 2025; FUNDMANAGER = Over 3 years
+
 
 <!-- image -->
 
@@ -6660,6 +8613,25 @@ Not Applicable
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.32 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 5.76
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 5.20
+- PORTFOLIO — • Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 4.47
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 3.03
+- PORTFOLIO — • Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 2.33
+- PORTFOLIO — • State Bank of India: Industry+ = Banks; %to NAV = 2.15
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 1.99
+- PORTFOLIO — • Axis Bank Ltd.: Industry+ = Banks; %to NAV = 1.78
+- PORTFOLIO — • Bajaj Finance Ltd.: Industry+ = Finance; %to NAV = 1.54
+- PORTFOLIO — • Mahindra &Mahindra Ltd.: Industry+ = Automobiles; %to NAV = 1.54
+- PORTFOLIO — Other Equity: %to NAV = 69.89
+- PORTFOLIO — Sub Total: %to NAV = 99.68
+- PORTFOLIO — Total: %to NAV = 99.68
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.32
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 ## Exposure to top seven groups
@@ -6673,6 +8645,16 @@ Not Applicable
 | ICICI              |     5.58 |
 | Mukesh Ambani      |     4.90 |
 | Bharti             |     3.35 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Private: %toNAV = 10.31
+- Exposure to top seven groups — PSU: %toNAV = 9.07
+- Exposure to top seven groups — HDFC: %toNAV = 6.39
+- Exposure to top seven groups — Tata: %toNAV = 5.93
+- Exposure to top seven groups — ICICI: %toNAV = 5.58
+- Exposure to top seven groups — Mukesh Ambani: %toNAV = 4.90
+- Exposure to top seven groups — Bharti: %toNAV = 3.35
+
 
 Face Value / Allotment NAV per Unit: ₹ 23. 6, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -6689,6 +8671,12 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | Jul 31, 25 | Last 1 Year     |                   2.67 |                       2.98 |                                   -0.43 |                                      10,267 |                                          10,298 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                  11.52 |                      11.88 |                                    8.56 |                                      13,873 |                                          14,010 |                                                      12,798 |
 | Feb 15, 23 | Since Inception |                  14.12 |                      14.51 |                                   10.47 |                                      15,790 |                                          15,974 |                                                      14,111 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 2.67; Benchmark - Returns (%)# = 2.98; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,267; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,298; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE *^ — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 11.52; Benchmark - Returns (%)# = 11.88; Additional Benchmark - Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 13,873; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 14,010; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE *^ — Feb 15, 23: Period = Since Inception; Scheme - Returns (%) = 14.12; Benchmark - Returns (%)# = 14.51; Additional Benchmark - Returns (%) ## = 10.47; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 15,790; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 15,974; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,111
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor, Nandita Menezes &amp; Arun Agarwal, please refer page 71. ^Past performance may or may not be sustained in future and is not a guarantee of any future returns. Load is not taken into consideration for computation of performance.
 
@@ -6743,6 +8731,10 @@ August 05, 2022
 | NAV (As On JULY 31, 2026)   |   NAVPER UNIT(₹) |
 |-----------------------------|------------------|
 | HDFC NIFTY NEXT 50 ETF      |          75.2877 |
+
+**Table values by row and column (derived from the table above):**
+- DATE OF ALLOTMENT/INCEPTION DATE — HDFC NIFTY NEXT 50 ETF: NAVPER UNIT(₹) = 75.2877
+
 
 <!-- image -->
 
@@ -6853,6 +8845,43 @@ daily rolling returns for the last 12 months:
 | Canara Bank                                  | Banks                                           |      1.65 |
 | Jindal Steel Limited.                        | Ferrous Metals                                  |      1.61 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • Divis Laboratories Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 4.03
+- PORTFOLIO — • TVS Motor Company Ltd.: Industry+ = Automobiles; %to NAV = 3.99
+- PORTFOLIO — • Tata Motors Limited: Industry+ = Agricultural, Commercial& Construction Vehicles; %to NAV = 3.59
+- PORTFOLIO — • Hindustan Aeronautics Limited: Industry+ = Aerospace &Defense; %to NAV = 3.47
+- PORTFOLIO — • Adani Power (Mundra) Limited: Industry+ = Power; %to NAV = 3.45
+- PORTFOLIO — • Cholamandalam Investment &Finance Co. Ltd.: Industry+ = Finance; %to NAV = 3.15
+- PORTFOLIO — • Torrent Pharmaceuticals Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 2.95
+- PORTFOLIO — • Cummins India Ltd.: Industry+ = Industrial Products; %to NAV = 2.94
+- PORTFOLIO — • Samvardhana Motherson International Ltd.: Industry+ = Auto Components; %to NAV = 2.62
+- PORTFOLIO — • Bharat Petroleum Corporation Ltd.: Industry+ = Petroleum Products; %to NAV = 2.55
+- PORTFOLIO — Indian Hotels Company Ltd.: Industry+ = Leisure Services; %to NAV = 2.55
+- PORTFOLIO — Britannia Industries Ltd.: Industry+ = Food Products; %to NAV = 2.50
+- PORTFOLIO — The Tata Power Company Ltd.: Industry+ = Power; %to NAV = 2.50
+- PORTFOLIO — Avenue Supermarts Ltd.: Industry+ = Retailing; %to NAV = 2.49
+- PORTFOLIO — Power Finance Corporation Ltd.: Industry+ = Finance; %to NAV = 2.43
+- PORTFOLIO — Varun Beverages Ltd: Industry+ = Beverages; %to NAV = 2.38
+- PORTFOLIO — CG Power and Industrial Solutions Ltd.: Industry+ = Electrical Equipment; %to NAV = 2.33
+- PORTFOLIO — Adani Energy Solutions Limited: Industry+ = Power; %to NAV = 2.13
+- PORTFOLIO — HDFC Asset Management Company Ltd.: Industry+ = Capital Markets; %to NAV = 2.10
+- PORTFOLIO — Indian Oil Corporation Ltd.: Industry+ = Petroleum Products Chemicals&; %to NAV = 2.06
+- PORTFOLIO — Pidilite Industries Ltd.: Industry+ = Petrochemicals; %to NAV = 1.97
+- PORTFOLIO — Bajaj Holdings &Investment Ltd: Industry+ = Finance; %to NAV = 1.95
+- PORTFOLIO — GAIL (India) Ltd.: Industry+ = Gas; %to NAV = 1.93
+- PORTFOLIO — REC Limited.: Industry+ = Finance; %to NAV = 1.83
+- PORTFOLIO — Adani Green Energy Limited: Industry+ = Power; %to NAV = 1.82
+- PORTFOLIO — Bank of Baroda: Industry+ = Banks; %to NAV = 1.77
+- PORTFOLIO — United Spirits Limited: Industry+ = Beverages; %to NAV = 1.76
+- PORTFOLIO — Vedanta Ltd.: Industry+ = Diversified Metals; %to NAV = 1.76
+- PORTFOLIO — Solar Industries India Ltd.: Industry+ = Chemicals& Petrochemicals; %to NAV = 1.74
+- PORTFOLIO — Godrej Consumer Products Ltd.: Industry+ = Personal Products; %to NAV = 1.69
+- PORTFOLIO — DLF LIMITED: Industry+ = Realty; %to NAV = 1.67
+- PORTFOLIO — Canara Bank: Industry+ = Banks; %to NAV = 1.65
+- PORTFOLIO — Jindal Steel Limited.: Industry+ = Ferrous Metals; %to NAV = 1.61
+
+
 <!-- image -->
 
 ## PERFORMANCE *^
@@ -6862,6 +8891,12 @@ daily rolling returns for the last 12 months:
 | Jul 31, 25 | Last 1 Year     |                  10.61 |                    10.89 |                                   -0.43 |                                      11,061 |                                          11,089 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                  18.27 |                    18.56 |                                    8.56 |                                      16,551 |                                          16,672 |                                                      12,798 |
 | Aug 05, 22 | Since Inception |                  15.88 |                    16.23 |                                   10.09 |                                      18,004 |                                          18,219 |                                                      14,674 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 10.61; Benchmark Returns (%)# = 10.89; Additional Benchmark Returns (%) - ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 11,061; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 11,089; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE *^ — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 18.27; Benchmark Returns (%)# = 18.56; Additional Benchmark Returns (%) - ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 16,551; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 16,672; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE *^ — Aug 05, 22: Period = Since Inception; Scheme - Returns (%) = 15.88; Benchmark Returns (%)# = 16.23; Additional Benchmark Returns (%) - ## = 10.09; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 18,004; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 18,219; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,674
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -6891,6 +8926,29 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.24 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE *^ — LTM Limited: Industry+ = IT - Software; %to NAV = 1.59
+- PERFORMANCE *^ — Punjab National Bank: Industry+ = Banks; %to NAV = 1.53
+- PERFORMANCE *^ — ABB India Ltd.: Industry+ = Electrical Equipment; %to NAV = 1.50
+- PERFORMANCE *^ — Bosch Limited: Industry+ = Auto Components; %to NAV = 1.44
+- PERFORMANCE *^ — Shree Cement Ltd.: Industry+ = Cement& Cement Products; %to NAV = 1.37
+- PERFORMANCE *^ — Limited: Industry+ = Realty; %to NAV = 1.36
+- PERFORMANCE *^ — Muthoot Finance Ltd.: Industry+ = Finance; %to NAV = 1.32
+- PERFORMANCE *^ — Siemens Ltd.: Industry+ = Electrical Equipment; %to NAV = 1.30
+- PERFORMANCE *^ — Union Bank of India: Industry+ = Banks; %to NAV = 1.30
+- PERFORMANCE *^ — Hyundai Motor India Limited: Industry+ = Automobiles; %to NAV = 1.23
+- PERFORMANCE *^ — Siemens Energy India Limited: Industry+ = Electrical Equipment; %to NAV = 1.13
+- PERFORMANCE *^ — Zydus Lifesciences Limited: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 1.11
+- PERFORMANCE *^ — Ambuja Cements Ltd.: Industry+ = Cement& Cement Products; %to NAV = 1.06
+- PERFORMANCE *^ — Hindustan Zinc Ltd.: Industry+ = Non - Ferrous Metals; %to NAV = 1.02
+- PERFORMANCE *^ — Tata Capital Ltd.: Industry+ = Finance; %to NAV = 0.72
+- PERFORMANCE *^ — Indian Railways Finance Corp. Ltd.: Industry+ = Finance; %to NAV = 0.71
+- PERFORMANCE *^ — Mazagon Dock Shipbuilders Ltd: Industry+ = Industrial Manufacturing; %to NAV = 0.71
+- PERFORMANCE *^ — Sub Total: %to NAV = 99.76
+- PERFORMANCE *^ — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.24
+- PERFORMANCE *^ — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 ## Exposure to top seven groups
@@ -6904,6 +8962,16 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | Murugappa Chettiar |     5.48 |
 | Divis Labs         |     4.03 |
 | TVS Iyengar        |     3.99 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — PSU: %toNAV = 21.95
+- Exposure to top seven groups — Tata: %toNAV = 9.37
+- Exposure to top seven groups — Adani: %toNAV = 7.40
+- Exposure to top seven groups — Private: %toNAV = 5.48
+- Exposure to top seven groups — Murugappa Chettiar: %toNAV = 5.48
+- Exposure to top seven groups — Divis Labs: %toNAV = 4.03
+- Exposure to top seven groups — TVS Iyengar: %toNAV = 3.99
+
 
 Face Value / Allotment NAV per Unit: ₹  1 .1  , + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -7043,6 +9111,23 @@ Not Applicable
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets | 0.19       |
 | Grand Total                                  | Grand Total                                  | 100.00     |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • Bombay Stock Exchange Limited (BSE): Industry+ = Capital Markets; %to NAV = 3.57
+- PORTFOLIO — • The Federal Bank Ltd.: Industry+ = Banks; %to NAV = 2.12
+- PORTFOLIO — • Laurus Labs Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 1.69
+- PORTFOLIO — • Hero MotoCorp Ltd.: Industry+ = Automobiles; %to NAV = 1.67
+- PORTFOLIO — • Multi Commodity Exchange of India L: Industry+ = Capital Markets; %to NAV = 1.64
+- PORTFOLIO — • Indusind Bank Ltd.: Industry+ = Banks; %to NAV = 1.60
+- PORTFOLIO — • Persistent Systems Limited: Industry+ = IT - Software; %to NAV = 1.44
+- PORTFOLIO — • Coforge Limited: Industry+ = IT - Software; %to NAV = 1.43
+- PORTFOLIO — • Au Small Finance Bank Ltd.: Industry+ = Banks; %to NAV = 1.42
+- PORTFOLIO — • Bharat Heavy Electricals Ltd. Other Equity: Industry+ = Electrical Equipment; %to NAV = 1.42 81.81
+- PORTFOLIO — Sub Total: Industry+ = Sub Total; %to NAV = 99.81
+- PORTFOLIO — Total: Industry+ = Total; %to NAV = 99.81
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.19
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 ## Exposure to top seven groups
@@ -7056,6 +9141,16 @@ Not Applicable
 | Federal Bank       |     2.12 |
 | OmPrakash Jindal   |     1.81 |
 | ICICI              |     1.80 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Private: %toNAV = 23.65
+- Exposure to top seven groups — PSU: %toNAV = 11.43
+- Exposure to top seven groups — MNC: %toNAV = 4.32
+- Exposure to top seven groups — Hinduja: %toNAV = 2.73
+- Exposure to top seven groups — Federal Bank: %toNAV = 2.12
+- Exposure to top seven groups — OmPrakash Jindal: %toNAV = 1.81
+- Exposure to top seven groups — ICICI: %toNAV = 1.80
+
 
 Face Value / Allotment NAV per Unit: ₹ 11 .  , + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -7072,6 +9167,12 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | Jul 31, 25 | Last 1 Year     |                   8.76 |                       9.01 |                                   -0.43 |                                      10,876 |                                          10,901 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                  18.25 |                      18.53 |                                    8.56 |                                      16,544 |                                          16,659 |                                                      12,798 |
 | Feb 15, 23 | Since Inception |                  22.56 |                      22.88 |                                   10.47 |                                      20,208 |                                          20,390 |                                                      14,111 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 8.76; Benchmark - Returns (%)# = 9.01; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,876; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,901; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE *^ — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 18.25; Benchmark - Returns (%)# = 18.53; Additional Benchmark - Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 16,544; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 16,659; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE *^ — Feb 15, 23: Period = Since Inception; Scheme - Returns (%) = 22.56; Benchmark - Returns (%)# = 22.88; Additional Benchmark - Returns (%) ## = 10.47; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 20,208; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 20,390; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,111
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor, Nandita Menezes &amp; Arun Agarwal, please refer page 71.
 
@@ -7207,6 +9308,24 @@ Not Applicable
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets | 0.16       |
 | Grand Total                                  | Grand Total                                  | 100.00     |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • Sona Blw Precision Forgings: Industry+ = Auto Components; %to NAV = 1.60
+- PORTFOLIO — • Karur Vysya Bank Ltd.: Industry+ = Banks; %to NAV = 1.50
+- PORTFOLIO — • Navin Fluorine International Ltd.: Industry+ = Chemicals& Petrochemicals; %to NAV = 1.29
+- PORTFOLIO — • Delhivery Limited: Industry+ = Transport Services; %to NAV = 1.25
+- PORTFOLIO — • Piramal Finance Ltd.: Industry+ = Finance; %to NAV = 1.15
+- PORTFOLIO — • Ather Energy Limited: Industry+ = Automobiles; %to NAV = 1.12
+- PORTFOLIO — • Central Depository Services (India) Ltd.: Industry+ = Capital Markets; %to NAV = 1.10
+- PORTFOLIO — • RBL Bank Ltd.: Industry+ = Banks; %to NAV = 1.08
+- PORTFOLIO — • WELSPUN CORP LIMITED: Industry+ = Industrial Products; %to NAV = 1.00
+- PORTFOLIO — • Aster DMQuality Care Limited Other Equity: Industry+ = Healthcare Services; %to NAV = 0.97 87.78
+- PORTFOLIO — Sub Total: Industry+ = Sub Total; %to NAV = 99.84
+- PORTFOLIO — Total: Industry+ = Total; %to NAV = 99.84
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.16
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 ## Exposure to top seven groups
@@ -7220,6 +9339,16 @@ Not Applicable
 | Tata               |     1.38 |
 | RP Sanjiv Goenka   |     1.36 |
 | Arvind Mafatlal    |     1.29 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Private: %toNAV = 40.50
+- Exposure to top seven groups — PSU: %toNAV = 6.75
+- Exposure to top seven groups — MNC: %toNAV = 2.63
+- Exposure to top seven groups — Murugappa Chettiar: %toNAV = 1.64
+- Exposure to top seven groups — Tata: %toNAV = 1.38
+- Exposure to top seven groups — RP Sanjiv Goenka: %toNAV = 1.36
+- Exposure to top seven groups — Arvind Mafatlal: %toNAV = 1.29
+
 
 Face Value / Allotment NAV per Unit: ₹  1.31, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -7236,6 +9365,12 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | Jul 31, 25 | Last 1 Year     |                   4.80 |                       5.19 |                                   -0.43 |                                      10,480 |                                          10,519 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                  16.66 |                      17.13 |                                    8.56 |                                      15,885 |                                          16,078 |                                                      12,798 |
 | Feb 15, 23 | Since Inception |                  21.80 |                      22.32 |                                   10.47 |                                      19,777 |                                          20,067 |                                                      14,111 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 4.80; Benchmark - Returns (%)# = 5.19; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,480; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,519; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE *^ — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 16.66; Benchmark - Returns (%)# = 17.13; Additional Benchmark - Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 15,885; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 16,078; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE *^ — Feb 15, 23: Period = Since Inception; Scheme - Returns (%) = 21.80; Benchmark - Returns (%)# = 22.32; Additional Benchmark - Returns (%) ## = 10.47; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 19,777; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 20,067; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,111
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor, Nandita Menezes &amp; Arun Agarwal, please refer page 71. ^Past performance may or may not be sustained in future and is not a guarantee of any future returns. Load is not taken into consideration for computation of performance.
 
@@ -7264,6 +9399,12 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to provide inves
 | Name         | Since             | Total Exp     |
 | Arun Agarwal | August 24, 2020   | Over 27 years |
 | Abhishek Mor | February 15, 2023 | Over 8 years  |
+
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY Bank ETF — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC NIFTY Bank ETF — Arun Agarwal: FUNDMANAGER = August 24, 2020; FUNDMANAGER = Over 27 years
+- HDFC NIFTY Bank ETF — Abhishek Mor: FUNDMANAGER = February 15, 2023; FUNDMANAGER = Over 8 years
+
 
 ## Scrip Code: BSE : 543224/ NSE: HDFCNIFBAN
 
@@ -7370,6 +9511,26 @@ Annualised tracking error is calculated based on daily rolling returns for the l
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.33 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 18.14
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 14.81
+- PORTFOLIO — • State Bank of India: Industry+ = Banks; %to NAV = 10.05
+- PORTFOLIO — • Kotak Mahindra Bank Limited: Industry+ = Banks; %to NAV = 9.29
+- PORTFOLIO — • Axis Bank Ltd.: Industry+ = Banks; %to NAV = 8.78
+- PORTFOLIO — • The Federal Bank Ltd.: Industry+ = Banks; %to NAV = 7.26
+- PORTFOLIO — • Indusind Bank Ltd.: Industry+ = Banks; %to NAV = 5.48
+- PORTFOLIO — • Au Small Finance Bank Ltd.: Industry+ = Banks; %to NAV = 4.70
+- PORTFOLIO — • IDFC First Bank Limited: Industry+ = Banks; %to NAV = 4.65
+- PORTFOLIO — • Bank of Baroda: Industry+ = Banks; %to NAV = 3.57
+- PORTFOLIO — Punjab National Bank: Industry+ = Banks; %to NAV = 3.36
+- PORTFOLIO — Yes Bank Ltd.: Industry+ = Banks; %to NAV = 3.36
+- PORTFOLIO — Canara Bank: Industry+ = Banks; %to NAV = 3.31
+- PORTFOLIO — Union Bank of India: Industry+ = Banks; %to NAV = 2.91
+- PORTFOLIO — Sub Total: %to NAV = 99.67
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.33
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 <!-- image -->
@@ -7382,6 +9543,13 @@ Annualised tracking error is calculated based on daily rolling returns for the l
 | Jul 31, 23 | Last 3 Years    |                   8.50 |                       8.71 |                                  8.56 |                                      12,775 |                                          12,849 |                                                      12,798 |
 | Jul 30, 21 | Last 5 Years    |                  11.22 |                      11.45 |                                 10.39 |                                      17,025 |                                          17,209 |                                                      16,405 |
 | Aug 21, 20 | Since Inception |                  17.74 |                      18.02 |                                 15.04 |                                      26,400 |                                          26,776 |                                                      23,005 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 2.84; Benchmark Returns - (%)# = 3.06; Additional Benchmark Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,284; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,306; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  *^ — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 8.50; Benchmark Returns - (%)# = 8.71; Additional Benchmark Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,775; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,849; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE  *^ — Jul 30, 21: Period = Last 5 Years; Scheme - Returns (%) = 11.22; Benchmark Returns - (%)# = 11.45; Additional Benchmark Returns (%) ## = 10.39; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 17,025; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 17,209; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 16,405
+- PERFORMANCE  *^ — Aug 21, 20: Period = Since Inception; Scheme - Returns (%) = 17.74; Benchmark Returns - (%)# = 18.02; Additional Benchmark Returns (%) ## = 15.04; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 26,400; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 26,776; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 23,005
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -7400,6 +9568,16 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | Kotak              |     9.29 |
 | Axis Bank          |     8.78 |
 | Federal Bank       |     7.26 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — HDFC: %toNAV = 18.14
+- Exposure to top seven groups — ICICI: %toNAV = 14.81
+- Exposure to top seven groups — PSU: %toNAV = 13.14
+- Exposure to top seven groups — SBI: %toNAV = 10.05
+- Exposure to top seven groups — Kotak: %toNAV = 9.29
+- Exposure to top seven groups — Axis Bank: %toNAV = 8.78
+- Exposure to top seven groups — Federal Bank: %toNAV = 7.26
+
 
 Face Value / Allotment NAV per Unit: ₹ 22.331, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -7443,6 +9621,10 @@ November 16, 2022
 | NAV (As On JULY 31, 2026)   |   NAVPER UNIT(₹) |
 |-----------------------------|------------------|
 | HDFC NIFTY Private Bank ETF |          28.0327 |
+
+**Table values by row and column (derived from the table above):**
+- DATE OF ALLOTMENT/INCEPTION DATE — HDFC NIFTY Private Bank ETF: NAVPER UNIT(₹) = 28.0327
+
 
 <!-- image -->
 
@@ -7518,6 +9700,22 @@ Annualised tracking error is calculated based on daily rolling returns for the l
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.29 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 22.12
+- PORTFOLIO — • HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 19.97
+- PORTFOLIO — • Kotak Mahindra Bank Limited: Industry+ = Banks; %to NAV = 19.59
+- PORTFOLIO — • Axis Bank Ltd.: Industry+ = Banks; %to NAV = 18.23
+- PORTFOLIO — • The Federal Bank Ltd.: Industry+ = Banks; %to NAV = 6.03
+- PORTFOLIO — • Indusind Bank Ltd.: Industry+ = Banks; %to NAV = 4.55
+- PORTFOLIO — • IDFC First Bank Limited: Industry+ = Banks; %to NAV = 3.83
+- PORTFOLIO — • Yes Bank Ltd.: Industry+ = Banks; %to NAV = 2.73
+- PORTFOLIO — • RBL Bank Ltd.: Industry+ = Banks; %to NAV = 1.58
+- PORTFOLIO — • Bandhan Bank Ltd.: Industry+ = Banks; %to NAV = 1.08
+- PORTFOLIO — Sub Total: %to NAV = 99.71
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.29
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 <!-- image -->
@@ -7529,6 +9727,12 @@ Annualised tracking error is calculated based on daily rolling returns for the l
 | Jul 31, 25 | Last 1 Year     |                   2.05 |                     2.21 |                                   -0.43 |                                      10,205 |                                          10,221 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                   6.06 |                     6.25 |                                    8.56 |                                      11,932 |                                          11,998 |                                                      12,798 |
 | Nov 16, 22 | Since Inception |                   7.19 |                     7.41 |                                    9.12 |                                      12,933 |                                          13,032 |                                                      13,822 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 2.05; Benchmark Returns (%)# = 2.21; Additional Benchmark Returns (%) - ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,205; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,221; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  *^ — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 6.06; Benchmark Returns (%)# = 6.25; Additional Benchmark Returns (%) - ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 11,932; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 11,998; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE  *^ — Nov 16, 22: Period = Since Inception; Scheme - Returns (%) = 7.19; Benchmark Returns (%)# = 7.41; Additional Benchmark Returns (%) - ## = 9.12; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,933; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 13,032; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 13,822
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -7547,6 +9751,16 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | Federal Bank       |     6.03 |
 | Hinduja            |     4.55 |
 | IDFC               |     3.83 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — ICICI: %toNAV = 22.12
+- Exposure to top seven groups — HDFC: %toNAV = 19.97
+- Exposure to top seven groups — Kotak: %toNAV = 19.59
+- Exposure to top seven groups — Axis Bank: %toNAV = 18.23
+- Exposure to top seven groups — Federal Bank: %toNAV = 6.03
+- Exposure to top seven groups — Hinduja: %toNAV = 4.55
+- Exposure to top seven groups — IDFC: %toNAV = 3.83
+
 
 Face Value / Allotment NAV per Unit: ₹ 21.6  , + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -7676,6 +9890,24 @@ Annualised tracking error is calculated based on daily rolling returns for the l
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets | @         |
 | Grand Total                                  |                                              | 100.00    |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • State Bank of India: Industry+ = Banks; %to NAV = 33.87
+- PORTFOLIO — • Bank of Baroda: Industry+ = Banks; %to NAV = 12.63
+- PORTFOLIO — • Canara Bank: Industry+ = Banks; %to NAV = 11.79
+- PORTFOLIO — • Punjab National Bank: Industry+ = Banks; %to NAV = 10.89
+- PORTFOLIO — • Union Bank of India: Industry+ = Banks; %to NAV = 9.29
+- PORTFOLIO — • Indian Bank: Industry+ = Banks; %to NAV = 8.30
+- PORTFOLIO — • Bank of India: Industry+ = Banks; %to NAV = 4.71
+- PORTFOLIO — • Bank of Maharashtra: Industry+ = Banks; %to NAV = 4.53
+- PORTFOLIO — • Central Bank Of India: Industry+ = Banks; %to NAV = 1.48
+- PORTFOLIO — • Indian Overseas Bank: Industry+ = Banks; %to NAV = 1.39
+- PORTFOLIO — UCO Bank: Industry+ = Banks; %to NAV = 0.84
+- PORTFOLIO — Punjab &Sind Bank: Industry+ = Banks; %to NAV = 0.28
+- PORTFOLIO — Sub Total: %to NAV = 100.00
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = @
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 - Top Ten Holdings, @ Less than 0.01
 
 <!-- image -->
@@ -7686,6 +9918,11 @@ Annualised tracking error is calculated based on daily rolling returns for the l
 |------------|-----------------|------------------------|--------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------------|-------------------------------------------------------------|
 | Jul 31, 25 | Last 1 Year     |                  22.56 |                    23.04 |                                   -0.43 |                                      12,256 |                                          12,304 |                                                       9,957 |
 | Jan 31, 24 | Since Inception |                  12.73 |                    13.19 |                                    6.06 |                                      13,490 |                                          13,627 |                                                      11,585 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 22.56; Benchmark Returns (%)# = 23.04; Additional Benchmark Returns (%) - ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,256; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,304; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  *^ — Jan 31, 24: Period = Since Inception; Scheme - Returns (%) = 12.73; Benchmark Returns (%)# = 13.19; Additional Benchmark Returns (%) - ## = 6.06; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 13,490; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 13,627; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 11,585
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -7699,6 +9936,11 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 |--------------------|----------|
 | PSU                |    66.13 |
 | SBI                |    33.87 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — PSU: %toNAV = 66.13
+- Exposure to top seven groups — SBI: %toNAV = 33.87
+
 
 Face Value / Allotment NAV per Unit: ₹ 62.    , + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -7827,6 +10069,23 @@ Annualised tracking error is calculated based on daily rolling returns for the l
 | Grand Total                                  | Grand Total                                  |    100.00 |
 | • Top Ten Holdings                           | • Top Ten Holdings                           |           |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 29.18
+- PORTFOLIO — • Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 20.25
+- PORTFOLIO — • HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 11.91
+- PORTFOLIO — • Tech Mahindra Ltd.: Industry+ = IT - Software; %to NAV = 10.82
+- PORTFOLIO — • Persistent Systems Limited: Industry+ = IT - Software; %to NAV = 6.22
+- PORTFOLIO — • Coforge Limited: Industry+ = IT - Software; %to NAV = 6.18
+- PORTFOLIO — • Wipro Ltd.: Industry+ = IT - Software; %to NAV = 5.13
+- PORTFOLIO — • LTM Limited: Industry+ = IT - Software; %to NAV = 4.18
+- PORTFOLIO — • MphasiS Limited.: Industry+ = IT - Software; %to NAV = 3.20
+- PORTFOLIO — • Oracle Financial Ser Software Ltd.: Industry+ = IT - Software; %to NAV = 2.75
+- PORTFOLIO — Sub Total: %to NAV = 99.82
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.18
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+- PORTFOLIO — • Top Ten Holdings: Industry+ = • Top Ten Holdings
+
+
 <!-- image -->
 
 ## PERFORMANCE  *^
@@ -7836,6 +10095,12 @@ Annualised tracking error is calculated based on daily rolling returns for the l
 | Jul 31, 25 | Last 1 Year     |                 -11.24 |                   -11.16 |                                   -0.43 |                                       8,876 |                                           8,884 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                   2.81 |                     3.03 |                                    8.56 |                                      10,866 |                                          10,937 |                                                      12,798 |
 | Nov 16, 22 | Since Inception |                   2.47 |                     2.73 |                                    9.12 |                                      10,948 |                                          11,049 |                                                      13,822 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = -11.24; Benchmark Returns (%)# = -11.16; Additional Benchmark Returns (%) - ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 8,876; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 8,884; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  *^ — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 2.81; Benchmark Returns (%)# = 3.03; Additional Benchmark Returns (%) - ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,866; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,937; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE  *^ — Nov 16, 22: Period = Since Inception; Scheme - Returns (%) = 2.47; Benchmark Returns (%)# = 2.73; Additional Benchmark Returns (%) - ## = 9.12; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,948; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 11,049; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 13,822
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -7854,6 +10119,16 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | Persistent Systems |     6.22 |
 | Private            |     6.18 |
 | WIPRO              |     5.13 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Infosys: %toNAV = 29.18
+- Exposure to top seven groups — Tata: %toNAV = 20.25
+- Exposure to top seven groups — Shiv Nadar: %toNAV = 11.91
+- Exposure to top seven groups — Mahindra &Mahindra: %toNAV = 10.82
+- Exposure to top seven groups — Persistent Systems: %toNAV = 6.22
+- Exposure to top seven groups — Private: %toNAV = 6.18
+- Exposure to top seven groups — WIPRO: %toNAV = 5.13
+
 
 Face Value / Allotment NAV per Unit: ₹ 2 .  2, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -7905,6 +10180,24 @@ INVESTMENT OBJECTIVE: To generate returns that are commensurate (before fees and
 | #BENCHMARK INDEX Nifty Metal Index (TRI)                                                                                                                                       | #BENCHMARK INDEX Nifty Metal Index (TRI)                                                                                                                                       | #BENCHMARK INDEX Nifty Metal Index (TRI)                                                                                                                                       |
 | ##ADDL. BENCHMARK INDEX NIFTY 50 (TRI)                                                                                                                                         | ##ADDL. BENCHMARK INDEX NIFTY 50 (TRI)                                                                                                                                         | ##ADDL. BENCHMARK INDEX NIFTY 50 (TRI)                                                                                                                                         |
 
+**Table values by row and column (derived from the table above):**
+- HDFC Nifty Metal ETF — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC Nifty Metal ETF — Arun Agarwal: FUNDMANAGER = July 27, 2026; FUNDMANAGER = Over 27 years
+- HDFC Nifty Metal ETF — Abhishek Mor: FUNDMANAGER = July 27, 2026; FUNDMANAGER = Over 8 years
+- HDFC Nifty Metal ETF — Scrip Code: BSE: 544842 NSE: HDFCNIMEG: FUNDMANAGER = Scrip Code: BSE: 544842 NSE: HDFCNIMEG; FUNDMANAGER = Scrip Code: BSE: 544842 NSE: HDFCNIMEG
+- HDFC Nifty Metal ETF — DATE OF ALLOTMENT/INCEPTION DATE: FUNDMANAGER = DATE OF ALLOTMENT/INCEPTION DATE; FUNDMANAGER = DATE OF ALLOTMENT/INCEPTION DATE
+- HDFC Nifty Metal ETF — July 27, 2026: FUNDMANAGER = July 27, 2026; FUNDMANAGER = July 27, 2026
+- HDFC Nifty Metal ETF — NAV (As: FUNDMANAGER = JULY 31, 2026); FUNDMANAGER = NAVPER UNIT(₹)
+- HDFC Nifty Metal ETF — HDFC Nifty Metal ETF: FUNDMANAGER = HDFC Nifty Metal ETF; FUNDMANAGER = 127.1323
+- HDFC Nifty Metal ETF — ASSETSUNDERMANAGEMENT: FUNDMANAGER = ASSETSUNDERMANAGEMENT; FUNDMANAGER = ASSETSUNDERMANAGEMENT
+- HDFC Nifty Metal ETF — As on July 31, 2026: FUNDMANAGER = As on July 31, 2026; FUNDMANAGER = ₹ 11.29Cr.
+- HDFC Nifty Metal ETF — Average for Month of July, 2026: FUNDMANAGER = Average for Month of July, 2026; FUNDMANAGER = ₹ 13.23Cr.
+- HDFC Nifty Metal ETF — EXPENSE RATIO (As On July 31, 2026): FUNDMANAGER = EXPENSE RATIO (As On July 31, 2026); FUNDMANAGER = EXPENSE RATIO (As On July 31, 2026)
+- HDFC Nifty Metal ETF — Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ HDFC Nifty Metal ETF: 0.35%: FUNDMANAGER = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ HDFC Nifty Metal ETF: 0.35%; FUNDMANAGER = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ HDFC Nifty Metal ETF: 0.35%
+- HDFC Nifty Metal ETF — #BENCHMARK INDEX Nifty Metal Index (TRI): FUNDMANAGER = #BENCHMARK INDEX Nifty Metal Index (TRI); FUNDMANAGER = #BENCHMARK INDEX Nifty Metal Index (TRI)
+- HDFC Nifty Metal ETF — ##ADDL. BENCHMARK INDEX NIFTY 50 (TRI): FUNDMANAGER = ##ADDL. BENCHMARK INDEX NIFTY 50 (TRI); FUNDMANAGER = ##ADDL. BENCHMARK INDEX NIFTY 50 (TRI)
+
+
 <!-- image -->
 
 ## TRACKING ERROR
@@ -7945,6 +10238,28 @@ Annualised Standard Deviation (tracking error) has been calculated based on the 
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.05 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — Tata Steel Ltd.: Industry+ = Ferrous Metals; %to NAV = 19.08
+- PORTFOLIO — Hindalco Industries Ltd.: Industry+ = Non - Ferrous Metals; %to NAV = 17.16
+- PORTFOLIO — JSW Steel Ltd.: Industry+ = Ferrous Metals; %to NAV = 14.50
+- PORTFOLIO — ADANI ENTERPRISES LIMTIED: Industry+ = Metals &Minerals Trading; %to NAV = 10.55
+- PORTFOLIO — Vedanta Ltd.: Industry+ = Diversified Metals; %to NAV = 5.45
+- PORTFOLIO — Jindal Steel Limited.: Industry+ = Ferrous Metals; %to NAV = 4.98
+- PORTFOLIO — APL Apollo Tubes Ltd.: Industry+ = Industrial Products; %to NAV = 4.04
+- PORTFOLIO — National Aluminium Co. Ltd.: Industry+ = Non - Ferrous Metals; %to NAV = 3.82
+- PORTFOLIO — NMDCLimited: Industry+ = Minerals &Mining; %to NAV = 3.58
+- PORTFOLIO — Lloyds Metals &Energy Ltd.: Industry+ = Minerals &Mining; %to NAV = 3.25
+- PORTFOLIO — Hindustan Zinc Ltd.: Industry+ = Non - Ferrous Metals; %to NAV = 3.16
+- PORTFOLIO — Steel Authority Of India Ltd.: Industry+ = Ferrous Metals; %to NAV = 2.97
+- PORTFOLIO — Jindal Stainless Ltd.: Industry+ = Ferrous Metals; %to NAV = 2.81
+- PORTFOLIO — WELSPUN CORP LIMITED: Industry+ = Industrial Products; %to NAV = 2.64
+- PORTFOLIO — HINDUSTAN COPPER LIMITED: Industry+ = Non - Ferrous Metals; %to NAV = 1.96
+- PORTFOLIO — Sub Total: %to NAV = 99.95
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.05
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 <!-- image -->
@@ -7966,6 +10281,16 @@ ash,  ash E ui alents and Net  urrent Assets
 | Adani              |    10.55 |
 | Vedanta -MNC       |     8.61 |
 | Sanjay Gupta       |     4.04 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — OmPrakash Jindal: %toNAV = 22.28
+- Exposure to top seven groups — Tata: %toNAV = 19.08
+- Exposure to top seven groups — Birla Aditya: %toNAV = 17.16
+- Exposure to top seven groups — PSU: %toNAV = 12.33
+- Exposure to top seven groups — Adani: %toNAV = 10.55
+- Exposure to top seven groups — Vedanta -MNC: %toNAV = 8.61
+- Exposure to top seven groups — Sanjay Gupta: %toNAV = 4.04
+
 
 Face Value / Allotment NAV per Unit: ₹ 10, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -8036,6 +10361,29 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to provide inves
 | 0.07%                                                                                                                                                                                  | 0.07%                                                                                                                                                                                  | 0.07%                                                                                                                                                                                  |
 | EXIT LOAD$$ Not Applicable                                                                                                                                                             | EXIT LOAD$$ Not Applicable                                                                                                                                                             | EXIT LOAD$$ Not Applicable                                                                                                                                                             |
 
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY100 Quality 30 ETF — Arun Agarwal: FUNDMANAGER - Since = September 23, 2022; FUNDMANAGER - Total Exp = Over 27 years
+- HDFC NIFTY100 Quality 30 ETF — Abhishek Mor: FUNDMANAGER - Since = February 15, 2023; FUNDMANAGER - Total Exp = Over 8 years
+- HDFC NIFTY100 Quality 30 ETF — Scrip Code: BSE: 543605/ NSE: HDFCQUAL: FUNDMANAGER - Since = Scrip Code: BSE: 543605/ NSE: HDFCQUAL; FUNDMANAGER - Total Exp = Scrip Code: BSE: 543605/ NSE: HDFCQUAL
+- HDFC NIFTY100 Quality 30 ETF — DATE OF ALLOTMENT/INCEPTION DATE: FUNDMANAGER - Since = DATE OF ALLOTMENT/INCEPTION DATE; FUNDMANAGER - Total Exp = DATE OF ALLOTMENT/INCEPTION DATE
+- HDFC NIFTY100 Quality 30 ETF — September 23, 2022: FUNDMANAGER - Since = September 23, 2022; FUNDMANAGER - Total Exp = September 23, 2022
+- HDFC NIFTY100 Quality 30 ETF — NAV (As On JULY 31, 2026): FUNDMANAGER - Since = NAV (As On JULY 31, 2026); FUNDMANAGER - Total Exp = NAVPER UNIT(₹)
+- HDFC NIFTY100 Quality 30 ETF — HDFC Nifty100 Quality 30 ETF: FUNDMANAGER - Since = HDFC Nifty100 Quality 30 ETF; FUNDMANAGER - Total Exp = 59.0195
+- HDFC NIFTY100 Quality 30 ETF — ASSETSUNDERMANAGEMENT: FUNDMANAGER - Since = ASSETSUNDERMANAGEMENT; FUNDMANAGER - Total Exp = ASSETSUNDERMANAGEMENT
+- HDFC NIFTY100 Quality 30 ETF — As on July 31, 2026: FUNDMANAGER - Since = As on July 31, 2026; FUNDMANAGER - Total Exp = ₹ 21.91Cr.
+- HDFC NIFTY100 Quality 30 ETF — Average for Month of July, 2026: FUNDMANAGER - Since = Average for Month of July, 2026; FUNDMANAGER - Total Exp = ₹ 21.59Cr.
+- HDFC NIFTY100 Quality 30 ETF — QUANTITATIVEDATA: FUNDMANAGER - Since = QUANTITATIVEDATA; FUNDMANAGER - Total Exp = QUANTITATIVEDATA
+- HDFC NIFTY100 Quality 30 ETF — Portfolio Turnover Equity Turnover Total Turnover Total Turnover = Equity + Debt +: FUNDMANAGER - Since = Portfolio Turnover Equity Turnover Total Turnover Total Turnover = Equity + Debt +; FUNDMANAGER - Total Exp = 40.14% 40.14% Derivative
+- HDFC NIFTY100 Quality 30 ETF — EXPENSE RATIO (As On July 31, 2026): FUNDMANAGER - Since = EXPENSE RATIO (As On July 31, 2026); FUNDMANAGER - Total Exp = EXPENSE RATIO (As On July 31, 2026)
+- HDFC NIFTY100 Quality 30 ETF — Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ HDFC NIFTY100 Quality 30 ETF: 0.30%: FUNDMANAGER - Since = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ HDFC NIFTY100 Quality 30 ETF: 0.30%; FUNDMANAGER - Total Exp = Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ HDFC NIFTY100 Quality 30 ETF: 0.30%
+- HDFC NIFTY100 Quality 30 ETF — #BENCHMARK INDEX NIFTY100 Quality 30 Index (TRI): FUNDMANAGER - Since = #BENCHMARK INDEX NIFTY100 Quality 30 Index (TRI); FUNDMANAGER - Total Exp = #BENCHMARK INDEX NIFTY100 Quality 30 Index (TRI)
+- HDFC NIFTY100 Quality 30 ETF — ##ADDL. BENCHMARK INDEX Nifty 50 Index (TRI): FUNDMANAGER - Since = ##ADDL. BENCHMARK INDEX Nifty 50 Index (TRI); FUNDMANAGER - Total Exp = ##ADDL. BENCHMARK INDEX Nifty 50 Index (TRI)
+- HDFC NIFTY100 Quality 30 ETF — TRACKING ERROR Annualised tracking error is calculated based on: FUNDMANAGER - Since = TRACKING ERROR Annualised tracking error is calculated based on; FUNDMANAGER - Total Exp = TRACKING ERROR Annualised tracking error is calculated based on
+- HDFC NIFTY100 Quality 30 ETF — daily rolling returns for the last 12 months:: FUNDMANAGER - Since = daily rolling returns for the last 12 months:; FUNDMANAGER - Total Exp = daily rolling returns for the last 12 months:
+- HDFC NIFTY100 Quality 30 ETF — 0.07%: FUNDMANAGER - Since = 0.07%; FUNDMANAGER - Total Exp = 0.07%
+- HDFC NIFTY100 Quality 30 ETF — EXIT LOAD$$ Not Applicable: FUNDMANAGER - Since = EXIT LOAD$$ Not Applicable; FUNDMANAGER - Total Exp = EXIT LOAD$$ Not Applicable
+
+
 <!-- image -->
 
 <!-- image -->
@@ -8074,6 +10422,38 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to provide inves
 | Bosch Limited                    | Auto Components                     |      1.93 |
 | Godrej Consumer Products Ltd.    | Personal Products                   |      1.78 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 5.37
+- PORTFOLIO — • Nestle India Ltd.: Industry+ = Food Products; %to NAV = 5.23
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 5.12
+- PORTFOLIO — • HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 4.69
+- PORTFOLIO — • ITC LIMITED: Industry+ = DiversifiedFmcg; %to NAV = 4.63
+- PORTFOLIO — • Hindustan Unilever Ltd.: Industry+ = DiversifiedFmcg; %to NAV = 4.58
+- PORTFOLIO — • Maruti Suzuki India Limited: Industry+ = Automobiles; %to NAV = 4.51
+- PORTFOLIO — • Bharat Electronics Ltd.: Industry+ = Aerospace &Defense; %to NAV = 4.47
+- PORTFOLIO — • Bajaj Auto Limited: Industry+ = Automobiles; %to NAV = 4.31
+- PORTFOLIO — • Britannia Industries Ltd.: Industry+ = Food Products; %to NAV = 4.17
+- PORTFOLIO — Coal India Ltd.: Industry+ = Consumable Fuels; %to NAV = 3.77
+- PORTFOLIO — Asian Paints Limited: Industry+ = Consumer Durables; %to NAV = 3.68
+- PORTFOLIO — Eicher Motors Ltd.: Industry+ = Automobiles; %to NAV = 3.60
+- PORTFOLIO — Hindustan Aeronautics Limited: Industry+ = Aerospace &Defense Pharmaceuticals&; %to NAV = 3.43
+- PORTFOLIO — Divis Laboratories Ltd.: Industry+ = Biotechnology; %to NAV = 3.42
+- PORTFOLIO — Tech Mahindra Ltd.: Industry+ = IT - Software; %to NAV = 3.15
+- PORTFOLIO — HDFCAsset Management CompanyLtd.: Industry+ = Capital Markets; %to NAV = 2.98
+- PORTFOLIO — Hindustan Zinc Ltd.: Industry+ = Non-Ferrous Metals; %to NAV = 2.82
+- PORTFOLIO — Solar Industries India Ltd.: Industry+ = Chemicals& Petrochemicals; %to NAV = 2.71
+- PORTFOLIO — Pidilite Industries Ltd.: Industry+ = Chemicals& Petrochemicals; %to NAV = 2.52
+- PORTFOLIO — Dr Reddys Laboratories Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 2.41
+- PORTFOLIO — LTMLimited: Industry+ = IT - Software; %to NAV = 2.28
+- PORTFOLIO — United Spirits Limited: Industry+ = Beverages; %to NAV = 2.27
+- PORTFOLIO — ABBIndia Ltd.: Industry+ = Electrical Equipment; %to NAV = 2.20
+- PORTFOLIO — Varun Beverages Ltd: Industry+ = Beverages; %to NAV = 2.18
+- PORTFOLIO — Wipro Ltd.: Industry+ = IT - Software; %to NAV = 2.15
+- PORTFOLIO — Bosch Limited: Industry+ = Auto Components; %to NAV = 1.93
+- PORTFOLIO — Godrej Consumer Products Ltd.: Industry+ = Personal Products; %to NAV = 1.78
+
+
 <!-- image -->
 
 ## PERFORMANCE  *^
@@ -8083,6 +10463,12 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to provide inves
 | Jul 31, 25 | Last 1 Year     |                 4.29 |                       4.59 |                                   -0.43 |                                      10,429 |                                          10,459 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                10.40 |                      10.65 |                                    8.56 |                                      13,461 |                                          13,552 |                                                      12,798 |
 | Sep 23, 22 | Since Inception |                11.65 |                      11.93 |                                   10.52 |                                      15,294 |                                          15,443 |                                                      14,707 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Jul 31, 25: Period = Last 1 Year; Scheme Returns (%) = 4.29; Benchmark - Returns (%)# = 4.59; Additional Benchmark (%) ## - Returns = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,429; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,459; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  *^ — Jul 31, 23: Period = Last 3 Years; Scheme Returns (%) = 10.40; Benchmark - Returns (%)# = 10.65; Additional Benchmark (%) ## - Returns = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 13,461; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 13,552; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE  *^ — Sep 23, 22: Period = Since Inception; Scheme Returns (%) = 11.65; Benchmark - Returns (%)# = 11.93; Additional Benchmark (%) ## - Returns = 10.52; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 15,294; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 15,443; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,707
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -8095,6 +10481,14 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | Sub Total                                    | Sub Total                                    |     99.74 |
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.26 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Zydus Lifesciences Limited: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 1.74
+- PERFORMANCE  *^ — Mazagon Dock Shipbuilders Ltd: Industry+ = Industrial Manufacturing; %to NAV = 1.64
+- PERFORMANCE  *^ — Sub Total: Industry+ = Sub Total; %to NAV = 99.74
+- PERFORMANCE  *^ — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.26
+- PERFORMANCE  *^ — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
 
 - Top Ten Holdings
 
@@ -8109,6 +10503,16 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | Private            |     4.89 |
 | Shiv Nadar         |     4.69 |
 | ITC-MNC            |     4.63 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — PSU: %toNAV = 13.31
+- Exposure to top seven groups — Tata: %toNAV = 5.37
+- Exposure to top seven groups — Nestle India -MNC: %toNAV = 5.23
+- Exposure to top seven groups — Infosys: %toNAV = 5.12
+- Exposure to top seven groups — Private: %toNAV = 4.89
+- Exposure to top seven groups — Shiv Nadar: %toNAV = 4.69
+- Exposure to top seven groups — ITC-MNC: %toNAV = 4.63
+
 
 Face Value / Allotment NAV per Unit: ₹ 3 .  , + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -8141,6 +10545,12 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to provide inves
 | Name         | Since              | Total Exp     |
 | Arun Agarwal | September 23, 2022 | Over 27 years |
 | Abhishek Mor | February 15, 2023  | Over 8 years  |
+
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY50 VALUE 20 ETF — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC NIFTY50 VALUE 20 ETF — Arun Agarwal: FUNDMANAGER = September 23, 2022; FUNDMANAGER = Over 27 years
+- HDFC NIFTY50 VALUE 20 ETF — Abhishek Mor: FUNDMANAGER = February 15, 2023; FUNDMANAGER = Over 8 years
+
 
 Scrip Code: BSE: 543608/ NSE: HDFCVALUE
 
@@ -8267,6 +10677,33 @@ Not Applicable
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.05 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • HDFC Bank Ltd.£: Industry+ = Banks; %to NAV = 14.18
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 12.78
+- PORTFOLIO — • Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 12.50
+- PORTFOLIO — • State Bank of India: Industry+ = Banks; %to NAV = 9.95
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 6.56
+- PORTFOLIO — • ITC LIMITED: Industry+ = Diversified Fmcg; %to NAV = 5.43
+- PORTFOLIO — • Axis Bank Ltd.: Industry+ = Banks; %to NAV = 4.84
+- PORTFOLIO — • Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 4.04
+- PORTFOLIO — • Oil &Natural Gas Corporation Ltd.: Industry+ = Oil; %to NAV = 4.00
+- PORTFOLIO — • Tata Motors Passenger Vehicles Limited: Industry+ = Automobiles; %to NAV = 3.34
+- PORTFOLIO — Kotak Mahindra Bank Limited: Industry+ = Banks; %to NAV = 3.27
+- PORTFOLIO — NTPC Limited: Industry+ = Power; %to NAV = 2.91
+- PORTFOLIO — Coal India Ltd.: Industry+ = Consumable Fuels; %to NAV = 2.84
+- PORTFOLIO — HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 2.55
+- PORTFOLIO — Hindalco Industries Ltd.: Industry+ = Non - Ferrous Metals; %to NAV = 2.31
+- PORTFOLIO — Power Grid Corporation of India Ltd.: Industry+ = Power; %to NAV = 2.10
+- PORTFOLIO — Tata Steel Ltd.: Industry+ = Ferrous Metals; %to NAV = 1.99
+- PORTFOLIO — Grasim Industries Ltd.: Industry+ = Cement& Cement Products; %to NAV = 1.97
+- PORTFOLIO — Bajaj Finserv Ltd.: Industry+ = Finance; %to NAV = 1.53
+- PORTFOLIO — Wipro Ltd.: Industry+ = IT - Software; %to NAV = 0.86
+- PORTFOLIO — Sub Total: %to NAV = 99.95
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.05
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings, £ Sponsor
 
 ## Exposure to top seven groups
@@ -8281,6 +10718,16 @@ Not Applicable
 | Tata               |     9.36 |
 | Infosys            |     6.56 |
 
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — HDFC: %toNAV = 14.18
+- Exposure to top seven groups — ICICI: %toNAV = 12.78
+- Exposure to top seven groups — Mukesh Ambani: %toNAV = 12.50
+- Exposure to top seven groups — PSU: %toNAV = 11.85
+- Exposure to top seven groups — SBI: %toNAV = 9.95
+- Exposure to top seven groups — Tata: %toNAV = 9.36
+- Exposure to top seven groups — Infosys: %toNAV = 6.56
+
+
 <!-- image -->
 
 ## PERFORMANCE *^
@@ -8290,6 +10737,12 @@ Not Applicable
 | Jul 31, 25 | Last 1 Year     |                  -3.24 |                      -2.95 |                                   -0.43 |                                       9,676 |                                           9,705 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                   7.44 |                       7.72 |                                    8.56 |                                      12,403 |                                          12,502 |                                                      12,798 |
 | Sep 23, 22 | Since Inception |                  10.59 |                      10.91 |                                   10.52 |                                      14,741 |                                          14,907 |                                                      14,707 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = -3.24; Benchmark - Returns (%)# = -2.95; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 9,676; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 9,705; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE *^ — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 7.44; Benchmark - Returns (%)# = 7.72; Additional Benchmark - Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,403; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,502; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE *^ — Sep 23, 22: Period = Since Inception; Scheme - Returns (%) = 10.59; Benchmark - Returns (%)# = 10.91; Additional Benchmark - Returns (%) ## = 10.52; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 14,741; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 14,907; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,707
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -8324,6 +10777,12 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to provide inves
 | Name         | Since              | Total Exp     |
 | Arun Agarwal | September 23, 2022 | Over 27 years |
 | Abhishek Mor | February 15, 2023  | Over 8 years  |
+
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY Growth Sectors 15 ETF — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC NIFTY Growth Sectors 15 ETF — Arun Agarwal: FUNDMANAGER = September 23, 2022; FUNDMANAGER = Over 27 years
+- HDFC NIFTY Growth Sectors 15 ETF — Abhishek Mor: FUNDMANAGER = February 15, 2023; FUNDMANAGER = Over 8 years
+
 
 Scrip Code: BSE: 543607/ NSE: HDFCGROWTH
 
@@ -8439,6 +10898,26 @@ Not Applicable
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.25 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • Infosys Limited: Industry+ = IT - Software; %to NAV = 14.72
+- PORTFOLIO — • Mahindra &Mahindra Ltd.: Industry+ = Automobiles; %to NAV = 12.35
+- PORTFOLIO — • Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 9.83
+- PORTFOLIO — • Sun Pharmaceutical Industries Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 8.58
+- PORTFOLIO — • Titan Company Ltd.: Industry+ = Consumer Durables; %to NAV = 8.19
+- PORTFOLIO — • Hindustan Unilever Ltd.: Industry+ = Diversified Fmcg; %to NAV = 7.59
+- PORTFOLIO — • Maruti Suzuki India Limited: Industry+ = Automobiles; %to NAV = 7.56
+- PORTFOLIO — • Nestle India Ltd.: Industry+ = Food Products; %to NAV = 4.41
+- PORTFOLIO — • Eicher Motors Ltd.: Industry+ = Automobiles; %to NAV = 4.39
+- PORTFOLIO — • Tech Mahindra Ltd.: Industry+ = IT - Software; %to NAV = 4.27
+- PORTFOLIO — Divis Laboratories Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 4.17
+- PORTFOLIO — TVS Motor Company Ltd.: Industry+ = Automobiles; %to NAV = 4.12
+- PORTFOLIO — Apollo Hospitals Enterprise Ltd. Cipla Ltd.: Industry+ = Healthcare Services Pharmaceuticals&; %to NAV = 3.75
+- PORTFOLIO — Persistent Systems Limited: Industry+ = IT - Software; %to NAV = 2.45
+- PORTFOLIO — Sub Total: %to NAV = 99.75
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.25
+- PORTFOLIO — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 ## Exposure to top seven groups
@@ -8453,6 +10932,16 @@ Not Applicable
 | Maruti Suzuki -MNC      |     7.56 |
 | Nestle India-MNC        |     4.41 |
 
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Tata: %toNAV = 18.02
+- Exposure to top seven groups — Mahindra &Mahindra: %toNAV = 16.62
+- Exposure to top seven groups — Infosys: %toNAV = 14.72
+- Exposure to top seven groups — Sun Pharma: %toNAV = 8.58
+- Exposure to top seven groups — Hindustan Unilever -MNC: %toNAV = 7.59
+- Exposure to top seven groups — Maruti Suzuki -MNC: %toNAV = 7.56
+- Exposure to top seven groups — Nestle India-MNC: %toNAV = 4.41
+
+
 Face Value / Allotment NAV per Unit: ₹   .0 , + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
 Please refer Minimum Application Amount, Plans &amp; Options, on Page no. 65 to 70.
@@ -8466,6 +10955,12 @@ Please refer Minimum Application Amount, Plans &amp; Options, on Page no. 65 to 
 | Jul 31, 25 | Last 1 Year     |                   2.66 |                       3.08 |                                   -0.43 |                                      10,266 |                                          10,308 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                   7.64 |                       8.12 |                                    8.56 |                                      12,475 |                                          12,643 |                                                      12,798 |
 | Sep 23, 22 | Since Inception |                   8.53 |                       9.04 |                                   10.52 |                                      13,710 |                                          13,958 |                                                      14,707 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 2.66; Benchmark - Returns (%)# = 3.08; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,266; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,308; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE *^ — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 7.64; Benchmark - Returns (%)# = 8.12; Additional Benchmark - Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,475; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 12,643; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE *^ — Sep 23, 22: Period = Since Inception; Scheme - Returns (%) = 8.53; Benchmark - Returns (%)# = 9.04; Additional Benchmark - Returns (%) ## = 10.52; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 13,710; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 13,958; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,707
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -8496,6 +10991,12 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to provide inves
 | Name         | Since             | Total Exp     |
 | Arun Agarwal | October 11, 2022  | Over 27 years |
 | Abhishek Mor | February 15, 2023 | Over 8 years  |
+
+**Table values by row and column (derived from the table above):**
+- HDFC NIFTY200 Momentum 30 ETF — Name: FUNDMANAGER = Since; FUNDMANAGER = Total Exp
+- HDFC NIFTY200 Momentum 30 ETF — Arun Agarwal: FUNDMANAGER = October 11, 2022; FUNDMANAGER = Over 27 years
+- HDFC NIFTY200 Momentum 30 ETF — Abhishek Mor: FUNDMANAGER = February 15, 2023; FUNDMANAGER = Over 8 years
+
 
 Scrip Code: BSE: 543628/ NSE: HDFCMOMENT
 
@@ -8622,6 +11123,36 @@ NAV PER
 | Glenmark Pharmaceuticals Ltd.                                   | Pharmaceuticals& Biotechnology |      1.62 |
 | KEI Industries Ltd.                                             | Industrial Products            |      1.53 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — EQUITY &EQUITYRELATED: Industry+ = EQUITY &EQUITYRELATED
+- PORTFOLIO — • Laurus Labs Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 5.79
+- PORTFOLIO — • Shriram Finance Ltd.: Industry+ = Finance; %to NAV = 5.15
+- PORTFOLIO — • Hindalco Industries Ltd.: Industry+ = Non-Ferrous Metals; %to NAV = 5.00
+- PORTFOLIO — • Tata Steel Ltd.: Industry+ = Ferrous Metals; %to NAV = 5.00
+- PORTFOLIO — • CumminsIndia Ltd.: Industry+ = Industrial Products; %to NAV = 4.98
+- PORTFOLIO — • NTPCLimited: Industry+ = Power; %to NAV = 4.88
+- PORTFOLIO — • Multi Commodity Exchange of India L: Industry+ = Capital Markets; %to NAV = 4.75
+- PORTFOLIO — • BombayStock Exchange Limited (BSE) •: Industry+ = Capital Markets; %to NAV = 4.71
+- PORTFOLIO — Adani Power(Mundra) Limited: Industry+ = Power; %to NAV = 4.61
+- PORTFOLIO — • GEVernova T&DIndia Limited: Industry+ = Electrical Equipment; %to NAV = 4.29
+- PORTFOLIO — Vedanta Ltd.: Industry+ = Diversified Metals; %to NAV = 4.19
+- PORTFOLIO — The Federal Bank Ltd.: Industry+ = Banks; %to NAV = 4.08
+- PORTFOLIO — Bharat Forge Ltd.: Industry+ = Auto Components; %to NAV = 3.52
+- PORTFOLIO — Bharat Heavy Electricals Ltd. Adani Energy Solutions: Industry+ = Electrical Equipment; %to NAV = 3.44
+- PORTFOLIO — Limited: Industry+ = Power; %to NAV = 3.37
+- PORTFOLIO — Samvardhana Motherson International Ltd. CGPower and Industrial: Industry+ = Auto Components; %to NAV = 2.98
+- PORTFOLIO — Solutions Ltd.: Industry+ = Electrical Equipment; %to NAV = 2.96
+- PORTFOLIO — Hitachi Energy India Ltd.: Industry+ = Electrical Equipment; %to NAV = 2.94
+- PORTFOLIO — Torrent Pharmaceuticals Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 2.93
+- PORTFOLIO — Polycab India Limited: Industry+ = Industrial Products; %to NAV = 2.71
+- PORTFOLIO — National Aluminium Co. Ltd.: Industry+ = Non-Ferrous Metals; %to NAV = 2.63
+- PORTFOLIO — Adani Green Energy Limited: Industry+ = Power; %to NAV = 2.16
+- PORTFOLIO — VODAFONE IDEA LIMITED Solar Industries India Ltd.: Industry+ = Telecom - Services Chemicals&; %to NAV = 1.96
+- PORTFOLIO — ABBIndia Ltd.: Industry+ = Electrical Equipment; %to NAV = 1.92
+- PORTFOLIO — Glenmark Pharmaceuticals Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 1.62
+- PORTFOLIO — KEI Industries Ltd.: Industry+ = Industrial Products; %to NAV = 1.53
+
+
 <!-- image -->
 
 ## PERFORMANCE  *^
@@ -8631,6 +11162,12 @@ NAV PER
 | Jul 31, 25 | Last 1 Year     |                 1.32 |                       1.85 |                                   -0.43 |                                      10,132 |                                          10,185 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                11.47 |                      12.06 |                                    8.56 |                                      13,854 |                                          14,075 |                                                      12,798 |
 | Oct 11, 22 | Since Inception |                13.50 |                      14.15 |                                   11.25 |                                      16,193 |                                          16,549 |                                                      15,004 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Jul 31, 25: Period = Last 1 Year; Scheme Returns (%) = 1.32; Benchmark - Returns (%)# = 1.85; Additional Benchmark - Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,132; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,185; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  *^ — Jul 31, 23: Period = Last 3 Years; Scheme Returns (%) = 11.47; Benchmark - Returns (%)# = 12.06; Additional Benchmark - Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 13,854; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 14,075; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE  *^ — Oct 11, 22: Period = Since Inception; Scheme Returns (%) = 13.50; Benchmark - Returns (%)# = 14.15; Additional Benchmark - Returns (%) ## = 11.25; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 16,193; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 16,549; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 15,004
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -8646,6 +11183,14 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.08 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Aditya Birla Capital ltd.: Industry+ = Finance; %to NAV = 1.37
+- PERFORMANCE  *^ — L&TFinance Ltd.: Industry+ = Finance; %to NAV = 1.00
+- PERFORMANCE  *^ — Sub Total: %to NAV = 99.92
+- PERFORMANCE  *^ — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.08
+- PERFORMANCE  *^ — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
+
 - Top Ten Holdings
 
 ## Exposure to top seven groups
@@ -8659,6 +11204,16 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | Shriram Transport  |     5.15 |
 | Tata               |     5.00 |
 | Cummins India -MNC |     4.98 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Private: %toNAV = 21.20
+- Exposure to top seven groups — PSU: %toNAV = 12.45
+- Exposure to top seven groups — Adani: %toNAV = 10.14
+- Exposure to top seven groups — Birla Aditya: %toNAV = 8.34
+- Exposure to top seven groups — Shriram Transport: %toNAV = 5.15
+- Exposure to top seven groups — Tata: %toNAV = 5.00
+- Exposure to top seven groups — Cummins India -MNC: %toNAV = 4.98
+
 
 Face Value / Allotment NAV per Unit: ₹ 1 0.61, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -8693,6 +11248,11 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to provide inves
 | Arun Agarwal | October 11, 2022  | Over 27 years |
 | Abhishek Mor | February 15, 2023 | Over 8 years  |
 
+**Table values by row and column (derived from the table above):**
+- FUND MANAGER — Arun Agarwal: Since = October 11, 2022; Total Exp = Over 27 years
+- FUND MANAGER — Abhishek Mor: Since = February 15, 2023; Total Exp = Over 8 years
+
+
 Scrip Code: BSE: 543627/ NSE: HDFCLOWVOL
 
 <!-- image -->
@@ -8706,6 +11266,10 @@ Scrip Code: BSE: 543627/ NSE: HDFCLOWVOL
 | NAV (As On JULY 31, 2026)          |   NAVPER UNIT(₹) |
 |------------------------------------|------------------|
 | HDFC NIFTY100 LOWVOLATILITY 30 ETF |          21.1373 |
+
+**Table values by row and column (derived from the table above):**
+- October 11, 2022 — HDFC NIFTY100 LOWVOLATILITY 30 ETF: NAVPER UNIT(₹) = 21.1373
+
 
 <!-- image -->
 
@@ -8817,6 +11381,36 @@ For Product label and Riskometers, refer page no: 80-92
 | Infosys Limited                      | IT - Software                    |      2.87 |
 | Shree Cement Ltd.                    | Cement&Cement Products           |      2.87 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • ICICI Bank Ltd.: Industry+ = Banks; %to NAV = 3.96
+- PORTFOLIO — • SBI Life InsuranceCompany Ltd.: Industry+ = Insurance; %to NAV = 3.77
+- PORTFOLIO — • Sun Pharmaceutical Industries Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 3.73
+- PORTFOLIO — • Bajaj Auto Limited: Industry+ = Automobiles; %to NAV = 3.70
+- PORTFOLIO — • Bharti Airtel Ltd.: Industry+ = Telecom - Services; %to NAV = 3.70
+- PORTFOLIO — • Nestle India Ltd.: Industry+ = Food Products; %to NAV = 3.70
+- PORTFOLIO — • NTPCLimited: Industry+ = Power; %to NAV = 3.66
+- PORTFOLIO — • Apollo Hospitals Enterprise Ltd.: Industry+ = Healthcare Services; %to NAV = 3.65
+- PORTFOLIO — • Bajaj Finserv Ltd.: Industry+ = Finance; %to NAV = 3.53
+- PORTFOLIO — • Tata Consultancy Services Ltd.: Industry+ = IT - Software; %to NAV = 3.52
+- PORTFOLIO — Britannia Industries Ltd.: Industry+ = Food Products; %to NAV = 3.47
+- PORTFOLIO — ITC LIMITED: Industry+ = DiversifiedFmcg; %to NAV = 3.40
+- PORTFOLIO — Hindustan Unilever Ltd. Cipla Ltd.: Industry+ = DiversifiedFmcg Pharmaceuticals&; %to NAV = 3.39
+- PORTFOLIO — HDFCBank Ltd.£: Industry+ = Banks; %to NAV = 3.37
+- PORTFOLIO — Titan CompanyLtd.: Industry+ = Consumer Durables; %to NAV = 3.37
+- PORTFOLIO — Reliance Industries Ltd.: Industry+ = Petroleum Products; %to NAV = 3.32
+- PORTFOLIO — HCL Technologies Ltd.: Industry+ = IT - Software; %to NAV = 3.29
+- PORTFOLIO — Torrent Pharmaceuticals Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 3.27
+- PORTFOLIO — Maruti Suzuki India Limited: Industry+ = Automobiles; %to NAV = 3.19
+- PORTFOLIO — UltraTech Cement Limited: Industry+ = Cement&Cement Products; %to NAV = 3.18
+- PORTFOLIO — Kotak Mahindra Bank Limited: Industry+ = Banks; %to NAV = 3.11
+- PORTFOLIO — Wipro Ltd.: Industry+ = IT - Software; %to NAV = 3.08
+- PORTFOLIO — State Bank of India: Industry+ = Banks; %to NAV = 3.04
+- PORTFOLIO — Asian Paints Limited: Industry+ = Consumer Durables; %to NAV = 2.98
+- PORTFOLIO — Pidilite Industries Ltd.: Industry+ = Chemicals& Petrochemicals; %to NAV = 2.94
+- PORTFOLIO — Infosys Limited: Industry+ = IT - Software; %to NAV = 2.87
+- PORTFOLIO — Shree Cement Ltd.: Industry+ = Cement&Cement Products; %to NAV = 2.87
+
+
 <!-- image -->
 
 ## PERFORMANCE  *^
@@ -8826,6 +11420,12 @@ For Product label and Riskometers, refer page no: 80-92
 | Jul 31, 25 | Last 1 Year     |                 3.71 |                       4.08 |                                   -0.43 |                                      10,371 |                                          10,408 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                11.70 |                      12.10 |                                    8.56 |                                      13,939 |                                          14,093 |                                                      12,798 |
 | Oct 11, 22 | Since Inception |                14.52 |                      15.01 |                                   11.25 |                                      16,752 |                                          17,026 |                                                      15,004 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Jul 31, 25: Period = Last 1 Year; Scheme Returns (%) = 3.71; Benchmark - Returns (%)# = 4.08; Additional - Benchmark Returns (%) ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,371; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,408; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  *^ — Jul 31, 23: Period = Last 3 Years; Scheme Returns (%) = 11.70; Benchmark - Returns (%)# = 12.10; Additional - Benchmark Returns (%) ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 13,939; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 14,093; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE  *^ — Oct 11, 22: Period = Since Inception; Scheme Returns (%) = 14.52; Benchmark - Returns (%)# = 15.01; Additional - Benchmark Returns (%) ## = 11.25; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 16,752; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 17,026; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 15,004
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Abhishek Mor &amp; Arun Agarwal, please refer page 71.
 
@@ -8838,6 +11438,14 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | Sub Total                                    | Sub Total                                    |     99.64 |
 | Cash,Cash Equivalents and Net Current Assets | Cash,Cash Equivalents and Net Current Assets |      0.36 |
 | Grand Total                                  | Grand Total                                  |    100.00 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Larsen and Toubro Ltd.: Industry+ = Construction; %to NAV = 2.62
+- PERFORMANCE  *^ — Dr Reddys Laboratories Ltd.: Industry+ = Pharmaceuticals& Biotechnology; %to NAV = 2.58
+- PERFORMANCE  *^ — Sub Total: Industry+ = Sub Total; %to NAV = 99.64
+- PERFORMANCE  *^ — Cash,Cash Equivalents and Net Current Assets: Industry+ = Cash,Cash Equivalents and Net Current Assets; %to NAV = 0.36
+- PERFORMANCE  *^ — Grand Total: Industry+ = Grand Total; %to NAV = 100.00
+
 
 - Top Ten Holdings, £ Sponsor
 
@@ -8852,6 +11460,16 @@ Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme
 | Sun Pharma         |     3.73 |
 | Nestle India -MNC  |     3.70 |
 | Bharti             |     3.70 |
+
+**Table values by row and column (derived from the table above):**
+- Exposure to top seven groups — Bajaj: %toNAV = 7.23
+- Exposure to top seven groups — Tata: %toNAV = 6.89
+- Exposure to top seven groups — SBI: %toNAV = 6.81
+- Exposure to top seven groups — ICICI: %toNAV = 3.96
+- Exposure to top seven groups — Sun Pharma: %toNAV = 3.73
+- Exposure to top seven groups — Nestle India -MNC: %toNAV = 3.70
+- Exposure to top seven groups — Bharti: %toNAV = 3.70
+
 
 Face Value / Allotment NAV per Unit: ₹ 126.1 , + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
@@ -8886,6 +11504,11 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to invest in Tri
 | Swapnil Jangam | August 31, 2024  | Over 15 years |
 | Rohan Pillai   | October 01, 2025 | Over 8 years  |
 
+**Table values by row and column (derived from the table above):**
+- FUND MANAGER — Swapnil Jangam: Since = August 31, 2024; Total Exp = Over 15 years
+- FUND MANAGER — Rohan Pillai: Since = October 01, 2025; Total Exp = Over 8 years
+
+
 Scrip Code: BSE: 543973/ NSE: HDFCLIQUID
 
 <!-- image -->
@@ -8899,6 +11522,10 @@ Scrip Code: BSE: 543973/ NSE: HDFCLIQUID
 | NAV (As On JULY 31, 2026)              |   NAVPER UNIT(₹) |
 |----------------------------------------|------------------|
 | HDFC NIFTY 1D RATE LIQUID ETF - Growth |       1,071.6398 |
+
+**Table values by row and column (derived from the table above):**
+- August 24, 2023 — HDFC NIFTY 1D RATE LIQUID ETF - Growth: NAVPER UNIT(₹) = 1,071.6398
+
 
 <!-- image -->
 
@@ -8924,6 +11551,13 @@ Average for Month of July, 2026
 | Modified Duration *                  | 3 Days                               |
 | Annualized Portfolio YTM#*           | 5.21%                                |
 | #semi annual YTMhas been annualised. | #semi annual YTMhas been annualised. |
+
+**Table values by row and column (derived from the table above):**
+- QUANTITATIVE DATA — Macaulay Duration *: 3 Days = 3 Days
+- QUANTITATIVE DATA — Modified Duration *: 3 Days = 3 Days
+- QUANTITATIVE DATA — Annualized Portfolio YTM#*: 3 Days = 5.21%
+- QUANTITATIVE DATA — #semi annual YTMhas been annualised.: 3 Days = #semi annual YTMhas been annualised.
+
 
 <!-- image -->
 
@@ -8968,6 +11602,11 @@ Debt Index Replication Factor (DIRF): 99.40%
 | Cash,Cash Equivalents and Net Current Assets |    100.00 |
 | Grand Total                                  |    100.00 |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: %to NAV = 100.00
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 Face Value / Allotment NAV per Unit: ₹ 1000, + Industry Classification as recommended by AMFI, Data is as of July 31, 2026 unless otherwise specified.
 
 <!-- image -->
@@ -8978,6 +11617,11 @@ Face Value / Allotment NAV per Unit: ₹ 1000, + Industry Classification as reco
 |------------|-----------------|------------------------|----------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------------|-------------------------------------------------------------|
 | Jul 31, 25 | Last 1 Year     |                   4.91 |                       5.32 |                                    2.27 |                                      10,491 |                                          10,532 |                                                      10,227 |
 | Aug 24, 23 | Since Inception |                   5.27 |                       6.14 |                                    6.81 |                                      11,629 |                                          11,914 |                                                      12,136 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 4.91; Benchmark Returns - (%)# = 5.32; Additional Benchmark Returns (%) - ## = 2.27; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 10,491; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 10,532; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 10,227
+- PERFORMANCE  *^ — Aug 24, 23: Period = Since Inception; Scheme - Returns (%) = 5.27; Benchmark Returns - (%)# = 6.14; Additional Benchmark Returns (%) - ## = 6.81; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 11,629; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 11,914; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,136
+
 
 The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan.   For performance of other schemes managed by Swapnil Jangam &amp; Rohan Pillai, please refer page 71. ^Past performance may or may not be sustained in future and is not a guarantee of any future returns. Load is not taken into consideration for computation of performance. *The Scheme does not offer any Plans/Options
 
@@ -9031,6 +11675,20 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to generate retu
 | daily rolling returns for the last 12 months: 0.39%                                                                                                                                                         | daily rolling returns for the last 12 months: 0.39%                                                                                                                                                         | daily rolling returns for the last 12 months: 0.39%                                                                                                                                                         | daily rolling returns for the last 12 months: 0.39%                                                                                                                                                         |
 | EXIT LOAD$$                                                                                                                                                                                                 | EXIT LOAD$$                                                                                                                                                                                                 | EXIT LOAD$$                                                                                                                                                                                                 | EXIT LOAD$$                                                                                                                                                                                                 |
 
+**Table values by row and column (derived from the table above):**
+- HDFC Gold ETF — Bhagyesh Kagalkar (Dedicated Fund Manager for commodities related investments viz. Gold): FUNDMANAGER - Name = Bhagyesh Kagalkar (Dedicated Fund Manager for commodities related investments viz. Gold); FUNDMANAGER - Since = February 02, 2022; FUNDMANAGER - Total Exp = Over 31 years
+- HDFC Gold ETF — Scrip Code: BSE : 533230/ NSE: HDFCGOLD: FUNDMANAGER - Name = Scrip Code: BSE : 533230/ NSE: HDFCGOLD; FUNDMANAGER - Since = Scrip Code: BSE : 533230/ NSE: HDFCGOLD; FUNDMANAGER - Total Exp = Scrip Code: BSE : 533230/ NSE: HDFCGOLD
+- HDFC Gold ETF — August 13, 2010: FUNDMANAGER - Name = August 13, 2010; FUNDMANAGER - Since = August 13, 2010; FUNDMANAGER - Total Exp = August 13, 2010
+- HDFC Gold ETF — NAV (As On JULY 31, 2026): FUNDMANAGER - Name = NAV (As On JULY 31, 2026); FUNDMANAGER - Since = NAV (As On JULY 31, 2026); FUNDMANAGER - Total Exp = NAVPER UNIT(₹)
+- HDFC Gold ETF — HDFC Gold ETF: FUNDMANAGER - Name = HDFC Gold ETF; FUNDMANAGER - Since = HDFC Gold ETF; FUNDMANAGER - Total Exp = 121.1310
+- HDFC Gold ETF — As on July 31, 2026 Average for Month of July, 2026 ₹ ₹: FUNDMANAGER - Name = As on July 31, 2026 Average for Month of July, 2026 ₹ ₹; FUNDMANAGER - Since = As on July 31, 2026 Average for Month of July, 2026 ₹ ₹; FUNDMANAGER - Total Exp = 22,285.40Cr. 22,350.78Cr.
+- HDFC Gold ETF — EXPENSE RATIO (As On July 31, 2026) Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ HDFC Gold ETF: 0.59%: FUNDMANAGER - Name = EXPENSE RATIO (As On July 31, 2026) Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ HDFC Gold ETF: 0.59%; FUNDMANAGER - Since = EXPENSE RATIO (As On July 31, 2026) Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ HDFC Gold ETF: 0.59%; FUNDMANAGER - Total Exp = EXPENSE RATIO (As On July 31, 2026) Base expense Ratio Including statutory levieson expenses part of BER, excluding brokerage, transaction cost andexecution related statutory levies^ HDFC Gold ETF: 0.59%
+- HDFC Gold ETF — #BENCHMARK INDEX Domestic Price of Physical Gold: FUNDMANAGER - Name = #BENCHMARK INDEX Domestic Price of Physical Gold; FUNDMANAGER - Since = #BENCHMARK INDEX Domestic Price of Physical Gold; FUNDMANAGER - Total Exp = #BENCHMARK INDEX Domestic Price of Physical Gold
+- HDFC Gold ETF — TRACKING ERROR: FUNDMANAGER - Name = TRACKING ERROR; FUNDMANAGER - Since = TRACKING ERROR; FUNDMANAGER - Total Exp = TRACKING ERROR
+- HDFC Gold ETF — daily rolling returns for the last 12 months: 0.39%: FUNDMANAGER - Name = daily rolling returns for the last 12 months: 0.39%; FUNDMANAGER - Since = daily rolling returns for the last 12 months: 0.39%; FUNDMANAGER - Total Exp = daily rolling returns for the last 12 months: 0.39%
+- HDFC Gold ETF — EXIT LOAD$$: FUNDMANAGER - Name = EXIT LOAD$$; FUNDMANAGER - Since = EXIT LOAD$$; FUNDMANAGER - Total Exp = EXIT LOAD$$
+
+
 <!-- image -->
 
 ## PORTFOLIO
@@ -9045,6 +11703,13 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to generate retu
 | Grand Total                                  |   100.00 |
 | • Top Ten Holdings                           |          |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — Gold.: %toNAV = 98.44
+- PORTFOLIO — Sub Total: %toNAV = 98.44
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: %toNAV = 1.56
+- PORTFOLIO — Grand Total: %toNAV = 100.00
+
+
 <!-- image -->
 
 ## PERFORMANCE  *^
@@ -9056,6 +11721,14 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to generate retu
 | Jul 30, 21 | Last 5 Years    |                22.90 |                    24.06 |                                      28,070 |                                          29,419 |
 | Jul 29, 16 | Last 10 Years   |                15.04 |                    16.17 |                                      40,676 |                                          44,827 |
 | Aug 13, 10 | Since Inception |                12.67 |                    13.63 |                                      67,283 |                                          77,001 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Jul 31, 25: Period = Last 1 Year; Scheme Returns (%) = 43.47; Benchmark Returns (%)# = 45.01; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 14,347; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 14,501
+- PERFORMANCE  *^ — Jul 31, 23: Period = Last 3 Years; Scheme Returns (%) = 32.37; Benchmark Returns (%)# = 33.74; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 23,210; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 23,941
+- PERFORMANCE  *^ — Jul 30, 21: Period = Last 5 Years; Scheme Returns (%) = 22.90; Benchmark Returns (%)# = 24.06; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 28,070; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 29,419
+- PERFORMANCE  *^ — Jul 29, 16: Period = Last 10 Years; Scheme Returns (%) = 15.04; Benchmark Returns (%)# = 16.17; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 40,676; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 44,827
+- PERFORMANCE  *^ — Aug 13, 10: Period = Since Inception; Scheme Returns (%) = 12.67; Benchmark Returns (%)# = 13.63; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 67,283; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 77,001
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. The Face Value per Unit is re ised to ₹ 1  earlier ₹ 100  and Allotment  rice per unit is ₹ 1 .0033  earlier ₹ 1, 00.32    w.e.f. February 19, 2021. All return computations have been suitably adjusted for this change. Since inception returns are computed on the allotment price. For performance of other schemes managed by Bhagyesh Kagalkar, please refer page 71.
 
@@ -9169,6 +11842,13 @@ Annualised tracking error is calculated based on daily rolling returns for the l
 | Grand Total                                  |   100.00 |
 | • Top Ten Holdings                           |          |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • SILVER: %toNAV = 97.75
+- PORTFOLIO — Sub Total: %toNAV = 97.75
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: %toNAV = 2.25
+- PORTFOLIO — Grand Total: %toNAV = 100.00
+
+
 <!-- image -->
 
 ## PERFORMANCE  *^
@@ -9178,6 +11858,12 @@ Annualised tracking error is calculated based on daily rolling returns for the l
 | Jul 31, 25 | Last 1 Year     |                  94.33 |                    98.73 |                                      19,433 |                                          19,873 |
 | Jul 31, 23 | Last 3 Years    |                  41.35 |                    43.31 |                                      28,271 |                                          29,462 |
 | Sep 02, 22 | Since Inception |                  41.99 |                    44.45 |                                      39,417 |                                          42,151 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  *^ — Jul 31, 25: Period = Last 1 Year; Scheme (%) - Returns = 94.33; Benchmark Returns (%)# = 98.73; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 19,433; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 19,873
+- PERFORMANCE  *^ — Jul 31, 23: Period = Last 3 Years; Scheme (%) - Returns = 41.35; Benchmark Returns (%)# = 43.31; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 28,271; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 29,462
+- PERFORMANCE  *^ — Sep 02, 22: Period = Since Inception; Scheme (%) - Returns = 41.99; Benchmark Returns (%)# = 44.45; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 39,417; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 42,151
+
 
 Returns greater than 1 year period are compounded annualized (CAGR). *The Scheme does not offer any Plans/Options. For performance of other schemes managed by Bhagyesh Kagalkar, please refer page 71.
 
@@ -9216,6 +11902,11 @@ INVESTMENT OBJECTIVE: To seek capital appreciation by investing in units of HDFC
 | Arun Agarwal    | February 15, 2023 | Over 27 years |
 | Nandita Menezes | March 29, 2025    | Over 3 years  |
 
+**Table values by row and column (derived from the table above):**
+- FUND MANAGER — Arun Agarwal: Since = February 15, 2023; Total Exp = Over 27 years
+- FUND MANAGER — Nandita Menezes: Since = March 29, 2025; Total Exp = Over 3 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -9228,6 +11919,11 @@ INVESTMENT OBJECTIVE: To seek capital appreciation by investing in units of HDFC
 |------------------------------|------------------|
 | Regular Plan - Growth Option |          42.0560 |
 | Direct Plan - Growth Option  |          44.1725 |
+
+**Table values by row and column (derived from the table above):**
+- November 01, 2011 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 42.0560
+- November 01, 2011 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 44.1725
+
 
 <!-- image -->
 
@@ -9278,6 +11974,13 @@ Domestic Price of Physical Gold
 | Grand Total                                  |    100.00 |
 | • Top Ten Holdings                           |           |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • HDFC Gold ETF: %to NAV = 100.05
+- PORTFOLIO — Sub Total: %to NAV = 100.05
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: %to NAV = -0.05
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 <!-- image -->
 
 - utual Fund Units
@@ -9291,10 +11994,17 @@ Domestic Price of Physical Gold
 
 |                                            |   Since Inception SIP |   10 year SIP |   5 year SIP |   3 year SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|---------------|--------------|--------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                 17.70 |         12.00 |         6.00 |         3.60 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 17.70 | 12.00 | 6.00 | 3.60 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                 58.51 |         34.29 |        12.11 |         5.89 |         1.30 |
 | Returns (%)                                |                 14.85 |         19.92 |        28.55 |        34.84 |        15.24 |
-| Benchmark Returns (%)#                     |                 16.30 |         21.43 |        30.45 |        37.27 |        16.79 |
+| Benchmark Returns (%) | 16.30 | 21.43 | 30.45 | 37.27 | 16.79 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 17.70; 10 year SIP = 12.00; 5 year SIP = 6.00; 3 year SIP = 3.60; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 58.51; 10 year SIP = 34.29; 5 year SIP = 12.11; 3 year SIP = 5.89; 1 year SIP = 1.30
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Returns (%): Since Inception SIP = 14.85; 10 year SIP = 19.92; 5 year SIP = 28.55; 3 year SIP = 34.84; 1 year SIP = 15.24
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Benchmark Returns (%): Since Inception SIP = 16.30; 10 year SIP = 21.43; 5 year SIP = 30.45; 3 year SIP = 37.27; 1 year SIP = 16.79
+
 
 Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery month o er a period of time.  AG  returns are computed  after  accounting  for  the  cash  flow  by  using  XIRR  method  (investment  internal  rate  of  return)  for  Regular  Plan  Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -9309,6 +12019,14 @@ Assuming ₹ 10,000 in ested systematically on the first  usiness  ay of e ery m
 | Jul 30, 21 | Last 5 Years    |                  22.39 |                    24.06 |                                      27,490 |                                          29,419 |
 | Jul 29, 16 | Last 10 Years   |                  14.97 |                    16.17 |                                      40,421 |                                          44,827 |
 | Nov 01, 11 | Since Inception |                  10.22 |                    11.89 |                                      42,056 |                                          52,470 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme (%) - Returns = 42.00; Benchmark Returns (%)# = 45.01; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 14,200; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 14,501
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme (%) - Returns = 31.75; Benchmark Returns (%)# = 33.74; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 22,889; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 23,941
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 30, 21: Period = Last 5 Years; Scheme (%) - Returns = 22.39; Benchmark Returns (%)# = 24.06; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 27,490; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 29,419
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 29, 16: Period = Last 10 Years; Scheme (%) - Returns = 14.97; Benchmark Returns (%)# = 16.17; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 40,421; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 44,827
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Nov 01, 11: Period = Since Inception; Scheme (%) - Returns = 10.22; Benchmark Returns (%)# = 11.89; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 42,056; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 52,470
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -9345,6 +12063,11 @@ INVESTMENT OBJECTIVE: To seek capital appreciation by investing in units of HDFC
 | Arun Agarwal    | February 15, 2023 | Over 27 years |
 | Nandita Menezes | March 29, 2025    | Over 3 years  |
 
+**Table values by row and column (derived from the table above):**
+- FUND MANAGER — Arun Agarwal: Since = February 15, 2023; Total Exp = Over 27 years
+- FUND MANAGER — Nandita Menezes: Since = March 29, 2025; Total Exp = Over 3 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -9358,6 +12081,11 @@ October 28, 2022
 | Regular Plan - Growth Option |          35.1794 |
 | Direct Plan - Growth Option  |          35.6749 |
 
+**Table values by row and column (derived from the table above):**
+- DATE OF ALLOTMENT/INCEPTION DATE — Regular Plan - Growth Option: NAVPER UNIT(₹) = 35.1794
+- DATE OF ALLOTMENT/INCEPTION DATE — Direct Plan - Growth Option: NAVPER UNIT(₹) = 35.6749
+
+
 <!-- image -->
 
 ## ASSETS UNDER MANAGEMENT
@@ -9365,6 +12093,10 @@ October 28, 2022
 | As on July 31, 2026             | ₹ 4,282.38Cr.   |
 |---------------------------------|-----------------|
 | Average for Month of July, 2026 | ₹ 4,347.68Cr.   |
+
+**Table values by row and column (derived from the table above):**
+- ASSETS UNDER MANAGEMENT — Average for Month of July, 2026: ₹ 4,282.38Cr. = ₹ 4,347.68Cr.
+
 
 <!-- image -->
 
@@ -9407,6 +12139,13 @@ Domestic Prices of physical Silver (derived as per regulatory norms)
 | Grand Total                                  |    100.00 |
 | • Top Ten Holdings                           |           |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — HDFC Silver ETF: %to NAV = 100.04
+- PORTFOLIO — Sub Total: %to NAV = 100.04
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: %to NAV = -0.04
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 <!-- image -->
 
 - utual Fund Units
@@ -9423,10 +12162,17 @@ Domestic Prices of physical Silver (derived as per regulatory norms)
 
 |                                            |   Since Inception SIP |   3 year SIP |   1 year SIP |
 |--------------------------------------------|-----------------------|--------------|--------------|
-| Total Amount In ested ₹. in Lacs           |                  4.60 |         3.60 |         1.20 |
+| Total Amount Invested ₹. in Lacs | 4.60 | 3.60 | 1.20 |
 | ar et Value as on July 31, 2026 ₹. in Lacs |                 10.46 |         7.39 |         1.40 |
 | Returns (%)                                |                 45.79 |        52.85 |        33.08 |
-| Benchmark Returns (%)#                     |                 49.24 |        57.10 |        36.23 |
+| Benchmark Returns (%) | 49.24 | 57.10 | 36.23 |
+
+**Table values by row and column (derived from the table above):**
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Total Amount Invested ₹. in Lacs: Since Inception SIP = 4.60; 3 year SIP = 3.60; 1 year SIP = 1.20
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — ar et Value as on July 31, 2026 ₹. in Lacs: Since Inception SIP = 10.46; 3 year SIP = 7.39; 1 year SIP = 1.40
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Returns (%): Since Inception SIP = 45.79; 3 year SIP = 52.85; 1 year SIP = 33.08
+- SIP PERFORMANCE ^ -Regular Plan Growth Option — Benchmark Returns (%): Since Inception SIP = 49.24; 3 year SIP = 57.10; 1 year SIP = 36.23
+
 
 Assuming ₹ 10,000 in ested  systematically  on  the  first   usiness   ay  of  e ery  month  o er  a  period  of  time.   AG   returns  are computed after accounting for the cash flow by using XIRR method (investment internal rate of return) for Regular Plan - Growth Option. The above investment simulation is for illustrative purposes only and should not be construed as a promise on minimum returns and safeguard of capital.
 
@@ -9439,6 +12185,12 @@ Assuming ₹ 10,000 in ested  systematically  on  the  first   usiness   ay  of 
 | Jul 31, 25 | Last 1 Year     |                  90.81 |                    98.73 |                                      19,081 |                                          19,873 |
 | Jul 31, 23 | Last 3 Years    |                  40.58 |                    43.31 |                                      27,808 |                                          29,462 |
 | Oct 28, 22 | Since Inception |                  39.74 |                    42.81 |                                      35,179 |                                          38,172 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme (%) - Returns = 90.81; Benchmark Returns (%)# = 98.73; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 19,081; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 19,873
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme (%) - Returns = 40.58; Benchmark Returns (%)# = 43.31; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 27,808; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 29,462
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Oct 28, 22: Period = Since Inception; Scheme (%) - Returns = 39.74; Benchmark Returns (%)# = 42.81; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 35,179; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 38,172
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -9477,6 +12229,11 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to provide long 
 | Arun Agarwal    | February 01, 2022 | Over 27 years |
 | Nandita Menezes | March 29, 2025    | Over 3 years  |
 
+**Table values by row and column (derived from the table above):**
+- FUND MANAGER — Arun Agarwal: Since = February 01, 2022; Total Exp = Over 27 years
+- FUND MANAGER — Nandita Menezes: Since = March 29, 2025; Total Exp = Over 3 years
+
+
 <!-- image -->
 
 ## DATE OF ALLOTMENT/INCEPTION DATE
@@ -9489,6 +12246,11 @@ INVESTMENT OBJECTIVE: The investment objective of the Scheme is to provide long 
 |------------------------------|------------------|
 | Regular Plan - Growth Option |           20.945 |
 | Direct Plan - Growth Option  |           21.418 |
+
+**Table values by row and column (derived from the table above):**
+- October 06, 2021 — Regular Plan - Growth Option: NAVPER UNIT(₹) = 20.945
+- October 06, 2021 — Direct Plan - Growth Option: NAVPER UNIT(₹) = 21.418
+
 
 <!-- image -->
 
@@ -9563,6 +12325,19 @@ redeemed/ switched-out after 30 days from the date of allotment.
 | Grand Total                                             |    100.00 |
 | • Top Ten Holdings                                      |           |
 
+**Table values by row and column (derived from the table above):**
+- PORTFOLIO — • UBS (Irl) ETF plc - MSCI USA NSL UCITS ETF A- acc USD: %to NAV = 71.88
+- PORTFOLIO — Sub Total: %to NAV = 71.88
+- PORTFOLIO — • UBS MSCI Europe Index Fund USD I W-SSP acc: %to NAV = 16.66
+- PORTFOLIO — • UBS MSCI Japan Index Fund USD I W-SSP acc: %to NAV = 5.45
+- PORTFOLIO — • UBS MSCI Canada Index Fund USD I W-SSP acc: %to NAV = 3.14
+- PORTFOLIO — • UBS MSCI Pacific ex Japan Index Fund USD I-W- SSP acc: %to NAV = 2.59
+- PORTFOLIO — Sub Total: %to NAV = 27.84
+- PORTFOLIO — Total: %to NAV = 99.72
+- PORTFOLIO — Cash,Cash Equivalents and Net Current Assets: %to NAV = 0.28
+- PORTFOLIO — Grand Total: %to NAV = 100.00
+
+
 <!-- image -->
 
 - utual Fund Units
@@ -9582,6 +12357,12 @@ redeemed/ switched-out after 30 days from the date of allotment.
 | Jul 31, 25 | Last 1 Year     |                  28.64 |                      31.16 |                                   -0.43 |                                      12,864 |                                          13,116 |                                                       9,957 |
 | Jul 31, 23 | Last 3 Years    |                  22.88 |                      24.09 |                                    8.56 |                                      18,565 |                                          19,119 |                                                      12,798 |
 | Oct 06, 21 | Since Inception |                  16.58 |                      17.82 |                                    8.23 |                                      20,945 |                                          22,038 |                                                      14,640 |
+
+**Table values by row and column (derived from the table above):**
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 25: Period = Last 1 Year; Scheme - Returns (%) = 28.64; Benchmark Returns - (%)# = 31.16; Additional Benchmark Returns (%) - ## = -0.43; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 12,864; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 13,116; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 9,957
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Jul 31, 23: Period = Last 3 Years; Scheme - Returns (%) = 22.88; Benchmark Returns - (%)# = 24.09; Additional Benchmark Returns (%) - ## = 8.56; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 18,565; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 19,119; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 12,798
+- PERFORMANCE  ^ - Regular Plan - Growth Option — Oct 06, 21: Period = Since Inception; Scheme - Returns (%) = 16.58; Benchmark Returns - (%)# = 17.82; Additional Benchmark Returns (%) - ## = 8.23; Value of ₹ 10,000 invested - Scheme ( ₹ ) = 20,945; Value of ₹ 10,000 invested - Benchmark ( ₹ )# = 22,038; Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )## = 14,640
+
 
 Returns greater than 1 year are compounded annualized (CAGR). For performance of other schemes managed by Nandita Menezes &amp; Arun Agarwal, please refer page 71. Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. For Performance of Direct Plan, refer page 75 to 79.
 
@@ -9640,6 +12421,13 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | HDFC BSE India Sector Leaders Index Fund                       | Purchase/Additional Purchase:- Rs. 100 and any amount thereafter.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Regular Plan and Direct Plan. Under Each Plan: Growth Option Only Presently the Scheme does not offer any Plans / Options for investment |
 | HDFC NIFTY 50 ETF                                              | For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 20,000 (w.e.f. August 20, 2025) Units of HNETF and 1 Unit of HNETF will be approximately equal to 1/100th of the value of NIFTY 50 Index (TRI). For Transactions on Stock Exchanges: Units of HNETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). |                                                                                                                                          |
 
+**Table values by row and column (derived from the table above):**
+- FUND DETAILS ANNEXURE — HDFC Nifty SDL Oct 2026 Index Fund: MINIMUMAPPLICATIONAMOUNT = Purchase/Additional Purchase:- Rs. 100 and any amount thereafter.; PLANS &OPTIONS = Regular Plan, Direct Plan. Each Plan offers Growth Option only
+- FUND DETAILS ANNEXURE — HDFC Nifty LargeMidcap 250 Index Fund: MINIMUMAPPLICATIONAMOUNT = Purchase/Additional Purchase:- Rs. 100 and any amount thereafter.; PLANS &OPTIONS = Regular and Direct Plans. Each Plan offers growth Option only
+- FUND DETAILS ANNEXURE — HDFC BSE India Sector Leaders Index Fund: MINIMUMAPPLICATIONAMOUNT = Purchase/Additional Purchase:- Rs. 100 and any amount thereafter.; PLANS &OPTIONS = Regular Plan and Direct Plan. Under Each Plan: Growth Option Only Presently the Scheme does not offer any Plans / Options for investment
+- FUND DETAILS ANNEXURE — HDFC NIFTY 50 ETF: MINIMUMAPPLICATIONAMOUNT = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 20,000 (w.e.f. August 20, 2025) Units of HNETF and 1 Unit of HNETF will be approximately equal to 1/100th of the value of NIFTY 50 Index (TRI). For Transactions on Stock Exchanges: Units of HNETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size).
+
+
 <!-- image -->
 
 
@@ -9656,6 +12444,13 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | HDFC NIFTY 100 ETF     | For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 300,000 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/1000th of the value of NIFTY 100 Total Returns Index (TRI). For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). | Presently the Scheme does not offer any Plans / Options for investment           |
 | HDFC NIFTY Next 50 ETF | For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 50,000 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/1000th of the value of NIFTY Next 50 Index. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in                                                    | Presently the Scheme does not offer any Plans / Options for investment           |
 | HDFC Silver ETF        | For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 30,000 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the                                                                                                                                                                                                                                                                                                                                                                                                                  | Presently the Scheme does not offer any Plans / Options for investment           |
+
+**Table values by row and column (derived from the table above):**
+- FUND DETAILS ANNEXURE — HDFC NIFTY Bank ETF: For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors &: Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 50,000 (w.e.f. August 20, 2025) Units of HSXETF and 1 Unit of HSXETF will be approximately equal to 1/1000th of the value of BSE SENSEX Index. For Transactions on Stock Exchanges: Units of HSXETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = For Transactions Directly with the Fund:For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges.Refer SID for further details.Each Creation Unit Size will consist of 12,500 (w.e.f. June 22, 2026) Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/1000th of the value of NIFTY Bank Index.For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit; Presently the Scheme does not offer any Plans / Options for investment = Currently, there are no investment Plans/Options being offered under the Scheme.
+- FUND DETAILS ANNEXURE — HDFC NIFTY 100 ETF: For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors &: Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 50,000 (w.e.f. August 20, 2025) Units of HSXETF and 1 Unit of HSXETF will be approximately equal to 1/1000th of the value of BSE SENSEX Index. For Transactions on Stock Exchanges: Units of HSXETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 300,000 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/1000th of the value of NIFTY 100 Total Returns Index (TRI). For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size).; Presently the Scheme does not offer any Plans / Options for investment = Presently the Scheme does not offer any Plans / Options for investment
+- FUND DETAILS ANNEXURE — HDFC NIFTY Next 50 ETF: For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors &: Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 50,000 (w.e.f. August 20, 2025) Units of HSXETF and 1 Unit of HSXETF will be approximately equal to 1/1000th of the value of BSE SENSEX Index. For Transactions on Stock Exchanges: Units of HSXETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 50,000 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/1000th of the value of NIFTY Next 50 Index. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in; Presently the Scheme does not offer any Plans / Options for investment = Presently the Scheme does not offer any Plans / Options for investment
+- FUND DETAILS ANNEXURE — HDFC Silver ETF: For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors &: Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 50,000 (w.e.f. August 20, 2025) Units of HSXETF and 1 Unit of HSXETF will be approximately equal to 1/1000th of the value of BSE SENSEX Index. For Transactions on Stock Exchanges: Units of HSXETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 30,000 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the; Presently the Scheme does not offer any Plans / Options for investment = Presently the Scheme does not offer any Plans / Options for investment
+
 
 <!-- image -->
 
@@ -9675,6 +12470,14 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | HDFC BSE 500 ETF                       | For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 4,15,000 Units (w.e.f. March 2, 2023) of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of S&P BSE 500 Index (TRI). For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size).     | Presently the Scheme does not offer any Plans / Options for investment                                                  |
 | HDFC NIFTY 1D RATE LIQUID ETF - Growth | For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | The Scheme will offer only Growth option. The income attributable to units will continue to remain invested and will be |
 
+**Table values by row and column (derived from the table above):**
+- FUND DETAILS ANNEXURE — HDFC NIFTY200 Momentum 30 ETF: value of Domestic Prices of physical Silver. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 50,000 (w.e.f. June 22, 2026) Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/1000th of the value of NIFTY200 Momentum 30 Index. For Transactions on Stock Exchanges: , Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size).
+- FUND DETAILS ANNEXURE — HDFC NIFTY Midcap 150 ETF: value of Domestic Prices of physical Silver. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 350,000 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/1000th of the value of NIFTY Midcap 150 Index (TRI). For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in
+- FUND DETAILS ANNEXURE — HDFC NIFTY Smallcap 250 ETF: value of Domestic Prices of physical Silver. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 35,000 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY Smallcap 250 Index (TRI). For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. &From May 1, 2026 - Min. application amount for Large Investors shall be Rs. 25 Crores and in multiples of Creation Unit Size.
+- FUND DETAILS ANNEXURE — HDFC BSE 500 ETF: value of Domestic Prices of physical Silver. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 4,15,000 Units (w.e.f. March 2, 2023) of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of S&P BSE 500 Index (TRI). For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size).
+- FUND DETAILS ANNEXURE — HDFC NIFTY 1D RATE LIQUID ETF - Growth: value of Domestic Prices of physical Silver. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& :
+
+
 <!-- image -->
 
 
@@ -9691,6 +12494,13 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | HDFC NIFTY50 VALUE 20 ETF           | For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 7,500 units (w.e.f. June 22, 2026) of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY50 Value 20 Index (TRI). For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size).      | Presently the Scheme does not offer any Plans / Options for investment |
 | HDFC NIFTY100 Quality 30 ETF        | For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 50,000 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY100 Quality 30 Index. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size).                               | Presently the Scheme does not offer any Plans / Options for investment |
 | HDFC NIFTY Growth Sectors 15 ETF    | For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 20,000 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY Growth Sectors 15 Index (TRI). For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading                                                                                                                                                                                                                                                    | Presently the Scheme does not offer any Plans / Options for investment |
+
+**Table values by row and column (derived from the table above):**
+- FUND DETAILS ANNEXURE — HDFC NIFTY100 Low Volatility 30 ETF: Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 2,500 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY 1D Rate Index. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in = multiples of Creation Unit Size). For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 75,000 units (w.e.f June 22, 2026) of the ETF and 1 Unit of the ETF will be approximately equal to 1/1000th of the value of NIFTY100 Low Volatility 30 Index. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in; reflected in their Net Asset Value. = Presently the Scheme does not offer any Plans / Options for investment
+- FUND DETAILS ANNEXURE — HDFC NIFTY50 VALUE 20 ETF: Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 2,500 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY 1D Rate Index. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 7,500 units (w.e.f. June 22, 2026) of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY50 Value 20 Index (TRI). For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size).; reflected in their Net Asset Value. = Presently the Scheme does not offer any Plans / Options for investment
+- FUND DETAILS ANNEXURE — HDFC NIFTY100 Quality 30 ETF: Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 2,500 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY 1D Rate Index. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 50,000 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY100 Quality 30 Index. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size).; reflected in their Net Asset Value. = Presently the Scheme does not offer any Plans / Options for investment
+- FUND DETAILS ANNEXURE — HDFC NIFTY Growth Sectors 15 ETF: Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 2,500 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY 1D Rate Index. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 20,000 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY Growth Sectors 15 Index (TRI). For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading; reflected in their Net Asset Value. = Presently the Scheme does not offer any Plans / Options for investment
+
 
 <!-- image -->
 
@@ -9709,6 +12519,13 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | HDFC NIFTY Private Bank ETF | For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 25,000 units (w.e.f. June 22, 2026) of the ETF and 1 Unit of the ETF will be approximately equal to 1/1000th of the value of HDFC NIFTY Private Bank Index. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size).                                                                                                                                                                    | Presently the Scheme does not offer any Plans / Options for investment |
 | HDFC NIFTY PSU BANK ETF     | On an On-going Basis: A. On the Stock Exchange: Investors (including Market Makers and Large Investors): Investors can subscribe (buy) and redeem (sell) Units on a continuous basis on NSE/BSE on which the Units are listed. On the Stock Exchange(s), the Units of the ETF can be purchased/sold in minimum lot of 1 (one) Unit and in multiples thereof. The price of the ETF Units in the secondary market on the Stock Exchange(s) will depend on demand and supply at that point of time. B. Directly with the Fund: Market Makers/Large Investors: On an ongoing basis, Market Makers and Large Investors* may approach the Fund directly for subscription / redemption of units of the ETF at the Intra-Day NAV in multiples of Creation Unit size. Additionally, the transaction handling charges, if any, will have to be borne by the Market Maker/Large Investor. *The minimum application amount for Large Investors shall be Rs. 25 Crores^ (apart from the requirement of the application being in                                                                                                                  | Presently the Scheme does not offer any Plans / Options for investment |
 
+**Table values by row and column (derived from the table above):**
+- FUND DETAILS ANNEXURE — HDFC NIFTY IT ETF: days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 100,000(w.e.f. February 5, 2024) Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/1000th of the value of HDFC NIFTY IT ETF. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size).
+- FUND DETAILS ANNEXURE — HDFC Nifty Metal ETF: days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). Application for subscription / redemption of the ETF Units in Creation Unit Size can be made either: ● in exchange of Cash* [as determined by theAMC equivalent to the cost incurred towards the purchase of predefined basket of securities that represent the Underlying Index (i.e. Portfolio Deposit)], Cash Component and other applicable transaction charges; ● in exchange of Portfolio Deposit [i.e. by depositing basket of securities constituting Nifty Metal Index (TRI)] along with the cash component and applicable transaction charges. Each Creation Unit Size will consist of 12,500 Units of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of Nifty Metal Index (TRI). *Cash means payments shall be made only by means of payment instruction of Real Time Gross Settlement (RTGS)/National Electronic Funds Transfer (NEFT) or Funds Transfer Letter/Transfer Cheque of a bank where the Scheme has a
+- FUND DETAILS ANNEXURE — HDFC NIFTY Private Bank ETF: days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : Application can be made either: (i) in exchange of Cash or (ii) in exchange of Portfolio Deposit [i.e. basket of securities constituting Benchmark Index] along with the cash component and applicable transaction charges. Refer SID for further details. Each Creation Unit Size will consist of 25,000 units (w.e.f. June 22, 2026) of the ETF and 1 Unit of the ETF will be approximately equal to 1/1000th of the value of HDFC NIFTY Private Bank Index. For Transactions on Stock Exchanges: Units of the ETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size).
+- FUND DETAILS ANNEXURE — HDFC NIFTY PSU BANK ETF: days on the NSE and/ or BSE on which the Units are listed. The minimum application amount for Large Investors shall be Rs. 25 Crores (apart from the requirement of the application being in multiples of Creation Unit Size). = On an On-going Basis: A. On the Stock Exchange: Investors (including Market Makers and Large Investors): Investors can subscribe (buy) and redeem (sell) Units on a continuous basis on NSE/BSE on which the Units are listed. On the Stock Exchange(s), the Units of the ETF can be purchased/sold in minimum lot of 1 (one) Unit and in multiples thereof. The price of the ETF Units in the secondary market on the Stock Exchange(s) will depend on demand and supply at that point of time. B. Directly with the Fund: Market Makers/Large Investors: On an ongoing basis, Market Makers and Large Investors* may approach the Fund directly for subscription / redemption of units of the ETF at the Intra-Day NAV in multiples of Creation Unit size. Additionally, the transaction handling charges, if any, will have to be borne by the Market Maker/Large Investor. *The minimum application amount for Large Investors shall be Rs. 25 Crores^ (apart from the requirement of the application being in
+
+
 <!-- image -->
 
 
@@ -9724,6 +12541,12 @@ $$For further details, please refer to para 'Exit Load' on page no. 71.
 | HDFC Gold ETF                                    | For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : For further details, refer SID. For Transactions on Stock Exchanges: Units of HGETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and BSE on which the Units are listed. Subscription transactions by Large investors directly with HDFC Mutual Fund (i.e. investing minimum Rs. 25 crore) will not accepted with effect from June 8, 2026.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Currently, there are no investment Plans / Options being offered under the Scheme. |
 | HDFC Developed World Overseas Equity Passive FOF | Purchase/Additional Purchase:- Rs. 100 and any amount thereafter. (Subscriptions by way of lumpsum purchases and switch-ins shall not be accepted in the Scheme w.e.f. March 28, 2024 and New Registrations/Existing instalments of Systematic Investment Plan (SIP) / Systematic Transfer Plan (STP) / Transfer of IDCW Plan (TIP), etc. shall not be accepted/ paused w.e.f. April 01, 2024)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Regular Plan, Direct Plan. Each Plan offers Growth Option only.                    |
 | HDFC Gold ETF Fund of Fund                       | Purchase/Additional Purchase:- Rs. 100 and any amount thereafter. (Lumpsum purchases /switch-ins into the FOF is processed only upto a limit of Rs. 10 lakh per PAN per calendar month at first holder level with effect from June 5, 2026 after cut-off time 3:00 PM. This restriction is applicable till August 13, 2026 and it will resume accepting subscriptions through lumpsum purchases/ switch-ins without any restriction, with effect from August 14, 2026 )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Regular Plan, Direct Plan. Each Plan offers Growth Option only                     |
+
+**Table values by row and column (derived from the table above):**
+- FUND DETAILS ANNEXURE — HDFC Gold ETF: multiples of Creation Unit Size). Application for subscription / redemption of the ETF Units in Creation Unit Size can be made either: • in exchange of ash* [as determined by the A e ui alent to the cost incurred towards the purchase of predefined basket of securities that represent the Underlying Index (i.e. Portfolio Deposit)], Cash Component and other applicable transaction charges; • in exchange of ortfolio eposit [i.e. by depositing bas et of securities constituting NIFTY PSU Bank Index (TRI)] along with the cash component and applicable transaction charges. Each Creation Unit Size will consist of 10,000 units (w.e.f. June 22, 2026) of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY PSU Bank Index (TRI). *Cash means payments shall be made only by means of payment instruction of Real Time Gross Settlement (RTGS)/National Electronic Funds Transfer (NEFT) or Funds Transfer Letter/Transfer Cheque of a bank where the Scheme has a collection account. Note: The transaction handling charges which include brokerage, Securities transaction tax, regulatory charges if any, depository participant charges, uploading charges and such other charges that the mutual fund may have to incur in the course of cash subscription/ redemption shall be recoverable from the transacting Investor. Redemption directly with the Fund during Liquidity Window: In such cases, valid applications received by the Fund upto the cutoff time will be processed on the basis of the closing NAV of the day of receipt of request and for valid applications received after cut-off time, the closing NAV of the next Business Day shall be applicable. = For Transactions Directly with the Fund: For Market Makers: In Creation Unit Size and in multiples thereof. For Large Investors& : For further details, refer SID. For Transactions on Stock Exchanges: Units of HGETF can be traded (in lots of 1 Unit) during the trading hours on all trading days on the NSE and BSE on which the Units are listed. Subscription transactions by Large investors directly with HDFC Mutual Fund (i.e. investing minimum Rs. 25 crore) will not accepted with effect from June 8, 2026.
+- FUND DETAILS ANNEXURE — HDFC Developed World Overseas Equity Passive FOF: multiples of Creation Unit Size). Application for subscription / redemption of the ETF Units in Creation Unit Size can be made either: • in exchange of ash* [as determined by the A e ui alent to the cost incurred towards the purchase of predefined basket of securities that represent the Underlying Index (i.e. Portfolio Deposit)], Cash Component and other applicable transaction charges; • in exchange of ortfolio eposit [i.e. by depositing bas et of securities constituting NIFTY PSU Bank Index (TRI)] along with the cash component and applicable transaction charges. Each Creation Unit Size will consist of 10,000 units (w.e.f. June 22, 2026) of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY PSU Bank Index (TRI). *Cash means payments shall be made only by means of payment instruction of Real Time Gross Settlement (RTGS)/National Electronic Funds Transfer (NEFT) or Funds Transfer Letter/Transfer Cheque of a bank where the Scheme has a collection account. Note: The transaction handling charges which include brokerage, Securities transaction tax, regulatory charges if any, depository participant charges, uploading charges and such other charges that the mutual fund may have to incur in the course of cash subscription/ redemption shall be recoverable from the transacting Investor. Redemption directly with the Fund during Liquidity Window: In such cases, valid applications received by the Fund upto the cutoff time will be processed on the basis of the closing NAV of the day of receipt of request and for valid applications received after cut-off time, the closing NAV of the next Business Day shall be applicable. = Purchase/Additional Purchase:- Rs. 100 and any amount thereafter. (Subscriptions by way of lumpsum purchases and switch-ins shall not be accepted in the Scheme w.e.f. March 28, 2024 and New Registrations/Existing instalments of Systematic Investment Plan (SIP) / Systematic Transfer Plan (STP) / Transfer of IDCW Plan (TIP), etc. shall not be accepted/ paused w.e.f. April 01, 2024)
+- FUND DETAILS ANNEXURE — HDFC Gold ETF Fund of Fund: multiples of Creation Unit Size). Application for subscription / redemption of the ETF Units in Creation Unit Size can be made either: • in exchange of ash* [as determined by the A e ui alent to the cost incurred towards the purchase of predefined basket of securities that represent the Underlying Index (i.e. Portfolio Deposit)], Cash Component and other applicable transaction charges; • in exchange of ortfolio eposit [i.e. by depositing bas et of securities constituting NIFTY PSU Bank Index (TRI)] along with the cash component and applicable transaction charges. Each Creation Unit Size will consist of 10,000 units (w.e.f. June 22, 2026) of the ETF and 1 Unit of the ETF will be approximately equal to 1/100th of the value of NIFTY PSU Bank Index (TRI). *Cash means payments shall be made only by means of payment instruction of Real Time Gross Settlement (RTGS)/National Electronic Funds Transfer (NEFT) or Funds Transfer Letter/Transfer Cheque of a bank where the Scheme has a collection account. Note: The transaction handling charges which include brokerage, Securities transaction tax, regulatory charges if any, depository participant charges, uploading charges and such other charges that the mutual fund may have to incur in the course of cash subscription/ redemption shall be recoverable from the transacting Investor. Redemption directly with the Fund during Liquidity Window: In such cases, valid applications received by the Fund upto the cutoff time will be processed on the basis of the closing NAV of the day of receipt of request and for valid applications received after cut-off time, the closing NAV of the next Business Day shall be applicable. = Purchase/Additional Purchase:- Rs. 100 and any amount thereafter. (Lumpsum purchases /switch-ins into the FOF is processed only upto a limit of Rs. 10 lakh per PAN per calendar month at first holder level with effect from June 5, 2026 after cut-off time 3:00 PM. This restriction is applicable till August 13, 2026 and it will resume accepting subscriptions through lumpsum purchases/ switch-ins without any restriction, with effect from August 14, 2026 )
+
 
 <!-- image -->
 
@@ -9908,12 +12731,28 @@ Applicability of Stamp Duty : Effective July 1, 2020, in accordance with the ame
 | Sep 11, 00                                                                    | Since Inception                                                               | 7.20                                                                          | 8.60                                                                          | NA                                                                            | 60,605                                                                               | 84,776                                                                            | NA                                                                                             |
 | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index. | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index. | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index. | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index. | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index. | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.        | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.     | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.                  |
 
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFC INCOME FUND - Period = Last 1 Year; Scheme Benchmark - Returns - (%) = 3.57; Scheme Benchmark - Returns - (%)# = 4.41; Additional - Benchmark - Returns - (%)## = 2.27; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,357; 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,441; ₹ 60.6054 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFC INCOME FUND - Period = Last 3 Years; Scheme Benchmark - Returns - (%) = 6.55; Scheme Benchmark - Returns - (%)# = 7.18; Additional - Benchmark - Returns - (%)## = 6.78; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,099; 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,313; ₹ 60.6054 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- ANUPAM JOSHI — Jul 30, 21: HDFC INCOME FUND - Period = Last 5 Years; Scheme Benchmark - Returns - (%) = 5.15; Scheme Benchmark - Returns - (%)# = 6.06; Additional - Benchmark - Returns - (%)## = 5.34; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,859; 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,425; ₹ 60.6054 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,971
+- ANUPAM JOSHI — Jul 29, 16: HDFC INCOME FUND - Period = Last 10 Years; Scheme Benchmark - Returns - (%) = 5.35; Scheme Benchmark - Returns - (%)# = 7.13; Additional - Benchmark - Returns - (%)## = 5.92; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 16,844; 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 19,933; ₹ 60.6054 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,781
+- ANUPAM JOSHI — Sep 11, 00: HDFC INCOME FUND - Period = Since Inception; Scheme Benchmark - Returns - (%) = 7.20; Scheme Benchmark - Returns - (%)# = 8.60; Additional - Benchmark - Returns - (%)## = NA; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 60,605; 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 84,776; ₹ 60.6054 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = NA
+- ANUPAM JOSHI — #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.: HDFC INCOME FUND - Period = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.; Scheme Benchmark - Returns - (%) = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.; Scheme Benchmark - Returns - (%)# = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.; Additional - Benchmark - Returns - (%)## = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.; 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.; ₹ 60.6054 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.
+
+
 | HDFC LONG DURATION DEBT FUND - Date                                  | HDFC LONG DURATION DEBT FUND - Period                                | HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns - (%)      | HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC LONG DURATION DEBT FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 12.4426 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |----------------------------------------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Jul 31, 25                                                           | Last 1 Year                                                          | 1.49                                                                 | 0.80                                                                         | 2.27                                                                              | 10,149                                                                                    | 10,080                                                                                               | 10,227                                                                                         |
 | Jul 31, 23                                                           | Last 3 Years                                                         | 6.16                                                                 | 5.65                                                                         | 6.78                                                                              | 11,966                                                                                    | 11,794                                                                                               | 12,176                                                                                         |
 | Jan 20, 23                                                           | Since Inception                                                      | 6.39                                                                 | 6.13                                                                         | 7.19                                                                              | 12,443                                                                                    | 12,334                                                                                               | 12,776                                                                                         |
 | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index. | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index. | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index. | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.         | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.              | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.                      | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.                                 | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.                           |
+
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFC LONG DURATION DEBT FUND - Period = Last 1 Year; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns - (%) = 1.49; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = 0.80; HDFC LONG DURATION DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,149; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,080; ₹ 12.4426 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFC LONG DURATION DEBT FUND - Period = Last 3 Years; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns - (%) = 6.16; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.65; HDFC LONG DURATION DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 11,966; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 11,794; ₹ 12.4426 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- ANUPAM JOSHI — Jan 20, 23: HDFC LONG DURATION DEBT FUND - Period = Since Inception; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns - (%) = 6.39; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.13; HDFC LONG DURATION DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = 7.19; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,443; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,334; ₹ 12.4426 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,776
+- ANUPAM JOSHI — #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.: HDFC LONG DURATION DEBT FUND - Period = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns - (%) = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.; HDFC LONG DURATION DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.; ₹ 12.4426 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.
+
 
 | HDFCFMP 1861D MARCH2022(46) - Date                                     | HDFCFMP 1861D MARCH2022(46) - Period                                   | HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns - (%)         | HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns Benchmark - (%)#   | HDFCFMP 1861D MARCH2022(46) - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 13.2038 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -9922,12 +12761,26 @@ Applicability of Stamp Duty : Effective July 1, 2020, in accordance with the ame
 | Mar 09, 22                                                             | Since Inception                                                        | 6.52                                                                   | 5.70                                                                        | 6.31                                                                             | 13,204                                                                                    | 12,761                                                                                               | 13,089                                                                                         |
 | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.      | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.           | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                    | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                               | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                         |
 
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFCFMP 1861D MARCH2022(46) - Period = Last 1 Year; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns - (%) = 5.84; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns Benchmark - (%)# = 1.16; HDFCFMP 1861D MARCH2022(46) - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,584; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,116; ₹ 13.2038 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFCFMP 1861D MARCH2022(46) - Period = Last 3 Years; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns - (%) = 7.43; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns Benchmark - (%)# = 5.94; HDFCFMP 1861D MARCH2022(46) - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,400; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 11,893; ₹ 13.2038 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- ANUPAM JOSHI — Mar 09, 22: HDFCFMP 1861D MARCH2022(46) - Period = Since Inception; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns - (%) = 6.52; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns Benchmark - (%)# = 5.70; HDFCFMP 1861D MARCH2022(46) - Additional - Returns Benchmark - Returns - (%)## = 6.31; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,204; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,761; ₹ 13.2038 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 13,089
+- ANUPAM JOSHI — #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.: HDFCFMP 1861D MARCH2022(46) - Period = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns - (%) = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1861D MARCH2022(46) - Additional - Returns Benchmark - Returns - (%)## = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; ₹ 13.2038 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.
+
+
 | HDFCFMP 1876D MARCH2022(46) - Date                                     | HDFCFMP 1876D MARCH2022(46) - Period                                   | HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%)           | HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%)#          | HDFCFMP 1876D MARCH2022(46) - Additional Benchmark Returns (%)##       | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹)       | NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)#   | ₹ 13.1672 - Value of ₹10,000 invested - Additional Benchmark (₹)##     |
 |------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|
 | Jul 31, 25                                                             | Last 1 Year                                                            | 5.82                                                                   | 1.16                                                                   | 2.27                                                                   | 10,582                                                                 | 10,116                                                                 | 10,227                                                                 |
 | Jul 31, 23                                                             | Last 3 Years                                                           | 7.45                                                                   | 5.94                                                                   | 6.78                                                                   | 12,407                                                                 | 11,893                                                                 | 12,176                                                                 |
 | Mar 29, 22                                                             | Since Inception                                                        | 6.54                                                                   | 5.62                                                                   | 6.24                                                                   | 13,167                                                                 | 12,678                                                                 | 13,004                                                                 |
 | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. |
+
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFCFMP 1876D MARCH2022(46) - Period = Last 1 Year; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%) = 5.82; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%)# = 1.16; HDFCFMP 1876D MARCH2022(46) - Additional Benchmark Returns (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 10,582; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = 10,116; ₹ 13.1672 - Value of ₹10,000 invested - Additional Benchmark (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFCFMP 1876D MARCH2022(46) - Period = Last 3 Years; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%) = 7.45; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%)# = 5.94; HDFCFMP 1876D MARCH2022(46) - Additional Benchmark Returns (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 12,407; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = 11,893; ₹ 13.1672 - Value of ₹10,000 invested - Additional Benchmark (₹)## = 12,176
+- ANUPAM JOSHI — Mar 29, 22: HDFCFMP 1876D MARCH2022(46) - Period = Since Inception; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%) = 6.54; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%)# = 5.62; HDFCFMP 1876D MARCH2022(46) - Additional Benchmark Returns (%)## = 6.24; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 13,167; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = 12,678; ₹ 13.1672 - Value of ₹10,000 invested - Additional Benchmark (₹)## = 13,004
+- ANUPAM JOSHI — #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.: HDFCFMP 1876D MARCH2022(46) - Period = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%) = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%)# = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1876D MARCH2022(46) - Additional Benchmark Returns (%)## = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; ₹ 13.1672 - Value of ₹10,000 invested - Additional Benchmark (₹)## = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.
+
 
 | HDFCFMP 2638D FEBRUARY 2023 (47) - Date                      | HDFCFMP 2638D FEBRUARY 2023 (47) - Period                    | HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns - (%)   | HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns Benchmark - (%)#   | HDFCFMP 2638D FEBRUARY 2023 (47) - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 13.0924 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |--------------------------------------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -9936,12 +12789,26 @@ Applicability of Stamp Duty : Effective July 1, 2020, in accordance with the ame
 | Feb 23, 23                                                   | Since Inception                                              | 8.16                                                                  | 6.03                                                                             | 7.26                                                                                  | 13,092                                                                                    | 12,227                                                                                               | 12,724                                                                                         |
 | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.          | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                     | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                          | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                              | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                                         | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                                   |
 
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFCFMP 2638D FEBRUARY 2023 (47) - Period = Last 1 Year; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns - (%) = 4.70; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns Benchmark - (%)# = -0.06; HDFCFMP 2638D FEBRUARY 2023 (47) - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,470; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 9,994; ₹ 13.0924 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFCFMP 2638D FEBRUARY 2023 (47) - Period = Last 3 Years; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns - (%) = 7.70; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns Benchmark - (%)# = 5.49; HDFCFMP 2638D FEBRUARY 2023 (47) - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,495; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 11,742; ₹ 13.0924 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- ANUPAM JOSHI — Feb 23, 23: HDFCFMP 2638D FEBRUARY 2023 (47) - Period = Since Inception; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns - (%) = 8.16; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns Benchmark - (%)# = 6.03; HDFCFMP 2638D FEBRUARY 2023 (47) - Additional - Returns Benchmark - Returns - (%)## = 7.26; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,092; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,227; ₹ 13.0924 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,724
+- ANUPAM JOSHI — #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.: HDFCFMP 2638D FEBRUARY 2023 (47) - Period = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns - (%) = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 2638D FEBRUARY 2023 (47) - Additional - Returns Benchmark - Returns - (%)## = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; ₹ 13.0924 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.
+
+
 | HDFCFMP 1269D MARCH2023(47) - Date                             | HDFCFMP 1269D MARCH2023(47) - Period                           | HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns - (%)   | HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns Benchmark - (%)#   | HDFCFMP 1269D MARCH2023(47) - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 12.5251 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |----------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Jul 31, 25                                                     | Last 1 Year                                                    | 5.35                                                             | 3.74                                                                        | 2.27                                                                             | 10,535                                                                                    | 10,374                                                                                               | 10,227                                                                                         |
 | Jul 31, 23                                                     | Last 3 Years                                                   | 6.96                                                             | 6.70                                                                        | 6.78                                                                             | 12,238                                                                                    | 12,149                                                                                               | 12,176                                                                                         |
 | Mar 21, 23                                                     | Since Inception                                                | 6.92                                                             | 6.94                                                                        | 7.17                                                                             | 12,525                                                                                    | 12,533                                                                                               | 12,622                                                                                         |
 | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.   | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.              | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.                   | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.                            | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.                                       | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.                                 |
+
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFCFMP 1269D MARCH2023(47) - Period = Last 1 Year; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns - (%) = 5.35; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns Benchmark - (%)# = 3.74; HDFCFMP 1269D MARCH2023(47) - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,535; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,374; ₹ 12.5251 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFCFMP 1269D MARCH2023(47) - Period = Last 3 Years; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns - (%) = 6.96; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns Benchmark - (%)# = 6.70; HDFCFMP 1269D MARCH2023(47) - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,238; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,149; ₹ 12.5251 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- ANUPAM JOSHI — Mar 21, 23: HDFCFMP 1269D MARCH2023(47) - Period = Since Inception; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns - (%) = 6.92; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns Benchmark - (%)# = 6.94; HDFCFMP 1269D MARCH2023(47) - Additional - Returns Benchmark - Returns - (%)## = 7.17; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,525; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,533; ₹ 12.5251 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,622
+- ANUPAM JOSHI — #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.: HDFCFMP 1269D MARCH2023(47) - Period = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns - (%) = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1269D MARCH2023(47) - Additional - Returns Benchmark - Returns - (%)## = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.; ₹ 12.5251 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.
+
 
 | HDFC CORPORATE BOND FUND - Date                                | HDFC CORPORATE BOND FUND - Period                              | HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns - (%)    | HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC CORPORATE BOND FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 34.4107 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |----------------------------------------------------------------|----------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -9951,6 +12818,15 @@ Applicability of Stamp Duty : Effective July 1, 2020, in accordance with the ame
 | Jul 29, 16                                                     | Last 10 Years                                                  | 7.20                                                           | 6.79                                                                     | 5.92                                                                          | 20,060                                                                                    | 19,294                                                                                               | 17,781                                                                                         |
 | Jun 29, 10                                                     | Since Inception                                                | 7.98                                                           | 7.54                                                                     | 6.30                                                                          | 34,411                                                                                    | 32,210                                                                                               | 26,759                                                                                         |
 | #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index. | #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index. | #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index. | #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.           | #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.                | #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.                            | #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.                                       | #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.                                 |
+
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFC CORPORATE BOND FUND - Period = Last 1 Year; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns - (%) = 4.73; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns Benchmark - (%)# = 4.37; HDFC CORPORATE BOND FUND - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,473; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,437; ₹ 34.4107 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFC CORPORATE BOND FUND - Period = Last 3 Years; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns - (%) = 7.16; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.63; HDFC CORPORATE BOND FUND - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,308; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,127; ₹ 34.4107 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- ANUPAM JOSHI — Jul 30, 21: HDFC CORPORATE BOND FUND - Period = Last 5 Years; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns - (%) = 6.22; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.75; HDFC CORPORATE BOND FUND - Additional - Returns Benchmark - Returns - (%)## = 5.34; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,524; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,231; ₹ 34.4107 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,971
+- ANUPAM JOSHI — Jul 29, 16: HDFC CORPORATE BOND FUND - Period = Last 10 Years; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns - (%) = 7.20; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.79; HDFC CORPORATE BOND FUND - Additional - Returns Benchmark - Returns - (%)## = 5.92; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 20,060; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 19,294; ₹ 34.4107 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,781
+- ANUPAM JOSHI — Jun 29, 10: HDFC CORPORATE BOND FUND - Period = Since Inception; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns - (%) = 7.98; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.54; HDFC CORPORATE BOND FUND - Additional - Returns Benchmark - Returns - (%)## = 6.30; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 34,411; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 32,210; ₹ 34.4107 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 26,759
+- ANUPAM JOSHI — #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.: HDFC CORPORATE BOND FUND - Period = #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns - (%) = #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.; HDFC CORPORATE BOND FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.; ₹ 34.4107 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Corporate Bond Index A- II ##CRISIL 10 Year Gilt Index.
+
 
 ## PRAVEEN JAIN
 
@@ -9963,6 +12839,15 @@ Applicability of Stamp Duty : Effective July 1, 2020, in accordance with the ame
 | Nov 18, 99                                                   | Since Inception                                              | 7.03                                                         | 7.07                                                                | 6.28                                                                     | 61,392                                                                                    | 62,102                                                                                               | 50,931                                                                                          |
 | #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index. | #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index. | #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index. | #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.        | #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.             | #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.                              | #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.                                         | #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.                                    |
 
+**Table values by row and column (derived from the table above):**
+- PRAVEEN JAIN — Jul 31, 25: HDFCMONEYMARKETFUND - Period = Last 1 Year; HDFCMONEYMARKETFUND - Scheme Benchmark - Returns - (%) = 6.17; HDFCMONEYMARKETFUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.96; HDFCMONEYMARKETFUND - Additional - Returns Benchmark - Returns - (%)## = 4.21; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,617; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,596; ₹ 6118.117 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,421
+- PRAVEEN JAIN — Jul 31, 23: HDFCMONEYMARKETFUND - Period = Last 3 Years; HDFCMONEYMARKETFUND - Scheme Benchmark - Returns - (%) = 7.19; HDFCMONEYMARKETFUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.92; HDFCMONEYMARKETFUND - Additional - Returns Benchmark - Returns - (%)## = 6.32; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,320; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,225; ₹ 6118.117 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,019
+- PRAVEEN JAIN — Jul 30, 21: HDFCMONEYMARKETFUND - Period = Last 5 Years; HDFCMONEYMARKETFUND - Scheme Benchmark - Returns - (%) = 6.44; HDFCMONEYMARKETFUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.33; HDFCMONEYMARKETFUND - Additional - Returns Benchmark - Returns - (%)## = 5.67; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,668; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,598; ₹ 6118.117 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 13,179
+- PRAVEEN JAIN — Jul 29, 16: HDFCMONEYMARKETFUND - Period = Last 10 Years; HDFCMONEYMARKETFUND - Scheme Benchmark - Returns - (%) = 6.57; HDFCMONEYMARKETFUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.35; HDFCMONEYMARKETFUND - Additional - Returns Benchmark - Returns - (%)## = 5.97; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 18,913; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 18,526; ₹ 6118.117 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,864
+- PRAVEEN JAIN — Nov 18, 99: HDFCMONEYMARKETFUND - Period = Since Inception; HDFCMONEYMARKETFUND - Scheme Benchmark - Returns - (%) = 7.03; HDFCMONEYMARKETFUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.07; HDFCMONEYMARKETFUND - Additional - Returns Benchmark - Returns - (%)## = 6.28; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 61,392; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 62,102; ₹ 6118.117 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 50,931
+- PRAVEEN JAIN — #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.: HDFCMONEYMARKETFUND - Period = #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.; HDFCMONEYMARKETFUND - Scheme Benchmark - Returns - (%) = #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.; HDFCMONEYMARKETFUND - Scheme Benchmark - Returns Benchmark - (%)# = #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.; HDFCMONEYMARKETFUND - Additional - Returns Benchmark - Returns - (%)## = #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.; ₹ 6118.117 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #CRISIL Money Market A-I Index ##CRISIL 1 Year T-Bill Index.
+
+
 ## CO-MANAGED BY
 
 ## ANIL BAMBOLI, ARUN AGARWAL, BHAGYESH KAGALKAR, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY
@@ -9974,6 +12859,14 @@ Applicability of Stamp Duty : Effective July 1, 2020, in accordance with the ame
 | Jul 30, 21                               | Last 5 Years                               |                                                      10.77 |                                                                         10.77 |                                                                              10.39 |                                                                                            16,686 |                                                                                                       16,687 |                                                                                                               16,405 |
 | Jul 29, 16                               | Last 10 Years                              |                                                      10.71 |                                                                         10.99 |                                                                              12.27 |                                                                                            27,698 |                                                                                                       28,397 |                                                                                                               31,857 |
 | Aug 17, 05                               | Since Inception                            |                                                      10.10 |                                                                          9.64 |                                                                              13.06 |                                                                                            75,130 |                                                                                                       68,885 |                                                                                                              131,083 |
+
+**Table values by row and column (derived from the table above):**
+- ANIL BAMBOLI, ARUN AGARWAL, BHAGYESH KAGALKAR, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC MULTI-ASSET ALLOCATIONFUND - Period = Last 1 Year; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - (%) = 5.32; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - Returns Returns - (%)# = 5.33; HDFC MULTI-ASSET ALLOCATIONFUND - Additional - Returns Returns - Returns - (%)## = -0.43; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,532; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,533; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- ANIL BAMBOLI, ARUN AGARWAL, BHAGYESH KAGALKAR, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC MULTI-ASSET ALLOCATIONFUND - Period = Last 3 Years; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - (%) = 11.32; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - Returns Returns - (%)# = 10.90; HDFC MULTI-ASSET ALLOCATIONFUND - Additional - Returns Returns - Returns - (%)## = 8.56; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,798; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,644; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- ANIL BAMBOLI, ARUN AGARWAL, BHAGYESH KAGALKAR, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC MULTI-ASSET ALLOCATIONFUND - Period = Last 5 Years; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - (%) = 10.77; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - Returns Returns - (%)# = 10.77; HDFC MULTI-ASSET ALLOCATIONFUND - Additional - Returns Returns - Returns - (%)## = 10.39; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 16,686; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 16,687; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 16,405
+- ANIL BAMBOLI, ARUN AGARWAL, BHAGYESH KAGALKAR, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC MULTI-ASSET ALLOCATIONFUND - Period = Last 10 Years; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - (%) = 10.71; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - Returns Returns - (%)# = 10.99; HDFC MULTI-ASSET ALLOCATIONFUND - Additional - Returns Returns - Returns - (%)## = 12.27; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 27,698; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 28,397; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 31,857
+- ANIL BAMBOLI, ARUN AGARWAL, BHAGYESH KAGALKAR, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Aug 17, 05: HDFC MULTI-ASSET ALLOCATIONFUND - Period = Since Inception; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - (%) = 10.10; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - Returns Returns - (%)# = 9.64; HDFC MULTI-ASSET ALLOCATIONFUND - Additional - Returns Returns - Returns - (%)## = 13.06; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 75,130; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 68,885; NAV as at July 31, 2026 ₹ 75.13 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 131,083
+
 
 #65% Nifty 50 TRI + 22.5% Nifty Composite Debt Index +10% Domestic Price of Gold + 2.5% Domestic Price of Silver ##Nifty 50 Index (TRI).
 
@@ -9990,6 +12883,14 @@ Performance has been computed using values of the concerned benchmarks. From inc
 | Jul 30, 21                            | Last 5 Years                            |                                                                        14.92 | 8.22                                                                                    |                                                                                              10.39 |                                                                                        20,057 | 14,850                                                                                                   |                                                                                             16,405 |
 | Jul 29, 16                            | Last 10 Years                           |                                                                        13.35 | 9.93                                                                                    |                                                                                              12.27 |                                                                                        35,070 | 25,790                                                                                                   |                                                                                             31,857 |
 | Feb 01, 94                            | Since Inception                         |                                                                        17.60 | NA                                                                                      |                                                                                              10.84 |                                                                                     1,948,179 | NA                                                                                                       |                                                                                            284,391 |
+
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, GOPAL AGRAWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC BALANCED ADVANTAGE FUND - Period = Last 1 Year; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns - (%) = 2.22; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 1.15; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark = 10,222; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark - (₹) (₹)# = 10,115; ₹ 526.398 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark - (₹) (₹)# - (₹)## = 9,957
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, GOPAL AGRAWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC BALANCED ADVANTAGE FUND - Period = Last 3 Years; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns - (%) = 12.66; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 7.62; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark = 14,303; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark - (₹) (₹)# = 12,466; ₹ 526.398 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark - (₹) (₹)# - (₹)## = 12,798
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, GOPAL AGRAWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC BALANCED ADVANTAGE FUND - Period = Last 5 Years; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns - (%) = 14.92; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 8.22; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 10.39; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark = 20,057; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark - (₹) (₹)# = 14,850; ₹ 526.398 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark - (₹) (₹)# - (₹)## = 16,405
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, GOPAL AGRAWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC BALANCED ADVANTAGE FUND - Period = Last 10 Years; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns - (%) = 13.35; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 9.93; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 12.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark = 35,070; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark - (₹) (₹)# = 25,790; ₹ 526.398 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark - (₹) (₹)# - (₹)## = 31,857
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, GOPAL AGRAWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Feb 01, 94: HDFC BALANCED ADVANTAGE FUND - Period = Since Inception; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns - (%) = 17.60; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = NA; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 10.84; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark = 1,948,179; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark - (₹) (₹)# = NA; ₹ 526.398 - Value of ₹10,000 invested - Scheme Benchmark Additional Benchmark - (₹) (₹)# - (₹)## = 284,391
+
 
 #NIFTY 50 Hybrid Composite Debt 50:50 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments.
 
@@ -10020,6 +12921,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 29, 16                   | Last 10 Years                  | 5.61                                     | 5.62                                     | 5.97                               | 17,267                                                | 17,291                                                | 17,864                                 |
 | Oct 23, 07                   | Since Inception                | 6.50                                     | NA                                       | 6.19                               | 32,626                                                | NA                                                    | 30,881                                 |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL &amp; NANDITA MENEZES — Jul 31, 25: HDFC ARBITRAGE FUND - Period = Last 1 Year; HDFC ARBITRAGE FUND - Scheme Benchmark = 5.97; HDFC ARBITRAGE FUND - Scheme Benchmark = 7.31; HDFC ARBITRAGE FUND - Additional = 4.21; NAV as at July 31, 2026 - Value of ₹10,000 invested = 10,597; NAV as at July 31, 2026 - Value of ₹10,000 invested = 10,731; ₹ 32.626 - Value of ₹10,000 invested = 10,421
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL &amp; NANDITA MENEZES — Jul 31, 23: HDFC ARBITRAGE FUND - Period = Last 3 Years; HDFC ARBITRAGE FUND - Scheme Benchmark = 6.89; HDFC ARBITRAGE FUND - Scheme Benchmark = 7.56; HDFC ARBITRAGE FUND - Additional = 6.32; NAV as at July 31, 2026 - Value of ₹10,000 invested = 12,216; NAV as at July 31, 2026 - Value of ₹10,000 invested = 12,445; ₹ 32.626 - Value of ₹10,000 invested = 12,019
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL &amp; NANDITA MENEZES — Jul 30, 21: HDFC ARBITRAGE FUND - Period = Last 5 Years; HDFC ARBITRAGE FUND - Scheme Benchmark = 6.01; HDFC ARBITRAGE FUND - Scheme Benchmark = 6.52; HDFC ARBITRAGE FUND - Additional = 5.67; NAV as at July 31, 2026 - Value of ₹10,000 invested = 13,394; NAV as at July 31, 2026 - Value of ₹10,000 invested = 13,721; ₹ 32.626 - Value of ₹10,000 invested = 13,179
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL &amp; NANDITA MENEZES — Jul 29, 16: HDFC ARBITRAGE FUND - Period = Last 10 Years; HDFC ARBITRAGE FUND - Scheme Benchmark = 5.61; HDFC ARBITRAGE FUND - Scheme Benchmark = 5.62; HDFC ARBITRAGE FUND - Additional = 5.97; NAV as at July 31, 2026 - Value of ₹10,000 invested = 17,267; NAV as at July 31, 2026 - Value of ₹10,000 invested = 17,291; ₹ 32.626 - Value of ₹10,000 invested = 17,864
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL &amp; NANDITA MENEZES — Oct 23, 07: HDFC ARBITRAGE FUND - Period = Since Inception; HDFC ARBITRAGE FUND - Scheme Benchmark = 6.50; HDFC ARBITRAGE FUND - Scheme Benchmark = NA; HDFC ARBITRAGE FUND - Additional = 6.19; NAV as at July 31, 2026 - Value of ₹10,000 invested = 32,626; NAV as at July 31, 2026 - Value of ₹10,000 invested = NA; ₹ 32.626 - Value of ₹10,000 invested = 30,881
+
+
 #NIFTY 50 Arbitrage Index (Total Returns Index) ##CRISIL 1 Year T-Bill Index. Scheme
 
 performance is not strictly comparable with that of its Additional Benchmark since the scheme does not take directional call in equity markets but is limited to availing arbitrage opportunities, etc.
@@ -10036,6 +12945,14 @@ performance is not strictly comparable with that of its Additional Benchmark sin
 | Jul 29, 16                        | Last 10 Years                       |                                                          8.91 | 8.75                                                                     |                                                                          5.92 |                                                                                    23,500 | 23,159                                                                                               |                                                                                        17,781 |
 | Sep 17, 04                        | Since Inception                     |                                                          9.16 | NA                                                                       |                                                                          5.96 |                                                                                    68,048 | NA                                                                                                   |                                                                                        35,496 |
 
+**Table values by row and column (derived from the table above):**
+- ANIL BAMBOLI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC EQUITY SAVINGS FUND - Period = Last 1 Year; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%) = 3.57; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns Benchmark - (%)# = 4.12; HDFC EQUITY SAVINGS FUND - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,357; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,412; ₹ 68.048 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- ANIL BAMBOLI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC EQUITY SAVINGS FUND - Period = Last 3 Years; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%) = 7.94; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns Benchmark - (%)# = 8.05; HDFC EQUITY SAVINGS FUND - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,578; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,617; ₹ 68.048 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- ANIL BAMBOLI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC EQUITY SAVINGS FUND - Period = Last 5 Years; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%) = 8.08; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns Benchmark - (%)# = 8.01; HDFC EQUITY SAVINGS FUND - Additional - Returns Benchmark - Returns - (%)## = 5.34; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 14,756; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 14,705; ₹ 68.048 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,971
+- ANIL BAMBOLI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC EQUITY SAVINGS FUND - Period = Last 10 Years; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%) = 8.91; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns Benchmark - (%)# = 8.75; HDFC EQUITY SAVINGS FUND - Additional - Returns Benchmark - Returns - (%)## = 5.92; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 23,500; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 23,159; ₹ 68.048 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,781
+- ANIL BAMBOLI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Sep 17, 04: HDFC EQUITY SAVINGS FUND - Period = Since Inception; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%) = 9.16; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns Benchmark - (%)# = NA; HDFC EQUITY SAVINGS FUND - Additional - Returns Benchmark - Returns - (%)## = 5.96; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 68,048; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = NA; ₹ 68.048 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 35,496
+
+
 #NIFTY Equity Savings Index (Total Returns Index) ##CRISIL 10 Year Gilt Index. Scheme performance may not strictly be comparable with that of its Additional Benchmark, since a portion of scheme's investments are made in debt instruments.
 
 ## CO-MANAGED BY ANIL BAMBOLI, BHAGYESH KAGALKAR &amp; SRINIVASAN RAMAMURTHY
@@ -10046,6 +12963,13 @@ performance is not strictly comparable with that of its Additional Benchmark sin
 | Jul 31, 23                           | Last 3 Years                           |                                                            12.94 |                                                                       10.32 |                                                                             8.56 |                                                                                    14,410 |                                                                                               13,430 |                                                                                        12,798 |
 | Jul 30, 21                           | Last 5 Years                           |                                                            12.53 |                                                                       10.15 |                                                                            10.39 |                                                                                    18,053 |                                                                                               16,224 |                                                                                        16,405 |
 | May 05, 21                           | Since Inception                        |                                                            13.67 |                                                                       10.70 |                                                                            11.62 |                                                                                    19,569 |                                                                                               17,033 |                                                                                        17,795 |
+
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANIL BAMBOLI, BHAGYESH KAGALKAR &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC MULTI-ASSET ACTIVE FOF - Period = Last 1 Year; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%) = 7.46; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns Benchmark - (%)# = 5.07; HDFC MULTI-ASSET ACTIVE FOF - Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,746; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,507; ₹ 19.569 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- CO-MANAGED BY ANIL BAMBOLI, BHAGYESH KAGALKAR &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC MULTI-ASSET ACTIVE FOF - Period = Last 3 Years; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%) = 12.94; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns Benchmark - (%)# = 10.32; HDFC MULTI-ASSET ACTIVE FOF - Additional - Returns Benchmark - Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 14,410; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,430; ₹ 19.569 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- CO-MANAGED BY ANIL BAMBOLI, BHAGYESH KAGALKAR &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC MULTI-ASSET ACTIVE FOF - Period = Last 5 Years; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%) = 12.53; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns Benchmark - (%)# = 10.15; HDFC MULTI-ASSET ACTIVE FOF - Additional - Returns Benchmark - Returns - (%)## = 10.39; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 18,053; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 16,224; ₹ 19.569 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 16,405
+- CO-MANAGED BY ANIL BAMBOLI, BHAGYESH KAGALKAR &amp; SRINIVASAN RAMAMURTHY — May 05, 21: HDFC MULTI-ASSET ACTIVE FOF - Period = Since Inception; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%) = 13.67; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns Benchmark - (%)# = 10.70; HDFC MULTI-ASSET ACTIVE FOF - Additional - Returns Benchmark - Returns - (%)## = 11.62; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 19,569; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 17,033; ₹ 19.569 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,795
+
 
 #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI).
 
@@ -10062,6 +12986,15 @@ performance is not strictly comparable with that of its Additional Benchmark sin
 | Feb 06, 02                                                           | Since Inception                                                      | 7.60                                                                 | 7.66                                                                 | 6.45                                                                 | 60,122                                                                                    | 60,987                                                                                               | 46,205                                                                                         |
 | #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index. | #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index. | #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index. | #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index. | #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index. | #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index.                      | #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index.                                 | #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index.                           |
 
+**Table values by row and column (derived from the table above):**
+- ANIL BAMBOLI, BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 31, 25: HDFCMEDIUMTERMDEBTFUND - Period = Last 1 Year; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%) = 5.90; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%)# = 3.92; HDFCMEDIUMTERMDEBTFUND - Additional - Benchmark Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,590; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,392; ₹ 60.1215 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- ANIL BAMBOLI, BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 31, 23: HDFCMEDIUMTERMDEBTFUND - Period = Last 3 Years; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%) = 7.30; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%)# = 6.92; HDFCMEDIUMTERMDEBTFUND - Additional - Benchmark Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,356; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,225; ₹ 60.1215 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- ANIL BAMBOLI, BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 30, 21: HDFCMEDIUMTERMDEBTFUND - Period = Last 5 Years; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%) = 6.22; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%)# = 5.74; HDFCMEDIUMTERMDEBTFUND - Additional - Benchmark Returns - (%)## = 5.34; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,524; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,222; ₹ 60.1215 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,971
+- ANIL BAMBOLI, BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 29, 16: HDFCMEDIUMTERMDEBTFUND - Period = Last 10 Years; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%) = 6.88; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%)# = 6.91; HDFCMEDIUMTERMDEBTFUND - Additional - Benchmark Returns - (%)## = 5.92; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 19,471; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 19,523; ₹ 60.1215 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,781
+- ANIL BAMBOLI, BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Feb 06, 02: HDFCMEDIUMTERMDEBTFUND - Period = Since Inception; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%) = 7.60; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%)# = 7.66; HDFCMEDIUMTERMDEBTFUND - Additional - Benchmark Returns - (%)## = 6.45; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 60,122; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 60,987; ₹ 60.1215 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 46,205
+- ANIL BAMBOLI, BHAVYESH DIVECHA &amp; PRAVEEN JAIN — #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index.: HDFCMEDIUMTERMDEBTFUND - Period = #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index.; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%) = #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index.; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%)# = #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index.; HDFCMEDIUMTERMDEBTFUND - Additional - Benchmark Returns - (%)## = #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index.; ₹ 60.1215 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Medium Duration Debt Index A-III ##CRISIL 10 Year Gilt Index.
+
+
 ## CO-MANAGED BY
 
 ## ANIL BAMBOLI &amp; PRAVEEN JAIN
@@ -10072,6 +13005,13 @@ performance is not strictly comparable with that of its Additional Benchmark sin
 | Jul 31, 23                         | Last 3 Years                         |                                                           6.87 |                                                            7.11 |                                                               6.32 |                                                                   12,209 |                                                                        12,289 |                                                                     12,019 |
 | Jul 30, 21                         | Last 5 Years                         |                                                           6.12 |                                                            6.45 |                                                               5.67 |                                                                   13,465 |                                                                        13,672 |                                                                     13,179 |
 | Sep 25, 18                         | Since Inception                      |                                                           6.30 |                                                            6.45 |                                                               5.96 |                                                                   16,153 |                                                                        16,338 |                                                                     15,753 |
+
+**Table values by row and column (derived from the table above):**
+- ANIL BAMBOLI &amp; PRAVEEN JAIN — Jul 31, 25: HDFC ULTRA SHORT TERMFUND - Period = Last 1 Year; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%) = 5.94; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%)# = 6.30; HDFC ULTRA SHORT TERMFUND - Additional - Benchmark Returns (%)## = 4.21; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 10,594; NAV as at July 31, 2026 - Value of ₹10,000 invested - (₹) Additional - (₹)# = 10,630; ₹ 16.1532 - Value of ₹10,000 invested - (₹) Additional - Benchmark (₹)## = 10,421
+- ANIL BAMBOLI &amp; PRAVEEN JAIN — Jul 31, 23: HDFC ULTRA SHORT TERMFUND - Period = Last 3 Years; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%) = 6.87; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%)# = 7.11; HDFC ULTRA SHORT TERMFUND - Additional - Benchmark Returns (%)## = 6.32; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 12,209; NAV as at July 31, 2026 - Value of ₹10,000 invested - (₹) Additional - (₹)# = 12,289; ₹ 16.1532 - Value of ₹10,000 invested - (₹) Additional - Benchmark (₹)## = 12,019
+- ANIL BAMBOLI &amp; PRAVEEN JAIN — Jul 30, 21: HDFC ULTRA SHORT TERMFUND - Period = Last 5 Years; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%) = 6.12; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%)# = 6.45; HDFC ULTRA SHORT TERMFUND - Additional - Benchmark Returns (%)## = 5.67; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 13,465; NAV as at July 31, 2026 - Value of ₹10,000 invested - (₹) Additional - (₹)# = 13,672; ₹ 16.1532 - Value of ₹10,000 invested - (₹) Additional - Benchmark (₹)## = 13,179
+- ANIL BAMBOLI &amp; PRAVEEN JAIN — Sep 25, 18: HDFC ULTRA SHORT TERMFUND - Period = Since Inception; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%) = 6.30; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%)# = 6.45; HDFC ULTRA SHORT TERMFUND - Additional - Benchmark Returns (%)## = 5.96; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 16,153; NAV as at July 31, 2026 - Value of ₹10,000 invested - (₹) Additional - (₹)# = 16,338; ₹ 16.1532 - Value of ₹10,000 invested - (₹) Additional - Benchmark (₹)## = 15,753
+
 
 ## CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp;
 
@@ -10086,6 +13026,14 @@ performance is not strictly comparable with that of its Additional Benchmark sin
 | Jul 29, 16                                     | Last 10 Years                                    | 14.48                                                                | 13.55                                                                | 12.27                                                                    | 38,711                                                                       | 35,688                                                         | 31,857                                          |
 | Feb 25, 16                                     | Since Inception                                  | 16.52                                                                | 15.59                                                                | 14.17                                                                    | 49,299                                                                       | 45,338                                                         | 39,861                                          |
 
+**Table values by row and column (derived from the table above):**
+- SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC RETIREMENT SAVINGS FUND - EQUITY - Period = Last 1 Year; HDFC RETIREMENT SAVINGS FUND - EQUITY - Scheme Benchmark - Returns = -1.88; HDFC RETIREMENT SAVINGS FUND - EQUITY - Scheme Benchmark - Returns = 3.37; HDFC RETIREMENT SAVINGS FUND - EQUITY - Additional - Benchmark Returns = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional = 9,812; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme = 10,337; ₹ 49.299 - Value of ₹10,000 invested - Scheme = 9,957
+- SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC RETIREMENT SAVINGS FUND - EQUITY - Period = Last 3 Years; HDFC RETIREMENT SAVINGS FUND - EQUITY - Scheme Benchmark - Returns = 9.68; HDFC RETIREMENT SAVINGS FUND - EQUITY - Scheme Benchmark - Returns = 12.29; HDFC RETIREMENT SAVINGS FUND - EQUITY - Additional - Benchmark Returns = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional = 13,198; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme = 14,163; ₹ 49.299 - Value of ₹10,000 invested - Scheme = 12,798
+- SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC RETIREMENT SAVINGS FUND - EQUITY - Period = Last 5 Years; HDFC RETIREMENT SAVINGS FUND - EQUITY - Scheme Benchmark - Returns = 12.51; HDFC RETIREMENT SAVINGS FUND - EQUITY - Scheme Benchmark - Returns = 12.53; HDFC RETIREMENT SAVINGS FUND - EQUITY - Additional - Benchmark Returns = 10.39; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional = 18,042; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme = 18,055; ₹ 49.299 - Value of ₹10,000 invested - Scheme = 16,405
+- SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC RETIREMENT SAVINGS FUND - EQUITY - Period = Last 10 Years; HDFC RETIREMENT SAVINGS FUND - EQUITY - Scheme Benchmark - Returns = 14.48; HDFC RETIREMENT SAVINGS FUND - EQUITY - Scheme Benchmark - Returns = 13.55; HDFC RETIREMENT SAVINGS FUND - EQUITY - Additional - Benchmark Returns = 12.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional = 38,711; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme = 35,688; ₹ 49.299 - Value of ₹10,000 invested - Scheme = 31,857
+- SRINIVASAN RAMAMURTHY — Feb 25, 16: HDFC RETIREMENT SAVINGS FUND - EQUITY - Period = Since Inception; HDFC RETIREMENT SAVINGS FUND - EQUITY - Scheme Benchmark - Returns = 16.52; HDFC RETIREMENT SAVINGS FUND - EQUITY - Scheme Benchmark - Returns = 15.59; HDFC RETIREMENT SAVINGS FUND - EQUITY - Additional - Benchmark Returns = 14.17; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional = 49,299; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme = 45,338; ₹ 49.299 - Value of ₹10,000 invested - Scheme = 39,861
+
+
 | HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Date   | HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Period   |   HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%) |   HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns Benchmark - (%)# |   HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Additional - Returns Benchmark - Returns - (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# Additional Benchmark |   ₹ 21.8962 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# Additional Benchmark - (₹)## |
 |----------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | Jul 31, 25                                               | Last 1 Year                                                |                                                                                 1.17 |                                                                                            2.03 |                                                                                                 2.27 |                                                                   10,117 |                                                                                                   10,203 |                                                                                             10,227 |
@@ -10094,6 +13042,14 @@ performance is not strictly comparable with that of its Additional Benchmark sin
 | Jul 29, 16                                               | Last 10 Years                                              |                                                                                 7.24 |                                                                                            7.83 |                                                                                                 5.92 |                                                                   20,125 |                                                                                                   21,274 |                                                                                             17,781 |
 | Feb 26, 16                                               | Since Inception                                            |                                                                                 7.80 |                                                                                            8.48 |                                                                                                 6.41 |                                                                   21,896 |                                                                                                   23,370 |                                                                                             19,117 |
 
+**Table values by row and column (derived from the table above):**
+- SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Period = Last 1 Year; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%) = 1.17; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns Benchmark - (%)# = 2.03; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 10,117; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# Additional Benchmark = 10,203; ₹ 21.8962 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# Additional Benchmark - (₹)## = 10,227
+- SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Period = Last 3 Years; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%) = 6.14; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns Benchmark - (%)# = 6.73; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 11,960; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# Additional Benchmark = 12,160; ₹ 21.8962 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# Additional Benchmark - (₹)## = 12,176
+- SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Period = Last 5 Years; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%) = 6.36; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns Benchmark - (%)# = 6.48; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Additional - Returns Benchmark - Returns - (%)## = 5.34; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 13,616; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# Additional Benchmark = 13,696; ₹ 21.8962 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# Additional Benchmark - (₹)## = 12,971
+- SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Period = Last 10 Years; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%) = 7.24; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns Benchmark - (%)# = 7.83; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Additional - Returns Benchmark - Returns - (%)## = 5.92; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 20,125; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# Additional Benchmark = 21,274; ₹ 21.8962 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# Additional Benchmark - (₹)## = 17,781
+- SRINIVASAN RAMAMURTHY — Feb 26, 16: HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Period = Since Inception; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%) = 7.80; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns Benchmark - (%)# = 8.48; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Additional - Returns Benchmark - Returns - (%)## = 6.41; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 21,896; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# Additional Benchmark = 23,370; ₹ 21.8962 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# Additional Benchmark - (₹)## = 19,117
+
+
 | HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Date   | HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Period   |   HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns (%) |   HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%)# |   HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Additional - Benchmark Returns (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# |   ₹ 37.659 - Value of ₹10,000 invested - Additional - Benchmark (₹)## |
 |------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | Jul 31, 25                                                 | Last 1 Year                                                  |                                                                                -2.14 |                                                                                    0.72 |                                                                                      -0.43 |                                                                        9,786 |                                                                    10,072 |                                                                 9,957 |
@@ -10101,6 +13057,14 @@ performance is not strictly comparable with that of its Additional Benchmark sin
 | Jul 30, 21                                                 | Last 5 Years                                                 |                                                                                 9.23 |                                                                                    8.91 |                                                                                      10.39 |                                                                       15,559 |                                                                    15,331 |                                                                16,405 |
 | Jul 29, 16                                                 | Last 10 Years                                                |                                                                                11.82 |                                                                                   10.71 |                                                                                      12.27 |                                                                       30,605 |                                                                    27,700 |                                                                31,857 |
 | Feb 25, 16                                                 | Since Inception                                              |                                                                                13.55 |                                                                                   12.09 |                                                                                      14.17 |                                                                       37,659 |                                                                    32,908 |                                                                39,861 |
+
+**Table values by row and column (derived from the table above):**
+- SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Period = Last 1 Year; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns (%) = -2.14; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%)# = 0.72; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Additional - Benchmark Returns (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 9,786; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# = 10,072; ₹ 37.659 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 9,957
+- SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Period = Last 3 Years; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns (%) = 7.58; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%)# = 7.94; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Additional - Benchmark Returns (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 12,452; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# = 12,579; ₹ 37.659 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 12,798
+- SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Period = Last 5 Years; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns (%) = 9.23; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%)# = 8.91; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Additional - Benchmark Returns (%)## = 10.39; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 15,559; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# = 15,331; ₹ 37.659 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 16,405
+- SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Period = Last 10 Years; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns (%) = 11.82; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%)# = 10.71; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Additional - Benchmark Returns (%)## = 12.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 30,605; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# = 27,700; ₹ 37.659 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 31,857
+- SRINIVASAN RAMAMURTHY — Feb 25, 16: HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Period = Since Inception; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns (%) = 13.55; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%)# = 12.09; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Additional - Benchmark Returns (%)## = 14.17; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 37,659; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# = 32,908; ₹ 37.659 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 39,861
+
 
 ## CO-MANAGED BY ANUPAM JOSHI &amp; PRAVEEN JAIN
 
@@ -10112,6 +13076,15 @@ performance is not strictly comparable with that of its Additional Benchmark sin
 | Jul 29, 16                                                       | Last 10 Years                                                    | 6.51                                                             | 6.49                                                             | 5.97                                                             | 18,809                                                                                    | 18,771                                                                                               | 17,864                                                                                         |
 | Nov 18, 99                                                       | Since Inception                                                  | 7.03                                                             | NA                                                               | 6.28                                                             | 61,471                                                                                    | NA                                                                                                   | 50,931                                                                                         |
 | #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index. | #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index. | #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index. | #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index. | #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index. | #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index.                          | #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index.                                     | #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index.                               |
+
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI &amp; PRAVEEN JAIN — Jul 31, 25: HDFCLOWDURATIONFUND - Period = Last 1 Year; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%) = 5.65; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%)# = 6.14; HDFCLOWDURATIONFUND - Additional - Benchmark Returns - (%)## = 4.21; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,565; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,614; ₹ 61.4705 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,421
+- CO-MANAGED BY ANUPAM JOSHI &amp; PRAVEEN JAIN — Jul 31, 23: HDFCLOWDURATIONFUND - Period = Last 3 Years; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%) = 6.87; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%)# = 7.09; HDFCLOWDURATIONFUND - Additional - Benchmark Returns - (%)## = 6.32; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,207; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,285; ₹ 61.4705 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,019
+- CO-MANAGED BY ANUPAM JOSHI &amp; PRAVEEN JAIN — Jul 30, 21: HDFCLOWDURATIONFUND - Period = Last 5 Years; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%) = 6.08; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%)# = 6.24; HDFCLOWDURATIONFUND - Additional - Benchmark Returns - (%)## = 5.67; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,440; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,536; ₹ 61.4705 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 13,179
+- CO-MANAGED BY ANUPAM JOSHI &amp; PRAVEEN JAIN — Jul 29, 16: HDFCLOWDURATIONFUND - Period = Last 10 Years; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%) = 6.51; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%)# = 6.49; HDFCLOWDURATIONFUND - Additional - Benchmark Returns - (%)## = 5.97; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 18,809; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 18,771; ₹ 61.4705 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,864
+- CO-MANAGED BY ANUPAM JOSHI &amp; PRAVEEN JAIN — Nov 18, 99: HDFCLOWDURATIONFUND - Period = Since Inception; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%) = 7.03; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%)# = NA; HDFCLOWDURATIONFUND - Additional - Benchmark Returns - (%)## = 6.28; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 61,471; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = NA; ₹ 61.4705 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 50,931
+- CO-MANAGED BY ANUPAM JOSHI &amp; PRAVEEN JAIN — #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index.: HDFCLOWDURATIONFUND - Period = #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index.; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%) = #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index.; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%)# = #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index.; HDFCLOWDURATIONFUND - Additional - Benchmark Returns - (%)## = #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index.; ₹ 61.4705 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Low Duration Debt Index A-I ##CRISIL 1 Year T-Bill Index.
+
 
 Past performance may or may not be sustained in future and is not a guarantee of any future returns. Returns greater than 1 year period are compounded annualized (CAGR). Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. Load is not taken into consideration for computation of performance. Since Inception Date = Date of First allotment in the Scheme / Plan. N.A.: Not Available For Riskometer of the Schemes and Benchmark's, refer page 80 to 92.
 
@@ -10135,6 +13108,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 29, 16                       | Last 10 Years                      |                                                                   10.76 | 10.71                                                                              |                                                                                         12.27 |                                                                                  27,823 | 27,700                                                                                                   |                                                                                             31,857 |
 | Sep 11, 00                       | Since Inception                    |                                                                   14.44 | NA                                                                                 |                                                                                         13.00 |                                                                                 328,812 | NA                                                                                                       |                                                                                            237,125 |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC HYBRID EQUITY FUND - Period = Last 1 Year; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns - (%) = -3.34; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 0.72; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 9,666; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 10,072; ₹ 114.821 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- CO-MANAGED BY ANUPAM JOSHI &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC HYBRID EQUITY FUND - Period = Last 3 Years; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns - (%) = 6.53; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 7.94; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 12,090; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 12,579; ₹ 114.821 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- CO-MANAGED BY ANUPAM JOSHI &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC HYBRID EQUITY FUND - Period = Last 5 Years; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns - (%) = 9.00; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 8.91; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 10.39; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 15,393; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 15,331; ₹ 114.821 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 16,405
+- CO-MANAGED BY ANUPAM JOSHI &amp; SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC HYBRID EQUITY FUND - Period = Last 10 Years; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns - (%) = 10.76; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 10.71; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 12.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 27,823; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 27,700; ₹ 114.821 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 31,857
+- CO-MANAGED BY ANUPAM JOSHI &amp; SRINIVASAN RAMAMURTHY — Sep 11, 00: HDFC HYBRID EQUITY FUND - Period = Since Inception; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns - (%) = 14.44; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = NA; HDFC HYBRID EQUITY FUND - Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 13.00; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 328,812; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = NA; ₹ 114.821 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 237,125
+
+
 #NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments.
 
 | HDFC HYBRID DEBT FUND - Date   | HDFC HYBRID DEBT FUND - Period   |   HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%) |   HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%)# |   HDFC HYBRID DEBT FUND - Additional - Benchmark Returns - (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark |   ₹ 84.1506 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## |
@@ -10144,6 +13125,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 30, 21                     | Last 5 Years                     |                                                       7.91 |                                                        6.48 |                                                             5.34 |                                                                                    14,641 |                                                                                               13,696 |                                                                                         12,971 |
 | Jul 29, 16                     | Last 10 Years                    |                                                       8.08 |                                                        7.83 |                                                             5.92 |                                                                                    21,777 |                                                                                               21,274 |                                                                                         17,781 |
 | Dec 26, 03                     | Since Inception                  |                                                       9.88 |                                                        8.11 |                                                             5.68 |                                                                                    84,151 |                                                                                               58,335 |                                                                                         34,872 |
+
+**Table values by row and column (derived from the table above):**
+- NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments. — Jul 31, 25: HDFC HYBRID DEBT FUND - Period = Last 1 Year; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%) = 2.42; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%)# = 2.03; HDFC HYBRID DEBT FUND - Additional - Benchmark Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,242; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,203; ₹ 84.1506 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments. — Jul 31, 23: HDFC HYBRID DEBT FUND - Period = Last 3 Years; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%) = 7.51; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%)# = 6.73; HDFC HYBRID DEBT FUND - Additional - Benchmark Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,430; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,160; ₹ 84.1506 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments. — Jul 30, 21: HDFC HYBRID DEBT FUND - Period = Last 5 Years; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%) = 7.91; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%)# = 6.48; HDFC HYBRID DEBT FUND - Additional - Benchmark Returns - (%)## = 5.34; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 14,641; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,696; ₹ 84.1506 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,971
+- NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments. — Jul 29, 16: HDFC HYBRID DEBT FUND - Period = Last 10 Years; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%) = 8.08; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%)# = 7.83; HDFC HYBRID DEBT FUND - Additional - Benchmark Returns - (%)## = 5.92; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 21,777; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 21,274; ₹ 84.1506 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,781
+- NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments. — Dec 26, 03: HDFC HYBRID DEBT FUND - Period = Since Inception; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%) = 9.88; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%)# = 8.11; HDFC HYBRID DEBT FUND - Additional - Benchmark Returns - (%)## = 5.68; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 84,151; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 58,335; ₹ 84.1506 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 34,872
+
 
 ## CO-MANAGED BY
 
@@ -10157,6 +13146,15 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 29, 16                                                      | Last 10 Years                                                   | 7.33                                                            | 7.75                                                                       | 5.92                                                                            | 20,308                                                                                    | 21,107                                                                                               | 17,781                                                                                         |
 | Mar 25, 14                                                      | Since Inception                                                 | 8.00                                                            | 8.21                                                                       | 6.97                                                                            | 25,890                                                                                    | 26,526                                                                                               | 22,986                                                                                         |
 | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index. | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index. | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index. | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.            | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.                 | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.                           | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.                                      | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.                                |
+
+**Table values by row and column (derived from the table above):**
+- BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 31, 25: HDFC CREDIT RISK DEBT FUND - Period = Last 1 Year; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%) = 6.73; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = 4.55; HDFC CREDIT RISK DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,673; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,455; ₹ 25.8903 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 31, 23: HDFC CREDIT RISK DEBT FUND - Period = Last 3 Years; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%) = 7.60; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.95; HDFC CREDIT RISK DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,459; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,235; ₹ 25.8903 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 30, 21: HDFC CREDIT RISK DEBT FUND - Period = Last 5 Years; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%) = 6.58; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.95; HDFC CREDIT RISK DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = 5.34; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,755; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 14,001; ₹ 25.8903 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,971
+- BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 29, 16: HDFC CREDIT RISK DEBT FUND - Period = Last 10 Years; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%) = 7.33; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.75; HDFC CREDIT RISK DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = 5.92; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 20,308; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 21,107; ₹ 25.8903 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,781
+- BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Mar 25, 14: HDFC CREDIT RISK DEBT FUND - Period = Since Inception; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%) = 8.00; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = 8.21; HDFC CREDIT RISK DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = 6.97; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 25,890; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 26,526; ₹ 25.8903 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 22,986
+- BHAVYESH DIVECHA &amp; PRAVEEN JAIN — #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.: HDFC CREDIT RISK DEBT FUND - Period = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%) = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.; HDFC CREDIT RISK DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.; ₹ 25.8903 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.
+
 
 Past performance may or may not be sustained in future and is not a guarantee of any future returns. Returns greater than 1 year period are compounded annualized (CAGR). Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. Load is not taken into consideration for computation of performance. Since Inception Date = Date of First allotment in the Scheme / Plan. N.A.: Not Available For Riskometer of the Schemes and Benchmark's, refer page 80 to 92.
 
@@ -10175,6 +13173,17 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 31, 16                | Last 10 Years               |                                          5.97 | 6.02                                                     |                                                                5.97 |                                                                    17,870 | 17,944                                                       |                                                                     17,858 |
 | Oct 17, 00                | Since Inception             |                                          6.81 | NA                                                       |                                                                6.21 |                                                                    54,718 | NA                                                           |                                                                     47,326 |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jul 24, 26: HDFC LIQUID FUND - Period = Last 7 days; Scheme Benchmark Additional - Returns - (%) = 6.08; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.10; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 5.48; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,012; 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,012; ₹ 5471.7604 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 10,011
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jul 16, 26: HDFC LIQUID FUND - Period = Last 15 days; Scheme Benchmark Additional - Returns - (%) = 6.24; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.22; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 3.48; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,026; 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,026; ₹ 5471.7604 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 10,014
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jun 30, 26: HDFC LIQUID FUND - Period = Last 1 Month; Scheme Benchmark Additional - Returns - (%) = 5.88; Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.88; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 3.31; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,050; 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,050; ₹ 5471.7604 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 10,028
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jul 31, 25: HDFC LIQUID FUND - Period = Last 1 Year; Scheme Benchmark Additional - Returns - (%) = 6.29; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.14; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 4.21; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,629; 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,614; ₹ 5471.7604 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 10,421
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jul 31, 23: HDFC LIQUID FUND - Period = Last 3 Years; Scheme Benchmark Additional - Returns - (%) = 6.86; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.80; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 6.32; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 12,204; 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 12,184; ₹ 5471.7604 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 12,019
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jul 31, 21: HDFC LIQUID FUND - Period = Last 5 Years; Scheme Benchmark Additional - Returns - (%) = 6.15; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.19; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 5.67; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 13,477; 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 13,506; ₹ 5471.7604 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 13,177
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jul 31, 16: HDFC LIQUID FUND - Period = Last 10 Years; Scheme Benchmark Additional - Returns - (%) = 5.97; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.02; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 5.97; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 17,870; 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 17,944; ₹ 5471.7604 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 17,858
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Oct 17, 00: HDFC LIQUID FUND - Period = Since Inception; Scheme Benchmark Additional - Returns - (%) = 6.81; Scheme Benchmark Additional - Returns Benchmark - (%)# = NA; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 6.21; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 54,718; 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = NA; ₹ 5471.7604 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 47,326
+
+
 #CRISIL Liquid Debt A-I Index ##CRISIL 1 Year T-Bill Index. Returns less than 1 year period are simple annualized.
 
 ## HDFC OVERNIGHT FUND
@@ -10191,6 +13200,17 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 30, 21 | Last 5 Years    |                                          5.52 | 5.69                                                     |                                                              5.67 |                                               13,084 | 13,194                                                |                                                     13,179 |
 | Jul 31, 16 | Last 10 Years   |                                          5.27 | 5.42                                                     |                                                              5.97 |                                               16,717 | 16,963                                                |                                                     17,858 |
 | Feb 06, 02 | Since Inception |                                          5.84 | NA                                                       |                                                              5.96 |                                               40,183 | NA                                                    |                                                     41,255 |
+
+**Table values by row and column (derived from the table above):**
+- NAV as at July 31, 2026 ₹ 4018.2767 — Jul 24, 26: Period = Last 7 days; Scheme Benchmark Additional - Returns - (%) = 5.04; Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.18; Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 5.48; Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,010; Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,010; Value of ₹10,000 invested - Additional - Benchmark (₹)## = 10,011
+- NAV as at July 31, 2026 ₹ 4018.2767 — Jul 16, 26: Period = Last 15 days; Scheme Benchmark Additional - Returns - (%) = 5.07; Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.17; Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 3.48; Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,021; Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,021; Value of ₹10,000 invested - Additional - Benchmark (₹)## = 10,014
+- NAV as at July 31, 2026 ₹ 4018.2767 — Jun 30, 26: Period = Last 1 Month; Scheme Benchmark Additional - Returns - (%) = 5.05; Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.18; Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 3.31; Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,043; Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,044; Value of ₹10,000 invested - Additional - Benchmark (₹)## = 10,028
+- NAV as at July 31, 2026 ₹ 4018.2767 — Jul 31, 25: Period = Last 1 Year; Scheme Benchmark Additional - Returns - (%) = 5.19; Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.32; Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 4.21; Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,519; Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,532; Value of ₹10,000 invested - Additional - Benchmark (₹)## = 10,421
+- NAV as at July 31, 2026 ₹ 4018.2767 — Jul 31, 23: Period = Last 3 Years; Scheme Benchmark Additional - Returns - (%) = 6.00; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.15; Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 6.32; Value of ₹10,000 invested - Scheme Benchmark - (₹) = 11,914; Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 11,964; Value of ₹10,000 invested - Additional - Benchmark (₹)## = 12,019
+- NAV as at July 31, 2026 ₹ 4018.2767 — Jul 30, 21: Period = Last 5 Years; Scheme Benchmark Additional - Returns - (%) = 5.52; Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.69; Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 5.67; Value of ₹10,000 invested - Scheme Benchmark - (₹) = 13,084; Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 13,194; Value of ₹10,000 invested - Additional - Benchmark (₹)## = 13,179
+- NAV as at July 31, 2026 ₹ 4018.2767 — Jul 31, 16: Period = Last 10 Years; Scheme Benchmark Additional - Returns - (%) = 5.27; Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.42; Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 5.97; Value of ₹10,000 invested - Scheme Benchmark - (₹) = 16,717; Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 16,963; Value of ₹10,000 invested - Additional - Benchmark (₹)## = 17,858
+- NAV as at July 31, 2026 ₹ 4018.2767 — Feb 06, 02: Period = Since Inception; Scheme Benchmark Additional - Returns - (%) = 5.84; Scheme Benchmark Additional - Returns Benchmark - (%)# = NA; Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 5.96; Value of ₹10,000 invested - Scheme Benchmark - (₹) = 40,183; Value of ₹10,000 invested - Scheme Benchmark - (₹)# = NA; Value of ₹10,000 invested - Additional - Benchmark (₹)## = 41,255
+
 
 #CRISIL Liquid Overnight Index ##CRISIL 1 Year T-Bill Index. Returns less than 1 year period are simple annualized.
 
@@ -10213,12 +13233,28 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jan 01, 13                                                                    | Since Inception                                                               | 7.13                                                                          | 7.74                                                                          | 6.41                                                                          | 25,490                                                                               | 27,521                                                                            | 23,258                                                                                         |
 | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index. | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index. | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index. | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index. | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index. | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.        | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.     | #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.                  |
 
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFC INCOME FUND - Period = Last 1 Year; Scheme Benchmark - Returns - (%) = 4.20; Scheme Benchmark - Returns - (%)# = 4.41; Additional - Benchmark - Returns - (%)## = 2.27; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,420; 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,441; ₹ 67.4754 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFC INCOME FUND - Period = Last 3 Years; Scheme Benchmark - Returns - (%) = 7.12; Scheme Benchmark - Returns - (%)# = 7.18; Additional - Benchmark - Returns - (%)## = 6.78; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,294; 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,313; ₹ 67.4754 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- ANUPAM JOSHI — Jul 30, 21: HDFC INCOME FUND - Period = Last 5 Years; Scheme Benchmark - Returns - (%) = 6.10; Scheme Benchmark - Returns - (%)# = 6.06; Additional - Benchmark - Returns - (%)## = 5.34; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,452; 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,425; ₹ 67.4754 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,971
+- ANUPAM JOSHI — Jul 29, 16: HDFC INCOME FUND - Period = Last 10 Years; Scheme Benchmark - Returns - (%) = 6.15; Scheme Benchmark - Returns - (%)# = 7.13; Additional - Benchmark - Returns - (%)## = 5.92; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 18,176; 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 19,933; ₹ 67.4754 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,781
+- ANUPAM JOSHI — Jan 01, 13: HDFC INCOME FUND - Period = Since Inception; Scheme Benchmark - Returns - (%) = 7.13; Scheme Benchmark - Returns - (%)# = 7.74; Additional - Benchmark - Returns - (%)## = 6.41; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 25,490; 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 27,521; ₹ 67.4754 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 23,258
+- ANUPAM JOSHI — #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.: HDFC INCOME FUND - Period = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.; Scheme Benchmark - Returns - (%) = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.; Scheme Benchmark - Returns - (%)# = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.; Additional - Benchmark - Returns - (%)## = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.; 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.; ₹ 67.4754 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #CRISIL Medium To Long Duration Debt A-III Index ##CRISIL 10 Year Gilt Index.
+
+
 | HDFC LONG DURATION DEBT FUND - Date                                  | HDFC LONG DURATION DEBT FUND - Period                                | HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns - (%)      | HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC LONG DURATION DEBT FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹) (₹)# Benchmark   | ₹ 12.596 - Value of ₹10,000 invested - Additional - (₹) (₹)# Benchmark - (₹)##   |
 |----------------------------------------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | Jul 31, 25                                                           | Last 1 Year                                                          | 1.83                                                                 | 0.80                                                                         | 2.27                                                                              | 10,183                                                                   | 10,080                                                                                  | 10,227                                                                           |
 | Jul 31, 23                                                           | Last 3 Years                                                         | 6.52                                                                 | 5.65                                                                         | 6.78                                                                              | 12,090                                                                   | 11,794                                                                                  | 12,176                                                                           |
 | Jan 20, 23                                                           | Since Inception                                                      | 6.76                                                                 | 6.13                                                                         | 7.19                                                                              | 12,596                                                                   | 12,334                                                                                  | 12,776                                                                           |
 | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index. | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index. | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index. | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.         | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.              | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.     | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.                    | #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.             |
+
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFC LONG DURATION DEBT FUND - Period = Last 1 Year; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns - (%) = 1.83; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = 0.80; HDFC LONG DURATION DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 10,183; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹) (₹)# Benchmark = 10,080; ₹ 12.596 - Value of ₹10,000 invested - Additional - (₹) (₹)# Benchmark - (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFC LONG DURATION DEBT FUND - Period = Last 3 Years; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns - (%) = 6.52; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.65; HDFC LONG DURATION DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 12,090; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹) (₹)# Benchmark = 11,794; ₹ 12.596 - Value of ₹10,000 invested - Additional - (₹) (₹)# Benchmark - (₹)## = 12,176
+- ANUPAM JOSHI — Jan 20, 23: HDFC LONG DURATION DEBT FUND - Period = Since Inception; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns - (%) = 6.76; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.13; HDFC LONG DURATION DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = 7.19; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 12,596; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹) (₹)# Benchmark = 12,334; ₹ 12.596 - Value of ₹10,000 invested - Additional - (₹) (₹)# Benchmark - (₹)## = 12,776
+- ANUPAM JOSHI — #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.: HDFC LONG DURATION DEBT FUND - Period = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns - (%) = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.; HDFC LONG DURATION DEBT FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.; HDFC LONG DURATION DEBT FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹) (₹)# Benchmark = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.; ₹ 12.596 - Value of ₹10,000 invested - Additional - (₹) (₹)# Benchmark - (₹)## = #NIFTY Long Duration Debt Index - A-III ##CRISIL 10 Year Gilt Index.
+
 
 | HDFCFMP 1861D MARCH2022(46) - Date                                     | HDFCFMP 1861D MARCH2022(46) - Period                                   | HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns - (%)         | HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns Benchmark - (%)#   | HDFCFMP 1861D MARCH2022(46) - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 13.2993 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -10227,12 +13263,26 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Mar 09, 22                                                             | Since Inception                                                        | 6.70                                                                   | 5.70                                                                        | 6.31                                                                             | 13,299                                                                                    | 12,761                                                                                               | 13,089                                                                                         |
 | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.      | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.           | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                    | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                               | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                         |
 
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFCFMP 1861D MARCH2022(46) - Period = Last 1 Year; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns - (%) = 6.01; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns Benchmark - (%)# = 1.16; HDFCFMP 1861D MARCH2022(46) - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,601; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,116; ₹ 13.2993 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFCFMP 1861D MARCH2022(46) - Period = Last 3 Years; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns - (%) = 7.60; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns Benchmark - (%)# = 5.94; HDFCFMP 1861D MARCH2022(46) - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,459; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 11,893; ₹ 13.2993 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- ANUPAM JOSHI — Mar 09, 22: HDFCFMP 1861D MARCH2022(46) - Period = Since Inception; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns - (%) = 6.70; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns Benchmark - (%)# = 5.70; HDFCFMP 1861D MARCH2022(46) - Additional - Returns Benchmark - Returns - (%)## = 6.31; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,299; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,761; ₹ 13.2993 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 13,089
+- ANUPAM JOSHI — #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.: HDFCFMP 1861D MARCH2022(46) - Period = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns - (%) = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1861D MARCH2022(46) - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1861D MARCH2022(46) - Additional - Returns Benchmark - Returns - (%)## = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; ₹ 13.2993 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.
+
+
 | HDFCFMP 1876D MARCH2022(46) - Date                                     | HDFCFMP 1876D MARCH2022(46) - Period                                   | HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%)           | HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%)#          | HDFCFMP 1876D MARCH2022(46) - Additional Benchmark Returns - (%)##     | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹)       | NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)#   | ₹ 13.2519 - Value of ₹10,000 invested - Additional Benchmark (₹)##     |
 |------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|
 | Jul 31, 25                                                             | Last 1 Year                                                            | 5.97                                                                   | 1.16                                                                   | 2.27                                                                   | 10,597                                                                 | 10,116                                                                 | 10,227                                                                 |
 | Jul 31, 23                                                             | Last 3 Years                                                           | 7.60                                                                   | 5.94                                                                   | 6.78                                                                   | 12,461                                                                 | 11,893                                                                 | 12,176                                                                 |
 | Mar 29, 22                                                             | Since Inception                                                        | 6.70                                                                   | 5.62                                                                   | 6.24                                                                   | 13,252                                                                 | 12,678                                                                 | 13,004                                                                 |
 | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index. |
+
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFCFMP 1876D MARCH2022(46) - Period = Last 1 Year; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%) = 5.97; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%)# = 1.16; HDFCFMP 1876D MARCH2022(46) - Additional Benchmark Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 10,597; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = 10,116; ₹ 13.2519 - Value of ₹10,000 invested - Additional Benchmark (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFCFMP 1876D MARCH2022(46) - Period = Last 3 Years; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%) = 7.60; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%)# = 5.94; HDFCFMP 1876D MARCH2022(46) - Additional Benchmark Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 12,461; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = 11,893; ₹ 13.2519 - Value of ₹10,000 invested - Additional Benchmark (₹)## = 12,176
+- ANUPAM JOSHI — Mar 29, 22: HDFCFMP 1876D MARCH2022(46) - Period = Since Inception; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%) = 6.70; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%)# = 5.62; HDFCFMP 1876D MARCH2022(46) - Additional Benchmark Returns - (%)## = 6.24; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 13,252; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = 12,678; ₹ 13.2519 - Value of ₹10,000 invested - Additional Benchmark (₹)## = 13,004
+- ANUPAM JOSHI — #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.: HDFCFMP 1876D MARCH2022(46) - Period = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%) = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1876D MARCH2022(46) - Scheme Benchmark - Returns (%)# = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1876D MARCH2022(46) - Additional Benchmark Returns - (%)## = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; ₹ 13.2519 - Value of ₹10,000 invested - Additional Benchmark (₹)## = #NIFTY Medium To Long Duration Debt Index ##CRISIL 10 Year Gilt Index.
+
 
 | HDFCFMP 2638D FEBRUARY 2023 (47) - Date                      | HDFCFMP 2638D FEBRUARY 2023 (47) - Period                    | HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns - (%)   | HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns Benchmark - (%)#   | HDFCFMP 2638D FEBRUARY 2023 (47) - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 13.2068 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |--------------------------------------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -10241,12 +13291,26 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Feb 23, 23                                                   | Since Inception                                              | 8.43                                                                  | 6.03                                                                             | 7.26                                                                                  | 13,207                                                                                    | 12,227                                                                                               | 12,724                                                                                         |
 | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.          | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                     | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                          | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                              | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                                         | #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.                                   |
 
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFCFMP 2638D FEBRUARY 2023 (47) - Period = Last 1 Year; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns - (%) = 4.97; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns Benchmark - (%)# = -0.06; HDFCFMP 2638D FEBRUARY 2023 (47) - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,497; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 9,994; ₹ 13.2068 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFCFMP 2638D FEBRUARY 2023 (47) - Period = Last 3 Years; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns - (%) = 7.97; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns Benchmark - (%)# = 5.49; HDFCFMP 2638D FEBRUARY 2023 (47) - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,590; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 11,742; ₹ 13.2068 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- ANUPAM JOSHI — Feb 23, 23: HDFCFMP 2638D FEBRUARY 2023 (47) - Period = Since Inception; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns - (%) = 8.43; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns Benchmark - (%)# = 6.03; HDFCFMP 2638D FEBRUARY 2023 (47) - Additional - Returns Benchmark - Returns - (%)## = 7.26; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,207; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,227; ₹ 13.2068 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,724
+- ANUPAM JOSHI — #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.: HDFCFMP 2638D FEBRUARY 2023 (47) - Period = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns - (%) = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 2638D FEBRUARY 2023 (47) - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 2638D FEBRUARY 2023 (47) - Additional - Returns Benchmark - Returns - (%)## = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.; ₹ 13.2068 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Long Duration Debt Index ##CRISIL 10 Year Gilt Index.
+
+
 | HDFCFMP 1269D MARCH2023(47) - Date                             | HDFCFMP 1269D MARCH2023(47) - Period                           | HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns - (%)   | HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns Benchmark - (%)#   | HDFCFMP 1269D MARCH2023(47) - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 12.6315 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |----------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Jul 31, 25                                                     | Last 1 Year                                                    | 5.62                                                             | 3.74                                                                        | 2.27                                                                             | 10,562                                                                                    | 10,374                                                                                               | 10,227                                                                                         |
 | Jul 31, 23                                                     | Last 3 Years                                                   | 7.23                                                             | 6.70                                                                        | 6.78                                                                             | 12,332                                                                                    | 12,149                                                                                               | 12,176                                                                                         |
 | Mar 21, 23                                                     | Since Inception                                                | 7.19                                                             | 6.94                                                                        | 7.17                                                                             | 12,632                                                                                    | 12,533                                                                                               | 12,622                                                                                         |
 | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index. | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.   | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.              | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.                   | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.                            | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.                                       | #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.                                 |
+
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFCFMP 1269D MARCH2023(47) - Period = Last 1 Year; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns - (%) = 5.62; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns Benchmark - (%)# = 3.74; HDFCFMP 1269D MARCH2023(47) - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,562; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,374; ₹ 12.6315 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFCFMP 1269D MARCH2023(47) - Period = Last 3 Years; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns - (%) = 7.23; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns Benchmark - (%)# = 6.70; HDFCFMP 1269D MARCH2023(47) - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,332; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,149; ₹ 12.6315 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- ANUPAM JOSHI — Mar 21, 23: HDFCFMP 1269D MARCH2023(47) - Period = Since Inception; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns - (%) = 7.19; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns Benchmark - (%)# = 6.94; HDFCFMP 1269D MARCH2023(47) - Additional - Returns Benchmark - Returns - (%)## = 7.17; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,632; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,533; ₹ 12.6315 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,622
+- ANUPAM JOSHI — #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.: HDFCFMP 1269D MARCH2023(47) - Period = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns - (%) = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1269D MARCH2023(47) - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.; HDFCFMP 1269D MARCH2023(47) - Additional - Returns Benchmark - Returns - (%)## = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.; ₹ 12.6315 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Medium Duration Debt Index ##CRISIL 10 Year Gilt Index.
+
 
 | HDFC CORPORATE BOND FUND - Date   | HDFC CORPORATE BOND FUND - Period   |   HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns (%) |   HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns (%)# |   HDFC CORPORATE BOND FUND - Additional Benchmark - Returns (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# |   ₹ 35.2582 - Value of ₹10,000 invested - Additional Benchmark (₹)## |
 |-----------------------------------|-------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------|
@@ -10256,11 +13320,25 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 29, 16                        | Last 10 Years                       |                                                        7.43 |                                                         6.79 |                                                              5.92 |                                                             20,485 |                                                                 19,294 |                                                               17,781 |
 | Jan 01, 13                        | Since Inception                     |                                                        7.96 |                                                         7.38 |                                                              6.41 |                                                             28,319 |                                                                 26,300 |                                                               23,258 |
 
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFC CORPORATE BOND FUND - Period = Last 1 Year; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns (%) = 4.99; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns (%)# = 4.37; HDFC CORPORATE BOND FUND - Additional Benchmark - Returns (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 10,499; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = 10,437; ₹ 35.2582 - Value of ₹10,000 invested - Additional Benchmark (₹)## = 10,227
+- ANUPAM JOSHI — Jul 31, 23: HDFC CORPORATE BOND FUND - Period = Last 3 Years; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns (%) = 7.42; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns (%)# = 6.63; HDFC CORPORATE BOND FUND - Additional Benchmark - Returns (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 12,399; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = 12,127; ₹ 35.2582 - Value of ₹10,000 invested - Additional Benchmark (₹)## = 12,176
+- ANUPAM JOSHI — Jul 30, 21: HDFC CORPORATE BOND FUND - Period = Last 5 Years; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns (%) = 6.49; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns (%)# = 5.75; HDFC CORPORATE BOND FUND - Additional Benchmark - Returns (%)## = 5.34; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 13,702; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = 13,231; ₹ 35.2582 - Value of ₹10,000 invested - Additional Benchmark (₹)## = 12,971
+- ANUPAM JOSHI — Jul 29, 16: HDFC CORPORATE BOND FUND - Period = Last 10 Years; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns (%) = 7.43; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns (%)# = 6.79; HDFC CORPORATE BOND FUND - Additional Benchmark - Returns (%)## = 5.92; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 20,485; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = 19,294; ₹ 35.2582 - Value of ₹10,000 invested - Additional Benchmark (₹)## = 17,781
+- ANUPAM JOSHI — Jan 01, 13: HDFC CORPORATE BOND FUND - Period = Since Inception; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns (%) = 7.96; HDFC CORPORATE BOND FUND - Scheme Benchmark - Returns (%)# = 7.38; HDFC CORPORATE BOND FUND - Additional Benchmark - Returns (%)## = 6.41; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 28,319; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark (₹)# = 26,300; ₹ 35.2582 - Value of ₹10,000 invested - Additional Benchmark (₹)## = 23,258
+
+
 | HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Date   | HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Period   | HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Scheme Benchmark - Returns (%)   | HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Scheme Benchmark - Returns - (%)#   | HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Additional Benchmark Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# Benchmark   | ₹ 10.8893 - Value of ₹10,000 invested - Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | Jul 31, 25                                                             | Last 1 Year                                                              | 7.02                                                                                             | 6.80                                                                                                | 4.21                                                                                                   | 10,702                                                               | 10,680                                                                                        | 10,421                                                                                  |
 | May 06, 25                                                             | Since Inception                                                          | 7.14                                                                                             | 6.85                                                                                                | 4.61                                                                                                   | 10,889                                                               | 10,853                                                                                        | 10,573                                                                                  |
 | #CRISIL-IBX                                                            | Financial Services                                                       | 3- 6 Months                                                                                      | Debt Index                                                                                          | ('the                                                                                                  | Underlying Index')                                                   | ##CRISIL                                                                                      | 1 Year                                                                                  |
+
+**Table values by row and column (derived from the table above):**
+- ANUPAM JOSHI — Jul 31, 25: HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Period = Last 1 Year; HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Scheme Benchmark - Returns (%) = 7.02; HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Scheme Benchmark - Returns - (%)# = 6.80; HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Additional Benchmark Returns - (%)## = 4.21; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme - (₹) = 10,702; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# Benchmark = 10,680; ₹ 10.8893 - Value of ₹10,000 invested - Benchmark Additional - (₹)# Benchmark - (₹)## = 10,421
+- ANUPAM JOSHI — May 06, 25: HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Period = Since Inception; HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Scheme Benchmark - Returns (%) = 7.14; HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Scheme Benchmark - Returns - (%)# = 6.85; HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Additional Benchmark Returns - (%)## = 4.61; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme - (₹) = 10,889; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# Benchmark = 10,853; ₹ 10.8893 - Value of ₹10,000 invested - Benchmark Additional - (₹)# Benchmark - (₹)## = 10,573
+- ANUPAM JOSHI — #CRISIL-IBX: HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Period = Financial Services; HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Scheme Benchmark - Returns (%) = 3- 6 Months; HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Scheme Benchmark - Returns - (%)# = Debt Index; HDFC CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX FUND - Additional Benchmark Returns - (%)## = ('the; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme - (₹) = Underlying Index'); NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# Benchmark = ##CRISIL; ₹ 10.8893 - Value of ₹10,000 invested - Benchmark Additional - (₹)# Benchmark - (₹)## = 1 Year
+
 
 #CRISIL-IBX Financial Services 36 Months Debt Index ('the Underlying Index') ##CRISIL 1 Year T-bill Index.
 
@@ -10274,6 +13352,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 29, 16                   | Last 10 Years                  |                                                                6.77 |                                                                           6.35 |                                                                                    5.97 |                                                                         19,258 |                                                                          18,526 |                                                                   17,864 |
 | Dec 31, 12                   | Since Inception                |                                                                7.30 |                                                                           6.98 |                                                                                    6.37 |                                                                         26,058 |                                                                          25,010 |                                                                   23,157 |
 
+**Table values by row and column (derived from the table above):**
+- PRAVEEN JAIN — Jul 31, 25: HDFCMONEYMARKETFUND - Period = Last 1 Year; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns - (%) = 6.37; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.96; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 4.21; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,637; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,596; ₹ 6251.9433 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 10,421
+- PRAVEEN JAIN — Jul 31, 23: HDFCMONEYMARKETFUND - Period = Last 3 Years; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns - (%) = 7.38; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.92; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 6.32; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 12,383; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 12,225; ₹ 6251.9433 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 12,019
+- PRAVEEN JAIN — Jul 30, 21: HDFCMONEYMARKETFUND - Period = Last 5 Years; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns - (%) = 6.63; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.33; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 5.67; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 13,788; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 13,598; ₹ 6251.9433 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 13,179
+- PRAVEEN JAIN — Jul 29, 16: HDFCMONEYMARKETFUND - Period = Last 10 Years; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns - (%) = 6.77; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.35; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 5.97; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 19,258; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 18,526; ₹ 6251.9433 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 17,864
+- PRAVEEN JAIN — Dec 31, 12: HDFCMONEYMARKETFUND - Period = Since Inception; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns - (%) = 7.30; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.98; HDFCMONEYMARKETFUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 6.37; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 26,058; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 25,010; ₹ 6251.9433 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 23,157
+
+
 ## CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, BHAGYESH KAGALKAR, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY
 
 | HDFC MULTI-ASSET ALLOCATIONFUND - Date   | HDFC MULTI-ASSET ALLOCATIONFUND - Period   |   HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - (%) |   HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - Returns Returns - (%)# |   HDFC MULTI-ASSET ALLOCATIONFUND - Additional - Returns Returns - Returns - (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark |   ₹ 84.752 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## |
@@ -10283,6 +13369,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 30, 21                               | Last 5 Years                               |                                                      12.12 |                                                                         10.77 |                                                                              10.39 |                                                                                  17,726 |                                                                                                   16,687 |                                                                                            16,405 |
 | Jul 29, 16                               | Last 10 Years                              |                                                      11.82 |                                                                         10.99 |                                                                              12.27 |                                                                                  30,594 |                                                                                                   28,397 |                                                                                            31,857 |
 | Jan 01, 13                               | Since Inception                            |                                                      11.57 |                                                                         10.69 |                                                                              12.30 |                                                                                  44,259 |                                                                                                   39,733 |                                                                                            48,362 |
+
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, BHAGYESH KAGALKAR, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC MULTI-ASSET ALLOCATIONFUND - Period = Last 1 Year; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - (%) = 6.44; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - Returns Returns - (%)# = 5.33; HDFC MULTI-ASSET ALLOCATIONFUND - Additional - Returns Returns - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 10,644; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 10,533; ₹ 84.752 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, BHAGYESH KAGALKAR, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC MULTI-ASSET ALLOCATIONFUND - Period = Last 3 Years; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - (%) = 12.57; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - Returns Returns - (%)# = 10.90; HDFC MULTI-ASSET ALLOCATIONFUND - Additional - Returns Returns - Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 14,270; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 13,644; ₹ 84.752 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, BHAGYESH KAGALKAR, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC MULTI-ASSET ALLOCATIONFUND - Period = Last 5 Years; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - (%) = 12.12; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - Returns Returns - (%)# = 10.77; HDFC MULTI-ASSET ALLOCATIONFUND - Additional - Returns Returns - Returns - (%)## = 10.39; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 17,726; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 16,687; ₹ 84.752 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 16,405
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, BHAGYESH KAGALKAR, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC MULTI-ASSET ALLOCATIONFUND - Period = Last 10 Years; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - (%) = 11.82; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - Returns Returns - (%)# = 10.99; HDFC MULTI-ASSET ALLOCATIONFUND - Additional - Returns Returns - Returns - (%)## = 12.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 30,594; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 28,397; ₹ 84.752 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 31,857
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, BHAGYESH KAGALKAR, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jan 01, 13: HDFC MULTI-ASSET ALLOCATIONFUND - Period = Since Inception; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - (%) = 11.57; HDFC MULTI-ASSET ALLOCATIONFUND - Scheme Benchmark - Returns Returns - (%)# = 10.69; HDFC MULTI-ASSET ALLOCATIONFUND - Additional - Returns Returns - Returns - (%)## = 12.30; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 44,259; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 39,733; ₹ 84.752 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 48,362
+
 
 #65% Nifty 50 TRI + 22.5% Nifty Composite Debt Index +10% Domestic Price of Gold + 2.5% Domestic Price of Silver ##Nifty 50 Index (TRI).
 
@@ -10316,6 +13410,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 29, 16                            | Last 10 Years                           |                                                             14.21 |                                                               9.93 |                                                                   12.27 |                                                                                  37,804 |                                                                                                   25,790 |                                                                                             31,857 |
 | Jan 01, 13                            | Since Inception                         |                                                             14.67 |                                                              10.21 |                                                                   12.30 |                                                                                  64,247 |                                                                                                   37,458 |                                                                                             48,362 |
 
+**Table values by row and column (derived from the table above):**
+- ANIL BAMBOLI, ARUN AGARWAL, GOPAL AGRAWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC BALANCED ADVANTAGE FUND - Period = Last 1 Year; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark - Returns - (%) = 2.82; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark - Returns - (%)# = 1.15; HDFC BALANCED ADVANTAGE FUND - Additional - Benchmark Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 10,282; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 10,115; ₹ 572.345 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- ANIL BAMBOLI, ARUN AGARWAL, GOPAL AGRAWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC BALANCED ADVANTAGE FUND - Period = Last 3 Years; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark - Returns - (%) = 13.33; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark - Returns - (%)# = 7.62; HDFC BALANCED ADVANTAGE FUND - Additional - Benchmark Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 14,562; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 12,466; ₹ 572.345 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- ANIL BAMBOLI, ARUN AGARWAL, GOPAL AGRAWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC BALANCED ADVANTAGE FUND - Period = Last 5 Years; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark - Returns - (%) = 15.63; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark - Returns - (%)# = 8.22; HDFC BALANCED ADVANTAGE FUND - Additional - Benchmark Returns - (%)## = 10.39; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 20,686; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 14,850; ₹ 572.345 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 16,405
+- ANIL BAMBOLI, ARUN AGARWAL, GOPAL AGRAWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC BALANCED ADVANTAGE FUND - Period = Last 10 Years; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark - Returns - (%) = 14.21; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark - Returns - (%)# = 9.93; HDFC BALANCED ADVANTAGE FUND - Additional - Benchmark Returns - (%)## = 12.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 37,804; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 25,790; ₹ 572.345 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 31,857
+- ANIL BAMBOLI, ARUN AGARWAL, GOPAL AGRAWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jan 01, 13: HDFC BALANCED ADVANTAGE FUND - Period = Since Inception; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark - Returns - (%) = 14.67; HDFC BALANCED ADVANTAGE FUND - Scheme Benchmark - Returns - (%)# = 10.21; HDFC BALANCED ADVANTAGE FUND - Additional - Benchmark Returns - (%)## = 12.30; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 64,247; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 37,458; ₹ 572.345 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 48,362
+
+
 #NIFTY 50 Hybrid Composite Debt 50:50 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments.
 
 ## CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL &amp; NANDITA MENEZES
@@ -10328,6 +13430,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 29, 16                   | Last 10 Years                  |                                                     6.16 |                                                                5.62 |                                                                     5.97 |                                                                                    18,197 |                                                                                               17,291 |                                                                                        17,864 |
 | Apr 07, 14                   | Since Inception                |                                                     6.45 |                                                                6.01 |                                                                     6.38 |                                                                                    21,602 |                                                                                               20,521 |                                                                                        21,431 |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL &amp; NANDITA MENEZES — Jul 31, 25: HDFC ARBITRAGE FUND - Period = Last 1 Year; HDFC ARBITRAGE FUND - Scheme Benchmark - Returns - (%) = 6.53; HDFC ARBITRAGE FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.31; HDFC ARBITRAGE FUND - Additional - Returns Benchmark - Returns - (%)## = 4.21; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,653; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,731; ₹ 21.602 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,421
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL &amp; NANDITA MENEZES — Jul 31, 23: HDFC ARBITRAGE FUND - Period = Last 3 Years; HDFC ARBITRAGE FUND - Scheme Benchmark - Returns - (%) = 7.46; HDFC ARBITRAGE FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.56; HDFC ARBITRAGE FUND - Additional - Returns Benchmark - Returns - (%)## = 6.32; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,411; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,445; ₹ 21.602 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,019
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL &amp; NANDITA MENEZES — Jul 30, 21: HDFC ARBITRAGE FUND - Period = Last 5 Years; HDFC ARBITRAGE FUND - Scheme Benchmark - Returns - (%) = 6.58; HDFC ARBITRAGE FUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.52; HDFC ARBITRAGE FUND - Additional - Returns Benchmark - Returns - (%)## = 5.67; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,755; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,721; ₹ 21.602 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 13,179
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL &amp; NANDITA MENEZES — Jul 29, 16: HDFC ARBITRAGE FUND - Period = Last 10 Years; HDFC ARBITRAGE FUND - Scheme Benchmark - Returns - (%) = 6.16; HDFC ARBITRAGE FUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.62; HDFC ARBITRAGE FUND - Additional - Returns Benchmark - Returns - (%)## = 5.97; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 18,197; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 17,291; ₹ 21.602 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,864
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL &amp; NANDITA MENEZES — Apr 07, 14: HDFC ARBITRAGE FUND - Period = Since Inception; HDFC ARBITRAGE FUND - Scheme Benchmark - Returns - (%) = 6.45; HDFC ARBITRAGE FUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.01; HDFC ARBITRAGE FUND - Additional - Returns Benchmark - Returns - (%)## = 6.38; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 21,602; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 20,521; ₹ 21.602 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 21,431
+
+
 #NIFTY 50 Arbitrage Index (Total Returns Index) ##CRISIL 1 Year T-Bill Index. Scheme performance is not strictly comparable with that of its Additional Benchmark since the scheme does not take directional call in equity markets but is limited to availing arbitrage opportunities, etc.
 
 ## CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY
@@ -10339,6 +13449,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 30, 21                        | Last 5 Years                        |                                                          9.08 |                                                           8.01 |                                                                5.34 |                                                                                    15,452 |                                                                                               14,705 |                                                                                        12,971 |
 | Jul 29, 16                        | Last 10 Years                       |                                                         10.04 |                                                           8.75 |                                                                5.92 |                                                                                    26,066 |                                                                                               23,159 |                                                                                        17,781 |
 | Jan 01, 13                        | Since Inception                     |                                                         10.01 |                                                           9.09 |                                                                6.41 |                                                                                    36,537 |                                                                                               32,624 |                                                                                        23,258 |
+
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC EQUITY SAVINGS FUND - Period = Last 1 Year; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%) = 4.54; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%)# = 4.12; HDFC EQUITY SAVINGS FUND - Additional - Benchmark Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,454; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,412; ₹ 76.916 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC EQUITY SAVINGS FUND - Period = Last 3 Years; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%) = 8.95; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%)# = 8.05; HDFC EQUITY SAVINGS FUND - Additional - Benchmark Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,937; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,617; ₹ 76.916 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC EQUITY SAVINGS FUND - Period = Last 5 Years; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%) = 9.08; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%)# = 8.01; HDFC EQUITY SAVINGS FUND - Additional - Benchmark Returns - (%)## = 5.34; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 15,452; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 14,705; ₹ 76.916 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,971
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC EQUITY SAVINGS FUND - Period = Last 10 Years; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%) = 10.04; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%)# = 8.75; HDFC EQUITY SAVINGS FUND - Additional - Benchmark Returns - (%)## = 5.92; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 26,066; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 23,159; ₹ 76.916 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,781
+- CO-MANAGED BY ANIL BAMBOLI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jan 01, 13: HDFC EQUITY SAVINGS FUND - Period = Since Inception; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%) = 10.01; HDFC EQUITY SAVINGS FUND - Scheme Benchmark - Returns - (%)# = 9.09; HDFC EQUITY SAVINGS FUND - Additional - Benchmark Returns - (%)## = 6.41; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 36,537; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 32,624; ₹ 76.916 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 23,258
+
 
 #NIFTY Equity Savings Index (Total Returns Index) ##CRISIL 10 Year Gilt Index. Scheme
 
@@ -10354,6 +13472,14 @@ performance may not strictly be comparable with that of its Additional Benchmark
 | May 05, 21                                                                                                            | Since Inception                                                                                                       | 14.97                                                                                                                 | 10.70                                                                                                                 | 11.62                                                                                                                 | 20,779                                                                                                                | 17,033                                                                                                                | 17,795                                                                                                                |
 | #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI). | #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI). | #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI). | #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI). | #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI). | #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI). | #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI). | #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI). |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANIL BAMBOLI, BHAGYESH KAGALKAR &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC MULTI-ASSET ACTIVE FOF - Period = Last 1 Year; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%) = 8.57; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%)# = 5.07; HDFC MULTI-ASSET ACTIVE FOF - Additional - Benchmark Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 10,857; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark - (₹)# Benchmark = 10,507; ₹ 20.779 - Value of ₹10,000 invested - Additional - (₹)# Benchmark - (₹)## = 9,957
+- CO-MANAGED BY ANIL BAMBOLI, BHAGYESH KAGALKAR &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC MULTI-ASSET ACTIVE FOF - Period = Last 3 Years; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%) = 14.14; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%)# = 10.32; HDFC MULTI-ASSET ACTIVE FOF - Additional - Benchmark Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 14,874; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark - (₹)# Benchmark = 13,430; ₹ 20.779 - Value of ₹10,000 invested - Additional - (₹)# Benchmark - (₹)## = 12,798
+- CO-MANAGED BY ANIL BAMBOLI, BHAGYESH KAGALKAR &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC MULTI-ASSET ACTIVE FOF - Period = Last 5 Years; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%) = 13.80; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%)# = 10.15; HDFC MULTI-ASSET ACTIVE FOF - Additional - Benchmark Returns - (%)## = 10.39; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 19,098; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark - (₹)# Benchmark = 16,224; ₹ 20.779 - Value of ₹10,000 invested - Additional - (₹)# Benchmark - (₹)## = 16,405
+- CO-MANAGED BY ANIL BAMBOLI, BHAGYESH KAGALKAR &amp; SRINIVASAN RAMAMURTHY — May 05, 21: HDFC MULTI-ASSET ACTIVE FOF - Period = Since Inception; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%) = 14.97; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%)# = 10.70; HDFC MULTI-ASSET ACTIVE FOF - Additional - Benchmark Returns - (%)## = 11.62; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 20,779; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark - (₹)# Benchmark = 17,033; ₹ 20.779 - Value of ₹10,000 invested - Additional - (₹)# Benchmark - (₹)## = 17,795
+- CO-MANAGED BY ANIL BAMBOLI, BHAGYESH KAGALKAR &amp; SRINIVASAN RAMAMURTHY — #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI).: HDFC MULTI-ASSET ACTIVE FOF - Period = #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI).; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%) = #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI).; HDFC MULTI-ASSET ACTIVE FOF - Scheme Benchmark - Returns - (%)# = #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI).; HDFC MULTI-ASSET ACTIVE FOF - Additional - Benchmark Returns - (%)## = #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark - (₹)# Benchmark = #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI).; ₹ 20.779 - Value of ₹10,000 invested - Additional - (₹)# Benchmark - (₹)## = #50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms ##Nifty 50 Index (TRI).
+
+
 ## CO-MANAGED BY ANIL BAMBOLI, BHAVYESH DIVECHA &amp; PRAVEEN JAIN
 
 | HDFCMEDIUMTERMDEBTFUND - Date   | HDFCMEDIUMTERMDEBTFUND - Period   |   HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%) |   HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%)# |   HDFCMEDIUMTERMDEBTFUND - Additional - Benchmark Returns - (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark |   ₹ 65.7031 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## |
@@ -10364,6 +13490,14 @@ performance may not strictly be comparable with that of its Additional Benchmark
 | Jul 29, 16                      | Last 10 Years                     |                                                        7.65 |                                                         6.91 |                                                              5.92 |                                                                                    20,914 |                                                                                               19,523 |                                                                                         17,781 |
 | Jan 01, 13                      | Since Inception                   |                                                        8.14 |                                                         7.57 |                                                              6.41 |                                                                                    28,971 |                                                                                               26,961 |                                                                                         23,258 |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANIL BAMBOLI, BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 31, 25: HDFCMEDIUMTERMDEBTFUND - Period = Last 1 Year; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%) = 6.59; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%)# = 3.92; HDFCMEDIUMTERMDEBTFUND - Additional - Benchmark Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,659; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,392; ₹ 65.7031 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- CO-MANAGED BY ANIL BAMBOLI, BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 31, 23: HDFCMEDIUMTERMDEBTFUND - Period = Last 3 Years; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%) = 8.01; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%)# = 6.92; HDFCMEDIUMTERMDEBTFUND - Additional - Benchmark Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,604; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,225; ₹ 65.7031 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- CO-MANAGED BY ANIL BAMBOLI, BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 30, 21: HDFCMEDIUMTERMDEBTFUND - Period = Last 5 Years; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%) = 6.94; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%)# = 5.74; HDFCMEDIUMTERMDEBTFUND - Additional - Benchmark Returns - (%)## = 5.34; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,992; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,222; ₹ 65.7031 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,971
+- CO-MANAGED BY ANIL BAMBOLI, BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 29, 16: HDFCMEDIUMTERMDEBTFUND - Period = Last 10 Years; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%) = 7.65; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%)# = 6.91; HDFCMEDIUMTERMDEBTFUND - Additional - Benchmark Returns - (%)## = 5.92; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 20,914; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 19,523; ₹ 65.7031 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,781
+- CO-MANAGED BY ANIL BAMBOLI, BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jan 01, 13: HDFCMEDIUMTERMDEBTFUND - Period = Since Inception; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%) = 8.14; HDFCMEDIUMTERMDEBTFUND - Scheme Benchmark - Returns - (%)# = 7.57; HDFCMEDIUMTERMDEBTFUND - Additional - Benchmark Returns - (%)## = 6.41; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 28,971; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 26,961; ₹ 65.7031 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 23,258
+
+
 ## CO-MANAGED BY ANIL BAMBOLI &amp; PRAVEEN JAIN
 
 | HDFC ULTRA SHORT TERMFUND - Date   | HDFC ULTRA SHORT TERMFUND - Period   |   HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%) |   HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns Benchmark - (%)# |   HDFC ULTRA SHORT TERMFUND - Additional - Returns Benchmark - Returns - (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# |   ₹ 16.5632 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# - Benchmark (₹)## |
@@ -10372,6 +13506,13 @@ performance may not strictly be comparable with that of its Additional Benchmark
 | Jul 31, 23                         | Last 3 Years                         |                                                           7.22 |                                                                      7.11 |                                                                           6.32 |                                                                   12,329 |                                                                              12,289 |                                                                                  12,019 |
 | Jul 30, 21                         | Last 5 Years                         |                                                           6.47 |                                                                      6.45 |                                                                           5.67 |                                                                   13,684 |                                                                              13,672 |                                                                                  13,179 |
 | Sep 25, 18                         | Since Inception                      |                                                           6.64 |                                                                      6.45 |                                                                           5.96 |                                                                   16,563 |                                                                              16,338 |                                                                                  15,753 |
+
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANIL BAMBOLI &amp; PRAVEEN JAIN — Jul 31, 25: HDFC ULTRA SHORT TERMFUND - Period = Last 1 Year; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%) = 6.30; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.30; HDFC ULTRA SHORT TERMFUND - Additional - Returns Benchmark - Returns - (%)## = 4.21; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 10,630; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# = 10,630; ₹ 16.5632 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# - Benchmark (₹)## = 10,421
+- CO-MANAGED BY ANIL BAMBOLI &amp; PRAVEEN JAIN — Jul 31, 23: HDFC ULTRA SHORT TERMFUND - Period = Last 3 Years; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%) = 7.22; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.11; HDFC ULTRA SHORT TERMFUND - Additional - Returns Benchmark - Returns - (%)## = 6.32; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 12,329; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# = 12,289; ₹ 16.5632 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# - Benchmark (₹)## = 12,019
+- CO-MANAGED BY ANIL BAMBOLI &amp; PRAVEEN JAIN — Jul 30, 21: HDFC ULTRA SHORT TERMFUND - Period = Last 5 Years; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%) = 6.47; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.45; HDFC ULTRA SHORT TERMFUND - Additional - Returns Benchmark - Returns - (%)## = 5.67; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 13,684; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# = 13,672; ₹ 16.5632 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# - Benchmark (₹)## = 13,179
+- CO-MANAGED BY ANIL BAMBOLI &amp; PRAVEEN JAIN — Sep 25, 18: HDFC ULTRA SHORT TERMFUND - Period = Since Inception; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns - (%) = 6.64; HDFC ULTRA SHORT TERMFUND - Scheme Benchmark - Returns Benchmark - (%)# = 6.45; HDFC ULTRA SHORT TERMFUND - Additional - Returns Benchmark - Returns - (%)## = 5.96; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 16,563; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# = 16,338; ₹ 16.5632 - Value of ₹10,000 invested - Scheme Benchmark - (₹) (₹)# - Benchmark (₹)## = 15,753
+
 
 ## CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY
 
@@ -10385,6 +13526,14 @@ performance may not strictly be comparable with that of its Additional Benchmark
 | Jul 29, 16                                          | Last 10 Years                                         | 15.95                                                                     | 13.55                                                                     | 12.27                                                                         | 44,010                                                                              | 35,688                                                                              | 31,857                                                               |
 | Feb 25, 16                                          | Since Inception                                       | 18.03                                                                     | 15.59                                                                     | 14.17                                                                         | 56,417                                                                              | 45,338                                                                              | 39,861                                                               |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Period = Last 1 Year; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Scheme Benchmark - Returns = -0.88; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Scheme Benchmark - Returns = 3.37; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Additional - Benchmark Returns = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 9,912; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 10,337; ₹ 56.417 - Value of ₹10,000 invested - Scheme Benchmark Additional = 9,957
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Period = Last 3 Years; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Scheme Benchmark - Returns = 10.85; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Scheme Benchmark - Returns = 12.29; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Additional - Benchmark Returns = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 13,623; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 14,163; ₹ 56.417 - Value of ₹10,000 invested - Scheme Benchmark Additional = 12,798
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Period = Last 5 Years; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Scheme Benchmark - Returns = 13.79; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Scheme Benchmark - Returns = 12.53; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Additional - Benchmark Returns = 10.39; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 19,089; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 18,055; ₹ 56.417 - Value of ₹10,000 invested - Scheme Benchmark Additional = 16,405
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Period = Last 10 Years; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Scheme Benchmark - Returns = 15.95; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Scheme Benchmark - Returns = 13.55; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Additional - Benchmark Returns = 12.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 44,010; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 35,688; ₹ 56.417 - Value of ₹10,000 invested - Scheme Benchmark Additional = 31,857
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Feb 25, 16: HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Period = Since Inception; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Scheme Benchmark - Returns = 18.03; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Scheme Benchmark - Returns = 15.59; HDFC RETIREMENT SAVINGS FUND - EQUITY PLAN - Additional - Benchmark Returns = 14.17; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 56,417; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 45,338; ₹ 56.417 - Value of ₹10,000 invested - Scheme Benchmark Additional = 39,861
+
+
 | HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Date   | HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Period   |   HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%) |   HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%)# |   HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Additional - Benchmark Returns - (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# |   ₹ 24.9727 - Value of ₹10,000 invested - Additional - Benchmark (₹)## |
 |----------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------|------------------------------------------------------------------------|
 | Jul 31, 25                                               | Last 1 Year                                                |                                                                                 2.24 |                                                                                  2.03 |                                                                                       2.27 |                                                                       10,224 |                                                                    10,203 |                                                                 10,227 |
@@ -10393,6 +13542,14 @@ performance may not strictly be comparable with that of its Additional Benchmark
 | Jul 29, 16                                               | Last 10 Years                                              |                                                                                 8.58 |                                                                                  7.83 |                                                                                       5.92 |                                                                       22,802 |                                                                    21,274 |                                                                 17,781 |
 | Feb 26, 16                                               | Since Inception                                            |                                                                                 9.17 |                                                                                  8.48 |                                                                                       6.41 |                                                                       24,973 |                                                                    23,370 |                                                                 19,117 |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Period = Last 1 Year; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%) = 2.24; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%)# = 2.03; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Additional - Benchmark Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 10,224; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# = 10,203; ₹ 24.9727 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 10,227
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Period = Last 3 Years; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%) = 7.32; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%)# = 6.73; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Additional - Benchmark Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 12,362; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# = 12,160; ₹ 24.9727 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 12,176
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Period = Last 5 Years; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%) = 7.59; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%)# = 6.48; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Additional - Benchmark Returns - (%)## = 5.34; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 14,424; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# = 13,696; ₹ 24.9727 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 12,971
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Period = Last 10 Years; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%) = 8.58; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%)# = 7.83; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Additional - Benchmark Returns - (%)## = 5.92; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 22,802; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# = 21,274; ₹ 24.9727 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 17,781
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Feb 26, 16: HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Period = Since Inception; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%) = 9.17; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Scheme Benchmark - Returns - (%)# = 8.48; HDFC RETIREMENT SAVINGS FUND - HYBRID DEBT PLAN - Additional - Benchmark Returns - (%)## = 6.41; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 24,973; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# = 23,370; ₹ 24.9727 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 19,117
+
+
 | HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Date   | HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Period   |   HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%) |   HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%)# |   HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Additional - Benchmark Returns - (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark |   ₹ 43.233 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## |
 |------------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | Jul 31, 25                                                 | Last 1 Year                                                  |                                                                                  -1.06 |                                                                                    0.72 |                                                                                        -0.43 |                                                                                   9,894 |                                                                                                   10,072 |                                                                                             9,957 |
@@ -10400,6 +13557,14 @@ performance may not strictly be comparable with that of its Additional Benchmark
 | Jul 30, 21                                                 | Last 5 Years                                                 |                                                                                  10.54 |                                                                                    8.91 |                                                                                        10.39 |                                                                                  16,511 |                                                                                                   15,331 |                                                                                            16,405 |
 | Jul 29, 16                                                 | Last 10 Years                                                |                                                                                  13.29 |                                                                                   10.71 |                                                                                        12.27 |                                                                                  34,874 |                                                                                                   27,700 |                                                                                            31,857 |
 | Feb 25, 16                                                 | Since Inception                                              |                                                                                  15.06 |                                                                                   12.09 |                                                                                        14.17 |                                                                                  43,233 |                                                                                                   32,908 |                                                                                            39,861 |
+
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Period = Last 1 Year; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%) = -1.06; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%)# = 0.72; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Additional - Benchmark Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 9,894; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 10,072; ₹ 43.233 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Period = Last 3 Years; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%) = 8.81; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%)# = 7.94; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Additional - Benchmark Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 12,885; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 12,579; ₹ 43.233 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Period = Last 5 Years; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%) = 10.54; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%)# = 8.91; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Additional - Benchmark Returns - (%)## = 10.39; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 16,511; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 15,331; ₹ 43.233 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 16,405
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Period = Last 10 Years; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%) = 13.29; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%)# = 10.71; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Additional - Benchmark Returns - (%)## = 12.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 34,874; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 27,700; ₹ 43.233 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 31,857
+- CO-MANAGED BY ANUPAM JOSHI, ARUN AGARWAL, NANDITA MENEZES &amp; SRINIVASAN RAMAMURTHY — Feb 25, 16: HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Period = Since Inception; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%) = 15.06; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Scheme Benchmark - Returns - (%)# = 12.09; HDFC RETIREMENT SAVINGS FUND - HYBRID EQUITY PLAN - Additional - Benchmark Returns - (%)## = 14.17; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 43,233; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 32,908; ₹ 43.233 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 39,861
+
 
 Past performance may or may not be sustained in future and is not a guarantee of any future returns. Returns greater than 1 year period are compounded annualized (CAGR). Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. Load is not taken into consideration for computation of performance. Since Inception Date = Date of First allotment in the Scheme / Plan. N.A.: Not Available For Riskometer of the Schemes and Benchmark's, refer page 80 to 92 .
 
@@ -10423,6 +13588,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 29, 16                   | Last 10 Years                  |                                                     7.17 |                                                      6.49 |                                                           5.97 |                                                                                    20,008 |                                                                                               18,771 |                                                                                         17,864 |
 | Jan 01, 13                   | Since Inception                |                                                     7.65 |                                                      7.12 |                                                           6.37 |                                                                                    27,216 |                                                                                               25,452 |                                                                                         23,147 |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI &amp; PRAVEEN JAIN — Jul 31, 25: HDFCLOWDURATIONFUND - Period = Last 1 Year; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%) = 6.28; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%)# = 6.14; HDFCLOWDURATIONFUND - Additional - Benchmark Returns - (%)## = 4.21; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,628; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,614; ₹ 67.0961 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,421
+- CO-MANAGED BY ANUPAM JOSHI &amp; PRAVEEN JAIN — Jul 31, 23: HDFCLOWDURATIONFUND - Period = Last 3 Years; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%) = 7.50; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%)# = 7.09; HDFCLOWDURATIONFUND - Additional - Benchmark Returns - (%)## = 6.32; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,426; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,285; ₹ 67.0961 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,019
+- CO-MANAGED BY ANUPAM JOSHI &amp; PRAVEEN JAIN — Jul 30, 21: HDFCLOWDURATIONFUND - Period = Last 5 Years; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%) = 6.73; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%)# = 6.24; HDFCLOWDURATIONFUND - Additional - Benchmark Returns - (%)## = 5.67; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,852; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,536; ₹ 67.0961 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 13,179
+- CO-MANAGED BY ANUPAM JOSHI &amp; PRAVEEN JAIN — Jul 29, 16: HDFCLOWDURATIONFUND - Period = Last 10 Years; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%) = 7.17; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%)# = 6.49; HDFCLOWDURATIONFUND - Additional - Benchmark Returns - (%)## = 5.97; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 20,008; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 18,771; ₹ 67.0961 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,864
+- CO-MANAGED BY ANUPAM JOSHI &amp; PRAVEEN JAIN — Jan 01, 13: HDFCLOWDURATIONFUND - Period = Since Inception; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%) = 7.65; HDFCLOWDURATIONFUND - Scheme Benchmark - Returns - (%)# = 7.12; HDFCLOWDURATIONFUND - Additional - Benchmark Returns - (%)## = 6.37; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 27,216; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 25,452; ₹ 67.0961 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 23,147
+
+
 ## CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID
 
 | HDFC NIFTY G-SEC APR 2029 INDEX FUND - Date               | HDFC NIFTY G-SEC APR 2029 INDEX FUND - Period             | HDFC NIFTY G-SEC APR 2029 INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY G-SEC APR 2029 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY G-SEC APR 2029 INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# Benchmark   | ₹ 12.9958 - Value of ₹10,000 invested - Additional - (₹)# Benchmark - (₹)##   |
@@ -10432,12 +13605,26 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Mar 10, 23                                                | Since Inception                                           | 8.03                                                                      | 8.26                                                                                 | 7.33                                                                                      | 12,996                                                                       | 13,091                                                                              | 12,714                                                                        |
 | #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index. | #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index. | #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.                 | #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.                            | #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.                                 | #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.                    | #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.                           | #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.                     |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 25: HDFC NIFTY G-SEC APR 2029 INDEX FUND - Period = Last 1 Year; HDFC NIFTY G-SEC APR 2029 INDEX FUND - Scheme Benchmark - Returns - (%) = 5.23; HDFC NIFTY G-SEC APR 2029 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.51; HDFC NIFTY G-SEC APR 2029 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 10,523; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# Benchmark = 10,552; ₹ 12.9958 - Value of ₹10,000 invested - Additional - (₹)# Benchmark - (₹)## = 10,227
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 23: HDFC NIFTY G-SEC APR 2029 INDEX FUND - Period = Last 3 Years; HDFC NIFTY G-SEC APR 2029 INDEX FUND - Scheme Benchmark - Returns - (%) = 7.74; HDFC NIFTY G-SEC APR 2029 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.99; HDFC NIFTY G-SEC APR 2029 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 12,509; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# Benchmark = 12,595; ₹ 12.9958 - Value of ₹10,000 invested - Additional - (₹)# Benchmark - (₹)## = 12,176
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Mar 10, 23: HDFC NIFTY G-SEC APR 2029 INDEX FUND - Period = Since Inception; HDFC NIFTY G-SEC APR 2029 INDEX FUND - Scheme Benchmark - Returns - (%) = 8.03; HDFC NIFTY G-SEC APR 2029 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 8.26; HDFC NIFTY G-SEC APR 2029 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 7.33; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = 12,996; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# Benchmark = 13,091; ₹ 12.9958 - Value of ₹10,000 invested - Additional - (₹)# Benchmark - (₹)## = 12,714
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.: HDFC NIFTY G-SEC APR 2029 INDEX FUND - Period = #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC APR 2029 INDEX FUND - Scheme Benchmark - Returns - (%) = #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC APR 2029 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC APR 2029 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark = #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Additional - (₹)# Benchmark = #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.; ₹ 12.9958 - Value of ₹10,000 invested - Additional - (₹)# Benchmark - (₹)## = #NIFTY G- Sec Apr 2029 Index ##CRISIL 10 Year Gilt Index.
+
+
 | HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Date              | HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Period            | HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 12.9731 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |----------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Jul 31, 25                                               | Last 1 Year                                              | 5.57                                                                      | 5.77                                                                                 | 2.27                                                                                      | 10,557                                                                                    | 10,577                                                                                               | 10,227                                                                                         |
 | Jul 31, 23                                               | Last 3 Years                                             | 7.15                                                                      | 7.38                                                                                 | 6.78                                                                                      | 12,306                                                                                    | 12,382                                                                                               | 12,176                                                                                         |
 | Nov 10, 22                                               | Since Inception                                          | 7.24                                                                      | 7.44                                                                                 | 7.19                                                                                      | 12,973                                                                                    | 13,064                                                                                               | 12,949                                                                                         |
 | #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index. | #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index. | #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.                  | #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.                             | #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.                                  | #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.                                  | #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.                                             | #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.                                       |
+
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 25: HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Period = Last 1 Year; HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Scheme Benchmark - Returns - (%) = 5.57; HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.77; HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,557; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,577; ₹ 12.9731 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 23: HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Period = Last 3 Years; HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Scheme Benchmark - Returns - (%) = 7.15; HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.38; HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,306; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,382; ₹ 12.9731 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Nov 10, 22: HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Period = Since Inception; HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Scheme Benchmark - Returns - (%) = 7.24; HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.44; HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 7.19; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,973; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,064; ₹ 12.9731 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,949
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.: HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Period = #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Scheme Benchmark - Returns - (%) = #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC DEC 2026 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.; ₹ 12.9731 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY G-Sec Dec 2026 Index ##CRISIL 10 Year Gilt Index.
+
 
 | HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Date               | HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Period             | HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark   | ₹ 13.4017 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |-----------------------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
@@ -10446,12 +13633,26 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Nov 10, 22                                                | Since Inception                                           | 8.18                                                                      | 8.38                                                                                 | 7.19                                                                                      | 13,402                                                                                  | 13,494                                                                                                   | 12,949                                                                                             |
 | #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index. | #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index. | #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.                 | #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.                            | #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.                                 | #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.                               | #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.                                                | #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.                                          |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 25: HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Period = Last 1 Year; HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Scheme Benchmark - Returns - (%) = 5.30; HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.46; HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 10,530; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 10,546; ₹ 13.4017 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 23: HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Period = Last 3 Years; HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Scheme Benchmark - Returns - (%) = 8.06; HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 8.25; HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 12,620; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 12,689; ₹ 13.4017 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Nov 10, 22: HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Period = Since Inception; HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Scheme Benchmark - Returns - (%) = 8.18; HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 8.38; HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 7.19; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 13,402; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 13,494; ₹ 13.4017 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 12,949
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.: HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Period = #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Scheme Benchmark - Returns - (%) = #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC JUL 2031 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.; ₹ 13.4017 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY G-Sec July 2031 Index ##CRISIL 10 Year Gilt Index.
+
+
 | HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Date              | HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Period            | HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 12.9573 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |----------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Jul 31, 25                                               | Last 1 Year                                              | 5.56                                                                      | 5.57                                                                                 | 2.27                                                                                      | 10,556                                                                                    | 10,557                                                                                               | 10,227                                                                                         |
 | Jul 31, 23                                               | Last 3 Years                                             | 7.39                                                                      | 7.36                                                                                 | 6.78                                                                                      | 12,389                                                                                    | 12,378                                                                                               | 12,176                                                                                         |
 | Dec 09, 22                                               | Since Inception                                          | 7.37                                                                      | 7.38                                                                                 | 7.09                                                                                      | 12,957                                                                                    | 12,961                                                                                               | 12,837                                                                                         |
 | #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index. | #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index. | #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.                  | #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.                             | #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.                                  | #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.                                  | #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.                                             | #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.                                       |
+
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 25: HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Period = Last 1 Year; HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Scheme Benchmark - Returns - (%) = 5.56; HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.57; HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,556; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,557; ₹ 12.9573 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 23: HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Period = Last 3 Years; HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Scheme Benchmark - Returns - (%) = 7.39; HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.36; HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,389; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,378; ₹ 12.9573 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Dec 09, 22: HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Period = Since Inception; HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Scheme Benchmark - Returns - (%) = 7.37; HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.38; HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 7.09; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,957; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,961; ₹ 12.9573 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,837
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.: HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Period = #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Scheme Benchmark - Returns - (%) = #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC JUN 2027 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.; ₹ 12.9573 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY G-Sec Jun 2027 Index ##CRISIL 10 Year Gilt Index.
+
 
 | HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Date              | HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Period            | HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark   | ₹ 13.1614 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |----------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
@@ -10460,12 +13661,26 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Mar 15, 23                                               | Since Inception                                          | 8.46                                                                      | 8.10                                                                                 | 7.19                                                                                      | 13,161                                                                                  | 13,011                                                                                                   | 12,644                                                                                             |
 | #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index. | #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index. | #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.                  | #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.                             | #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.                                  | #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.                                | #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.                                                 | #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.                                           |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 25: HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Period = Last 1 Year; HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Scheme Benchmark - Returns - (%) = 4.55; HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 3.70; HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 10,455; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 10,370; ₹ 13.1614 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 23: HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Period = Last 3 Years; HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Scheme Benchmark - Returns - (%) = 7.96; HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.67; HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 12,585; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 12,485; ₹ 13.1614 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Mar 15, 23: HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Period = Since Inception; HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Scheme Benchmark - Returns - (%) = 8.46; HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 8.10; HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 7.19; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 13,161; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 13,011; ₹ 13.1614 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 12,644
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.: HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Period = #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Scheme Benchmark - Returns - (%) = #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC JUN 2036 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.; ₹ 13.1614 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY G-Sec Jun 2036 Index ##CRISIL 10 Year Gilt Index.
+
+
 | HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Date              | HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Period            | HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 13.274 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |----------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | Jul 31, 25                                               | Last 1 Year                                              | 4.89                                                                      | 5.22                                                                                 | 2.27                                                                                      | 10,489                                                                                    | 10,522                                                                                               | 10,227                                                                                        |
 | Jul 31, 23                                               | Last 3 Years                                             | 8.00                                                                      | 8.28                                                                                 | 6.78                                                                                      | 12,601                                                                                    | 12,698                                                                                               | 12,176                                                                                        |
 | Dec 09, 22                                               | Since Inception                                          | 8.08                                                                      | 8.35                                                                                 | 7.09                                                                                      | 13,274                                                                                    | 13,395                                                                                               | 12,837                                                                                        |
 | #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index. | #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index. | #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.                  | #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.                             | #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.                                  | #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.                                  | #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.                                             | #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.                                      |
+
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 25: HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Period = Last 1 Year; HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Scheme Benchmark - Returns - (%) = 4.89; HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.22; HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,489; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,522; ₹ 13.274 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 23: HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Period = Last 3 Years; HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Scheme Benchmark - Returns - (%) = 8.00; HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 8.28; HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,601; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,698; ₹ 13.274 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Dec 09, 22: HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Period = Since Inception; HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Scheme Benchmark - Returns - (%) = 8.08; HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 8.35; HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 7.09; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,274; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,395; ₹ 13.274 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,837
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.: HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Period = #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Scheme Benchmark - Returns - (%) = #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY G-SEC SEP 2032 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.; ₹ 13.274 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY G-Sec Sep 2032 Index ##CRISIL 10 Year Gilt Index.
+
 
 | HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Date              | HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Period            | HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Scheme Benchmark - Returns (%)   | HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Scheme Benchmark - Returns - (%)#   | HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Additional - Benchmark Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹)        | NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)#   | ₹ 12.7345 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)##   |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -10474,12 +13689,26 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Mar 23, 23                                                              | Since Inception                                                         | 7.46                                                                                   | 7.68                                                                                      | 7.15                                                                                           | 12,735                                                                  | 12,820                                                                              | 12,610                                                                           |
 | #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index. | #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index. | #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.                | #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.                   | #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.                        | #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index. | #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.             | #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.          |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 25: HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Period = Last 1 Year; HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Scheme Benchmark - Returns (%) = 5.71; HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Scheme Benchmark - Returns - (%)# = 5.83; HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Additional - Benchmark Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 10,571; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# = 10,583; ₹ 12.7345 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)## = 10,227
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 23: HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Period = Last 3 Years; HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Scheme Benchmark - Returns (%) = 7.43; HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Scheme Benchmark - Returns - (%)# = 7.63; HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Additional - Benchmark Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 12,402; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# = 12,471; ₹ 12.7345 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)## = 12,176
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Mar 23, 23: HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Period = Since Inception; HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Scheme Benchmark - Returns (%) = 7.46; HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Scheme Benchmark - Returns - (%)# = 7.68; HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Additional - Benchmark Returns - (%)## = 7.15; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 12,735; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# = 12,820; ₹ 12.7345 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)## = 12,610
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.: HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Period = #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Scheme Benchmark - Returns (%) = #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Scheme Benchmark - Returns - (%)# = #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY SDL PLUS G-SEC JUN 2027 40:60 INDEX FUND - Additional - Benchmark Returns - (%)## = #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# = #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.; ₹ 12.7345 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)## = #NIFTY SDL Plus G-Sec Jun 2027 40:60 Index ##CRISIL 10 Year Gilt Index.
+
+
 | HDFC NIFTY SDL OCT 2026 INDEX FUND - Date              | HDFC NIFTY SDL OCT 2026 INDEX FUND - Period            | HDFC NIFTY SDL OCT 2026 INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY SDL OCT 2026 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY SDL OCT 2026 INDEX FUND - Additional - Returns Benchmark - Returns (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)#   | ₹ 12.7935 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)##   |
 |--------------------------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | Jul 31, 25                                             | Last 1 Year                                            | 5.66                                                                    | 5.85                                                                               | 2.27                                                                                  | 10,566                                                             | 10,585                                                                              | 10,227                                                                           |
 | Jul 31, 23                                             | Last 3 Years                                           | 7.22                                                                    | 7.45                                                                               | 6.78                                                                                  | 12,329                                                             | 12,410                                                                              | 12,176                                                                           |
 | Feb 24, 23                                             | Since Inception                                        | 7.44                                                                    | 7.63                                                                               | 7.33                                                                                  | 12,794                                                             | 12,870                                                                              | 12,747                                                                           |
 | #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index. | #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index. | #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.                  | #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.                             | #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.                                | #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.             | #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.                              | #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.                           |
+
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 25: HDFC NIFTY SDL OCT 2026 INDEX FUND - Period = Last 1 Year; HDFC NIFTY SDL OCT 2026 INDEX FUND - Scheme Benchmark - Returns - (%) = 5.66; HDFC NIFTY SDL OCT 2026 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.85; HDFC NIFTY SDL OCT 2026 INDEX FUND - Additional - Returns Benchmark - Returns (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 10,566; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# = 10,585; ₹ 12.7935 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)## = 10,227
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Jul 31, 23: HDFC NIFTY SDL OCT 2026 INDEX FUND - Period = Last 3 Years; HDFC NIFTY SDL OCT 2026 INDEX FUND - Scheme Benchmark - Returns - (%) = 7.22; HDFC NIFTY SDL OCT 2026 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.45; HDFC NIFTY SDL OCT 2026 INDEX FUND - Additional - Returns Benchmark - Returns (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 12,329; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# = 12,410; ₹ 12.7935 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)## = 12,176
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — Feb 24, 23: HDFC NIFTY SDL OCT 2026 INDEX FUND - Period = Since Inception; HDFC NIFTY SDL OCT 2026 INDEX FUND - Scheme Benchmark - Returns - (%) = 7.44; HDFC NIFTY SDL OCT 2026 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.63; HDFC NIFTY SDL OCT 2026 INDEX FUND - Additional - Returns Benchmark - Returns (%)## = 7.33; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 12,794; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# = 12,870; ₹ 12.7935 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)## = 12,747
+- CO-MANAGED BY ANUPAM JOSHI &amp; SANKALP BAID — #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.: HDFC NIFTY SDL OCT 2026 INDEX FUND - Period = #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY SDL OCT 2026 INDEX FUND - Scheme Benchmark - Returns - (%) = #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY SDL OCT 2026 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.; HDFC NIFTY SDL OCT 2026 INDEX FUND - Additional - Returns Benchmark - Returns (%)## = #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# = #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.; ₹ 12.7935 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)## = #NIFTY SDL Oct 2026 Index ##CRISIL 10 Year Gilt Index.
+
 
 ## CO-MANAGED BY ANUPAM JOSHI &amp; SRINIVASAN RAMAMURTHY
 
@@ -10493,6 +13722,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 29, 16                       | Last 10 Years                      | 11.61                                        | 10.71                                                          | 12.27                                                    | 30,029                                                                              | 27,700                                                                              | 31,857                                                                |
 | Jan 01, 13                       | Since Inception                    | 13.64                                        | 10.91                                                          | 12.30                                                    | 56,823                                                                              | 40,832                                                                              | 48,362                                                                |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ANUPAM JOSHI &amp; SRINIVASAN RAMAMURTHY — Jul 31, 25: HDFC HYBRID EQUITY FUND - Period = Last 1 Year; HDFC HYBRID EQUITY FUND - Scheme Benchmark = -2.71; HDFC HYBRID EQUITY FUND - Scheme Benchmark - Returns Returns = 0.72; HDFC HYBRID EQUITY FUND - Additional - Returns Returns = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 9,729; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 10,072; ₹ 125.306 - Value of ₹10,000 invested - Scheme Benchmark Additional = 9,957
+- CO-MANAGED BY ANUPAM JOSHI &amp; SRINIVASAN RAMAMURTHY — Jul 31, 23: HDFC HYBRID EQUITY FUND - Period = Last 3 Years; HDFC HYBRID EQUITY FUND - Scheme Benchmark = 7.21; HDFC HYBRID EQUITY FUND - Scheme Benchmark - Returns Returns = 7.94; HDFC HYBRID EQUITY FUND - Additional - Returns Returns = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 12,326; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 12,579; ₹ 125.306 - Value of ₹10,000 invested - Scheme Benchmark Additional = 12,798
+- CO-MANAGED BY ANUPAM JOSHI &amp; SRINIVASAN RAMAMURTHY — Jul 30, 21: HDFC HYBRID EQUITY FUND - Period = Last 5 Years; HDFC HYBRID EQUITY FUND - Scheme Benchmark = 9.70; HDFC HYBRID EQUITY FUND - Scheme Benchmark - Returns Returns = 8.91; HDFC HYBRID EQUITY FUND - Additional - Returns Returns = 10.39; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 15,897; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 15,331; ₹ 125.306 - Value of ₹10,000 invested - Scheme Benchmark Additional = 16,405
+- CO-MANAGED BY ANUPAM JOSHI &amp; SRINIVASAN RAMAMURTHY — Jul 29, 16: HDFC HYBRID EQUITY FUND - Period = Last 10 Years; HDFC HYBRID EQUITY FUND - Scheme Benchmark = 11.61; HDFC HYBRID EQUITY FUND - Scheme Benchmark - Returns Returns = 10.71; HDFC HYBRID EQUITY FUND - Additional - Returns Returns = 12.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 30,029; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 27,700; ₹ 125.306 - Value of ₹10,000 invested - Scheme Benchmark Additional = 31,857
+- CO-MANAGED BY ANUPAM JOSHI &amp; SRINIVASAN RAMAMURTHY — Jan 01, 13: HDFC HYBRID EQUITY FUND - Period = Since Inception; HDFC HYBRID EQUITY FUND - Scheme Benchmark = 13.64; HDFC HYBRID EQUITY FUND - Scheme Benchmark - Returns Returns = 10.91; HDFC HYBRID EQUITY FUND - Additional - Returns Returns = 12.30; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 56,823; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 40,832; ₹ 125.306 - Value of ₹10,000 invested - Scheme Benchmark Additional = 48,362
+
+
 #NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments.
 
 | HDFC HYBRID DEBT FUND - Date   | HDFC HYBRID DEBT FUND - Period   |   HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%) |   HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%)# |   HDFC HYBRID DEBT FUND - Additional - Benchmark - Returns - (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark |   ₹ 90.0462 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## |
@@ -10503,6 +13740,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 29, 16                     | Last 10 Years                    |                                                       8.64 |                                                        7.83 |                                                               5.92 |                                                                                    22,927 |                                                                                               21,274 |                                                                                         17,781 |
 | Jan 01, 13                     | Since Inception                  |                                                       9.43 |                                                        8.34 |                                                               6.41 |                                                                                    34,012 |                                                                                               29,702 |                                                                                         23,258 |
 
+**Table values by row and column (derived from the table above):**
+- NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments. — Jul 31, 25: HDFC HYBRID DEBT FUND - Period = Last 1 Year; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%) = 2.99; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%)# = 2.03; HDFC HYBRID DEBT FUND - Additional - Benchmark - Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,299; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,203; ₹ 90.0462 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments. — Jul 31, 23: HDFC HYBRID DEBT FUND - Period = Last 3 Years; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%) = 8.10; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%)# = 6.73; HDFC HYBRID DEBT FUND - Additional - Benchmark - Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,636; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,160; ₹ 90.0462 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments. — Jul 30, 21: HDFC HYBRID DEBT FUND - Period = Last 5 Years; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%) = 8.47; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%)# = 6.48; HDFC HYBRID DEBT FUND - Additional - Benchmark - Returns - (%)## = 5.34; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 15,024; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,696; ₹ 90.0462 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,971
+- NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments. — Jul 29, 16: HDFC HYBRID DEBT FUND - Period = Last 10 Years; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%) = 8.64; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%)# = 7.83; HDFC HYBRID DEBT FUND - Additional - Benchmark - Returns - (%)## = 5.92; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 22,927; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 21,274; ₹ 90.0462 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,781
+- NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) ##Nifty 50 Index (TRI). Scheme performance may not strictly be comparable with that of its Additional Benchmark in view of balanced nature of the scheme where a portion of scheme's investmen ts are made in debt instruments. — Jan 01, 13: HDFC HYBRID DEBT FUND - Period = Since Inception; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%) = 9.43; HDFC HYBRID DEBT FUND - Scheme Benchmark - Returns - (%)# = 8.34; HDFC HYBRID DEBT FUND - Additional - Benchmark - Returns - (%)## = 6.41; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 34,012; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 29,702; ₹ 90.0462 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 23,258
+
+
 ## CO-MANAGED BY ARUN AGARWAL &amp; NANDITA MENEZES
 
 | HDFC BSE 500 INDEX FUND - Date               | HDFC BSE 500 INDEX FUND - Period             | HDFC BSE 500 INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC BSE 500 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC BSE 500 INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark   | ₹ 15.8474 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)##   |
@@ -10512,9 +13757,20 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Apr 21, 23                                   | Since Inception                              | 15.07                                                        | 15.76                                                                   | 11.81                                                                        | 15,847                                                                                  | 16,162                                                                                                   | 14,423                                                                                             |
 | #BSE 500 Index (TRI) ##Nifty 50 Index (TRI). | #BSE 500 Index (TRI) ##Nifty 50 Index (TRI). | #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).                 | #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).                            | #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).                                 | #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).                                            | #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).                                                             | #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).                                                       |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ARUN AGARWAL &amp; NANDITA MENEZES — Jul 31, 25: HDFC BSE 500 INDEX FUND - Period = Last 1 Year; HDFC BSE 500 INDEX FUND - Scheme Benchmark - Returns - (%) = 2.62; HDFC BSE 500 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 2.98; HDFC BSE 500 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 10,262; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 10,298; ₹ 15.8474 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- CO-MANAGED BY ARUN AGARWAL &amp; NANDITA MENEZES — Jul 31, 23: HDFC BSE 500 INDEX FUND - Period = Last 3 Years; HDFC BSE 500 INDEX FUND - Scheme Benchmark - Returns - (%) = 11.27; HDFC BSE 500 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 11.88; HDFC BSE 500 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 13,779; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 14,010; ₹ 15.8474 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- CO-MANAGED BY ARUN AGARWAL &amp; NANDITA MENEZES — Apr 21, 23: HDFC BSE 500 INDEX FUND - Period = Since Inception; HDFC BSE 500 INDEX FUND - Scheme Benchmark - Returns - (%) = 15.07; HDFC BSE 500 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 15.76; HDFC BSE 500 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 11.81; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 15,847; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 16,162; ₹ 15.8474 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 14,423
+- CO-MANAGED BY ARUN AGARWAL &amp; NANDITA MENEZES — #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).: HDFC BSE 500 INDEX FUND - Period = #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).; HDFC BSE 500 INDEX FUND - Scheme Benchmark - Returns - (%) = #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).; HDFC BSE 500 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).; HDFC BSE 500 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).; ₹ 15.8474 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = #BSE 500 Index (TRI) ##Nifty 50 Index (TRI).
+
+
 | HDFC BSE INDIA SECTOR LEADERS INDEX FUND - Date   | HDFC BSE INDIA SECTOR LEADERS INDEX FUND - Period   |   HDFC BSE INDIA SECTOR LEADERS INDEX FUND - Scheme Benchmark Additional - Returns (%) |   HDFC BSE INDIA SECTOR LEADERS INDEX FUND - Scheme Benchmark Additional - Returns - (%)# |   HDFC BSE INDIA SECTOR LEADERS INDEX FUND - Scheme Benchmark Additional - Benchmark Returns (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# Benchmark |   ₹ 9.6328 - Value of ₹10,000 invested - Benchmark Additional - (₹)## |
 |---------------------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | Jan 30, 26                                        | Last 6 Months                                       |                                                                                   1.84 |                                                                                      6.42 |                                                                                              -5.98 |                                                             10,092 |                                                                                        10,320 |                                                                 9,702 |
+
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ARUN AGARWAL &amp; NANDITA MENEZES — Jan 30, 26: HDFC BSE INDIA SECTOR LEADERS INDEX FUND - Period = Last 6 Months; HDFC BSE INDIA SECTOR LEADERS INDEX FUND - Scheme Benchmark Additional - Returns (%) = 1.84; HDFC BSE INDIA SECTOR LEADERS INDEX FUND - Scheme Benchmark Additional - Returns - (%)# = 6.42; HDFC BSE INDIA SECTOR LEADERS INDEX FUND - Scheme Benchmark Additional - Benchmark Returns (%)## = -5.98; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 10,092; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# Benchmark = 10,320; ₹ 9.6328 - Value of ₹10,000 invested - Benchmark Additional - (₹)## = 9,702
+
 
 #BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%.
 
@@ -10538,6 +13794,13 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Oct 06, 21                                                                                                                                                   | Since Inception                                                                                                                                              | 17.12                                                                                                                                                        | 17.82                                                                                                                                                        | 8.23                                                                                                                                                         | 21,418                                                                                                                                                       | 22,038                                                                                                                                                       | 14,640                                                                                                                                                       |
 | #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI). | #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI). | #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI). | #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI). | #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI). | #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI). | #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI). | #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI). |
 
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Period = Last 1 Year; HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Scheme Benchmark - Returns = 29.13; HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Scheme Benchmark - Returns = 31.16; HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Additional - Benchmark = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 12,913; NAV as at July 31, 2026 - Value of ₹10,000 invested = 13,116; ₹ 21.418 - Value of ₹10,000 invested = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 23: HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Period = Last 3 Years; HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Scheme Benchmark - Returns = 23.39; HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Scheme Benchmark - Returns = 24.09; HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Additional - Benchmark = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 18,798; NAV as at July 31, 2026 - Value of ₹10,000 invested = 19,119; ₹ 21.418 - Value of ₹10,000 invested = 12,798
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Oct 06, 21: HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Period = Since Inception; HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Scheme Benchmark - Returns = 17.12; HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Scheme Benchmark - Returns = 17.82; HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Additional - Benchmark = 8.23; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = 21,418; NAV as at July 31, 2026 - Value of ₹10,000 invested = 22,038; ₹ 21.418 - Value of ₹10,000 invested = 14,640
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI).: HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Period = #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI).; HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Scheme Benchmark - Returns = #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI).; HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Scheme Benchmark - Returns = #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI).; HDFC DEVELOPED WORLDOVERSEAS EQUITY PASSIVE FOF - Additional - Benchmark = #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional = #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested = #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI).; ₹ 21.418 - Value of ₹10,000 invested = #MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag). ##Nifty 50 Index (TRI).
+
+
 | HDFC GOLD ETF FUND OF FUND - Date   | HDFC GOLD ETF FUND OF FUND - Period   | HDFC GOLD ETF FUND OF FUND - Scheme Returns (%)   | HDFC GOLD ETF FUND OF FUND - Benchmark Returns (%)#   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹)   | ₹ 44.1725 - Value of ₹10,000 invested - Benchmark (₹)#   |
 |-------------------------------------|---------------------------------------|---------------------------------------------------|-------------------------------------------------------|--------------------------------------------------------------------|----------------------------------------------------------|
 | Jul 31, 25                          | Last 1 Year                           | 42.43                                             | 45.01                                                 | 14,243                                                             | 14,501                                                   |
@@ -10547,10 +13810,24 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jan 01, 13                          | Since Inception                       | 10.73                                             | 12.00                                                 | 39,944                                                             | 46,630                                                   |
 | #Domestic Price of Physical Gold.   | #Domestic Price of Physical Gold.     | #Domestic Price of Physical Gold.                 | #Domestic Price of Physical Gold.                     | #Domestic Price of Physical Gold.                                  | #Domestic Price of Physical Gold.                        |
 
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC GOLD ETF FUND OF FUND - Period = Last 1 Year; HDFC GOLD ETF FUND OF FUND - Scheme Returns (%) = 42.43; HDFC GOLD ETF FUND OF FUND - Benchmark Returns (%)# = 45.01; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 14,243; ₹ 44.1725 - Value of ₹10,000 invested - Benchmark (₹)# = 14,501
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 23: HDFC GOLD ETF FUND OF FUND - Period = Last 3 Years; HDFC GOLD ETF FUND OF FUND - Scheme Returns (%) = 32.16; HDFC GOLD ETF FUND OF FUND - Benchmark Returns (%)# = 33.74; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 23,100; ₹ 44.1725 - Value of ₹10,000 invested - Benchmark (₹)# = 23,941
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 30, 21: HDFC GOLD ETF FUND OF FUND - Period = Last 5 Years; HDFC GOLD ETF FUND OF FUND - Scheme Returns (%) = 22.78; HDFC GOLD ETF FUND OF FUND - Benchmark Returns (%)# = 24.06; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 27,938; ₹ 44.1725 - Value of ₹10,000 invested - Benchmark (₹)# = 29,419
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 29, 16: HDFC GOLD ETF FUND OF FUND - Period = Last 10 Years; HDFC GOLD ETF FUND OF FUND - Scheme Returns (%) = 15.40; HDFC GOLD ETF FUND OF FUND - Benchmark Returns (%)# = 16.17; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 41,954; ₹ 44.1725 - Value of ₹10,000 invested - Benchmark (₹)# = 44,827
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jan 01, 13: HDFC GOLD ETF FUND OF FUND - Period = Since Inception; HDFC GOLD ETF FUND OF FUND - Scheme Returns (%) = 10.73; HDFC GOLD ETF FUND OF FUND - Benchmark Returns (%)# = 12.00; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 39,944; ₹ 44.1725 - Value of ₹10,000 invested - Benchmark (₹)# = 46,630
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #Domestic Price of Physical Gold.: HDFC GOLD ETF FUND OF FUND - Period = #Domestic Price of Physical Gold.; HDFC GOLD ETF FUND OF FUND - Scheme Returns (%) = #Domestic Price of Physical Gold.; HDFC GOLD ETF FUND OF FUND - Benchmark Returns (%)# = #Domestic Price of Physical Gold.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = #Domestic Price of Physical Gold.; ₹ 44.1725 - Value of ₹10,000 invested - Benchmark (₹)# = #Domestic Price of Physical Gold.
+
+
 | HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Date   | HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Period   |   HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Scheme Benchmark - Returns (%) |   HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Scheme Benchmark - Returns Benchmark - (%)# |   HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Additional - Returns Benchmark - Returns - (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark |   ₹ 10.6834 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## |
 |-----------------------------------------------|-------------------------------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Jul 31, 25                                    | Last 1 Year                                     |                                                                    3.55 |                                                                                 4.08 |                                                                                     -0.43 |                                                                                    10,355 |                                                                                               10,408 |                                                                                          9,957 |
 | Jul 10, 24                                    | Since Inception                                 |                                                                    3.27 |                                                                                 3.74 |                                                                                      1.32 |                                                                                    10,683 |                                                                                               10,785 |                                                                                         10,274 |
+
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Period = Last 1 Year; HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Scheme Benchmark - Returns (%) = 3.55; HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Scheme Benchmark - Returns Benchmark - (%)# = 4.08; HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,355; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,408; ₹ 10.6834 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 10, 24: HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Period = Since Inception; HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Scheme Benchmark - Returns (%) = 3.27; HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Scheme Benchmark - Returns Benchmark - (%)# = 3.74; HDFC NIFTY100 LOWVOLATILITY 30 INDEX - Additional - Returns Benchmark - Returns - (%)## = 1.32; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,683; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,785; ₹ 10.6834 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,274
+
 
 | HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Date               | HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Period             | HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Scheme Benchmark - Returns (%)   | HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark   | ₹ 10.2785 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
@@ -10558,11 +13835,23 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Oct 09, 24                                                 | Since Inception                                            | 1.53                                                                     | 1.86                                                                                  | -0.13                                                                                      | 10,279                                                                                  | 10,339                                                                                                   | 9,977                                                                                              |
 | #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI). | #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI). | #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).               | #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).                            | #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).                                 | #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).                              | #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).                                               | #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).                                         |
 
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Period = Last 1 Year; HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Scheme Benchmark - Returns (%) = 4.96; HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.27; HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 10,496; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 10,527; ₹ 10.2785 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Oct 09, 24: HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Period = Since Inception; HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Scheme Benchmark - Returns (%) = 1.53; HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 1.86; HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = -0.13; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = 10,279; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = 10,339; ₹ 10.2785 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = 9,977
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).: HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Period = #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Scheme Benchmark - Returns (%) = #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY LARGEMIDCAP 250 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional = #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark = #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).; ₹ 10.2785 - Value of ₹10,000 invested - Scheme (₹) Benchmark Additional - (₹)# Benchmark - (₹)## = #Nifty LargeMidcap 250 Index (TRI) ##Nifty 50 Index (TRI).
+
+
 | HDFCNIFTY200MOMENTUM30INDEXFUND - Date                                  | HDFCNIFTY200MOMENTUM30INDEXFUND - Period                                | HDFCNIFTY200MOMENTUM30INDEXFUND - Scheme Benchmark - Returns - (%)      | HDFCNIFTY200MOMENTUM30INDEXFUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFCNIFTY200MOMENTUM30INDEXFUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 10.2495 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Jul 31, 25                                                              | Last 1 Year                                                             | 1.05                                                                    | 1.85                                                                            | -0.43                                                                                | 10,105                                                                                    | 10,185                                                                                               | 9,957                                                                                          |
 | Feb 28, 24                                                              | Since Inception                                                         | 1.02                                                                    | 1.84                                                                            | 5.75                                                                                 | 10,250                                                                                    | 10,451                                                                                               | 11,450                                                                                         |
 | #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).         | #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).              | #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).                   | #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).                              | #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).                        |
+
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFCNIFTY200MOMENTUM30INDEXFUND - Period = Last 1 Year; HDFCNIFTY200MOMENTUM30INDEXFUND - Scheme Benchmark - Returns - (%) = 1.05; HDFCNIFTY200MOMENTUM30INDEXFUND - Scheme Benchmark - Returns Benchmark - (%)# = 1.85; HDFCNIFTY200MOMENTUM30INDEXFUND - Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,105; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,185; ₹ 10.2495 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Feb 28, 24: HDFCNIFTY200MOMENTUM30INDEXFUND - Period = Since Inception; HDFCNIFTY200MOMENTUM30INDEXFUND - Scheme Benchmark - Returns - (%) = 1.02; HDFCNIFTY200MOMENTUM30INDEXFUND - Scheme Benchmark - Returns Benchmark - (%)# = 1.84; HDFCNIFTY200MOMENTUM30INDEXFUND - Additional - Returns Benchmark - Returns - (%)## = 5.75; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,250; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,451; ₹ 10.2495 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 11,450
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).: HDFCNIFTY200MOMENTUM30INDEXFUND - Period = #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFCNIFTY200MOMENTUM30INDEXFUND - Scheme Benchmark - Returns - (%) = #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFCNIFTY200MOMENTUM30INDEXFUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFCNIFTY200MOMENTUM30INDEXFUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; ₹ 10.2495 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY200 Momentum 30 Total Returns Index (TRI) ##Nifty 50 Index (TRI).
+
 
 | HDFC NIFTY MIDCAP 150 INDEX FUND - Date               | HDFC NIFTY MIDCAP 150 INDEX FUND - Period             | HDFC NIFTY MIDCAP 150 INDEX FUND - Scheme Benchmark - Returns   | HDFC NIFTY MIDCAP 150 INDEX FUND - Scheme Benchmark - Returns Benchmark   | HDFC NIFTY MIDCAP 150 INDEX FUND - Additional - Returns Benchmark   | NAV as at July 31, 2026 - Value of ₹10,000 invested   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark   | ₹ 19.7673 - Value of ₹10,000 invested - Scheme Benchmark   |
 |-------------------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------|-------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------|
@@ -10573,12 +13862,26 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Apr 21, 23                                            | Since Inception                                       | 23.10                                                           | 23.86                                                                     | 11.81                                                               | 19,767                                                | 20,173                                                                   | 14,423                                                     |
 | #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).           | #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).                     | #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).               | #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).                    | #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).      |
 
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY MIDCAP 150 INDEX FUND - Period = Last 1 Year; HDFC NIFTY MIDCAP 150 INDEX FUND - Scheme Benchmark - Returns = 8.55; HDFC NIFTY MIDCAP 150 INDEX FUND - Scheme Benchmark - Returns Benchmark = 9.01; HDFC NIFTY MIDCAP 150 INDEX FUND - Additional - Returns Benchmark = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested = 10,855; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 10,901; ₹ 19.7673 - Value of ₹10,000 invested - Scheme Benchmark = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 23: HDFC NIFTY MIDCAP 150 INDEX FUND - Period = Last 3 Years; HDFC NIFTY MIDCAP 150 INDEX FUND - Scheme Benchmark - Returns = 17.93; HDFC NIFTY MIDCAP 150 INDEX FUND - Scheme Benchmark - Returns Benchmark = 18.53; HDFC NIFTY MIDCAP 150 INDEX FUND - Additional - Returns Benchmark = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested = 16,407; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 16,659; ₹ 19.7673 - Value of ₹10,000 invested - Scheme Benchmark = 12,798
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Apr 21, 23: HDFC NIFTY MIDCAP 150 INDEX FUND - Period = Since Inception; HDFC NIFTY MIDCAP 150 INDEX FUND - Scheme Benchmark - Returns = 23.10; HDFC NIFTY MIDCAP 150 INDEX FUND - Scheme Benchmark - Returns Benchmark = 23.86; HDFC NIFTY MIDCAP 150 INDEX FUND - Additional - Returns Benchmark = 11.81; NAV as at July 31, 2026 - Value of ₹10,000 invested = 19,767; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = 20,173; ₹ 19.7673 - Value of ₹10,000 invested - Scheme Benchmark = 14,423
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).: HDFC NIFTY MIDCAP 150 INDEX FUND - Period = #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY MIDCAP 150 INDEX FUND - Scheme Benchmark - Returns = #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY MIDCAP 150 INDEX FUND - Scheme Benchmark - Returns Benchmark = #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY MIDCAP 150 INDEX FUND - Additional - Returns Benchmark = #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested = #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark = #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).; ₹ 19.7673 - Value of ₹10,000 invested - Scheme Benchmark = #NIFTY Midcap 150 Index (TRI) ##Nifty 50 Index (TRI).
+
+
 | HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Date                             | HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Period                           | HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 17.8691 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |---------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Jul 31, 25                                                                | Last 1 Year                                                               | 9.32                                                                        | 9.94                                                                                   | -0.43                                                                                       | 10,932                                                                                    | 10,994                                                                                               | 9,957                                                                                          |
 | Jul 31, 23                                                                | Last 3 Years                                                              | 15.61                                                                       | 16.29                                                                                  | 8.56                                                                                        | 15,458                                                                                    | 15,733                                                                                               | 12,798                                                                                         |
 | Feb 23, 22                                                                | Since Inception                                                           | 13.98                                                                       | 14.70                                                                                  | 9.70                                                                                        | 17,869                                                                                    | 18,371                                                                                               | 15,077                                                                                         |
 | #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).   | #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).              | #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).                   | #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).                 | #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).                            | #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).                      |
+
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Period = Last 1 Year; HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns - (%) = 9.32; HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 9.94; HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,932; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,994; ₹ 17.8691 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 23: HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Period = Last 3 Years; HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns - (%) = 15.61; HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 16.29; HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 15,458; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 15,733; ₹ 17.8691 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Feb 23, 22: HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Period = Since Inception; HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns - (%) = 13.98; HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 14.70; HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 9.70; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 17,869; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 18,371; ₹ 17.8691 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 15,077
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).: HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Period = #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns - (%) = #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY 100 EQUAL WEIGHT INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).; ₹ 17.8691 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY 100 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).
+
 
 | HDFC NIFTY 50 INDEX FUND - Date                 | HDFC NIFTY 50 INDEX FUND - Period               | HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%)#   | HDFC NIFTY 50 INDEX FUND - Additional - Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 238.446 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |-------------------------------------------------|-------------------------------------------------|---------------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -10589,12 +13892,28 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jan 01, 13                                      | Since Inception                                 | 11.96                                                         | 12.30                                                          | 12.16                                                                 | 46,409                                                                                    | 48,362                                                                                               | 47,563                                                                                         |
 | #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI). | #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI). | #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).               | #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).                | #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).                       | #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).                                           | #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).                                                      | #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).                                                |
 
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY 50 INDEX FUND - Period = Last 1 Year; HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%) = -0.68; HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%)# = -0.43; HDFC NIFTY 50 INDEX FUND - Additional - Benchmark - Returns - (%)## = -2.76; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 9,932; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 9,957; ₹ 238.446 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,724
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 23: HDFC NIFTY 50 INDEX FUND - Period = Last 3 Years; HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%) = 8.27; HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%)# = 8.56; HDFC NIFTY 50 INDEX FUND - Additional - Benchmark - Returns - (%)## = 6.75; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,695; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,798; ₹ 238.446 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,168
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 30, 21: HDFC NIFTY 50 INDEX FUND - Period = Last 5 Years; HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%) = 10.10; HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%)# = 10.39; HDFC NIFTY 50 INDEX FUND - Additional - Benchmark - Returns - (%)## = 9.53; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 16,185; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 16,405; ₹ 238.446 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 15,771
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 29, 16: HDFC NIFTY 50 INDEX FUND - Period = Last 10 Years; HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%) = 11.91; HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%)# = 12.27; HDFC NIFTY 50 INDEX FUND - Additional - Benchmark - Returns - (%)## = 12.10; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 30,850; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 31,857; ₹ 238.446 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 31,377
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jan 01, 13: HDFC NIFTY 50 INDEX FUND - Period = Since Inception; HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%) = 11.96; HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%)# = 12.30; HDFC NIFTY 50 INDEX FUND - Additional - Benchmark - Returns - (%)## = 12.16; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 46,409; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 48,362; ₹ 238.446 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 47,563
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).: HDFC NIFTY 50 INDEX FUND - Period = #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).; HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%) = #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).; HDFC NIFTY 50 INDEX FUND - Scheme Benchmark - Returns - (%)# = #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).; HDFC NIFTY 50 INDEX FUND - Additional - Benchmark - Returns - (%)## = #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).; ₹ 238.446 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #Nifty 50 Index (TRI) ##BSE SENSEX Index (TRI).
+
+
 | HDFC NIFTY 100 INDEX FUND - Date                             | HDFC NIFTY 100 INDEX FUND - Period                           | HDFC NIFTY 100 INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY 100 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY 100 INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 15.2157 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |--------------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Jul 31, 25                                                   | Last 1 Year                                                  | 1.19                                                           | 1.54                                                                      | -0.43                                                                          | 10,119                                                                                    | 10,154                                                                                               | 9,957                                                                                          |
 | Jul 31, 23                                                   | Last 3 Years                                                 | 9.80                                                           | 10.23                                                                     | 8.56                                                                           | 13,240                                                                                    | 13,397                                                                                               | 12,798                                                                                         |
 | Feb 23, 22                                                   | Since Inception                                              | 9.93                                                           | 10.42                                                                     | 9.70                                                                           | 15,216                                                                                    | 15,521                                                                                               | 15,077                                                                                         |
 | #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).   | #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).              | #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).                   | #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).                              | #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).                                         | #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).                                   |
+
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY 100 INDEX FUND - Period = Last 1 Year; HDFC NIFTY 100 INDEX FUND - Scheme Benchmark - Returns - (%) = 1.19; HDFC NIFTY 100 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 1.54; HDFC NIFTY 100 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,119; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,154; ₹ 15.2157 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 23: HDFC NIFTY 100 INDEX FUND - Period = Last 3 Years; HDFC NIFTY 100 INDEX FUND - Scheme Benchmark - Returns - (%) = 9.80; HDFC NIFTY 100 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 10.23; HDFC NIFTY 100 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 13,240; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 13,397; ₹ 15.2157 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Feb 23, 22: HDFC NIFTY 100 INDEX FUND - Period = Since Inception; HDFC NIFTY 100 INDEX FUND - Scheme Benchmark - Returns - (%) = 9.93; HDFC NIFTY 100 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 10.42; HDFC NIFTY 100 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 9.70; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 15,216; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 15,521; ₹ 15.2157 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 15,077
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).: HDFC NIFTY 100 INDEX FUND - Period = #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY 100 INDEX FUND - Scheme Benchmark - Returns - (%) = #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY 100 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY 100 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; ₹ 15.2157 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY 100 Total Returns Index (TRI) ##Nifty 50 Index (TRI).
+
 
 | HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Date              | HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Period            | HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Scheme Benchmark   | HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Scheme Benchmark   | HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Additional        | NAV as at July 31, 2026 - Value of ₹10,000 invested      | NAV as at July 31, 2026 - Value of ₹10,000 invested      | ₹ 10.336 - Value of ₹10,000 invested                     |
 |----------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
@@ -10604,11 +13923,23 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Mar 25, 25                                               | Since Inception                                          | 2.48                                                      | 2.91                                                      | 3.60                                                     | 10,336                                                   | 10,395                                                   | 10,489                                                   |
 | #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI). | #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI). | #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI).  | #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI).  | #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI). | #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI). | #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI). | #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI). |
 
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Period = Last 1 Year; HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Scheme Benchmark = 0.86; HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Scheme Benchmark = 1.28; HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Additional = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested = 10,086; NAV as at July 31, 2026 - Value of ₹10,000 invested = 10,128; ₹ 10.336 - Value of ₹10,000 invested = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Mar 25, 25: HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Period = Since Inception; HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Scheme Benchmark = 2.48; HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Scheme Benchmark = 2.91; HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Additional = 3.60; NAV as at July 31, 2026 - Value of ₹10,000 invested = 10,336; NAV as at July 31, 2026 - Value of ₹10,000 invested = 10,395; ₹ 10.336 - Value of ₹10,000 invested = 10,489
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI).: HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Period = #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI).; HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Scheme Benchmark = #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI).; HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Scheme Benchmark = #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI).; HDFC NIFTY TOP 20 EQUAL WEIGHT INDEX - Additional = #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested = #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested = #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI).; ₹ 10.336 - Value of ₹10,000 invested = #Nifty Top 20 Equal Weight Index (TRI) ##Nifty 50 (TRI).
+
+
 | HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Date                    | HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Period                  | HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Scheme Benchmark - Returns (%)   | HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 10.189 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |-----------------------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | Jul 31, 25                                                      | Last 1 Year                                                     | 4.04                                                                     | 4.46                                                                                  | -0.43                                                                                      | 10,404                                                                                    | 10,446                                                                                               | 9,957                                                                                         |
 | Aug 23, 24                                                      | Since Inception                                                 | 0.97                                                                     | 1.42                                                                                  | 0.21                                                                                       | 10,189                                                                                    | 10,278                                                                                               | 10,041                                                                                        |
 | #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI). | #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI). | #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).          | #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).                       | #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).                            | #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).                           | #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).                                      | #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).                               |
+
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Period = Last 1 Year; HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Scheme Benchmark - Returns (%) = 4.04; HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Scheme Benchmark - Returns Benchmark - (%)# = 4.46; HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,404; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,446; ₹ 10.189 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Aug 23, 24: HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Period = Since Inception; HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Scheme Benchmark - Returns (%) = 0.97; HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Scheme Benchmark - Returns Benchmark - (%)# = 1.42; HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Additional - Returns Benchmark - Returns - (%)## = 0.21; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,189; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,278; ₹ 10.189 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,041
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).: HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Period = #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Scheme Benchmark - Returns (%) = #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Scheme Benchmark - Returns Benchmark - (%)# = #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY500 MULTICAP 50:25:25 INDEX - Additional - Returns Benchmark - Returns - (%)## = #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).; ₹ 10.189 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #Nifty500 Multicap 50:25:25 Index (TRI) ##Nifty 50 Index (TRI).
+
 
 | HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Date                             | HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Period                           | HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 18.9481 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -10617,6 +13948,13 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Aug 20, 21                                                              | Since Inception                                                         | 13.79                                                                     | 14.39                                                                                | 9.56                                                                                      | 18,948                                                                                    | 19,449                                                                                               | 15,712                                                                                         |
 | #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).   | #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).              | #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).                   | #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).                   | #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).                              | #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).                        |
 
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Period = Last 1 Year; HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns - (%) = 8.35; HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 8.90; HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,835; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,890; ₹ 18.9481 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 23: HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Period = Last 3 Years; HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns - (%) = 13.69; HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 14.25; HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 14,699; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 14,920; ₹ 18.9481 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Aug 20, 21: HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Period = Since Inception; HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns - (%) = 13.79; HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 14.39; HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 9.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 18,948; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 19,449; ₹ 18.9481 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 15,712
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).: HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Period = #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns - (%) = #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY50 EQUAL WEIGHT INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).; ₹ 18.9481 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY50 Equal Weight Total Returns Index (TRI) ##Nifty 50 Index (TRI).
+
+
 | HDFC NIFTY INDIA DIGITAL INDEX FUND - Date   | HDFC NIFTY INDIA DIGITAL INDEX FUND - Period   | HDFC NIFTY INDIA DIGITAL INDEX FUND - Scheme Benchmark   | HDFC NIFTY INDIA DIGITAL INDEX FUND - Scheme Benchmark   | HDFC NIFTY INDIA DIGITAL INDEX FUND - Additional   | NAV as at July 31, 2026 - Value of ₹10,000 invested   | NAV as at July 31, 2026 - Value of ₹10,000 invested   | ₹ 8.6085 - Value of ₹10,000 invested   |
 |----------------------------------------------|------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|----------------------------------------|
 |                                              |                                                | Returns                                                  | Returns                                                  | Benchmark Returns                                  |                                                       | Scheme Benchmark                                      | Additional                             |
@@ -10624,12 +13962,24 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 31, 25                                   | Last 1 Year                                    | -3.57                                                    | -3.05                                                    | -0.43                                              | 9,643                                                 | 9,695                                                 | 9,957                                  |
 | Dec 11, 24                                   | Since Inception                                | -8.75                                                    | -8.24                                                    | 0.60                                               | 8,609                                                 | 8,688                                                 | 10,099                                 |
 
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY INDIA DIGITAL INDEX FUND - Period = Last 1 Year; HDFC NIFTY INDIA DIGITAL INDEX FUND - Scheme Benchmark = -3.57; HDFC NIFTY INDIA DIGITAL INDEX FUND - Scheme Benchmark = -3.05; HDFC NIFTY INDIA DIGITAL INDEX FUND - Additional = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested = 9,643; NAV as at July 31, 2026 - Value of ₹10,000 invested = 9,695; ₹ 8.6085 - Value of ₹10,000 invested = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Dec 11, 24: HDFC NIFTY INDIA DIGITAL INDEX FUND - Period = Since Inception; HDFC NIFTY INDIA DIGITAL INDEX FUND - Scheme Benchmark = -8.75; HDFC NIFTY INDIA DIGITAL INDEX FUND - Scheme Benchmark = -8.24; HDFC NIFTY INDIA DIGITAL INDEX FUND - Additional = 0.60; NAV as at July 31, 2026 - Value of ₹10,000 invested = 8,609; NAV as at July 31, 2026 - Value of ₹10,000 invested = 8,688; ₹ 8.6085 - Value of ₹10,000 invested = 10,099
+
+
 | HDFC NIFTY NEXT 50 INDEX FUND - Date                             | HDFC NIFTY NEXT 50 INDEX FUND - Period                           | HDFC NIFTY NEXT 50 INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY NEXT 50 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY NEXT 50 INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 17.4245 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |------------------------------------------------------------------|------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Jul 31, 25                                                       | Last 1 Year                                                      | 10.42                                                              | 10.89                                                                         | -0.43                                                                              | 11,042                                                                                    | 11,089                                                                                               | 9,957                                                                                          |
 | Jul 31, 23                                                       | Last 3 Years                                                     | 17.89                                                              | 18.56                                                                         | 8.56                                                                               | 16,391                                                                                    | 16,672                                                                                               | 12,798                                                                                         |
 | Nov 03, 21                                                       | Since Inception                                                  | 12.42                                                              | 13.08                                                                         | 8.10                                                                               | 17,425                                                                                    | 17,915                                                                                               | 14,470                                                                                         |
 | #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).   | #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).              | #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).                   | #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).                          | #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).                                     | #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).                               |
+
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY NEXT 50 INDEX FUND - Period = Last 1 Year; HDFC NIFTY NEXT 50 INDEX FUND - Scheme Benchmark - Returns - (%) = 10.42; HDFC NIFTY NEXT 50 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 10.89; HDFC NIFTY NEXT 50 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 11,042; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 11,089; ₹ 17.4245 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 23: HDFC NIFTY NEXT 50 INDEX FUND - Period = Last 3 Years; HDFC NIFTY NEXT 50 INDEX FUND - Scheme Benchmark - Returns - (%) = 17.89; HDFC NIFTY NEXT 50 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 18.56; HDFC NIFTY NEXT 50 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 16,391; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 16,672; ₹ 17.4245 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Nov 03, 21: HDFC NIFTY NEXT 50 INDEX FUND - Period = Since Inception; HDFC NIFTY NEXT 50 INDEX FUND - Scheme Benchmark - Returns - (%) = 12.42; HDFC NIFTY NEXT 50 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 13.08; HDFC NIFTY NEXT 50 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 8.10; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 17,425; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 17,915; ₹ 17.4245 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 14,470
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).: HDFC NIFTY NEXT 50 INDEX FUND - Period = #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY NEXT 50 INDEX FUND - Scheme Benchmark - Returns - (%) = #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY NEXT 50 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY NEXT 50 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).; ₹ 17.4245 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Next 50 Total Returns Index (TRI) ##Nifty 50 Index (TRI).
+
 
 Past performance may or may not be sustained in future and is not a guarantee of any future returns. Returns greater than 1 year period are compounded annualized (CAGR). Different plans viz. Regular Plan and Direct Plan have a different expense structure. The expenses of the Direct Plan under the Scheme will be lower to the extent of the distribution expenses / commission charged in the Regular Plan. Load is not taken into consideration for computation of performance. Since Inception Date = Date of First allotment in the Scheme / Plan. N.A.: Not Available For Riskometer of the Schemes and Benchmark's, refer page 80 to 92 .
 
@@ -10647,11 +13997,23 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Feb 20, 25                                               | Since Inception                                          | 6.67                                                                     | 7.09                                                                                | 5.72                                                                                     | 10,975                                                                                    | 11,038                                                                                               | 10,835                                                                                         |
 | #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI). | #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI). | #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).                 | #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).                            | #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).                                 | #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).                                  | #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).                                             | #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).                                       |
 
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY100 QUALITY 30 INDEX FUND - Period = Last 1 Year; HDFC NIFTY100 QUALITY 30 INDEX FUND - Scheme Benchmark - Returns - (%) = 4.14; HDFC NIFTY100 QUALITY 30 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 4.59; HDFC NIFTY100 QUALITY 30 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,414; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,459; ₹ 10.9747 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Feb 20, 25: HDFC NIFTY100 QUALITY 30 INDEX FUND - Period = Since Inception; HDFC NIFTY100 QUALITY 30 INDEX FUND - Scheme Benchmark - Returns - (%) = 6.67; HDFC NIFTY100 QUALITY 30 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 7.09; HDFC NIFTY100 QUALITY 30 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 5.72; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,975; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 11,038; ₹ 10.9747 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,835
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).: HDFC NIFTY100 QUALITY 30 INDEX FUND - Period = #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY100 QUALITY 30 INDEX FUND - Scheme Benchmark - Returns - (%) = #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY100 QUALITY 30 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY100 QUALITY 30 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).; ₹ 10.9747 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #Nifty100 Quality 30 Index (TRI) ##Nifty 50 Index (TRI).
+
+
 | HDFC NIFTY REALTY INDEX FUND - Date               | HDFC NIFTY REALTY INDEX FUND - Period             | HDFC NIFTY REALTY INDEX FUND - Scheme Benchmark - Returns (%)   | HDFC NIFTY REALTY INDEX FUND - Scheme Benchmark - Returns - (%)#   | HDFC NIFTY REALTY INDEX FUND - Additional - Benchmark Returns (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)#   | ₹ 10.1322 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)##   |
 |---------------------------------------------------|---------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | Jul 31, 25                                        | Last 1 Year                                       | -1.18                                                           | -0.74                                                              | -0.43                                                                 | 9,882                                                              | 9,926                                                                               | 9,957                                                                            |
 | Mar 26, 24                                        | Since Inception                                   | 0.56                                                            | 1.03                                                               | 5.83                                                                  | 10,132                                                             | 10,244                                                                              | 11,422                                                                           |
 | #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).               | #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).                  | #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).                     | #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).                  | #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).                                   | #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).                                |
+
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY REALTY INDEX FUND - Period = Last 1 Year; HDFC NIFTY REALTY INDEX FUND - Scheme Benchmark - Returns (%) = -1.18; HDFC NIFTY REALTY INDEX FUND - Scheme Benchmark - Returns - (%)# = -0.74; HDFC NIFTY REALTY INDEX FUND - Additional - Benchmark Returns (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 9,882; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# = 9,926; ₹ 10.1322 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)## = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Mar 26, 24: HDFC NIFTY REALTY INDEX FUND - Period = Since Inception; HDFC NIFTY REALTY INDEX FUND - Scheme Benchmark - Returns (%) = 0.56; HDFC NIFTY REALTY INDEX FUND - Scheme Benchmark - Returns - (%)# = 1.03; HDFC NIFTY REALTY INDEX FUND - Additional - Benchmark Returns (%)## = 5.83; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = 10,132; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# = 10,244; ₹ 10.1322 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)## = 11,422
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).: HDFC NIFTY REALTY INDEX FUND - Period = #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY REALTY INDEX FUND - Scheme Benchmark - Returns (%) = #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY REALTY INDEX FUND - Scheme Benchmark - Returns - (%)# = #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY REALTY INDEX FUND - Additional - Benchmark Returns (%)## = #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme (₹) = #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Benchmark Additional - (₹)# = #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).; ₹ 10.1322 - Value of ₹10,000 invested - Benchmark Additional - Benchmark (₹)## = #NIFTY Realty Index (TRI) ##Nifty 50 Index (TRI).
+
 
 | HDFC NIFTY SMALLCAP 250 INDEX FUND - Date               | HDFC NIFTY SMALLCAP 250 INDEX FUND - Period             | HDFC NIFTY SMALLCAP 250 INDEX FUND - Scheme Benchmark - Returns - (%)   | HDFC NIFTY SMALLCAP 250 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)#   | HDFC NIFTY SMALLCAP 250 INDEX FUND - Additional - Returns Benchmark - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 19.5332 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |---------------------------------------------------------|---------------------------------------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -10659,6 +14021,13 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 31, 23                                              | Last 3 Years                                            | 16.39                                                                   | 17.13                                                                              | 8.56                                                                                    | 15,774                                                                                    | 16,078                                                                                               | 12,798                                                                                         |
 | Apr 21, 23                                              | Since Inception                                         | 22.65                                                                   | 23.60                                                                              | 11.81                                                                                   | 19,533                                                                                    | 20,034                                                                                               | 14,423                                                                                         |
 | #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI). | #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).                 | #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).                            | #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).                                 | #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).                                   | #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).                                              | #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).                                        |
+
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC NIFTY SMALLCAP 250 INDEX FUND - Period = Last 1 Year; HDFC NIFTY SMALLCAP 250 INDEX FUND - Scheme Benchmark - Returns - (%) = 4.66; HDFC NIFTY SMALLCAP 250 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 5.19; HDFC NIFTY SMALLCAP 250 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,466; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,519; ₹ 19.5332 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 23: HDFC NIFTY SMALLCAP 250 INDEX FUND - Period = Last 3 Years; HDFC NIFTY SMALLCAP 250 INDEX FUND - Scheme Benchmark - Returns - (%) = 16.39; HDFC NIFTY SMALLCAP 250 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 17.13; HDFC NIFTY SMALLCAP 250 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 15,774; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 16,078; ₹ 19.5332 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Apr 21, 23: HDFC NIFTY SMALLCAP 250 INDEX FUND - Period = Since Inception; HDFC NIFTY SMALLCAP 250 INDEX FUND - Scheme Benchmark - Returns - (%) = 22.65; HDFC NIFTY SMALLCAP 250 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = 23.60; HDFC NIFTY SMALLCAP 250 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = 11.81; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 19,533; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 20,034; ₹ 19.5332 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 14,423
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).: HDFC NIFTY SMALLCAP 250 INDEX FUND - Period = #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY SMALLCAP 250 INDEX FUND - Scheme Benchmark - Returns - (%) = #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY SMALLCAP 250 INDEX FUND - Scheme Benchmark - Returns Benchmark - (%)# = #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).; HDFC NIFTY SMALLCAP 250 INDEX FUND - Additional - Returns Benchmark - Returns - (%)## = #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).; ₹ 19.5332 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Smallcap 250 Index (TRI) ##Nifty 50 Index (TRI).
+
 
 | HDFC BSE SENSEX INDEX FUND - Date               | HDFC BSE SENSEX INDEX FUND - Period             | HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - (%)   | HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - Returns Returns - (%)#   | HDFC BSE SENSEX INDEX FUND - Additional - Returns Returns - Returns - (%)##   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)   | NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark   | ₹ 746.894 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)##   |
 |-------------------------------------------------|-------------------------------------------------|-------------------------------------------------------|--------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -10669,12 +14038,28 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jan 01, 13                                      | Since Inception                                 | 11.82                                                 | 12.16                                                                    | 12.30                                                                         | 45,644                                                                                    | 47,563                                                                                               | 48,362                                                                                         |
 | #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI). | #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI). | #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).       | #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).                          | #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).                               | #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).                                           | #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).                                                      | #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).                                                |
 
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC BSE SENSEX INDEX FUND - Period = Last 1 Year; HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - (%) = -3.02; HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - Returns Returns - (%)# = -2.76; HDFC BSE SENSEX INDEX FUND - Additional - Returns Returns - Returns - (%)## = -0.43; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 9,698; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 9,724; ₹ 746.894 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 9,957
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 23: HDFC BSE SENSEX INDEX FUND - Period = Last 3 Years; HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - (%) = 6.47; HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - Returns Returns - (%)# = 6.75; HDFC BSE SENSEX INDEX FUND - Additional - Returns Returns - Returns - (%)## = 8.56; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,071; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,168; ₹ 746.894 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,798
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 30, 21: HDFC BSE SENSEX INDEX FUND - Period = Last 5 Years; HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - (%) = 9.24; HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - Returns Returns - (%)# = 9.53; HDFC BSE SENSEX INDEX FUND - Additional - Returns Returns - Returns - (%)## = 10.39; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 15,566; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 15,771; ₹ 746.894 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 16,405
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 29, 16: HDFC BSE SENSEX INDEX FUND - Period = Last 10 Years; HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - (%) = 11.76; HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - Returns Returns - (%)# = 12.10; HDFC BSE SENSEX INDEX FUND - Additional - Returns Returns - Returns - (%)## = 12.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 30,439; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 31,377; ₹ 746.894 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 31,857
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jan 01, 13: HDFC BSE SENSEX INDEX FUND - Period = Since Inception; HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - (%) = 11.82; HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - Returns Returns - (%)# = 12.16; HDFC BSE SENSEX INDEX FUND - Additional - Returns Returns - Returns - (%)## = 12.30; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 45,644; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 47,563; ₹ 746.894 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 48,362
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).: HDFC BSE SENSEX INDEX FUND - Period = #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).; HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - (%) = #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).; HDFC BSE SENSEX INDEX FUND - Scheme Benchmark - Returns Returns - (%)# = #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).; HDFC BSE SENSEX INDEX FUND - Additional - Returns Returns - Returns - (%)## = #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).; ₹ 746.894 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #BSE SENSEX Index (TRI) ##Nifty 50 Index (TRI).
+
+
 | HDFC SILVER ETF FUND OF FUND - Date                                    | HDFC SILVER ETF FUND OF FUND - Period                                  | HDFC SILVER ETF FUND OF FUND - Scheme Returns (%)                      | HDFC SILVER ETF FUND OF FUND - Benchmark Returns (%)#                  | NAV as at July 31, 2026 ₹ 35.6749 - Value of ₹10,000 invested - Scheme (₹)   | NAV as at July 31, 2026 ₹ 35.6749 - Value of ₹10,000 invested - Benchmark (₹)#   |
 |------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | Jul 31, 25                                                             | Last 1 Year                                                            | 91.56                                                                  | 98.73                                                                  | 19,156                                                                       | 19,873                                                                           |
 | Jul 31, 23                                                             | Last 3 Years                                                           | 41.07                                                                  | 43.31                                                                  | 28,102                                                                       | 29,462                                                                           |
 | Oct 28, 22                                                             | Since Inception                                                        | 40.26                                                                  | 42.81                                                                  | 35,675                                                                       | 38,172                                                                           |
 | #Domestic Prices of physical Silver (derived as per regulatory norms). | #Domestic Prices of physical Silver (derived as per regulatory norms). | #Domestic Prices of physical Silver (derived as per regulatory norms). | #Domestic Prices of physical Silver (derived as per regulatory norms). | #Domestic Prices of physical Silver (derived as per regulatory norms).       | #Domestic Prices of physical Silver (derived as per regulatory norms).           |
+
+**Table values by row and column (derived from the table above):**
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 25: HDFC SILVER ETF FUND OF FUND - Period = Last 1 Year; HDFC SILVER ETF FUND OF FUND - Scheme Returns (%) = 91.56; HDFC SILVER ETF FUND OF FUND - Benchmark Returns (%)# = 98.73; NAV as at July 31, 2026 ₹ 35.6749 - Value of ₹10,000 invested - Scheme (₹) = 19,156; NAV as at July 31, 2026 ₹ 35.6749 - Value of ₹10,000 invested - Benchmark (₹)# = 19,873
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Jul 31, 23: HDFC SILVER ETF FUND OF FUND - Period = Last 3 Years; HDFC SILVER ETF FUND OF FUND - Scheme Returns (%) = 41.07; HDFC SILVER ETF FUND OF FUND - Benchmark Returns (%)# = 43.31; NAV as at July 31, 2026 ₹ 35.6749 - Value of ₹10,000 invested - Scheme (₹) = 28,102; NAV as at July 31, 2026 ₹ 35.6749 - Value of ₹10,000 invested - Benchmark (₹)# = 29,462
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — Oct 28, 22: HDFC SILVER ETF FUND OF FUND - Period = Since Inception; HDFC SILVER ETF FUND OF FUND - Scheme Returns (%) = 40.26; HDFC SILVER ETF FUND OF FUND - Benchmark Returns (%)# = 42.81; NAV as at July 31, 2026 ₹ 35.6749 - Value of ₹10,000 invested - Scheme (₹) = 35,675; NAV as at July 31, 2026 ₹ 35.6749 - Value of ₹10,000 invested - Benchmark (₹)# = 38,172
+- BSE India Sector Leaders Index (TRI) ##NIFTY 50 (TRI). Simple annualized returns have been provided as per the extant guidelines since the scheme has completed 6 months but not 1 year. However, such returns may not be representative. Absolute returns of the Scheme for the 6 month period is 0.92%. — #Domestic Prices of physical Silver (derived as per regulatory norms).: HDFC SILVER ETF FUND OF FUND - Period = #Domestic Prices of physical Silver (derived as per regulatory norms).; HDFC SILVER ETF FUND OF FUND - Scheme Returns (%) = #Domestic Prices of physical Silver (derived as per regulatory norms).; HDFC SILVER ETF FUND OF FUND - Benchmark Returns (%)# = #Domestic Prices of physical Silver (derived as per regulatory norms).; NAV as at July 31, 2026 ₹ 35.6749 - Value of ₹10,000 invested - Scheme (₹) = #Domestic Prices of physical Silver (derived as per regulatory norms).; NAV as at July 31, 2026 ₹ 35.6749 - Value of ₹10,000 invested - Benchmark (₹)# = #Domestic Prices of physical Silver (derived as per regulatory norms).
+
 
 ## CO-MANAGED BY
 
@@ -10689,6 +14074,15 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Mar 25, 14                                                      | Since Inception                                                 | 8.73                                                            | 8.21                                                             | 6.97                                                                  | 28,142                                                                                    | 26,526                                                                                               | 22,986                                                                                         |
 | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index. | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index. | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index. | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.  | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.       | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.                           | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.                                      | #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.                                |
 
+**Table values by row and column (derived from the table above):**
+- BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 31, 25: HDFC CREDIT RISK DEBT FUND - Period = Last 1 Year; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%) = 7.33; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%)# = 4.55; HDFC CREDIT RISK DEBT FUND - Additional - Benchmark Returns - (%)## = 2.27; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 10,733; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 10,455; ₹ 28.1415 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 10,227
+- BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 31, 23: HDFC CREDIT RISK DEBT FUND - Period = Last 3 Years; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%) = 8.23; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%)# = 6.95; HDFC CREDIT RISK DEBT FUND - Additional - Benchmark Returns - (%)## = 6.78; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 12,680; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 12,235; ₹ 28.1415 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,176
+- BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 30, 21: HDFC CREDIT RISK DEBT FUND - Period = Last 5 Years; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%) = 7.22; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%)# = 6.95; HDFC CREDIT RISK DEBT FUND - Additional - Benchmark Returns - (%)## = 5.34; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 14,173; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 14,001; ₹ 28.1415 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 12,971
+- BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Jul 29, 16: HDFC CREDIT RISK DEBT FUND - Period = Last 10 Years; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%) = 8.01; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%)# = 7.75; HDFC CREDIT RISK DEBT FUND - Additional - Benchmark Returns - (%)## = 5.92; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 21,625; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 21,107; ₹ 28.1415 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 17,781
+- BHAVYESH DIVECHA &amp; PRAVEEN JAIN — Mar 25, 14: HDFC CREDIT RISK DEBT FUND - Period = Since Inception; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%) = 8.73; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%)# = 8.21; HDFC CREDIT RISK DEBT FUND - Additional - Benchmark Returns - (%)## = 6.97; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = 28,142; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = 26,526; ₹ 28.1415 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = 22,986
+- BHAVYESH DIVECHA &amp; PRAVEEN JAIN — #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.: HDFC CREDIT RISK DEBT FUND - Period = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%) = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.; HDFC CREDIT RISK DEBT FUND - Scheme Benchmark - Returns - (%)# = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.; HDFC CREDIT RISK DEBT FUND - Additional - Benchmark Returns - (%)## = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹) = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.; ₹ 28.1415 - Value of ₹10,000 invested - Scheme Benchmark Additional - (₹)# Benchmark - (₹)## = #NIFTY Credit Risk Bond Index B-II ##CRISIL 10 Year Gilt Index.
+
+
 ## CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM
 
 | HDFC LIQUID FUND - Date   | HDFC LIQUID FUND - Period   |   Scheme Benchmark Additional - Returns - (%) |   Scheme Benchmark Additional - Returns Benchmark - (%)# |   Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## |   NAV as at July 31, - Value of ₹10,000 invested - Scheme - (₹) |   2026 - Value of ₹10,000 invested - Benchmark - (₹)# |   ₹ 5536.3932 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## |
@@ -10702,6 +14096,17 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 31, 16                | Last 10 Years               |                                          6.07 |                                                     6.02 |                                                                5.97 |                                                          18,041 |                                                17,944 |                                                                     17,858 |
 | Dec 31, 12                | Since Inception             |                                          6.80 |                                                     6.71 |                                                                6.37 |                                                          24,442 |                                                24,179 |                                                                     23,157 |
 
+**Table values by row and column (derived from the table above):**
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jul 24, 26: HDFC LIQUID FUND - Period = Last 7 days; Scheme Benchmark Additional - Returns - (%) = 6.20; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.10; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 5.48; NAV as at July 31, - Value of ₹10,000 invested - Scheme - (₹) = 10,012; 2026 - Value of ₹10,000 invested - Benchmark - (₹)# = 10,012; ₹ 5536.3932 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 10,011
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jul 16, 26: HDFC LIQUID FUND - Period = Last 15 days; Scheme Benchmark Additional - Returns - (%) = 6.36; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.22; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 3.48; NAV as at July 31, - Value of ₹10,000 invested - Scheme - (₹) = 10,026; 2026 - Value of ₹10,000 invested - Benchmark - (₹)# = 10,026; ₹ 5536.3932 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 10,014
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jun 30, 26: HDFC LIQUID FUND - Period = Last 1 Month; Scheme Benchmark Additional - Returns - (%) = 5.99; Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.88; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 3.31; NAV as at July 31, - Value of ₹10,000 invested - Scheme - (₹) = 10,051; 2026 - Value of ₹10,000 invested - Benchmark - (₹)# = 10,050; ₹ 5536.3932 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 10,028
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jul 31, 25: HDFC LIQUID FUND - Period = Last 1 Year; Scheme Benchmark Additional - Returns - (%) = 6.38; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.14; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 4.21; NAV as at July 31, - Value of ₹10,000 invested - Scheme - (₹) = 10,638; 2026 - Value of ₹10,000 invested - Benchmark - (₹)# = 10,614; ₹ 5536.3932 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 10,421
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jul 31, 23: HDFC LIQUID FUND - Period = Last 3 Years; Scheme Benchmark Additional - Returns - (%) = 6.95; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.80; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 6.32; NAV as at July 31, - Value of ₹10,000 invested - Scheme - (₹) = 12,234; 2026 - Value of ₹10,000 invested - Benchmark - (₹)# = 12,184; ₹ 5536.3932 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 12,019
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jul 31, 21: HDFC LIQUID FUND - Period = Last 5 Years; Scheme Benchmark Additional - Returns - (%) = 6.24; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.19; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 5.67; NAV as at July 31, - Value of ₹10,000 invested - Scheme - (₹) = 13,537; 2026 - Value of ₹10,000 invested - Benchmark - (₹)# = 13,506; ₹ 5536.3932 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 13,177
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Jul 31, 16: HDFC LIQUID FUND - Period = Last 10 Years; Scheme Benchmark Additional - Returns - (%) = 6.07; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.02; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 5.97; NAV as at July 31, - Value of ₹10,000 invested - Scheme - (₹) = 18,041; 2026 - Value of ₹10,000 invested - Benchmark - (₹)# = 17,944; ₹ 5536.3932 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 17,858
+- CO-MANAGED BY ROHAN PILLAI &amp; SWAPNIL JANGAM — Dec 31, 12: HDFC LIQUID FUND - Period = Since Inception; Scheme Benchmark Additional - Returns - (%) = 6.80; Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.71; Scheme Benchmark Additional - Returns Benchmark - Returns - (%)## = 6.37; NAV as at July 31, - Value of ₹10,000 invested - Scheme - (₹) = 24,442; 2026 - Value of ₹10,000 invested - Benchmark - (₹)# = 24,179; ₹ 5536.3932 - Value of ₹10,000 invested - Additional - Benchmark - (₹)## = 23,157
+
+
 #CRISIL Liquid Debt A-I Index ##CRISIL 1 Year T-Bill Index. Returns less than 1 year period are simple annualized.
 
 | HDFC OVERNIGHT FUND - Date   | HDFC OVERNIGHT FUND - Period   |   HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns - (%) |   HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# |   HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) |   NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# |   ₹ 4061.2657 - Value of ₹10,000 invested - Additional - Benchmark (₹)## |
@@ -10714,6 +14119,17 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | Jul 30, 21                   | Last 5 Years                   |                                                                5.61 |                                                                           5.69 |                                                                                    5.67 |                                                                         13,143 |                                                                          13,194 |                                                                   13,179 |
 | Jul 31, 16                   | Last 10 Years                  |                                                                5.36 |                                                                           5.42 |                                                                                    5.97 |                                                                         16,858 |                                                                          16,963 |                                                                   17,858 |
 | Dec 31, 12                   | Since Inception                |                                                                5.98 |                                                                           6.06 |                                                                                    6.37 |                                                                         22,019 |                                                                          22,249 |                                                                   23,157 |
+
+**Table values by row and column (derived from the table above):**
+- CRISIL Liquid Debt A-I Index ##CRISIL 1 Year T-Bill Index. Returns less than 1 year period are simple annualized. — Jul 24, 26: HDFC OVERNIGHT FUND - Period = Last 7 days; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns - (%) = 5.13; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.18; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 5.48; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,010; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,010; ₹ 4061.2657 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 10,011
+- CRISIL Liquid Debt A-I Index ##CRISIL 1 Year T-Bill Index. Returns less than 1 year period are simple annualized. — Jul 16, 26: HDFC OVERNIGHT FUND - Period = Last 15 days; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns - (%) = 5.16; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.17; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 3.48; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,021; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,021; ₹ 4061.2657 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 10,014
+- CRISIL Liquid Debt A-I Index ##CRISIL 1 Year T-Bill Index. Returns less than 1 year period are simple annualized. — Jun 30, 26: HDFC OVERNIGHT FUND - Period = Last 1 Month; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns - (%) = 5.14; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.18; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 3.31; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,044; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,044; ₹ 4061.2657 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 10,028
+- CRISIL Liquid Debt A-I Index ##CRISIL 1 Year T-Bill Index. Returns less than 1 year period are simple annualized. — Jul 31, 25: HDFC OVERNIGHT FUND - Period = Last 1 Year; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns - (%) = 5.29; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.32; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 4.21; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 10,529; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 10,532; ₹ 4061.2657 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 10,421
+- CRISIL Liquid Debt A-I Index ##CRISIL 1 Year T-Bill Index. Returns less than 1 year period are simple annualized. — Jul 31, 23: HDFC OVERNIGHT FUND - Period = Last 3 Years; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns - (%) = 6.09; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.15; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 6.32; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 11,943; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 11,964; ₹ 4061.2657 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 12,019
+- CRISIL Liquid Debt A-I Index ##CRISIL 1 Year T-Bill Index. Returns less than 1 year period are simple annualized. — Jul 30, 21: HDFC OVERNIGHT FUND - Period = Last 5 Years; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns - (%) = 5.61; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.69; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 5.67; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 13,143; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 13,194; ₹ 4061.2657 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 13,179
+- CRISIL Liquid Debt A-I Index ##CRISIL 1 Year T-Bill Index. Returns less than 1 year period are simple annualized. — Jul 31, 16: HDFC OVERNIGHT FUND - Period = Last 10 Years; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns - (%) = 5.36; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 5.42; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 5.97; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 16,858; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 16,963; ₹ 4061.2657 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 17,858
+- CRISIL Liquid Debt A-I Index ##CRISIL 1 Year T-Bill Index. Returns less than 1 year period are simple annualized. — Dec 31, 12: HDFC OVERNIGHT FUND - Period = Since Inception; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns - (%) = 5.98; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - (%)# = 6.06; HDFC OVERNIGHT FUND - Scheme Benchmark Additional - Returns Benchmark - Returns (%)## = 6.37; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹) = 22,019; NAV as at July 31, 2026 - Value of ₹10,000 invested - Scheme Benchmark - (₹)# = 22,249; ₹ 4061.2657 - Value of ₹10,000 invested - Additional - Benchmark (₹)## = 23,157
+
 
 #CRISIL Liquid Overnight Index ##CRISIL 1 Year T-Bill Index. Returns less than 1 year period are simple annualized.
 
@@ -10738,6 +14154,16 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | HDFC NIFTY Smallcap 250 Index Fund BENCHMARK: NIFTY Smallcap 250 Index (TRI)                  | • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Smallcap 250 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY Smallcap 250 Index (TRI).          |                     |                        |
 | HDFC BSE 500 Index Fund BENCHMARK: BSE 500 Index (TRI)                                        | • Returns that are commensurate (before fees and expenses) with the performance of the BSE 500 Index (TRI) over long term, subject to tracking error • Investment in securities covered by the BSE 500 Index (TRI).                                  |                     |                        |
 | HDFC NIFTY200Momentum 30 Index Fund BENCHMARK: NIFTY200 Momentum 30 Total Returns Index (TRI) | • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY200 Momentum 30 Index (TRI) over long term, subject to tracking error. • Investment in equity securities covered by the NIFTY200 Momentum 30 Index (TRI) |                     |                        |
+
+**Table values by row and column (derived from the table above):**
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC BSE Sensex Index Fund BENCHMARK: BSE SENSEX Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate with the performance of the BSE SENSEX Index (TRI), subject to tracking errors over long term. • Investment in equity securities covered by the BSE SENSEX Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Nifty 50 Index Fund BENCHMARK: Nifty 50 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate with the performance of the NIFTY 50 Index (TRI), subject to tracking errors over long term • Investment in equity securities covered by the NIFTY 50 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY Next 50 Index Fund BENCHMARK: NIFTY Next 50 Total Returns Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Next 50 Index (TRI) over long term, subject to tracking error • Investment in securities covered by the NIFTY Next 50 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY Midcap 150 Index Fund BENCHMARK: NIFTY Midcap 150 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Midcap 150 Index (TRI) over long term, subject to tracking error. • Investment in securities covered by the NIFTY Midcap 150 Index (TRI)
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY Smallcap 250 Index Fund BENCHMARK: NIFTY Smallcap 250 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Smallcap 250 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY Smallcap 250 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC BSE 500 Index Fund BENCHMARK: BSE 500 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the BSE 500 Index (TRI) over long term, subject to tracking error • Investment in securities covered by the BSE 500 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY200Momentum 30 Index Fund BENCHMARK: NIFTY200 Momentum 30 Total Returns Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY200 Momentum 30 Index (TRI) over long term, subject to tracking error. • Investment in equity securities covered by the NIFTY200 Momentum 30 Index (TRI)
+
 
 <!-- image -->
 
@@ -10786,6 +14212,16 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | HDFC NIFTY100 Low Volatility 30 Index Fund BENCHMARK: NIFTY100 Low Volatility 30 Index (TRI)       | • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY100 Low Volatility 30 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY100 Low Volatility 30 Index (TRI). |                     |                        |
 | HDFC Nifty Top 20 Equal Weight Index Fund BENCHMARK: Nifty Top 20 Equal Weight Index (TRI)         | • Returns that are commensurate (before fees and expenses) with the performance of the Nifty Top 20 Equal Weight Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the Nifty Top 20 Equal Weight Index (TRI)    |                     |                        |
 | HDFC NIFTY500 MULTICAP 50:25:25 INDEX FUND BENCHMARK: Nifty500 Multicap 50:25:25 Index (TRI)       | • Returns that are commensurate (before fees and expenses) with the performance of the Nifty500 Multicap 50:25:25 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the Nifty500 Multicap 50:25:25 Index (TRI). |                     |                        |
+
+**Table values by row and column (derived from the table above):**
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY Realty Index Fund BENCHMARK: NIFTY Realty Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Realty Index (TRI) over long term, subject to tracking error. • Investment in securities covered by the NIFTY Realty Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY 100 Index Fund BENCHMARK: NIFTY 100 Total Returns Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate(before fees and expenses) with the performance of the NIFTY 100 Index (TRI) over long term, subject to tracking error • Investment in equity securities covered by the NIFTY 100 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY50 Equal Weight Index Fund BENCHMARK: NIFTY50 Equal Weight Total Returns Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY50 Equal Weight Index (TRI) over long term, subject to tracking error • Investment in securities covered by the NIFTY50 Equal Weight Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY 100 Equal Weight Index Fund BENCHMARK: NIFTY 100 Equal Weight Total Returns Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY 100 Equal Weight Index (TRI) over long term, subject to tracking error • Investment in equity securities covered by the NIFTY 100 Equal Weight Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY100 Low Volatility 30 Index Fund BENCHMARK: NIFTY100 Low Volatility 30 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY100 Low Volatility 30 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY100 Low Volatility 30 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Nifty Top 20 Equal Weight Index Fund BENCHMARK: Nifty Top 20 Equal Weight Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the Nifty Top 20 Equal Weight Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the Nifty Top 20 Equal Weight Index (TRI)
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY500 MULTICAP 50:25:25 INDEX FUND BENCHMARK: Nifty500 Multicap 50:25:25 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the Nifty500 Multicap 50:25:25 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the Nifty500 Multicap 50:25:25 Index (TRI).
+
 
 <!-- image -->
 
@@ -10837,6 +14273,16 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | HDFC NIFTY 50 ETF BENCHMARK: Nifty 50 Index (TRI)                                      | • Returns that are commensurate with the performance of the NIFTY 50 Index (TRI), over long term, subject to tracking error. • Investment in equity securities covered by the NIFTY 50 Index (TRI).                                                           |                     |                        |
 | HDFC NIFTY Next 50 ETF BENCHMARK: NIFTY Next 50 Total Returns Index (TRI)              | • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Next 50 Total Returns Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY Next 50 Total Returns Index (TRI). |                     |                        |
 
+**Table values by row and column (derived from the table above):**
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Nifty LargeMidcap 250 Index Fund BENCHMARK: Nifty LargeMidcap 250 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the Nifty LargeMidcap 250 Index (TRI), over long term, subject to tracking error. • Investment in equity securities covered by the Nifty LargeMidcap 250 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Nifty India Digital Index Fund BENCHMARK: Nifty India Digital Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the Nifty India Digital Index (TRI), over long term, subject to tracking error. • Investment in equity securities covered by the Nifty India Digital Index (TRI)
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Nifty India Consumption Index Fund BENCHMARK: Nifty India Consumption Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Passive investment in equity and equity related securities replicating the composition of the Nifty India Consumption Index (TRI), subject to tracking errors. There is no assurance that the investment objective of the Scheme will be achieved.
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Nifty100 Quality 30 Index Fund BENCHMARK: Nifty100 Quality 30 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the Nifty100 Quality 30 Index (TRI), over long term, subject to tracking error. • Investment in equity securities covered by the Nifty100 Quality 30 Index(TRI)
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC BSE SENSEX ETF BENCHMARK: BSE SENSEX Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the BSE SENSEX Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the BSE SENSEX Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY 50 ETF BENCHMARK: Nifty 50 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate with the performance of the NIFTY 50 Index (TRI), over long term, subject to tracking error. • Investment in equity securities covered by the NIFTY 50 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY Next 50 ETF BENCHMARK: NIFTY Next 50 Total Returns Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Next 50 Total Returns Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY Next 50 Total Returns Index (TRI).
+
+
 <!-- image -->
 
 <!-- image -->
@@ -10884,6 +14330,16 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | HDFC NIFTY Midcap 150 ETF BENCHMARK: NIFTY Midcap 150 Index (TRI)     | • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Midcap 150 Index (TRI), over long term, subject to tracking error • Investment in securities covered by the NIFTY Midcap 150 Index (TRI).               |                     |                        |
 | HDFC NIFTY Smallcap 250 ETF BENCHMARK: NIFTY Smallcap 250 Index (TRI) | • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Smallcap 250 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY Smallcap 250 Index (TRI).          |                     |                        |
 | HDFC NIFTYPSUBANK ETF BENCHMARK: NIFTY PSU Bank Index (TRI)           | • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY PSU Bank Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY PSU Bank Index (TRI).                  |                     |                        |
+
+**Table values by row and column (derived from the table above):**
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY 100 ETF BENCHMARK: NIFTY 100 Total Returns Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY 100 Total Returns Index (TRI) over long term, subject to tracking error. • Investment in securities covered by the NIFTY 100 Total Returns Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY Bank ETF BENCHMARK: NIFTY Bank Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Bank Index (TRI), subject to tracking error, over long term. • Investment in equity securities covered by the NIFTY Bank Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY IT ETF BENCHMARK: NIFTY IT Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY IT Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY IT Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY Private Bank ETF BENCHMARK: NIFTY Private Bank Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Private Bank Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY Private Bank Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY Midcap 150 ETF BENCHMARK: NIFTY Midcap 150 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Midcap 150 Index (TRI), over long term, subject to tracking error • Investment in securities covered by the NIFTY Midcap 150 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY Smallcap 250 ETF BENCHMARK: NIFTY Smallcap 250 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Smallcap 250 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY Smallcap 250 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTYPSUBANK ETF BENCHMARK: NIFTY PSU Bank Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY PSU Bank Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY PSU Bank Index (TRI).
+
 
 <!-- image -->
 
@@ -10935,6 +14391,16 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | HDFC NIFTY200Momentum 30 ETF BENCHMARK: NIFTY 200 Momentum 30 Index (TRI)             | • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY200 Momentum 30 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY200 Momentum 30 Index (TRI).             |                     |                        |
 | HDFC Gold ETF BENCHMARK: Domestic Price of Physical Gold                              | • Returns that are commensurate with the performance of gold, subject to tracking errors, over long term • Investment in Gold bullion of 0.995 fineness                                                                                                     |                     |                        |
 
+**Table values by row and column (derived from the table above):**
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC BSE 500 ETF BENCHMARK: BSE 500 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the BSE 500 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the BSE 500 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY100 Quality 30 ETF BENCHMARK: NIFTY100 Quality 30 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY100 Quality 30 Index Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY100 Quality 30 Index Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY50 VALUE 20 ETF BENCHMARK: NIFTY50 Value 20 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY50 Value 20 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY50 Value 20 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY Growth Sectors 15 ETF BENCHMARK: NIFTY Growth Sectors 15 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY Growth Sectors 15 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY Growth Sectors 15 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY100 Low Volatility 30 ETF BENCHMARK: NIFTY100 Low Volatility 30 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY100 Low Volatility 30 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY100 Low Volatility 30 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY200Momentum 30 ETF BENCHMARK: NIFTY 200 Momentum 30 Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY200 Momentum 30 Index (TRI), over long term, subject to tracking error. • Investment in securities covered by the NIFTY200 Momentum 30 Index (TRI).
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Gold ETF BENCHMARK: Domestic Price of Physical Gold: Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate with the performance of gold, subject to tracking errors, over long term • Investment in Gold bullion of 0.995 fineness
+
+
 <!-- image -->
 
 <!-- image -->
@@ -10981,6 +14447,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | HDFC Nifty Auto Index Fund BENCHMARK: Nifty Auto Index (TRI)                                                                                                                                    | • Passive investment in equity and equity related securities replicating the composition of the Nifty Auto Index (TRI), subject to tracking errors. • There is no assurance that the investment objective of the Scheme will be achieved.                     |                     |                        |
 | HDFC Nifty Metal ETF BENCHMARK: Nifty Metal Index (TRI)                                                                                                                                         | • Returns that are commensurate (before fees and expenses) with the performance of the Nifty Metal Index (TRI), over long term, subject to tracking error. • Investment in equity securities covered by the Nifty Metal Index (TRI)                           |                     |                        |
 
+**Table values by row and column (derived from the table above):**
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Silver ETF BENCHMARK: Domestic Prices of physical Silver (derived as per regulatory norms): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate with the performance of Silver, subject to tracking errors, over long term. • Investment in Silver bullion of 0.999 fineness.
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Developed World Overseas Equity Passive FOF BENCHMARK: MSCI World Index (Net Total Return Index) (Due to time zone difference, benchmark performance will be calculated with a day's lag).: Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that closely correspond to the performance of the MSCI World Index, subject to tracking errors, over long term • Investments in units/shares of overseas equity Index Funds and/or ETFs
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC BSE India Sector Leaders Index Fund BENCHMARK: BSE India Sector Leaders Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the BSE India Sector Leaders Index (TRI), over long term, subject to tracking error. • Investment in equity securities covered by the BSE India Sector Leaders Index (TRI)
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Nifty Auto Index Fund BENCHMARK: Nifty Auto Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Passive investment in equity and equity related securities replicating the composition of the Nifty Auto Index (TRI), subject to tracking errors. • There is no assurance that the investment objective of the Scheme will be achieved.
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Nifty Metal ETF BENCHMARK: Nifty Metal Index (TRI): Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the Nifty Metal Index (TRI), over long term, subject to tracking error. • Investment in equity securities covered by the Nifty Metal Index (TRI)
+
+
 <!-- image -->
 
 <!-- image -->
@@ -11008,6 +14482,10 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | FundName& Benchmark                                                | Product Labelling (This product is suitable for investors who are seeking ~)                                                                                                                                                                              | Scheme Riskometer (Current risk as per latest month end portfolio)   | Benchmark Riskometer   | Potential Risk Class (Maximum risk the Scheme can take)   | Potential Risk Class (Maximum risk the Scheme can take)   | Potential Risk Class (Maximum risk the Scheme can take)   | Potential Risk Class (Maximum risk the Scheme can take)   |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|-----------------------------------------------------------|
 | Nifty G- Sec Dec 2026 Index Fund BENCHMARK: NIFTY G-Sec 2026 Index | • Returns that are commensurate (before fees and expenses) with the performance of the Nifty G-sec Dec 2026 Index, subject to tracking difference over long term • Investment in Government Securities/SDL, TREPS on Government Securities/Treasury bills |                                                                      |                        | HDFC Dec                                                  |                                                           |                                                           |                                                           |
+
+**Table values by row and column (derived from the table above):**
+- BENCHMARK AND SCHEME RISKOMETERS — Nifty G- Sec Dec 2026 Index Fund BENCHMARK: NIFTY G-Sec 2026 Index: Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the Nifty G-sec Dec 2026 Index, subject to tracking difference over long term • Investment in Government Securities/SDL, TREPS on Government Securities/Treasury bills; Potential Risk Class (Maximum risk the Scheme can take) = HDFC Dec
+
 
 <!-- image -->
 
@@ -11044,6 +14522,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | HDFC Nifty G- Sec Sep 2032 Index Fund BENCHMARK: NIFTY G-Sec Sep 2032        | • Returns that are commensurate (before fees and expenses) with the performance of the Nifty G-Sec Sep 2032 Index, subject to tracking difference over long term • Investment in Government Securities/SDL, TREPS on Government Securities/Treasury bills    |                                                                      |                        | Index                                                     |                                                           |                                                           |                                                           |
 | HDFC NIFTY G- Sec Apr 2029 Index Fund BENCHMARK: NIFTY G- Sec Apr 2029 Index | • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY G- Sec Apr 2029 Index, subject to tracking difference over long term. • Investment in Government Securities/SDL, TREPS on Government Securities/Treasury bills. |                                                                      |                        |                                                           |                                                           |                                                           |                                                           |
 | HDFC NIFTY G- sec Jun 2036 Index Fund BENCHMARK: NIFTY G-Sec Jun 2036 Index  | • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY G-sec Jun 2036 Index, subject to tracking difference over long term • Investment in Government Securities/SDL, TREPS on Government Securities/Treasury bills    |                                                                      |                        |                                                           |                                                           |                                                           |                                                           |
+
+**Table values by row and column (derived from the table above):**
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Nifty G- Sec Jul 2031 Index Fund BENCHMARK: NIFTY G-Sec July 2031 Index: Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the Nifty G-Sec July 2031 Index, subject to tracking difference over long term. • Investment in Government Securities/SDL, TREPS on Government Securities/Treasury bills
+- BENCHMARK AND SCHEME RISKOMETERS — Sec Jun 2027 Index Fund BENCHMARK: NIFTY G-Sec Jun 2027 Index: Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the Nifty G- Sec Jun 2027 Index, subject to tracking difference over long term. • Investment in Government Securities/SDL, TREPS on Government Securities/Treasury bills; Potential Risk Class (Maximum risk the Scheme can take) = HDFC Nifty G-
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Nifty G- Sec Sep 2032 Index Fund BENCHMARK: NIFTY G-Sec Sep 2032: Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the Nifty G-Sec Sep 2032 Index, subject to tracking difference over long term • Investment in Government Securities/SDL, TREPS on Government Securities/Treasury bills; Potential Risk Class (Maximum risk the Scheme can take) = Index
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY G- Sec Apr 2029 Index Fund BENCHMARK: NIFTY G- Sec Apr 2029 Index: Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY G- Sec Apr 2029 Index, subject to tracking difference over long term. • Investment in Government Securities/SDL, TREPS on Government Securities/Treasury bills.
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY G- sec Jun 2036 Index Fund BENCHMARK: NIFTY G-Sec Jun 2036 Index: Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY G-sec Jun 2036 Index, subject to tracking difference over long term • Investment in Government Securities/SDL, TREPS on Government Securities/Treasury bills
+
 
 <!-- image -->
 
@@ -11083,6 +14569,14 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | HDFC CRISIL- IBX Financial Services 9-12 Months Debt Index Fund BENCHMARK: CRISIL-IBX Financial Services 9-12 Months Debt Index           | • Income generated from exposure to shorter-term maturities on the yield curve. • Returns that are commensurate (before fees and expenses) with the performance of the CRISIL-IBX Financial Services 9-12 Months Debt Index, subject to tracking difference. • Investment in debt securities replicating the |                                                                      |                        |                                                           |                                                           |                                                           |                                                           |
 | HDFC NIFTY 1D RATE LIQUID ETF - Growth BENCHMARK: NIFTY 1D Rate Index                                                                     | • Investment over short term with returns that, before expenses, correspond to the returns of the NIFTY 1D Rate Index, subject to tracking errors, along with high degree of liquidity • Investment in TREPS covered by the NIFTY 1D Rate Index                                                              |                                                                      |                        |                                                           |                                                           |                                                           |                                                           |
 
+**Table values by row and column (derived from the table above):**
+- BENCHMARK AND SCHEME RISKOMETERS — NIFTY SDL Plus G-Sec Jun 2027 40:60 Index Fund BENCHMARK: NIFTY SDL Plus G-Sec Jun 2027 40:60 Index: Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the NIFTY SDL Plus G-Sec Jun 2027 40:60 Index, subject to tracking difference over long term • Investment in Government Securities/SDL, TREPS on Government; Potential Risk Class (Maximum risk the Scheme can take) = HDFC
+- BENCHMARK AND SCHEME RISKOMETERS — Oct 2026 Fund BENCHMARK: NIFTY SDL Oct 2026 Index: Product Labelling (This product is suitable for investors who are seeking ~) = • Returns that are commensurate (before fees and expenses) with the performance of the Nifty SDL Oct 2026 Index, subject to tracking difference over long term • Investment in Government Securities/SDL, TREPS on Government Securities/Treasury bills; Potential Risk Class (Maximum risk the Scheme can take) = HDFC Nifty SDL Index
+- BENCHMARK AND SCHEME RISKOMETERS — IBX Financial Services 3-6 Months Debt Index Fund BENCHMARK: CRISIL-IBX Financial Services 3-6 Months Debt Index ('the Underlying Index'): Product Labelling (This product is suitable for investors who are seeking ~) = • Income generated from exposure to shorter-term maturities on the yield curve. • Returns that are commensurate (before fees and expenses) with the performance of the CRISIL-IBX Financial Services 3-6 Months Debt Index, subject to tracking difference. • Investment in debt securities replicating the; Potential Risk Class (Maximum risk the Scheme can take) = HDFC CRISIL-
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC CRISIL- IBX Financial Services 9-12 Months Debt Index Fund BENCHMARK: CRISIL-IBX Financial Services 9-12 Months Debt Index: Product Labelling (This product is suitable for investors who are seeking ~) = • Income generated from exposure to shorter-term maturities on the yield curve. • Returns that are commensurate (before fees and expenses) with the performance of the CRISIL-IBX Financial Services 9-12 Months Debt Index, subject to tracking difference. • Investment in debt securities replicating the
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC NIFTY 1D RATE LIQUID ETF - Growth BENCHMARK: NIFTY 1D Rate Index: Product Labelling (This product is suitable for investors who are seeking ~) = • Investment over short term with returns that, before expenses, correspond to the returns of the NIFTY 1D Rate Index, subject to tracking errors, along with high degree of liquidity • Investment in TREPS covered by the NIFTY 1D Rate Index
+
+
 <!-- image -->
 
 
@@ -11101,6 +14595,15 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | HDFC Multi-Asset Active FOF BENCHMARK: 50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms                         | • Capital appreciation over long term • Investment predominantly in equity oriented, debt oriented and Gold ETF schemes                                                                                                                                                         |                     |                        |
 | HDFC Equity Savings Fund BENCHMARK: NIFTY Equity Savings Index (Total Returns Index)                                                                        | • Capital appreciation while generating income over medium to long term. • Provide capital appreciation and income distribution to the investors by using equity and equity related instruments, arbitrage opportunities, and investments in debt and money market instruments. |                     |                        |
 | HDFC Liquid Fund BENCHMARK: CRISIL Liquid Debt A-I Index                                                                                                    | • Regular income over short term • To generate income through a portfolio comprising money market and debt instruments                                                                                                                                                          |                     |                        |
+
+**Table values by row and column (derived from the table above):**
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Balanced Advantage Fund BENCHMARK: NIFTY 50 Hybrid Composite Debt 50:50 Index (Total Returns Index): Product Labelling (This product is suitable for investors who are seeking ~) = • To generate long -term capital appreciation / income • Investments in a mix of equity and debt instruments
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Hybrid Equity Fund BENCHMARK: NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index): Product Labelling (This product is suitable for investors who are seeking ~) = • To generate long -term capital appreciation / income. • Investments predominantly in equity &equity related instruments. The Scheme will also invest in debt and money market instruments.
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Multi-Asset Allocation Fund BENCHMARK: 65% Nifty 50 TRI + 22.5% Nifty Composite Debt Index +10% Domestic Price of Gold + 2.5% Domestic Price of Silver: Product Labelling (This product is suitable for investors who are seeking ~) = • To generate long -term capital appreciation / income • Investments in a diversified portfolio of equity &equity related instruments, debt &money market instruments and Commodities ETFs such as Gold/Silver/other Commodity ETFs as permitted and ETCD
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Multi-Asset Active FOF BENCHMARK: 50% NIFTY 50 TRI + 40% NIFTY Composite Debt Index + 10% Gold derived as per regulatory norms: Product Labelling (This product is suitable for investors who are seeking ~) = • Capital appreciation over long term • Investment predominantly in equity oriented, debt oriented and Gold ETF schemes
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Equity Savings Fund BENCHMARK: NIFTY Equity Savings Index (Total Returns Index): Product Labelling (This product is suitable for investors who are seeking ~) = • Capital appreciation while generating income over medium to long term. • Provide capital appreciation and income distribution to the investors by using equity and equity related instruments, arbitrage opportunities, and investments in debt and money market instruments.
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Liquid Fund BENCHMARK: CRISIL Liquid Debt A-I Index: Product Labelling (This product is suitable for investors who are seeking ~) = • Regular income over short term • To generate income through a portfolio comprising money market and debt instruments
+
 
 <!-- image -->
 
@@ -11143,6 +14646,16 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | HDFC Retirement Savings Fund - Hybrid Equity Plan BENCHMARK: NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index) | • A corpus to provide for pension in the form of income to the extent of the redemption value of their holding after the age of 60 years • Investment predominantly in equity and equity related instruments &balance in debt and money market instruments.  |                     |                        |
 | HDFC Retirement Savings Fund - Hybrid Debt Plan BENCHMARK: NIFTY 50 Hybrid Composite Debt 15:85 Index (Total Returns Index)   | • A corpus to provide for pension in the form of income to the extent of the redemption value of their holding after the age of 60 years. • Investment predominantly in debt and money market instruments& balance in equity and equity related instruments. |                     |                        |
 | HDFC Gold ETF Fund of Fund BENCHMARK: Domestic Price of Physical Gold                                                         | • Capital appreciation over long term • Investment in Units of HDFC Gold ETF(HGETF). HGETF invests in gold bullion of 0.995 fineness                                                                                                                         |                     |                        |
+
+**Table values by row and column (derived from the table above):**
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Low Duration Fund BENCHMARK: NIFTY Low Duration Debt Index A-I: Product Labelling (This product is suitable for investors who are seeking ~) = • Income over short term. • To generate income / capital appreciation through investment in debt securities and money market instruments
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Arbitrage Fund BENCHMARK: NIFTY 50 Arbitrage Index (Total Returns Index): Product Labelling (This product is suitable for investors who are seeking ~) = • Income over short term. • Income through arbitrage opportunities between cash and derivative market and arbitrage opportunities within the derivative segment.
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Corporate Bond Fund BENCHMARK: NIFTY Corporate Bond Index A- II: Product Labelling (This product is suitable for investors who are seeking ~) = • Income over short to medium term • To generate income/capital appreciation through investments predominantly in AA+ and above rated corporate bonds
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Retirement Savings Fund - Equity Plan BENCHMARK: NIFTY 500 (Total Returns Index): Product Labelling (This product is suitable for investors who are seeking ~) = • A corpus to provide for pension in the form of income to the extent of the redemption value of their holding after the age of 60 years. • Investment predominantly in equity and equity related instruments.
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Retirement Savings Fund - Hybrid Equity Plan BENCHMARK: NIFTY 50 Hybrid Composite Debt 65:35 Index (Total Returns Index): Product Labelling (This product is suitable for investors who are seeking ~) = • A corpus to provide for pension in the form of income to the extent of the redemption value of their holding after the age of 60 years • Investment predominantly in equity and equity related instruments &balance in debt and money market instruments.
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Retirement Savings Fund - Hybrid Debt Plan BENCHMARK: NIFTY 50 Hybrid Composite Debt 15:85 Index (Total Returns Index): Product Labelling (This product is suitable for investors who are seeking ~) = • A corpus to provide for pension in the form of income to the extent of the redemption value of their holding after the age of 60 years. • Investment predominantly in debt and money market instruments& balance in equity and equity related instruments.
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Gold ETF Fund of Fund BENCHMARK: Domestic Price of Physical Gold: Product Labelling (This product is suitable for investors who are seeking ~) = • Capital appreciation over long term • Investment in Units of HDFC Gold ETF(HGETF). HGETF invests in gold bullion of 0.995 fineness
+
 
 <!-- image -->
 
@@ -11201,6 +14714,16 @@ Past performance may or may not be sustained in future and is not a guarantee of
 | HDFC Long Duration Debt Fund BENCHMARK: NIFTY Long Duration Debt Index - A-III             | term •Togenerateincome/ capital appreciation through investments in debtandmoneymarket instruments                                                                                         | term •Togenerateincome/ capital appreciation through investments in debtandmoneymarket instruments                                                                                         |                       |                        |                        |                        |                        |
 | HDFC Credit Risk Debt Fund BENCHMARK: NIFTY Credit Risk Bond B-II                          | •Incomeover short to mediumterm • Togenerate income/capital appreciation byinvesting predominantlyinAAand below rated corporate debt (excluding AA+rated corporatebonds) •Incomeovermedium | •Incomeover short to mediumterm • Togenerate income/capital appreciation byinvesting predominantlyinAAand below rated corporate debt (excluding AA+rated corporatebonds) •Incomeovermedium | Index                 |                        |                        |                        |                        |
 | HDFC Medium Term Debt Fund BENCHMARK: NIFTY Medium Duration Debt Index A-III               | term •Togenerateincome/ capital appreciation through investments in DebtandMoney Market Instruments                                                                                        | term •Togenerateincome/ capital appreciation through investments in DebtandMoney Market Instruments                                                                                        |                       |                        |                        |                        |                        |
+
+**Table values by row and column (derived from the table above):**
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Silver ETF Fund of Fund BENCHMARK: Domestic Prices of physical Silver (derived as per: Fund Name &Benchmark = HDFC Silver ETF Fund of Fund BENCHMARK: Domestic Prices of physical Silver (derived as per; Product Labelling (This product is suitable for investors who are seeking ~) = • Capital appreciation over long term. • Investment in Units of HDFC Silver ETF (HSETF). HSETF invests in Silver and Silver related instruments.; Scheme Riskometer = regulatory norms); Benchmark Riskometer = regulatory norms)
+- BENCHMARK AND SCHEME RISKOMETERS — BENCHMARK: NIFTY 50 Hybrid Composite Debt 15:85 Index (Total Returns Index): Fund Name &Benchmark = BENCHMARK: NIFTY 50 Hybrid Composite Debt 15:85 Index (Total Returns Index); Product Labelling (This product is suitable for investors who are seeking ~) = • Togeneratelong -term income / capital appreciation • Investments primarily in debt securities,moneymarket instruments andmoderateexposureto equities; Scheme Riskometer = HDFC Hybrid Debt Fund; Benchmark Riskometer = HDFC Hybrid Debt Fund
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Overnight Fund BENCHMARK: CRISIL Liquid Overnight: Fund Name &Benchmark = • Regular income over short term that may be in line with the overnight call rates • To generate returns by investing in debt and money market; Product Labelling (This product is suitable for investors who are seeking ~) = • Regular income over short term that may be in line with the overnight call rates • To generate returns by investing in debt and money market; Scheme Riskometer = Index
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Income Fund BENCHMARK: CRISIL To Long Duration Debt A-III Index: Fund Name &Benchmark = overnight maturity •Incomeovermediumto longterm •Togenerateincome/ capital appreciation through investments in debtandmoneymarket instruments •Incomeoverthelong; Product Labelling (This product is suitable for investors who are seeking ~) = overnight maturity •Incomeovermediumto longterm •Togenerateincome/ capital appreciation through investments in debtandmoneymarket instruments •Incomeoverthelong; Scheme Riskometer = Medium
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Long Duration Debt Fund BENCHMARK: NIFTY Long Duration Debt Index - A-III: Fund Name &Benchmark = term •Togenerateincome/ capital appreciation through investments in debtandmoneymarket instruments; Product Labelling (This product is suitable for investors who are seeking ~) = term •Togenerateincome/ capital appreciation through investments in debtandmoneymarket instruments
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Credit Risk Debt Fund BENCHMARK: NIFTY Credit Risk Bond B-II: Fund Name &Benchmark = •Incomeover short to mediumterm • Togenerate income/capital appreciation byinvesting predominantlyinAAand below rated corporate debt (excluding AA+rated corporatebonds) •Incomeovermedium; Product Labelling (This product is suitable for investors who are seeking ~) = •Incomeover short to mediumterm • Togenerate income/capital appreciation byinvesting predominantlyinAAand below rated corporate debt (excluding AA+rated corporatebonds) •Incomeovermedium; Scheme Riskometer = Index
+- BENCHMARK AND SCHEME RISKOMETERS — HDFC Medium Term Debt Fund BENCHMARK: NIFTY Medium Duration Debt Index A-III: Fund Name &Benchmark = term •Togenerateincome/ capital appreciation through investments in DebtandMoney Market Instruments; Product Labelling (This product is suitable for investors who are seeking ~) = term •Togenerateincome/ capital appreciation through investments in DebtandMoney Market Instruments
+
 
 <!-- image -->
 

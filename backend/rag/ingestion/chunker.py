@@ -14,6 +14,7 @@ class DocumentChunk:
     source_url: str = ""
     document_type: str = ""
     published_date: str = ""
+    fund_name: str | None = None
 
 
 def chunk_text(
@@ -25,6 +26,7 @@ def chunk_text(
     source_url: str = "",
     document_type: str = "",
     published_date: str = "",
+    fund_name: str | None = None,
 ) -> list[DocumentChunk]:
     """
     Split page text into overlapping chunks.
@@ -71,6 +73,7 @@ def chunk_text(
                     source_url=source_url,
                     document_type=document_type,
                     published_date=published_date,
+                    fund_name=fund_name,
                 )
             )
 
@@ -91,6 +94,7 @@ def chunk_markdown(
     source_url: str = "",
     document_type: str = "",
     published_date: str = "",
+    fund_name: str | None = None,
 ) -> list[DocumentChunk]:
     """Chunk Markdown without splitting recognised tables.
 
@@ -121,6 +125,7 @@ def chunk_markdown(
                     source_url=source_url,
                     document_type=document_type,
                     published_date=published_date,
+                    fund_name=fund_name,
                 )
             )
         current = []
