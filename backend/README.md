@@ -129,6 +129,18 @@ Response shape:
 
 `POST /agent/query` remains available with `{ "user_id": "...", "question": "..." }` for existing clients. `GET /tools` exposes the complete server-side schemas; model-facing schemas omit trusted identity and internal provider dependencies.
 
+## Twelve Data market quotes
+
+To enable the Market page and watchlist, add the following only to your local `backend/.env` file:
+
+```dotenv
+TWELVE_DATA_API_KEY=your-twelve-data-key
+```
+
+Restart Django after changing the file. The adapter requests quotes only for the five configured NSE companies and caches them for 60 seconds. It returns the provider's timestamp and labels the result as **latest available**; Indian exchange coverage may be end-of-day, so the application does not present these prices as real-time trading prices. A market-news summary and index feed remain intentionally unconfigured.
+
+When Twelve Data cannot supply a configured company, the API uses the cookie-and-crumb Yahoo Finance technique from the selected community Indian Stock Market API project as a short-timeout fallback. It is not an official exchange feed, and the UI retains a community/Yahoo Finance source label and any provider delay. It requires no key, account, or frontend configuration.
+
 ## Tests
 
 ```powershell

@@ -162,3 +162,68 @@ class ChatApiTests(APITestCase):
                     format="json",
                 )
                 self.assertEqual(response.status_code, 400)
+
+    def test_user_can_list_saved_conversations(self):
+        older = Conversation.objects.create(user_id="USER001")
+        ChatMessage.objects.create(
+            conversation=older,
+            role=ChatMessage.Role.USER,
+            content="How many funds do I have?",
+        )
+        ChatMessage.objects.create(
+            conversation=older,
+            role=ChatMessage.Role.ASSISTANT,
+            content="You have three funds.",
+        )
+        other_user = Conversation.objects.create(user_id="USER002")
+        ChatMessage.objects.create(
+            conversation=other_user,
+            role=ChatMessage.Role.USER,
+            content="This conversation is private.",
+        )
+
+        response = self.client.get(
+            "/api/v1/chat/conversations/?user_id=USER001"
+        )
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(response.data["results"]), 1)
+        summary = response.data["results"][0]
+        self.assertEqual(str(summary["id"]), str(older.id))
+        self.assertEqual(summary["title"], "How many funds do I have?")
+        self.assertEqual(summary["message_count"], 2)
+
+    def test_user_can_reopen_only_their_saved_conversation(self):
+        conversation = Conversation.objects.create(user_id="USER001")
+        ChatMessage.objects.create(
+            conversation=conversation,
+            role=ChatMessage.Role.USER,
+            content="Do my funds overlap?",
+        )
+        ChatMessage.objects.create(
+            conversation=conversation,
+            role=ChatMessage.Role.ASSISTANT,
+            content="HDFC Bank is a common holding.",
+        )
+
+        response = self.client.get(
+            f"/api/v1/chat/conversations/{conversation.id}/?user_id=USER001"
+        )
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(str(response.data["id"]), str(conversation.id))
+        self.assertEqual(
+            [
+                (message["role"], message["content"])
+                for message in response.data["messages"]
+            ],
+            [
+                ("user", "Do my funds overlap?"),
+                ("assistant", "HDFC Bank is a common holding."),
+            ],
+        )
+
+        forbidden = self.client.get(
+            f"/api/v1/chat/conversations/{conversation.id}/?user_id=USER002"
+        )
+        self.assertEqual(forbidden.status_code, 404)
