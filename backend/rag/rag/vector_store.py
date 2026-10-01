@@ -13,7 +13,10 @@ from qdrant_client.models import (
 from rag.embeddings import get_embedding_model
 
 
-COLLECTION_NAME = "fundlens_documents"
+# Page-sized chunks preserve tables whose headers, labels, and values would
+# otherwise be split apart. A new collection name triggers a safe automatic
+# rebuild without deleting the earlier index.
+COLLECTION_NAME = "fundlens_documents_v5"
 VECTOR_SIZE = 768
 
 

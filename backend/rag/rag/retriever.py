@@ -8,7 +8,9 @@ from qdrant_client import QdrantClient
 from rag.embeddings import get_embedding_model
 
 
-COLLECTION_NAME = "fundlens_documents"
+# Keep this aligned with ``vector_store.COLLECTION_NAME``. See that module for
+# the migration rationale.
+COLLECTION_NAME = "fundlens_documents_v5"
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -144,15 +146,20 @@ def retrieve_documents(
     """
 
     client = QdrantClient(path=str(PROJECT_ROOT / "qdrant_data"))
+    try:
+        retriever = Retriever(
+            client=client,
+            collection_name=COLLECTION_NAME,
+        )
 
-    retriever = Retriever(
-        client=client,
-        collection_name=COLLECTION_NAME,
-    )
-
-    return retriever.retrieve(
-        query=query,
-        top_k=top_k,
-        fund_name=fund_name,
-        document_type=document_type,
-    )
+        return retriever.retrieve(
+            query=query,
+            top_k=top_k,
+            fund_name=fund_name,
+            document_type=document_type,
+        )
+    finally:
+        # Local Qdrant permits only one client per storage directory. Streamlit
+        # reruns the script for every interaction, so this lock must be
+        # released before the next question starts.
+        client.close()

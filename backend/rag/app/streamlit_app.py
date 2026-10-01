@@ -14,9 +14,13 @@ from app.fallback import LLMFallback
 from app.llm import generate_response, get_llm
 from app.logging_config import logger
 from app.prompts import build_prompt
+from app.schemas import LLMResponse
 from rag.citations import build_citations, format_context_with_citations
 from rag.factsheets import ensure_factsheets_indexed, find_factsheets
+from rag.grounding import GroundingError, ground_answer
 from rag.retriever import retrieve_documents
+from ingestion.pdf_parser import get_docling_device_label
+from ingestion.table_aware import answer_table_question
 
 
 load_dotenv()
@@ -77,6 +81,7 @@ with st.sidebar:
 
     factsheets = find_factsheets()
     st.caption(f"{len(factsheets)} factsheet(s) available")
+    st.caption(f"PDF processing: {get_docling_device_label()}")
     for factsheet in factsheets:
         st.caption(f"• {factsheet.name}")
 
@@ -117,30 +122,57 @@ if st.button("Ask FundLens", type="primary"):
                 )
                 st.stop()
 
-            context = format_context_with_citations(retrieved_chunks)
+            table_answer = answer_table_question(question, retrieved_chunks)
+            if table_answer:
+                response = LLMResponse(answer=table_answer, confidence=0.85)
+            else:
+                context = format_context_with_citations(retrieved_chunks)
 
-            prompt = build_prompt(
-                question=question,
-                context=context,
-                version=prompt_version,
+                prompt = build_prompt(
+                    question=question,
+                    context=context,
+                    version=prompt_version,
+                )
+
+                llm = get_llm()
+
+                response = generate_response(
+                    prompt=prompt,
+                    llm=llm,
+                )
+
+            try:
+                response.answer, verified_chunks = ground_answer(
+                    answer=response.answer,
+                    retrieved_chunks=retrieved_chunks,
+                    question=question,
+                )
+            except GroundingError as exc:
+                logger.warning("Withholding ungrounded RAG answer: %s", exc)
+                response.answer = (
+                    "I could not find sufficient evidence in the retrieved "
+                    "documents to answer this question."
+                )
+                response.confidence = 0.0
+                verified_chunks = []
+
+            # Citations always come from verified retrieval metadata, never
+            # from LLM-generated document names, pages, or URLs.
+            citations = build_citations(
+                [chunk for _, chunk in verified_chunks]
             )
-
-            llm = get_llm()
-
-            response = generate_response(
-                prompt=prompt,
-                llm=llm,
-            )
-
-            citations = build_citations(retrieved_chunks)
             source_labels: dict[tuple[str, int, str], list[int]] = {}
-            for index, chunk in enumerate(retrieved_chunks, start=1):
+            for index, chunk in verified_chunks:
                 document = chunk.get("document")
                 page = chunk.get("page")
                 source_url = chunk.get("source_url")
                 if document and page is not None and source_url:
                     key = (document, int(page), source_url)
                     source_labels.setdefault(key, []).append(index)
+
+            # Model confidence is not calibrated. Keep a cited answer below
+            # certainty; ungrounded answers were already reduced to zero.
+            response.confidence = min(response.confidence, 0.85)
 
         if indexed_documents:
             st.success(
@@ -176,7 +208,7 @@ if st.button("Ask FundLens", type="primary"):
 
         else:
             st.info(
-                "The retrieved text did not include page-level citation metadata."
+                "No retrieved source could be verified for this answer."
             )
 
     except Exception as exc:

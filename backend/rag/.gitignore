@@ -1,5 +1,6 @@
 .venv/
 __pycache__/
 qdrant_data/
+docling_models/
 .env
 *.pyc
