@@ -1,5 +1,7 @@
 from rest_framework import serializers
 
+from .models import RagQuestionJob
+
 
 class ChatRequestSerializer(serializers.Serializer):
     conversation_id = serializers.UUIDField(
@@ -47,3 +49,128 @@ class ChatResponseSerializer(serializers.Serializer):
     tool_trace = serializers.ListField(child=serializers.JSONField(), required=False)
     metadata = serializers.JSONField(required=False)
     error_code = serializers.CharField(required=False)
+
+
+class RagQuestionSerializer(serializers.Serializer):
+    question = serializers.CharField(
+        required=True,
+        allow_blank=False,
+        max_length=4000,
+    )
+    fund_scope = serializers.CharField(
+        required=False,
+        allow_blank=True,
+        max_length=200,
+    )
+    top_k = serializers.IntegerField(
+        required=False,
+        default=5,
+        min_value=1,
+        max_value=10,
+    )
+
+    def validate_question(self, value):
+        question = value.strip()
+        if not question:
+            raise serializers.ValidationError("Question cannot be blank.")
+        return question
+
+    def validate_fund_scope(self, value):
+        return value.strip() or None
+
+
+class RagSourceSerializer(serializers.Serializer):
+    document = serializers.CharField()
+    page = serializers.IntegerField(min_value=1)
+    labels = serializers.ListField(child=serializers.CharField())
+
+
+class RagEvidenceChunkSerializer(serializers.Serializer):
+    text = serializers.CharField(allow_blank=True)
+    document = serializers.CharField(
+        required=False,
+        allow_null=True,
+        allow_blank=True,
+    )
+    page = serializers.IntegerField(required=False, allow_null=True, min_value=1)
+    score = serializers.FloatField(required=False, allow_null=True)
+    fund_name = serializers.CharField(
+        required=False,
+        allow_null=True,
+        allow_blank=True,
+    )
+    document_type = serializers.CharField(
+        required=False,
+        allow_null=True,
+        allow_blank=True,
+    )
+    published_date = serializers.CharField(
+        required=False,
+        allow_null=True,
+        allow_blank=True,
+    )
+    visual_fallback = serializers.BooleanField(required=False)
+
+
+class RagUsageSerializer(serializers.Serializer):
+    role = serializers.ChoiceField(choices=("answer", "vision"))
+    model = serializers.CharField()
+    requests = serializers.IntegerField(min_value=0)
+    input_tokens = serializers.IntegerField(min_value=0)
+    output_tokens = serializers.IntegerField(min_value=0)
+    input_reports = serializers.IntegerField(min_value=0)
+    output_reports = serializers.IntegerField(min_value=0)
+    estimated_cost = serializers.CharField()
+
+
+class RagAnswerSerializer(serializers.Serializer):
+    success = serializers.BooleanField()
+    error_code = serializers.CharField(
+        required=False,
+        allow_null=True,
+        allow_blank=True,
+    )
+    answer = serializers.CharField(allow_blank=True)
+    draft_answer = serializers.CharField(
+        required=False,
+        allow_null=True,
+        allow_blank=True,
+    )
+    confidence = serializers.FloatField(min_value=0, max_value=1)
+    fund_name = serializers.CharField(required=False, allow_null=True, allow_blank=True)
+    answer_method = serializers.ChoiceField(
+        choices=(
+            "rag_only",
+            "rag_table",
+            "rag_plus_vlm",
+            "rag_vlm_unaccepted",
+            "rag_vlm_unavailable",
+        )
+    )
+    visual_fallback_triggered = serializers.BooleanField()
+    visual_fallback_used = serializers.BooleanField()
+    table_answer_used = serializers.BooleanField()
+    grounding_error = serializers.CharField(
+        required=False,
+        allow_null=True,
+        allow_blank=True,
+    )
+    sources = RagSourceSerializer(many=True)
+    retrieved_chunks = RagEvidenceChunkSerializer(many=True)
+    usage = RagUsageSerializer(many=True)
+    indexed_documents = serializers.ListField(child=serializers.CharField())
+
+
+class RagJobAcceptedSerializer(serializers.Serializer):
+    job_id = serializers.UUIDField()
+    status = serializers.ChoiceField(choices=RagQuestionJob.Status.choices)
+    poll_url = serializers.CharField()
+
+
+class RagJobStatusSerializer(serializers.Serializer):
+    job_id = serializers.UUIDField()
+    status = serializers.ChoiceField(choices=RagQuestionJob.Status.choices)
+    poll_url = serializers.CharField()
+    created_at = serializers.DateTimeField()
+    updated_at = serializers.DateTimeField()
+    result = RagAnswerSerializer(required=False, allow_null=True)

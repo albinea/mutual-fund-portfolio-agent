@@ -1,19 +1,15 @@
 from __future__ import annotations
 
-from pathlib import Path
 from typing import Any
 
 from qdrant_client import QdrantClient
 
-from rag.embeddings import get_embedding_model
+from fundlens_rag.rag.qdrant import create_qdrant_client
 
 
 # Keep this aligned with ``vector_store.COLLECTION_NAME``. See that module for
 # the migration rationale.
 COLLECTION_NAME = "fundlens_documents_v6"
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-
-
 class Retriever:
     """
     Retrieves relevant document chunks from Qdrant.
@@ -29,6 +25,8 @@ class Retriever:
     ):
         self.client = client
         self.collection_name = collection_name
+        from fundlens_rag.rag.embeddings import get_embedding_model
+
         self.embedding_model = get_embedding_model()
 
     def retrieve(
@@ -145,7 +143,7 @@ def retrieve_documents(
     Convenience function for the rest of the application.
     """
 
-    client = QdrantClient(path=str(PROJECT_ROOT / "qdrant_data"))
+    client = create_qdrant_client()
     try:
         retriever = Retriever(
             client=client,
@@ -159,7 +157,5 @@ def retrieve_documents(
             document_type=document_type,
         )
     finally:
-        # Local Qdrant permits only one client per storage directory. Streamlit
-        # reruns the script for every interaction, so this lock must be
-        # released before the next question starts.
+        # Each request owns its server client; close it after the search.
         client.close()

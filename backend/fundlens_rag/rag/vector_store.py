@@ -10,7 +10,7 @@ from qdrant_client.models import (
     VectorParams,
 )
 
-from rag.embeddings import get_embedding_model
+from fundlens_rag.rag.qdrant import create_qdrant_client
 
 
 # Page-sized chunks preserve tables whose headers, labels, and values would
@@ -37,11 +37,14 @@ class VectorStore:
 
     def __init__(
         self,
-        path: str = "qdrant_data",
+        url: str | None = None,
         collection_name: str = COLLECTION_NAME,
+        client: QdrantClient | None = None,
     ):
-        self.client = QdrantClient(path=path)
+        self.client = client if client is not None else create_qdrant_client(url)
         self.collection_name = collection_name
+        from fundlens_rag.rag.embeddings import get_embedding_model
+
         self.embedding_model = get_embedding_model()
 
     def create_collection(self) -> None:

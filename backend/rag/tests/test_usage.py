@@ -3,8 +3,8 @@ import unittest
 from types import SimpleNamespace
 from unittest.mock import patch
 
-from app.llm import generate_response
-from app.usage import UsageTracker
+from fundlens_rag.app.llm import generate_response
+from fundlens_rag.app.usage import UsageTracker
 
 
 class UsageTrackingTests(unittest.TestCase):

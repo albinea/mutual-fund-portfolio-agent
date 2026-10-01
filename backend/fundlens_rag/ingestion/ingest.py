@@ -1,9 +1,9 @@
 import json
 from pathlib import Path
 
-from ingestion.pdf_parser import convert_pdf_to_markdown
-from ingestion.chunker import chunk_markdown
-from ingestion.fund_metadata import assign_fund_names_to_pages
+from fundlens_rag.ingestion.pdf_parser import convert_pdf_to_markdown
+from fundlens_rag.ingestion.chunker import chunk_markdown
+from fundlens_rag.ingestion.fund_metadata import assign_fund_names_to_pages
 
 
 def ingest_pdf(

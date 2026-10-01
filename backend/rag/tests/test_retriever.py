@@ -1,17 +1,17 @@
 import unittest
 from unittest.mock import MagicMock, patch
 
-from rag.retriever import Retriever, retrieve_documents
+from fundlens_rag.rag.retriever import Retriever, retrieve_documents
 
 
 class RetrieverLifecycleTests(unittest.TestCase):
-    def test_closes_the_local_qdrant_client_after_a_search(self):
+    def test_closes_the_qdrant_server_client_after_a_search(self):
         client = MagicMock()
         retriever = MagicMock()
         retriever.retrieve.return_value = [{"text": "result"}]
 
-        with patch("rag.retriever.QdrantClient", return_value=client), patch(
-            "rag.retriever.Retriever", return_value=retriever
+        with patch("fundlens_rag.rag.retriever.create_qdrant_client", return_value=client), patch(
+            "fundlens_rag.rag.retriever.Retriever", return_value=retriever
         ):
             result = retrieve_documents("test query")
 
@@ -24,8 +24,8 @@ class RetrieverLifecycleTests(unittest.TestCase):
         retriever.retrieve.return_value = []
         fund_name = "HDFC Medium to Long Term Fund"
 
-        with patch("rag.retriever.QdrantClient", return_value=client), patch(
-            "rag.retriever.Retriever", return_value=retriever
+        with patch("fundlens_rag.rag.retriever.create_qdrant_client", return_value=client), patch(
+            "fundlens_rag.rag.retriever.Retriever", return_value=retriever
         ):
             retrieve_documents(
                 "since inception value",

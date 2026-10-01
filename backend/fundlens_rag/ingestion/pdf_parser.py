@@ -13,11 +13,11 @@ from docling.datamodel.base_models import InputFormat
 from docling.datamodel.pipeline_options import PdfPipelineOptions, TableFormerMode
 from docling.document_converter import DocumentConverter, PdfFormatOption
 
-from ingestion.table_aware import make_tables_retrievable
+from fundlens_rag.ingestion.table_aware import make_tables_retrievable
+from fundlens_rag.paths import RAG_PROJECT_ROOT
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_ARTIFACTS_PATH = PROJECT_ROOT / "docling_models"
+DEFAULT_ARTIFACTS_PATH = RAG_PROJECT_ROOT / "docling_models"
 logger = logging.getLogger("fundlens")
 
 
@@ -66,7 +66,7 @@ def convert_pdf_to_markdown(
 
 @lru_cache(maxsize=1)
 def _get_converter() -> DocumentConverter:
-    """Build one local Docling converter for the Streamlit process."""
+    """Build one local Docling converter for the ingestion process."""
     artifacts_path = Path(
         os.getenv("DOCLING_ARTIFACTS_PATH", str(DEFAULT_ARTIFACTS_PATH))
     )

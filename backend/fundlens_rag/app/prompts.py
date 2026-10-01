@@ -2,8 +2,9 @@ from pathlib import Path
 
 import yaml
 
+from fundlens_rag.paths import RAG_PROJECT_ROOT
 
-PROMPTS_DIR = Path(__file__).resolve().parent.parent / "prompts"
+PROMPTS_DIR = RAG_PROJECT_ROOT / "prompts"
 
 
 def load_prompt(version: str = "v1") -> str:

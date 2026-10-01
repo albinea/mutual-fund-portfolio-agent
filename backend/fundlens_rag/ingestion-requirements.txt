@@ -1,0 +1,3 @@
+# Heavy PDF-ingestion dependencies for the separate index_factsheets task.
+docling==2.48.0
+torch==2.8.0

@@ -27,5 +27,16 @@ services:
       timeout: 5s
       retries: 10
 
+  qdrant:
+    image: qdrant/qdrant:v1.15.1
+    container_name: fundlens-qdrant
+    restart: unless-stopped
+    # Local development only. Keep the unauthenticated API bound to loopback.
+    ports:
+      - "127.0.0.1:6333:6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
 volumes:
   mysql_data:
+  qdrant_storage:

@@ -1,6 +1,6 @@
 from typing import Callable, Optional
 
-from app.schemas import LLMResponse
+from fundlens_rag.app.schemas import LLMResponse
 
 
 class LLMFallback:

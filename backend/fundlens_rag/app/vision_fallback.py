@@ -16,9 +16,8 @@ from dotenv import load_dotenv
 from ollama import Client
 from pydantic import BaseModel, Field
 
-from app.usage import UsageTracker, get_ollama_token_counts
-from rag.factsheets import find_factsheets
-from rag.grounding import (
+from fundlens_rag.app.usage import UsageTracker, get_ollama_token_counts
+from fundlens_rag.rag.grounding import (
     _MIN_QUERY_TERM_OVERLAP,
     _meaningful_terms,
     _term_overlap,
@@ -209,6 +208,8 @@ def _candidate_pages(
     retrieved_chunks: list[dict[str, Any]],
 ) -> list[tuple[Path, int, dict[str, Any]]]:
     """Resolve unique retrieved PDF pages against the app's bundled PDFs."""
+    from fundlens_rag.rag.factsheets import find_factsheets
+
     local_pdfs = {path.name: path.resolve() for path in find_factsheets()}
     candidates: list[tuple[Path, int, dict[str, Any]]] = []
     seen: set[tuple[str, int, str]] = set()

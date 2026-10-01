@@ -1,6 +1,6 @@
 import unittest
 
-from ingestion.chunker import chunk_markdown
+from fundlens_rag.ingestion.chunker import chunk_markdown
 
 
 class MarkdownChunkerTests(unittest.TestCase):

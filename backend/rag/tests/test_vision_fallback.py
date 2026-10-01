@@ -6,13 +6,13 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import MagicMock, patch
 
-from app.vision_fallback import (
+from fundlens_rag.app.vision_fallback import (
     _get_ollama_cloud_client,
     extract_visual_evidence,
     should_use_visual_fallback,
 )
-from app.usage import UsageTracker
-from rag.grounding import GroundingError
+from fundlens_rag.app.usage import UsageTracker
+from fundlens_rag.rag.grounding import GroundingError
 
 
 class VisionFallbackGateTests(unittest.TestCase):
@@ -107,8 +107,8 @@ class OllamaVisionFallbackTests(unittest.TestCase):
             usage_tracker = UsageTracker()
 
             with (
-                patch("app.vision_fallback.find_factsheets", return_value=[pdf_path]),
-                patch("app.vision_fallback._render_pdf_page", return_value=b"jpeg-page"),
+                patch("fundlens_rag.rag.factsheets.find_factsheets", return_value=[pdf_path]),
+                patch("fundlens_rag.app.vision_fallback._render_pdf_page", return_value=b"jpeg-page"),
                 patch.dict(os.environ, {"OLLAMA_VISION_MODEL": "qwen3-vl:235b-cloud"}),
             ):
                 result = extract_visual_evidence(
@@ -156,8 +156,8 @@ class OllamaVisionFallbackTests(unittest.TestCase):
             chunks = [self._chunk(pdf_path, 64), self._chunk(pdf_path, 87)]
 
             with (
-                patch("app.vision_fallback.find_factsheets", return_value=[pdf_path]),
-                patch("app.vision_fallback._render_pdf_page", return_value=b"jpeg-page"),
+                patch("fundlens_rag.rag.factsheets.find_factsheets", return_value=[pdf_path]),
+                patch("fundlens_rag.app.vision_fallback._render_pdf_page", return_value=b"jpeg-page"),
             ):
                 result = extract_visual_evidence(
                     question=self.QUESTION,
@@ -180,8 +180,8 @@ class OllamaVisionFallbackTests(unittest.TestCase):
             )
 
             with (
-                patch("app.vision_fallback.find_factsheets", return_value=[pdf_path]),
-                patch("app.vision_fallback._render_pdf_page", return_value=b"jpeg-page"),
+                patch("fundlens_rag.rag.factsheets.find_factsheets", return_value=[pdf_path]),
+                patch("fundlens_rag.app.vision_fallback._render_pdf_page", return_value=b"jpeg-page"),
             ):
                 result = extract_visual_evidence(
                     question=self.QUESTION,
@@ -198,7 +198,7 @@ class OllamaVisionFallbackTests(unittest.TestCase):
             chunk["source_url"] = "https://example.invalid/factsheet.pdf"
             client = MagicMock()
 
-            with patch("app.vision_fallback.find_factsheets", return_value=[pdf_path]):
+            with patch("fundlens_rag.rag.factsheets.find_factsheets", return_value=[pdf_path]):
                 result = extract_visual_evidence(
                     question=self.QUESTION,
                     retrieved_chunks=[chunk],
@@ -217,7 +217,7 @@ class OllamaVisionFallbackTests(unittest.TestCase):
                     "OLLAMA_API_KEY": "test-key",
                 },
             ),
-            patch("app.vision_fallback.Client") as client_factory,
+            patch("fundlens_rag.app.vision_fallback.Client") as client_factory,
         ):
             _get_ollama_cloud_client()
 

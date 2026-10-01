@@ -1,0 +1,8 @@
+# Runtime dependencies used by Django retrieval and the on-demand vision fallback.
+# Docling/Streamlit are intentionally excluded from normal chat requests.
+qdrant-client==1.15.1
+sentence-transformers==5.1.0
+langchain-ollama==0.3.7
+ollama==0.6.3
+pypdfium2==4.30.0
+PyYAML==6.0.2

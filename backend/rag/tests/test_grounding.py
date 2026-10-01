@@ -1,6 +1,6 @@
 import unittest
 
-from rag.grounding import GroundingError, cited_chunks, ground_answer
+from fundlens_rag.rag.grounding import GroundingError, cited_chunks, ground_answer
 
 
 class CitationGroundingTests(unittest.TestCase):

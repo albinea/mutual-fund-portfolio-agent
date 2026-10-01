@@ -4,14 +4,14 @@ import unittest
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
-from ingestion.fund_metadata import (
+from fundlens_rag.ingestion.fund_metadata import (
     assign_fund_names_to_pages,
     attach_fund_names_to_chunks,
     extract_fund_names,
     list_known_funds,
     resolve_fund_name,
 )
-from rag.factsheets import ensure_factsheets_indexed
+from fundlens_rag.rag.factsheets import ensure_factsheets_indexed
 
 
 class FundMetadataTests(unittest.TestCase):
@@ -204,10 +204,10 @@ class LegacyChunkIndexMigrationTests(unittest.TestCase):
             store.indexed_documents.return_value = set()
 
             with (
-                patch("rag.factsheets.find_factsheets", return_value=[root / "factsheet.pdf"]),
-                patch("rag.factsheets.CHUNKS_DIRECTORY", chunk_directory),
-                patch("rag.factsheets.MARKDOWN_DIRECTORY", root / "markdown"),
-                patch("rag.factsheets.VectorStore", return_value=store),
+                patch("fundlens_rag.rag.factsheets.find_factsheets", return_value=[root / "factsheet.pdf"]),
+                patch("fundlens_rag.rag.factsheets.CHUNKS_DIRECTORY", chunk_directory),
+                patch("fundlens_rag.rag.factsheets.MARKDOWN_DIRECTORY", root / "markdown"),
+                patch("fundlens_rag.rag.factsheets.VectorStore", return_value=store),
             ):
                 ensure_factsheets_indexed()
 

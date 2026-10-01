@@ -14,3 +14,4 @@ python-dotenv>=1.0
 pytest>=8.0
 drf-spectacular
 mysqlclient
+-r fundlens_rag/requirements.txt

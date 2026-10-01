@@ -4,8 +4,8 @@ import os
 from dotenv import load_dotenv
 from langchain_ollama import ChatOllama
 
-from app.schemas import LLMResponse
-from app.usage import UsageTracker, get_langchain_token_counts
+from fundlens_rag.app.schemas import LLMResponse
+from fundlens_rag.app.usage import UsageTracker, get_langchain_token_counts
 
 
 load_dotenv()

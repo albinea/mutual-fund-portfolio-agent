@@ -4,18 +4,57 @@ import { createRoot } from "react-dom/client";
 import "./styles.css";
 
 type Page = "assistant" | "portfolio" | "explorer" | "overlap" | "calculators" | "market";
+type AssistantMode = "chat" | "documents";
 type ExplorerTab = "scanner" | "discovery" | "compare" | "commentary";
 type CalculatorTab = "sip" | "wealth" | "rolling";
 type PortfolioTab = "overview" | "holdings" | "allocation" | "changes";
 type MarketTab = "india" | "us" | "europe" | "currencies" | "crypto" | "futures";
-type Message = { role: "user" | "assistant"; content: string; sources?: Source[]; trace?: ToolTrace[] };
-type Source = { name?: string; url?: string | null; data_as_of?: string | null };
+type Message = { role: "user" | "assistant"; content: string; sources?: Source[]; trace?: ToolTrace[]; evidence?: RagEvidenceChunk[]; answerMethod?: string; confidence?: number; usage?: RagUsage[] };
+type Source = { name?: string; document?: string; page?: number; labels?: string[]; url?: string | null; data_as_of?: string | null };
 type ToolTrace = { activity: string; success: boolean };
 type ChatResponse = { success: boolean; answer: string; error_code?: string; sources?: Source[]; tool_trace?: ToolTrace[] };
+type RagEvidenceChunk = { text: string; document?: string | null; page?: number | null; score?: number | null; fund_name?: string | null; document_type?: string | null; published_date?: string | null; visual_fallback?: boolean };
+type RagUsage = { role: "answer" | "vision"; model: string; requests: number; input_tokens: number; output_tokens: number; input_reports: number; output_reports: number; estimated_cost: string };
+type RagResponse = { success: boolean; answer: string; error_code?: string; confidence: number; fund_name?: string | null; answer_method: string; sources: Source[]; retrieved_chunks: RagEvidenceChunk[]; usage: RagUsage[] };
+type RagJobAccepted = { job_id: string; status: "queued"; poll_url: string };
+type RagJobStatus = { job_id: string; status: "queued" | "running" | "completed" | "failed"; poll_url: string; result?: RagResponse | null };
 type DemoFund = { id: string; name: string; category: string; risk: string; return1y: number; rolling3y: number; sharpe: number; expense: number; aum: string; aumCr: number; ageYears: number; manager: string; tenure: string };
 type IconName = "assistant" | "portfolio" | "explorer" | "overlap" | "calculator" | "market" | "compare" | "search" | "settings" | "bell" | "send" | "attach" | "arrow" | "menu";
 
 const apiBaseUrl = import.meta.env.VITE_API_BASE_URL ?? "/api/v1";
+const ragPollTimeoutMs = 10 * 60 * 1000;
+
+async function askFundLens(question: string, fundScope: string): Promise<RagResponse> {
+  const apiRoot = apiBaseUrl.replace(/\/+$/, "");
+  const createResponse = await fetch(`${apiRoot}/rag/jobs/`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ question, fund_scope: fundScope.trim(), top_k: 5 }),
+  });
+  const created = await createResponse.json() as RagJobAccepted | { detail?: string; error_code?: string };
+  if (!createResponse.ok) {
+    const message = "detail" in created ? created.detail : undefined;
+    throw new Error(message || ("error_code" in created ? created.error_code : undefined) || "Could not queue the document question.");
+  }
+
+  const job = created as RagJobAccepted;
+  const deadline = Date.now() + ragPollTimeoutMs;
+  while (Date.now() < deadline) {
+    await new Promise((resolve) => window.setTimeout(resolve, 1200));
+    const statusResponse = await fetch(job.poll_url);
+    const statusPayload = await statusResponse.json() as RagJobStatus | { detail?: string };
+    if (!statusResponse.ok) {
+      throw new Error("detail" in statusPayload ? statusPayload.detail || "Could not check document research status." : "Could not check document research status.");
+    }
+    const current = statusPayload as RagJobStatus;
+    if (current.status === "completed" || current.status === "failed") {
+      if (current.result) return current.result;
+      throw new Error("Document research finished without a result. Please try again.");
+    }
+  }
+  throw new Error("Document research is still running in the background. Please retry shortly; the job may finish after this page stops checking.");
+}
+
 const navigation: { id: Page; label: string; icon: IconName }[] = [
   { id: "assistant", label: "AI Assistant", icon: "assistant" },
   { id: "portfolio", label: "Portfolio", icon: "portfolio" },
@@ -69,6 +108,8 @@ function App() {
   const [userId, setUserId] = useState("USER001");
   const [draft, setDraft] = useState("");
   const [messages, setMessages] = useState<Message[]>([]);
+  const [assistantMode, setAssistantMode] = useState<AssistantMode>("chat");
+  const [fundScope, setFundScope] = useState("");
   const [isSending, setIsSending] = useState(false);
   const [error, setError] = useState("");
   const [chatFiles, setChatFiles] = useState<File[]>([]);
@@ -116,29 +157,48 @@ function App() {
   async function sendMessage(event: FormEvent) {
     event.preventDefault();
     const message = draft.trim();
-    if (!message || !userId.trim() || isSending) return;
+    if (!message || (assistantMode === "chat" && !userId.trim()) || isSending) return;
     const nextMessages = [...messages, { role: "user" as const, content: message }];
     setMessages(nextMessages);
     setDraft("");
     setError("");
     setIsSending(true);
     try {
-      // Existing chat API contract is intentionally preserved.
-      const response = await fetch(`${apiBaseUrl}/chat/`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          user_id: userId.trim(),
-          message,
-          conversation_context: messages.slice(-10),
-        }),
-      });
-      const payload: ChatResponse = await response.json();
-      if (!response.ok || !payload.success) {
-        throw new Error(payload.answer || payload.error_code || "The assistant could not answer right now.");
+      // Keep the existing portfolio-chat contract; document questions use the dedicated RAG API.
+      const isDocumentQuestion = assistantMode === "documents";
+      if (isDocumentQuestion) {
+        const ragPayload = await askFundLens(message, fundScope);
+        setMessages([...nextMessages, {
+          role: "assistant",
+          content: ragPayload.answer,
+          sources: ragPayload.sources,
+          evidence: ragPayload.retrieved_chunks,
+          answerMethod: ragPayload.answer_method,
+          confidence: ragPayload.confidence,
+          usage: ragPayload.usage,
+        }]);
+      } else {
+        const response = await fetch(`${apiBaseUrl}/chat/`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            user_id: userId.trim(),
+            message,
+            conversation_context: messages.slice(-10),
+          }),
+        });
+        const payload = await response.json();
+        if (!response.ok) {
+          const errorMessage = payload.answer || payload.detail || payload.error_code || "The assistant could not answer right now.";
+          throw new Error(typeof errorMessage === "string" ? errorMessage : JSON.stringify(errorMessage));
+        }
+        const chatPayload = payload as ChatResponse;
+        if (!chatPayload.success) {
+          throw new Error(chatPayload.answer || chatPayload.error_code || "The assistant could not answer right now.");
+        }
+        setMessages([...nextMessages, { role: "assistant", content: chatPayload.answer, sources: chatPayload.sources, trace: chatPayload.tool_trace }]);
+        setChatFiles([]);
       }
-      setMessages([...nextMessages, { role: "assistant", content: payload.answer, sources: payload.sources, trace: payload.tool_trace }]);
-      setChatFiles([]);
     } catch (requestError) {
       setError(requestError instanceof Error ? requestError.message : "Unable to reach the API.");
     } finally {
@@ -183,7 +243,7 @@ function App() {
       </header>
       <main id="main-content" className={page === "assistant" ? "content" : "content app-content"} tabIndex={-1}>
         <div className="page-main">
-          {page === "assistant" && <AssistantView messages={messages} draft={draft} setDraft={setDraft} files={chatFiles} error={error} isSending={isSending} onFiles={selectChatFiles} onSend={sendMessage} onExport={exportAnswer} onShortcut={openAssistant} onImport={() => openPortfolio("overview")} />}
+          {page === "assistant" && <AssistantView messages={messages} draft={draft} setDraft={setDraft} files={chatFiles} error={error} isSending={isSending} assistantMode={assistantMode} setAssistantMode={setAssistantMode} fundScope={fundScope} setFundScope={setFundScope} onFiles={selectChatFiles} onSend={sendMessage} onExport={exportAnswer} onShortcut={openAssistant} onImport={() => openPortfolio("overview")} />}
           {page === "portfolio" && <PortfolioView tab={portfolioTab} onTab={setPortfolioTab} holdingFile={holdingFile} onFile={selectHoldingFile} onAsk={openAssistant} />}
           {page === "explorer" && <ExplorerView tab={explorerTab} onTab={setExplorerTab} selectedIds={selectedFundIds} onToggle={toggleFund} onCompare={() => setExplorerTab("compare")} />}
           {page === "overlap" && <OverlapView hasHoldingFile={Boolean(holdingFile)} onImport={() => setPage("portfolio")} onAsk={openAssistant} />}
@@ -205,7 +265,7 @@ function hasStructuredTable(content: string) {
   return Boolean(markdownTableToCsv(content));
 }
 
-function AssistantView({ messages, draft, setDraft, files, error, isSending, onFiles, onSend, onExport, onShortcut, onImport }: { messages: Message[]; draft: string; setDraft: (value: string) => void; files: File[]; error: string; isSending: boolean; onFiles: (event: ChangeEvent<HTMLInputElement>) => void; onSend: (event: FormEvent) => void; onExport: (message: Message) => void; onShortcut: (prompt: string) => void; onImport: () => void }) {
+function AssistantView({ messages, draft, setDraft, files, error, isSending, assistantMode, setAssistantMode, fundScope, setFundScope, onFiles, onSend, onExport, onShortcut, onImport }: { messages: Message[]; draft: string; setDraft: (value: string) => void; files: File[]; error: string; isSending: boolean; assistantMode: AssistantMode; setAssistantMode: (mode: AssistantMode) => void; fundScope: string; setFundScope: (value: string) => void; onFiles: (event: ChangeEvent<HTMLInputElement>) => void; onSend: (event: FormEvent) => void; onExport: (message: Message) => void; onShortcut: (prompt: string) => void; onImport: () => void }) {
   const prompts = [
     { label: "Analyze", prompt: "Analyze my portfolio" },
     { label: "Compare", prompt: "Compare my funds" },
@@ -219,26 +279,38 @@ function AssistantView({ messages, draft, setDraft, files, error, isSending, onF
       {messages.length === 0 ? <div className="assistant-welcome">
         <h2>Search and understand your portfolio</h2>
         <p>Ask a question, compare funds, or explore the data behind your investments.</p>
-        <ChatComposer draft={draft} setDraft={setDraft} files={files} isSending={isSending} onFiles={onFiles} onSend={onSend} home />
+        <ChatComposer draft={draft} setDraft={setDraft} files={files} isSending={isSending} assistantMode={assistantMode} setAssistantMode={setAssistantMode} fundScope={fundScope} setFundScope={setFundScope} onFiles={onFiles} onSend={onSend} home />
         <div className="prompt-grid" aria-label="Suggested research prompts">{prompts.map((item) => <button key={item.label} onClick={() => onShortcut(item.prompt)}><Icon name="arrow" size={15} />{item.label}</button>)}</div>
         <HomeSnapshots onImport={onImport} />
       </div> : <div className="conversation">{messages.map((item, index) => <ChatMessage key={`${item.role}-${index}`} message={item} onExport={onExport} />)}</div>}
-      {isSending && <div className="message assistant loading"><div className="message-label">FundLens</div><p><span className="typing-dot" /><span className="typing-dot" /><span className="typing-dot" /> Reviewing your request</p></div>}
+      {isSending && <div className="message assistant loading"><div className="message-label">FundLens</div><p><span className="typing-dot" /><span className="typing-dot" /><span className="typing-dot" /> {assistantMode === "documents" ? "Searching indexed fund documents and preparing evidence" : "Reviewing your request"}</p></div>}
     </section>
-    {messages.length > 0 && <ChatComposer draft={draft} setDraft={setDraft} files={files} isSending={isSending} onFiles={onFiles} onSend={onSend} />}
+    {messages.length > 0 && <ChatComposer draft={draft} setDraft={setDraft} files={files} isSending={isSending} assistantMode={assistantMode} setAssistantMode={setAssistantMode} fundScope={fundScope} setFundScope={setFundScope} onFiles={onFiles} onSend={onSend} />}
     {error && <p className="error" role="alert" aria-live="assertive">{error}</p>}
   </div>;
 }
 
-function ChatComposer({ draft, setDraft, files, isSending, onFiles, onSend, home = false }: { draft: string; setDraft: (value: string) => void; files: File[]; isSending: boolean; onFiles: (event: ChangeEvent<HTMLInputElement>) => void; onSend: (event: FormEvent) => void; home?: boolean }) {
-  return <form className={home ? "composer home-composer" : "composer"} onSubmit={onSend}>{files.length > 0 && <div className="attachment-list">{files.map((file) => <span key={`${file.name}-${file.size}`}>{file.name}</span>)}<small>Selected files will be supported when the document-ingestion endpoint is connected.</small></div>}<textarea value={draft} onChange={(event) => setDraft(event.target.value)} placeholder="Ask anything about your mutual funds" rows={home ? 2 : 3} /><div className="composer-footer"><label className="attach-control"><input type="file" accept=".pdf,.xlsx,.xls,.csv" multiple onChange={onFiles} /><Icon name="attach" size={16} />Attach</label><span>Evidence-led research, not investment advice.</span><button className="send-button" disabled={isSending || !draft.trim()} aria-label="Send message"><Icon name="send" size={16} /></button></div></form>;
+function ChatComposer({ draft, setDraft, files, isSending, assistantMode, setAssistantMode, fundScope, setFundScope, onFiles, onSend, home = false }: { draft: string; setDraft: (value: string) => void; files: File[]; isSending: boolean; assistantMode: AssistantMode; setAssistantMode: (mode: AssistantMode) => void; fundScope: string; setFundScope: (value: string) => void; onFiles: (event: ChangeEvent<HTMLInputElement>) => void; onSend: (event: FormEvent) => void; home?: boolean }) {
+  return <form className={home ? "composer home-composer" : "composer"} onSubmit={onSend}>
+    <div className="composer-mode-row" role="group" aria-label="Assistant mode">
+      <button type="button" className={assistantMode === "chat" ? "mode-button active" : "mode-button"} aria-pressed={assistantMode === "chat"} onClick={() => setAssistantMode("chat")}>Portfolio chat</button>
+      <button type="button" className={assistantMode === "documents" ? "mode-button active" : "mode-button"} aria-pressed={assistantMode === "documents"} onClick={() => setAssistantMode("documents")}>Fund document research</button>
+    </div>
+    {assistantMode === "documents" && <label className="fund-scope-field">Fund name <input value={fundScope} onChange={(event) => setFundScope(event.target.value)} placeholder="Optional, e.g. HDFC Medium to Long Term Fund" /></label>}
+    {assistantMode === "chat" && files.length > 0 && <div className="attachment-list">{files.map((file) => <span key={`${file.name}-${file.size}`}>{file.name}</span>)}<small>Selected files will be supported when the document-ingestion endpoint is connected.</small></div>}
+    <textarea value={draft} onChange={(event) => setDraft(event.target.value)} placeholder={assistantMode === "documents" ? "Ask a question about an indexed fund document" : "Ask anything about your mutual funds"} rows={home ? 2 : 3} />
+    <div className="composer-footer">{assistantMode === "chat" ? <label className="attach-control"><input type="file" accept=".pdf,.xlsx,.xls,.csv" multiple onChange={onFiles} /><Icon name="attach" size={16} />Attach</label> : <span className="indexed-docs-note">Searches indexed fund documents</span>}<span>Evidence-led research, not investment advice.</span><button className="send-button" disabled={isSending || !draft.trim()} aria-label="Send message"><Icon name="send" size={16} /></button></div>
+  </form>;
 }
 
 function ChatMessage({ message, onExport }: { message: Message; onExport: (message: Message) => void }) {
   const exportable = message.role === "assistant" && hasStructuredTable(message.content);
   return <article className={`message ${message.role}`}><div className="message-label">{message.role === "user" ? "You" : "FundLens"}</div><p>{message.content}</p>
     {message.role === "assistant" && <><div className="message-meta">{message.trace?.filter((step) => step.success).map((step) => <span key={step.activity}>✓ {step.activity}</span>)}</div>
-      {message.sources?.length ? <div className="sources">{message.sources.map((source, index) => <span key={`${source.name}-${index}`}>Source: {source.name ?? "Source"}{source.data_as_of ? ` · As of ${source.data_as_of}` : ""}</span>)}</div> : null}
+      {message.answerMethod && <div className="message-meta"><span>Answer method: {message.answerMethod.replaceAll("_", " ")}</span>{typeof message.confidence === "number" && <span>Confidence: {Math.round(message.confidence * 100)}%</span>}</div>}
+      {message.sources?.length ? <div className="sources">{message.sources.map((source, index) => <span key={`${source.document ?? source.name}-${source.page ?? index}`}>Source: {source.document ?? source.name ?? "Source"}{source.page ? ` · page ${source.page}` : ""}{source.labels?.length ? ` · ${source.labels.join(", ")}` : ""}{source.data_as_of ? ` · As of ${source.data_as_of}` : ""}</span>)}</div> : null}
+      {message.evidence && <section className="rag-evidence" aria-label="Retrieved evidence"><h4>Retrieved chunks ({message.evidence.length})</h4>{message.evidence.length ? message.evidence.map((chunk, index) => <article className="evidence-chunk" key={`${chunk.document ?? "doc"}-${chunk.page ?? "page"}-${index}`}><div className="evidence-chunk-meta">Chunk {index + 1}{chunk.fund_name ? ` · ${chunk.fund_name}` : ""}{chunk.document ? ` · ${chunk.document}` : ""}{chunk.page ? ` · page ${chunk.page}` : ""}{typeof chunk.score === "number" ? ` · score ${chunk.score.toFixed(3)}` : ""}{chunk.visual_fallback ? " · visual fallback" : ""}</div><p>{chunk.text || "(No text in this retrieved chunk)"}</p></article>) : <p className="no-evidence">No chunks were retrieved for this answer.</p>}</section>}
+      {message.usage && <section className="rag-usage" aria-label="Model usage"><h4>Model usage and estimated cost</h4>{message.usage.length ? <div className="rag-usage-list">{message.usage.map((item, index) => <div className="rag-usage-row" key={`${item.role}-${item.model}-${index}`}><strong>{item.role === "vision" ? "Vision fallback" : "Answer model"}: {item.model}</strong><span>{item.requests} API request{item.requests === 1 ? "" : "s"}</span><span>{item.input_tokens} input · {item.output_tokens} output tokens</span><span>Estimated cost: {item.estimated_cost}</span></div>)}</div> : <p className="no-evidence">No model usage was reported for this answer.</p>}</section>}
       {exportable && <button className="text-action" onClick={() => onExport(message)}>Export to Excel</button>}
     </>}
   </article>;
