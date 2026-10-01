@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from langchain_ollama import ChatOllama
 
 from app.schemas import LLMResponse
+from app.usage import UsageTracker, get_langchain_token_counts
 
 
 load_dotenv()
@@ -29,6 +30,7 @@ def get_llm():
 def generate_response(
     prompt: str,
     llm=None,
+    usage_tracker: UsageTracker | None = None,
 ) -> LLMResponse:
     """
     Send the prompt to the LLM and validate
@@ -38,7 +40,25 @@ def generate_response(
     if llm is None:
         llm = get_llm()
 
+    model_name = (
+        getattr(llm, "model", None)
+        or getattr(llm, "model_name", None)
+        or os.getenv("OLLAMA_MODEL", "unknown answer model")
+    )
+    if usage_tracker is not None:
+        # Count attempts too, so failed provider requests remain visible.
+        usage_tracker.record_request("answer", str(model_name))
+
     response = llm.invoke(prompt)
+
+    if usage_tracker is not None:
+        input_tokens, output_tokens = get_langchain_token_counts(response)
+        usage_tracker.record_usage(
+            "answer",
+            str(model_name),
+            input_tokens=input_tokens,
+            output_tokens=output_tokens,
+        )
 
     raw_content = response.content
 

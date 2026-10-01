@@ -10,7 +10,7 @@ from rag.embeddings import get_embedding_model
 
 # Keep this aligned with ``vector_store.COLLECTION_NAME``. See that module for
 # the migration rationale.
-COLLECTION_NAME = "fundlens_documents_v5"
+COLLECTION_NAME = "fundlens_documents_v6"
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 

@@ -3,6 +3,7 @@ from pathlib import Path
 
 from ingestion.pdf_parser import convert_pdf_to_markdown
 from ingestion.chunker import chunk_markdown
+from ingestion.fund_metadata import assign_fund_names_to_pages
 
 
 def ingest_pdf(
@@ -38,7 +39,9 @@ def ingest_pdf(
 
     all_chunks = []
 
-    for page_number, page_text in page_texts:
+    page_contexts = assign_fund_names_to_pages(page_texts)
+
+    for page_number, page_text, fund_name in page_contexts:
 
         chunks = chunk_markdown(
             markdown=page_text,
@@ -49,6 +52,7 @@ def ingest_pdf(
             source_url=source_url,
             document_type=document_type,
             published_date=published_date,
+            fund_name=fund_name,
         )
 
         all_chunks.extend(chunks)
@@ -71,6 +75,7 @@ def ingest_pdf(
                 "source_url": chunk.source_url,
                 "document_type": chunk.document_type,
                 "published_date": chunk.published_date,
+                "fund_name": chunk.fund_name,
             }
         )
 
