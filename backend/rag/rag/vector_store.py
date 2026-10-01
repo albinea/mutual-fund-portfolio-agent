@@ -147,6 +147,38 @@ class VectorStore:
 
         return result.count
 
+    def indexed_documents(self) -> set[str]:
+        """Return the source document names already present in the index."""
+        if not any(
+            collection.name == self.collection_name
+            for collection in self.client.get_collections().collections
+        ):
+            return set()
+
+        documents: set[str] = set()
+        offset = None
+
+        while True:
+            points, offset = self.client.scroll(
+                collection_name=self.collection_name,
+                scroll_filter=None,
+                limit=250,
+                with_payload=["document"],
+                with_vectors=False,
+                offset=offset,
+            )
+
+            documents.update(
+                point.payload["document"]
+                for point in points
+                if point.payload and point.payload.get("document")
+            )
+
+            if offset is None:
+                break
+
+        return documents
+
     def delete_collection(self) -> None:
         """
         Delete the entire collection.

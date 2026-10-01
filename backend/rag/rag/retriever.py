@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Any
 
 from qdrant_client import QdrantClient
@@ -8,6 +9,7 @@ from rag.embeddings import get_embedding_model
 
 
 COLLECTION_NAME = "fundlens_documents"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
 class Retriever:
@@ -141,7 +143,7 @@ def retrieve_documents(
     Convenience function for the rest of the application.
     """
 
-    client = QdrantClient(path="qdrant_data")
+    client = QdrantClient(path=str(PROJECT_ROOT / "qdrant_data"))
 
     retriever = Retriever(
         client=client,

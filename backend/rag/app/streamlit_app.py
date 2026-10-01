@@ -1,10 +1,22 @@
+from pathlib import Path
+import sys
+
 import streamlit as st
 from dotenv import load_dotenv
+
+# Streamlit executes this file as a script.  Ensure the project root is on
+# ``sys.path`` so package imports work even when launched from ``app/``.
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from app.fallback import LLMFallback
 from app.llm import generate_response, get_llm
 from app.logging_config import logger
 from app.prompts import build_prompt
+from rag.citations import build_citations, format_context_with_citations
+from rag.factsheets import ensure_factsheets_indexed, find_factsheets
+from rag.retriever import retrieve_documents
 
 
 load_dotenv()
@@ -63,10 +75,10 @@ with st.sidebar:
 
     st.divider()
 
-    st.info(
-        "The production version will connect this interface "
-        "to Qdrant retrieval and the LangGraph agent."
-    )
+    factsheets = find_factsheets()
+    st.caption(f"{len(factsheets)} factsheet(s) available")
+    for factsheet in factsheets:
+        st.caption(f"• {factsheet.name}")
 
 
 # ---------------------------------------------------------
@@ -80,22 +92,6 @@ question = st.text_input(
 
 
 # ---------------------------------------------------------
-# Temporary context input
-# ---------------------------------------------------------
-
-st.subheader("Retrieved Context")
-
-context = st.text_area(
-    "Paste retrieved document chunks here for now",
-    height=250,
-    placeholder=(
-        "This will later be populated automatically "
-        "from Qdrant retrieval."
-    ),
-)
-
-
-# ---------------------------------------------------------
 # Generate
 # ---------------------------------------------------------
 
@@ -105,12 +101,23 @@ if st.button("Ask FundLens", type="primary"):
         st.warning("Please enter a question.")
         st.stop()
 
-    if not context.strip():
-        st.warning("Please provide retrieved context.")
-        st.stop()
-
     try:
         with st.spinner("Analyzing documents..."):
+            indexed_documents = ensure_factsheets_indexed()
+
+            retrieved_chunks = retrieve_documents(
+                query=question,
+                top_k=5,
+                document_type="factsheet",
+            )
+
+            if not retrieved_chunks:
+                st.warning(
+                    "I could not find relevant content in the indexed factsheets."
+                )
+                st.stop()
+
+            context = format_context_with_citations(retrieved_chunks)
 
             prompt = build_prompt(
                 question=question,
@@ -125,6 +132,21 @@ if st.button("Ask FundLens", type="primary"):
                 llm=llm,
             )
 
+            citations = build_citations(retrieved_chunks)
+            source_labels: dict[tuple[str, int, str], list[int]] = {}
+            for index, chunk in enumerate(retrieved_chunks, start=1):
+                document = chunk.get("document")
+                page = chunk.get("page")
+                source_url = chunk.get("source_url")
+                if document and page is not None and source_url:
+                    key = (document, int(page), source_url)
+                    source_labels.setdefault(key, []).append(index)
+
+        if indexed_documents:
+            st.success(
+                f"Indexed {len(indexed_documents)} new factsheet(s)."
+            )
+
         st.subheader("Answer")
 
         st.write(response.answer)
@@ -137,21 +159,24 @@ if st.button("Ask FundLens", type="primary"):
             f"{response.confidence:.0%}"
         )
 
-        if response.sources:
+        if citations:
 
             st.subheader("Sources")
 
-            for source in response.sources:
+            for source in citations:
+                key = (source.document, source.page, source.source_url)
+                labels = ", ".join(
+                    f"SOURCE {index}"
+                    for index in source_labels.get(key, [])
+                )
 
                 st.markdown(
-                    f"- **{source.document}** — "
-                    f"Page {source.page} — "
-                    f"[Source]({source.source_url})"
+                    f"- **[{labels}] {source.document}**, page {source.page}"
                 )
 
         else:
             st.info(
-                "No document citations were returned."
+                "The retrieved text did not include page-level citation metadata."
             )
 
     except Exception as exc:

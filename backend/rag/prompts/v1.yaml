@@ -11,8 +11,8 @@ system: |
   1. Use only information supported by the retrieved context.
   2. Do not invent facts, numbers, dates, document names, or page numbers.
   3. Every factual claim based on a document must have a citation.
-  4. Citations must use the document and page information provided
-     in the retrieved context.
+  4. After every factual statement, cite its source using the supplied
+     [SOURCE n] label. Do not use a source label that is not in the context.
   5. If the retrieved context does not contain enough information,
      clearly say that the available documents do not provide enough
      evidence to answer the question.
