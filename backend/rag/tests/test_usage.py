@@ -3,11 +3,30 @@ import unittest
 from types import SimpleNamespace
 from unittest.mock import patch
 
-from fundlens_rag.app.llm import generate_response
+from fundlens_rag.app.llm import _parse_json_object, generate_response
 from fundlens_rag.app.usage import UsageTracker
 
 
 class UsageTrackingTests(unittest.TestCase):
+    def test_accepts_json_in_a_markdown_fence(self):
+        parsed = _parse_json_object(
+            '```json\n{"answer":"Grounded [SOURCE 1]","confidence":0.7}\n```'
+        )
+
+        self.assertEqual(parsed["answer"], "Grounded [SOURCE 1]")
+        self.assertEqual(parsed["confidence"], 0.7)
+
+    def test_accepts_a_json_object_after_a_short_model_preamble(self):
+        parsed = _parse_json_object(
+            'Here is the requested JSON:\n{"answer":"Grounded [SOURCE 1]","confidence":0.7}'
+        )
+
+        self.assertEqual(parsed["answer"], "Grounded [SOURCE 1]")
+
+    def test_rejects_text_without_a_json_object(self):
+        with self.assertRaisesRegex(ValueError, "invalid JSON"):
+            _parse_json_object("The answer is in the source.")
+
     def test_generate_response_records_answer_model_calls_and_tokens(self):
         model = SimpleNamespace(
             model="gemma4:31b",

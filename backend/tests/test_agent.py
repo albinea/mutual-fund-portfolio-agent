@@ -53,6 +53,73 @@ def test_historical_performance_routes_to_internal_fund_data():
     assert result["tool_trace"][0]["error_code"] == "DATA_UNAVAILABLE"
 
 
+def test_chat_can_fetch_fund_nav_by_name_from_mfapi(monkeypatch):
+    from app.tools import nav
+
+    nav._search_cache.clear()
+    nav._latest_cache.clear()
+    scheme_name = "HDFC ELSS Tax Saver Fund - Regular Plan - Growth"
+
+    class Response:
+        def __init__(self, payload):
+            self.payload = payload
+
+        def raise_for_status(self):
+            return None
+
+        def json(self):
+            return self.payload
+
+    def fake_get(url, **kwargs):
+        if url.endswith("/search"):
+            return Response([{"schemeCode": 9090, "schemeName": scheme_name}])
+        assert url.endswith("/9090/latest")
+        return Response({
+            "meta": {"scheme_code": 9090, "scheme_name": scheme_name},
+            "data": [{"date": "01-10-2026", "nav": "250.125"}],
+        })
+
+    monkeypatch.setattr(nav.requests, "get", fake_get)
+    provider = ScriptedProvider([
+        call("get_mutual_fund_nav", fund_name=scheme_name),
+        AgentTurn(text="The latest NAV was ₹250.125 on 1 October 2026 [MFapi.in]."),
+    ])
+    result = SingleAgentOrchestrator(provider).run(
+        "What is the latest NAV for HDFC ELSS Tax Saver Fund - Regular Plan - Growth?",
+        "USER001",
+    )
+
+    nav_result = provider.session.responses[1][0].result
+    assert "get_mutual_fund_nav" in provider.tool_names
+    assert nav_result["success"] and nav_result["scheme_code"] == 9090
+    assert nav_result["nav"] == 250.125
+    assert result["answer_method"] == "agent_plus_mfapi"
+    assert any("MFapi.in" in source["name"] for source in result["sources"])
+
+
+def test_fund_nav_and_sip_questions_route_to_the_right_sources():
+    from app.agent.policy import ToolSelectionPolicy
+
+    available = {item["name"] for item in registry(for_model=True)}
+    policy = ToolSelectionPolicy()
+    nav_tools = policy.select("What is the latest NAV for HDFC ELSS Tax Saver Fund?", available)
+    assert nav_tools == {"search_mutual_fund_schemes", "get_mutual_fund_nav"}
+
+    sip_tools = policy.select(
+        "What was the market value for the 1-year SIP of HDFC ELSS Tax Saver Fund?",
+        available,
+    )
+    assert "search_financial_documents" in sip_tools
+    assert "calculate_lump_sum_value" not in sip_tools
+    assert "get_mutual_fund_nav" not in sip_tools
+
+    inception_tools = policy.select(
+        "What was the value of ₹10,000 invested since inception for HDFC ELSS Tax Saver Fund?",
+        available,
+    )
+    assert {"search_financial_documents", "calculate_lump_sum_value"} <= inception_tools
+
+
 def test_sequential_portfolio_holdings_exposure_chain():
     provider = ScriptedProvider([
         call("get_portfolio"),
@@ -216,8 +283,8 @@ def test_ollama_adapter_sends_and_receives_native_tool_calls():
             self.responses = [
                 Response({"message": {"role": "assistant", "content": "", "tool_calls": [{
                     "type": "function", "function": {"name": "get_portfolio", "arguments": {}}
-                }]}}),
-                Response({"message": {"role": "assistant", "content": "You invested ₹110,000."}}),
+                }]}, "prompt_eval_count": 20, "eval_count": 5}),
+                Response({"message": {"role": "assistant", "content": "You invested ₹110,000."}, "prompt_eval_count": 30, "eval_count": 10}),
             ]
 
         def post(self, path, json):
@@ -237,6 +304,11 @@ def test_ollama_adapter_sends_and_receives_native_tool_calls():
     assert final.text == "You invested ₹110,000."
     assert client.requests[1][1]["messages"][-1]["role"] == "tool"
     assert client.requests[1][1]["messages"][-1]["tool_name"] == "get_portfolio"
+    usage = session.usage_snapshot()[0]
+    assert usage["role"] == "answer"
+    assert usage["requests"] == 2
+    assert usage["input_tokens"] == 50
+    assert usage["output_tokens"] == 15
 
 
 def test_chat_api_maps_message_to_agent(monkeypatch):

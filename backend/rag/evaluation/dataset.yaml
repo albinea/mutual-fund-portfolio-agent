@@ -1,83 +1,170 @@
-version: "v1"
+version: "v2"
+description: >-
+  Retrieval-grounding regression suite using facts verified in the checked-in
+  HDFC August 2026 factsheet chunks. Page 64 is retained as a wrong-fund
+  distractor for the HDFC Medium to Long Term Fund queries.
+corpus:
+  documents:
+    - document: "HDFC MF Factsheet - August 2026.pdf"
+      pages: [63, 64, 86, 87]
 
 questions:
-
   - id: Q01
-    question: "What is the fund's investment objective?"
-    expected_behavior: "Answer only if the retrieved document explicitly states the investment objective."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What is the investment objective of HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["generate income", "capital appreciation", "debt and money market instruments"]
+    expected_answer_terms: ["income", "capital appreciation", "debt", "money market"]
 
   - id: Q02
-    question: "What is the fund's current NAV?"
-    expected_behavior: "Return the NAV only when supported by the retrieved document and include the document page citation."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What portfolio Macaulay duration range is stated for HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["Macaulay Duration of the Portfolio is between 4 years to 7 years"]
+    expected_answer_patterns: ['(?i)4(?:\s+years)?\s*(?:to|and|[-–])\s*7\s+years']
 
   - id: Q03
-    question: "What was the fund's NAV on the previous reporting date?"
-    expected_behavior: "Return the historical NAV only when the retrieved evidence contains the relevant date and value."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "How does the factsheet classify the interest-rate and credit risks of HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["Relatively High Interest Rate Risk", "Moderate Credit Risk"]
+    expected_answer_terms: ["High Interest Rate Risk", "Moderate Credit Risk"]
 
   - id: Q04
-    question: "What are the fund's largest holdings?"
-    expected_behavior: "Identify holdings and their weights from the retrieved portfolio/holdings data."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What is the allotment or inception date of HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["September 11, 2000"]
+    expected_answer_terms: ["September 11, 2000"]
 
   - id: Q05
-    question: "What percentage of the portfolio is invested in the technology sector?"
-    expected_behavior: "Return the sector allocation from the retrieved evidence."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What was the August 31, 2026 NAV for the Regular Plan Growth Option of HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["Regular Plan - Growth Option", "60.4807"]
+    expected_answer_terms: ["60.4807"]
 
   - id: Q06
-    question: "Which sector has the highest allocation?"
-    expected_behavior: "Identify the highest sector only from retrieved evidence."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What was the August 31, 2026 NAV for the Direct Plan Growth Option of HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["Direct Plan - Growth Option", "67.3688"]
+    expected_answer_terms: ["67.3688"]
 
   - id: Q07
-    question: "How did the technology allocation change compared with the previous period?"
-    expected_behavior: "Describe the change using only the retrieved historical evidence."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What was the scheme's average AUM for August 2026?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["Average for Month of August, 2026", "834.46Cr"]
+    expected_answer_terms: ["834.46"]
 
   - id: Q08
-    question: "Which holdings increased their portfolio weight?"
-    expected_behavior: "Compare the retrieved portfolio snapshots and identify increased weights."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What AUM does the factsheet report as of August 31, 2026?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["As on August 31, 2026", "830.20Cr"]
+    expected_answer_terms: ["830.20"]
 
   - id: Q09
-    question: "Which holdings decreased their portfolio weight?"
-    expected_behavior: "Compare the retrieved portfolio snapshots and identify decreased weights."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What residual maturity is reported for HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["Residual Maturity", "12.88 Years"]
+    expected_answer_terms: ["12.88"]
 
   - id: Q10
-    question: "Why did the fund increase its exposure to this company?"
-    expected_behavior: "Provide a reason only if a retrieved fund document or announcement explicitly explains the change. Otherwise say that the available documents do not provide a reason."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What Macaulay duration does the August 2026 factsheet report?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["Macaulay Duration", "6.07 Years"]
+    expected_answer_terms: ["6.07"]
 
   - id: Q11
-    question: "Why did the fund reduce its exposure to this company?"
-    expected_behavior: "Do not invent a reason. State that the reason is unavailable when the retrieved documents do not explain it."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What modified duration is reported for HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["Modified Duration", "5.81 Years"]
+    expected_answer_terms: ["5.81"]
 
   - id: Q12
-    question: "What does the latest factsheet say about the fund's portfolio?"
-    expected_behavior: "Summarize only information contained in the retrieved factsheet and cite the relevant pages."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What is the annualized portfolio YTM shown in the factsheet?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["Annualized Portfolio YTM", "7.31%"]
+    expected_answer_terms: ["7.31"]
 
   - id: Q13
-    question: "What benchmark does the fund use?"
-    expected_behavior: "Return the benchmark only when explicitly stated in the retrieved document."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What is the Regular Plan expense ratio for HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["Regular: 1.35%"]
+    expected_answer_terms: ["1.35"]
 
   - id: Q14
-    question: "What is the fund's expense ratio?"
-    expected_behavior: "Return the expense ratio from the retrieved evidence with a page citation."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What is the Direct Plan expense ratio for HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["Direct: 0.78%"]
+    expected_answer_terms: ["0.78"]
 
   - id: Q15
-    question: "What changed between the latest and previous portfolio snapshots?"
-    expected_behavior: "Summarize supported changes in holdings, weights, or sectors without inventing explanations."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "Which benchmark index is used for HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["CRISIL Medium To Long Duration Debt A-III Index"]
+    expected_answer_terms: ["CRISIL Medium To Long Duration Debt A-III Index"]
 
   - id: Q16
-    question: "Does the available documentation explain why this portfolio change occurred?"
-    expected_behavior: "Answer yes only when the retrieved documents provide an explicit explanation; otherwise state that no explanation was found."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What additional benchmark index is listed for HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 86
+    expected_evidence_terms: ["CRISIL 10 Year Gilt Index"]
+    expected_answer_terms: ["CRISIL 10 Year Gilt Index"]
 
   - id: Q17
-    question: "Which document supports this statement?"
-    expected_behavior: "Return the document and page corresponding to the retrieved evidence."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What was the market value of the 1-year SIP in the August 2026 factsheet?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 87
+    expected_evidence_terms: ["Market Value as on August", "1 year SIP", "1.23"]
+    expected_answer_terms: ["1.23"]
 
   - id: Q18
-    question: "Can you find evidence supporting this company's exposure in the fund?"
-    expected_behavior: "Return the relevant holding/document evidence and page citation."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What return did the 1-year SIP show for HDFC Medium to Long Term Fund?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 87
+    expected_evidence_terms: ["Returns (%)", "1 year SIP", "4.85"]
+    expected_answer_terms: ["4.85"]
 
   - id: Q19
-    question: "Is there enough evidence in the retrieved documents to answer this question?"
-    expected_behavior: "If the evidence is insufficient, explicitly say so rather than using outside knowledge."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "What were the Regular Plan Growth Option scheme and benchmark returns over the last 1 year?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 87
+    expected_evidence_terms: ["Last 1 Year", "Scheme Returns (%) = 4.76", "Benchmark Returns (%) = 4.78"]
+    expected_answer_terms: ["4.76", "4.78"]
 
   - id: Q20
-    question: "What does the available documentation say about this fund?"
-    expected_behavior: "Provide a concise evidence-based summary and cite the retrieved documents and pages."
+    fund_scope: "HDFC Medium to Long Term Fund"
+    question: "For HDFC Medium to Long Term Fund, what was the value of ₹10,000 invested since inception?"
+    expected_document: "HDFC MF Factsheet - August 2026.pdf"
+    expected_page: 87
+    expected_evidence_terms: ["Since Inception", "Value of ₹ 10,000 invested - Scheme", "60,481"]
+    expected_answer_terms: ["60,481"]

@@ -22,6 +22,7 @@ class FundMetadataTests(unittest.TestCase):
 ## HDFC Large &amp; Mid Cap Fund
 ## HDFC NIFTY 50 ETF
 ## HDFC Developed World Overseas Equity Passive FOF
+## Nippon India ETF Nifty 50 BeES
 ## Performance details of Schemes managed by respective Fund Managers
 """
 
@@ -32,6 +33,7 @@ class FundMetadataTests(unittest.TestCase):
                 "HDFC Large & Mid Cap Fund",
                 "HDFC NIFTY 50 ETF",
                 "HDFC Developed World Overseas Equity Passive FOF",
+                "Nippon India ETF Nifty 50 BeES",
             ],
         )
 

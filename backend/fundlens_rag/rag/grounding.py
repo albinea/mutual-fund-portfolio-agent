@@ -53,7 +53,7 @@ def cited_chunks(
 
     query_terms = _meaningful_terms(question)
     if len(query_terms) >= 3 and not any(
-        _term_overlap(query_terms, str(chunk["text"])) >= _MIN_QUERY_TERM_OVERLAP
+        _term_overlap(query_terms, _chunk_evidence_text(chunk)) >= _MIN_QUERY_TERM_OVERLAP
         for _, chunk in verified
     ):
         raise GroundingError(
@@ -107,7 +107,7 @@ def ground_answer(
             chunks,
             _term_overlap(
                 query_terms,
-                "\n".join(str(chunk["text"]) for _, chunk in chunks),
+                "\n".join(_chunk_evidence_text(chunk) for _, chunk in chunks),
             ),
         )
         for chunks in page_groups.values()
@@ -143,11 +143,30 @@ def _source_labels(answer: str) -> list[int]:
 
 
 def _meaningful_terms(text: str) -> set[str]:
-    return {
+    terms = {
         word
         for word in _WORD.findall(text.lower())
         if len(word) > 2 and word not in _STOP_WORDS
     }
+    # Factsheets commonly spell out the AUM label while users use the
+    # acronym. Treat them as equivalent only for the lexical subject check;
+    # numeric claims remain independently verified against chunk text.
+    if "aum" in terms:
+        terms.remove("aum")
+        terms.update({"assets", "under", "management"})
+    return terms
+
+
+def _chunk_evidence_text(chunk: dict[str, Any]) -> str:
+    """Combine text with trusted index metadata for subject matching.
+
+    A page may be split so a table chunk does not repeat its scheme heading.
+    The fund name is attached at ingestion and used by Qdrant's fund filter;
+    including it here prevents that valid table citation from being rejected
+    purely because the heading is in an adjacent chunk.  Numeric validation
+    below intentionally continues to inspect document text only.
+    """
+    return f"{chunk.get('text', '')}\n{chunk.get('fund_name', '')}"
 
 
 def _term_overlap(query_terms: set[str], source_text: str) -> float:

@@ -5,6 +5,7 @@ from unittest.mock import ANY, Mock, patch
 from uuid import uuid4
 
 from django.core.management import call_command
+from django.contrib.auth import get_user_model
 from django.test import SimpleTestCase
 from rest_framework.test import APITestCase
 
@@ -61,6 +62,14 @@ class FundLensRagServiceAdapterTests(SimpleTestCase):
 
 
 class ChatApiTests(APITestCase):
+    def setUp(self):
+        self.user = get_user_model().objects.create_user(
+            username="USER001",
+            email="user001@example.com",
+            password="Bright-Mountain-42!",
+        )
+        self.client.force_authenticate(user=self.user)
+
     @patch("chat.views.run_chat")
     def test_new_conversation_starts_with_empty_server_context(
         self,
@@ -75,7 +84,7 @@ class ChatApiTests(APITestCase):
         response = self.client.post(
             "/api/v1/chat/",
             {
-                "user_id": "USER001",
+                "user_id": "ANOTHER_USERS_ID",
                 "message": "How many funds do I have?",
             },
             format="json",
@@ -104,6 +113,69 @@ class ChatApiTests(APITestCase):
             user_id="USER001",
             conversation_context=[],
         )
+
+    @patch("chat.views.run_chat")
+    def test_fund_answer_preserves_rag_method_citations_evidence_and_usage(
+        self,
+        mock_run_chat,
+    ):
+        evidence = {
+            "text": "The one-year scheme return was 12%.",
+            "document": "HDFC Factsheet.pdf",
+            "page": 64,
+            "fund_name": "HDFC ELSS - Tax Saver Fund",
+            "score": 0.87,
+        }
+        source = {
+            "name": "HDFC Factsheet.pdf",
+            "document": "HDFC Factsheet.pdf",
+            "page": 64,
+            "url": None,
+        }
+        usage = {
+            "role": "answer",
+            "model": "gemma4:31b",
+            "requests": 2,
+            "input_tokens": 1200,
+            "output_tokens": 90,
+            "input_reports": 2,
+            "output_reports": 2,
+            "estimated_cost": "Rates not configured",
+        }
+        mock_run_chat.return_value = {
+            "success": True,
+            "answer": "The one-year return was 12% [HDFC Factsheet.pdf, page 64].",
+            "sources": [source],
+            "retrieved_chunks": [evidence],
+            "answer_method": "agent_plus_rag",
+            "usage": [usage],
+        }
+
+        response = self.client.post(
+            "/api/v1/chat/",
+            {
+                "user_id": "USER001",
+                "message": "What was the one-year return for HDFC ELSS - Tax Saver Fund?",
+            },
+            format="json",
+        )
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.data["answer_method"], "agent_plus_rag")
+        self.assertEqual(response.data["sources"][0]["page"], 64)
+        self.assertEqual(response.data["retrieved_chunks"][0]["document"], "HDFC Factsheet.pdf")
+        self.assertEqual(response.data["retrieved_chunks"][0]["page"], 64)
+        self.assertEqual(response.data["usage"][0]["input_tokens"], 1200)
+
+        conversation_id = response.data["conversation_id"]
+        reopened = self.client.get(
+            f"/api/v1/chat/conversations/{conversation_id}/?user_id=USER001"
+        )
+        self.assertEqual(reopened.status_code, 200)
+        assistant_message = reopened.data["messages"][1]
+        self.assertEqual(assistant_message["metadata"]["answer_method"], "agent_plus_rag")
+        self.assertEqual(assistant_message["metadata"]["retrieved_chunks"][0]["page"], 64)
+        self.assertEqual(assistant_message["metadata"]["usage"][0]["input_tokens"], 1200)
 
     @patch("chat.views.run_chat")
     def test_follow_up_uses_saved_conversation_context(self, mock_run_chat):
@@ -173,6 +245,13 @@ class ChatApiTests(APITestCase):
             format="json",
         )
 
+        other_user = get_user_model().objects.create_user(
+            username="USER002",
+            email="user002@example.com",
+            password="Bright-Mountain-42!",
+        )
+        self.client.force_authenticate(user=other_user)
+
         response = self.client.post(
             "/api/v1/chat/",
             {
@@ -204,7 +283,6 @@ class ChatApiTests(APITestCase):
     def test_invalid_chat_requests_return_bad_request(self):
         invalid_payloads = [
             {},
-            {"user_id": "", "message": "How many funds do I have?"},
             {"user_id": "USER001", "message": ""},
         ]
 
@@ -277,7 +355,33 @@ class ChatApiTests(APITestCase):
             ],
         )
 
+        other_user = get_user_model().objects.create_user(
+            username="USER002",
+            email="user002@example.com",
+            password="Bright-Mountain-42!",
+        )
+        self.client.force_authenticate(user=other_user)
         forbidden = self.client.get(
             f"/api/v1/chat/conversations/{conversation.id}/?user_id=USER002"
         )
         self.assertEqual(forbidden.status_code, 404)
+
+    def test_rag_job_is_private_to_the_account_that_queued_it(self):
+        queued = self.client.post(
+            "/api/v1/rag/jobs/",
+            {"question": "What is this fund's benchmark?", "fund_scope": "Example Fund"},
+            format="json",
+        )
+
+        self.assertEqual(queued.status_code, 202)
+        job = RagQuestionJob.objects.get(id=queued.data["job_id"])
+        self.assertEqual(job.user_id, "USER001")
+
+        other_user = get_user_model().objects.create_user(
+            username="USER002",
+            email="user002@example.com",
+            password="Bright-Mountain-42!",
+        )
+        self.client.force_authenticate(user=other_user)
+        status_response = self.client.get(queued.data["poll_url"])
+        self.assertEqual(status_response.status_code, 404)

@@ -1,11 +1,7 @@
-from drf_spectacular.utils import (
-    OpenApiParameter,
-    OpenApiResponse,
-    OpenApiTypes,
-    extend_schema,
-)
+from drf_spectacular.utils import OpenApiResponse, extend_schema
 from rest_framework import status
 from rest_framework.exceptions import NotFound
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -15,7 +11,6 @@ from .serializers import (
     ChatResponseSerializer,
     ConversationDetailSerializer,
     ConversationListSerializer,
-    ConversationQuerySerializer,
 )
 from .services import run_chat
 
@@ -61,12 +56,16 @@ def _conversation_or_404(conversation_id, user_id: str) -> Conversation:
 class ChatView(APIView):
     """Send a message to the agent and persist the conversation."""
 
+    permission_classes = [IsAuthenticated]
+
     def post(self, request):
         serializer = ChatRequestSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         payload = serializer.validated_data
 
-        user_id = payload["user_id"]
+        # Ownership always comes from Django's authenticated session, never
+        # from a user_id the browser could alter.
+        user_id = request.user.get_username()
         conversation_id = payload.get("conversation_id")
 
         if conversation_id:
@@ -105,10 +104,22 @@ class ChatView(APIView):
             conversation_context=conversation_context,
         )
 
+        display_metadata = {
+            key: result[key]
+            for key in (
+                "sources",
+                "tool_trace",
+                "retrieved_chunks",
+                "answer_method",
+                "usage",
+            )
+            if key in result
+        }
         ChatMessage.objects.create(
             conversation=conversation,
             role=ChatMessage.Role.ASSISTANT,
             content=result.get("answer", ""),
+            metadata=display_metadata,
         )
 
         conversation.save(update_fields=["updated_at"])
@@ -125,25 +136,17 @@ class ChatView(APIView):
 
 @extend_schema(
     tags=["Chat"],
-    parameters=[
-        OpenApiParameter(
-            "user_id",
-            OpenApiTypes.STR,
-            OpenApiParameter.QUERY,
-            required=True,
-        ),
-    ],
     responses={200: ConversationListSerializer},
     description="Lists saved conversations for one portfolio user, newest first.",
 )
 class ConversationListView(APIView):
     """List a user's persisted chat sessions without exposing other users."""
 
+    permission_classes = [IsAuthenticated]
+
     @extend_schema(operation_id="chat-conversation-list")
     def get(self, request):
-        serializer = ConversationQuerySerializer(data=request.query_params)
-        serializer.is_valid(raise_exception=True)
-        user_id = serializer.validated_data["user_id"]
+        user_id = request.user.get_username()
 
         conversations = Conversation.objects.filter(user_id=user_id).prefetch_related(
             "messages"
@@ -168,14 +171,6 @@ class ConversationListView(APIView):
 
 @extend_schema(
     tags=["Chat"],
-    parameters=[
-        OpenApiParameter(
-            "user_id",
-            OpenApiTypes.STR,
-            OpenApiParameter.QUERY,
-            required=True,
-        ),
-    ],
     responses={
         200: ConversationDetailSerializer,
         404: OpenApiResponse(description="Conversation was not found for this user."),
@@ -185,13 +180,13 @@ class ConversationListView(APIView):
 class ConversationDetailView(APIView):
     """Return a persisted conversation for the assistant history panel."""
 
+    permission_classes = [IsAuthenticated]
+
     @extend_schema(operation_id="chat-conversation-detail")
     def get(self, request, conversation_id):
-        serializer = ConversationQuerySerializer(data=request.query_params)
-        serializer.is_valid(raise_exception=True)
         conversation = _conversation_or_404(
             conversation_id,
-            serializer.validated_data["user_id"],
+            request.user.get_username(),
         )
 
         return Response(
@@ -204,6 +199,7 @@ class ConversationDetailView(APIView):
                         "role": message.role,
                         "content": message.content,
                         "created_at": message.created_at,
+                        "metadata": message.metadata,
                     }
                     for message in conversation.messages.all()
                 ],

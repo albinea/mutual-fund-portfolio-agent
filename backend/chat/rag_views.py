@@ -8,6 +8,7 @@ from django.shortcuts import get_object_or_404
 from django.urls import reverse
 from drf_spectacular.utils import OpenApiResponse, extend_schema
 from rest_framework import status
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -40,11 +41,14 @@ logger = logging.getLogger(__name__)
 class RagJobCreateView(APIView):
     """Queue a RAG request without holding the HTTP connection during inference."""
 
+    permission_classes = [IsAuthenticated]
+
     def post(self, request):
         request_serializer = RagQuestionSerializer(data=request.data)
         request_serializer.is_valid(raise_exception=True)
         payload = request_serializer.validated_data
         job = RagQuestionJob.objects.create(
+            user_id=request.user.get_username(),
             question=payload["question"],
             fund_scope=payload.get("fund_scope"),
             top_k=payload["top_k"],
@@ -71,8 +75,14 @@ class RagJobCreateView(APIView):
 class RagJobStatusView(APIView):
     """Return progress or the complete evidence-backed result for a queued job."""
 
+    permission_classes = [IsAuthenticated]
+
     def get(self, request, job_id):
-        job = get_object_or_404(RagQuestionJob, id=job_id)
+        job = get_object_or_404(
+            RagQuestionJob,
+            id=job_id,
+            user_id=request.user.get_username(),
+        )
         data = {
             "job_id": job.id,
             "status": job.status,
@@ -104,6 +114,8 @@ class RagJobStatusView(APIView):
 )
 class RagAnswerView(APIView):
     """Run fund-scoped RAG without changing the existing portfolio chat API."""
+
+    permission_classes = [IsAuthenticated]
 
     def post(self, request):
         request_serializer = RagQuestionSerializer(data=request.data)

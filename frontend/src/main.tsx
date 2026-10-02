@@ -5,27 +5,31 @@ import "./styles.css";
 
 type Page = "assistant" | "portfolio" | "explorer" | "overlap" | "calculators" | "market";
 type AssistantMode = "chat" | "documents";
-type ExplorerTab = "scanner" | "discovery" | "compare" | "commentary";
+type ExplorerTab = "discover" | "compare";
 type CalculatorTab = "sip" | "wealth" | "rolling";
 type PortfolioTab = "overview" | "holdings" | "allocation" | "changes";
 type MarketTab = "india" | "us" | "europe" | "currencies" | "crypto" | "futures";
 type Message = { role: "user" | "assistant"; content: string; sources?: Source[]; trace?: ToolTrace[]; evidence?: RagEvidenceChunk[]; answerMethod?: string; confidence?: number; usage?: RagUsage[] };
 type Source = { name?: string; document?: string; page?: number; labels?: string[]; url?: string | null; data_as_of?: string | null };
 type ToolTrace = { activity: string; success: boolean };
-type ChatResponse = { success: boolean; answer: string; error_code?: string; sources?: Source[]; tool_trace?: ToolTrace[]; conversation_id?: string };
+type ChatResponse = { success: boolean; answer: string; error_code?: string; sources?: Source[]; tool_trace?: ToolTrace[]; retrieved_chunks?: RagEvidenceChunk[]; answer_method?: string; usage?: RagUsage[]; conversation_id?: string };
 type RagEvidenceChunk = { text: string; document?: string | null; page?: number | null; score?: number | null; fund_name?: string | null; document_type?: string | null; published_date?: string | null; visual_fallback?: boolean };
 type RagUsage = { role: "answer" | "vision"; model: string; requests: number; input_tokens: number; output_tokens: number; input_reports: number; output_reports: number; estimated_cost: string };
 type RagResponse = { success: boolean; answer: string; error_code?: string | null; confidence: number; fund_name?: string | null; answer_method: string; sources: Source[]; retrieved_chunks: RagEvidenceChunk[]; usage: RagUsage[] };
 type RagJobAccepted = { job_id: string; status: "queued"; poll_url: string };
 type RagJobStatus = { job_id: string; status: "queued" | "running" | "completed" | "failed"; poll_url: string; result?: RagResponse | null };
 type ApiEnvelope<T> = { success: boolean; data: T; sources: Source[]; message?: string | null; error_code?: string };
+type Account = { user_id: string; email: string; first_name: string; last_name: string; is_staff: boolean };
+type AccountEnvelope = { success: boolean; data: Account; message?: string | null };
 type PortfolioSummary = { total_invested: number; current_value: number; change: number; change_percent: number; fund_count: number; company_count: number | null; as_of?: string | null };
 type Holding = { fund_id: string; fund_name: string; category?: string | null; units: number; invested_amount: number; current_value: number; allocation_percent: number };
 type AllocationItem = { name: string; value: number; percentage: number; funds: string[] };
 type Allocation = { group_by: string; items: AllocationItem[]; as_of?: string | null };
 type Overlap = { overall_overlap_percent: number; explanation: string; companies: { company: string; combined_exposure_percent: number; funds: { fund_name: string; fund_holding_percent?: number; portfolio_contribution_percent?: number }[] }[] };
-type Fund = { fund_id: string; fund_name: string; category?: string | null; risk_level?: string | null; return_3y?: number | null; expense_ratio?: number | null; fund_size?: number | null; risk_adjusted_rating?: number | null; manager_name?: string | null; as_of?: string | null };
-type FundList = { results: Fund[]; total: number; page: number; page_size: number };
+type MutualFundScheme = { scheme_code: number; scheme_name: string };
+type FundSchemeSearchData = { query: string; schemes: MutualFundScheme[] };
+type FundNavOverviewData = { scheme_code: number; latest_nav: number; nav_date: string; total_observations: number; returns: { years: number; cagr_percent: number | null; start_date: string | null; end_date: string | null }[] };
+type FundNavCompareData = { years: number; funds: { scheme_code: number; cagr_percent: number; annualized_volatility_percent: number; maximum_drawdown_percent: number; start_date?: string; end_date?: string }[] };
 type CalculatorResult = { total_invested?: number; total_contribution?: number; estimated_returns?: number; estimated_growth?: number; expected_wealth: number; disclaimer: string; assumptions?: string[]; yearly_projection?: { year: number; total_invested: number; expected_wealth: number }[] };
 type WatchlistItem = { id: number; symbol: string; name: string; price?: number | null; change_percent?: number | null; as_of?: string | null; provider?: string | null; data_mode?: string | null };
 type MarketQuote = { company_id: string; name: string; symbol: string; exchange: string; currency: string; price: number; change_percent?: number | null; as_of?: string | null; source?: string; data_mode?: string };
@@ -33,7 +37,7 @@ type MarketOverview = { configured: boolean; provider: string; data_mode: string
 type CompanyExposure = { company: { company_id: string; name: string; sector: string }; funds_holding_company: { fund_id: string; fund_name: string; fund_exposure_percent: number; portfolio_contribution_percent?: number; in_user_portfolio: boolean }[]; user_portfolio_exposure_percent: number; data_as_of?: string | null; source_names?: string[] };
 type ConversationSummary = { id: string; title: string; latest_message_preview: string; message_count: number; created_at: string; updated_at: string };
 type ConversationList = { results: ConversationSummary[] };
-type ConversationDetail = { id: string; created_at: string; updated_at: string; messages: { role: "user" | "assistant"; content: string; created_at: string }[] };
+type ConversationDetail = { id: string; created_at: string; updated_at: string; messages: { role: "user" | "assistant"; content: string; created_at: string; metadata?: { sources?: Source[]; tool_trace?: ToolTrace[]; retrieved_chunks?: RagEvidenceChunk[]; answer_method?: string; usage?: RagUsage[] } }[] };
 type PortfolioImportResult = { import_id: number; holding_count: number; source_file_name: string; source_format: string; snapshot_date: string; is_active: boolean };
 type FundDisclosureImportResult = { disclosure_import_id: number; holding_count: number; source_file_name: string; source_format: string; disclosure_date: string };
 type PortfolioSnapshot = { id: number; snapshot_date: string; source_file_name: string; source_format: string; holding_count: number; is_active: boolean };
@@ -43,9 +47,30 @@ type IconName = "assistant" | "portfolio" | "explorer" | "overlap" | "calculator
 const apiBaseUrl = import.meta.env.VITE_API_BASE_URL ?? "/api/v1";
 const ragPollTimeoutMs = 10 * 60 * 1000;
 
-async function askFundLens(question: string, fundScope: string): Promise<RagResponse> {
+function cookieValue(name: string) {
+  const entry = document.cookie.split(";").map((part) => part.trim()).find((part) => part.startsWith(`${name}=`));
+  return entry ? decodeURIComponent(entry.slice(name.length + 1)) : "";
+}
+
+async function apiFetch(path: string, init: RequestInit = {}) {
+  const method = (init.method ?? "GET").toUpperCase();
+  const headers = new Headers(init.headers);
+  if (!["GET", "HEAD", "OPTIONS", "TRACE"].includes(method)) {
+    let csrfToken = cookieValue("csrftoken");
+    if (!csrfToken) {
+      const csrfResponse = await fetch(`${apiBaseUrl}/auth/csrf/`, { credentials: "same-origin" });
+      const csrfPayload = await csrfResponse.json().catch(() => ({}));
+      csrfToken = cookieValue("csrftoken") || csrfPayload?.data?.csrf_token || "";
+    }
+    if (csrfToken) headers.set("X-CSRFToken", csrfToken);
+  }
   const apiRoot = apiBaseUrl.replace(/\/+$/, "");
-  const createResponse = await fetch(`${apiRoot}/rag/jobs/`, {
+  const url = /^https?:\/\//i.test(path) ? path : `${apiRoot}${path.startsWith("/") ? path : `/${path}`}`;
+  return fetch(url, { ...init, headers, credentials: "same-origin" });
+}
+
+async function askFundLens(question: string, fundScope: string): Promise<RagResponse> {
+  const createResponse = await apiFetch("/rag/jobs/", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ question, fund_scope: fundScope.trim(), top_k: 5 }),
@@ -58,10 +83,10 @@ async function askFundLens(question: string, fundScope: string): Promise<RagResp
 
   const job = created as RagJobAccepted;
   const deadline = Date.now() + ragPollTimeoutMs;
-  const pollUrl = new URL(job.poll_url, apiRoot.startsWith("http") ? apiRoot : window.location.origin).toString();
+  const pollUrl = new URL(job.poll_url, window.location.origin).toString();
   while (Date.now() < deadline) {
     await new Promise((resolve) => window.setTimeout(resolve, 1200));
-    const statusResponse = await fetch(pollUrl);
+    const statusResponse = await apiFetch(pollUrl);
     const statusPayload = await statusResponse.json() as RagJobStatus | { detail?: string };
     if (!statusResponse.ok) {
       throw new Error("detail" in statusPayload ? statusPayload.detail || "Could not check document research status." : "Could not check document research status.");
@@ -85,10 +110,12 @@ const navigation: { id: Page; label: string; icon: IconName }[] = [
 ];
 
 async function apiRequest<T>(path: string, init?: RequestInit): Promise<T> {
-  const response = await fetch(`${apiBaseUrl}${path}`, init);
+  const response = await apiFetch(path, init);
   const payload = await response.json().catch(() => ({}));
   if (!response.ok || payload.success === false) {
-    throw new Error(payload.message || payload.answer || payload.error_code || "The request could not be completed.");
+    const detail = Array.isArray(payload.detail) ? payload.detail.map((item: { msg?: string }) => item.msg).join(" ") : payload.detail;
+    const fieldError = Object.values(payload).find((value) => Array.isArray(value) && typeof value[0] === "string") as string[] | undefined;
+    throw new Error(payload.message || payload.answer || detail || fieldError?.[0] || payload.error_code || "The request could not be completed.");
   }
   return payload as T;
 }
@@ -129,12 +156,6 @@ function valueOrUnavailable(value: string | number | null | undefined, suffix = 
   return value == null ? "Not available" : `${value}${suffix}`;
 }
 
-function StarRating({ score }: { score: number | null | undefined }) {
-  if (score == null) return <span className="muted">Not available</span>;
-  const stars = Math.max(1, Math.min(5, Math.round(score)));
-  return <span className="stars" aria-label={`${stars} out of 5 risk-adjusted-return stars`}>{"★".repeat(stars)}<i>{"★".repeat(5 - stars)}</i></span>;
-}
-
 function Icon({ name, size = 18 }: { name: IconName; size?: number }) {
   let path: ReactNode;
   switch (name) {
@@ -158,11 +179,14 @@ function Icon({ name, size = 18 }: { name: IconName; size?: number }) {
 
 function App() {
   const [page, setPage] = useState<Page>("assistant");
-  const [explorerTab, setExplorerTab] = useState<ExplorerTab>("scanner");
+  const [explorerTab, setExplorerTab] = useState<ExplorerTab>("discover");
   const [calculatorTab, setCalculatorTab] = useState<CalculatorTab>("sip");
   const [portfolioTab, setPortfolioTab] = useState<PortfolioTab>("overview");
   const [quickSearch, setQuickSearch] = useState("");
-  const [userId, setUserId] = useState("USER001");
+  const [userId, setUserId] = useState("");
+  const [account, setAccount] = useState<Account | null>(null);
+  const [authLoading, setAuthLoading] = useState(true);
+  const [profileOpen, setProfileOpen] = useState(false);
   const [draft, setDraft] = useState("");
   const [messages, setMessages] = useState<Message[]>([]);
   const [assistantMode, setAssistantMode] = useState<AssistantMode>("chat");
@@ -175,13 +199,61 @@ function App() {
   const [error, setError] = useState("");
   const [chatFiles, setChatFiles] = useState<File[]>([]);
   const [portfolioRefresh, setPortfolioRefresh] = useState(0);
-  const [selectedFundIds, setSelectedFundIds] = useState<string[]>(["F001", "F002"]);
+  const [selectedSchemes, setSelectedSchemes] = useState<MutualFundScheme[]>([]);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const history = useApi<ConversationList>(userId.trim() ? `/chat/conversations/?user_id=${encodeURIComponent(userId.trim())}&refresh=${conversationRefresh}` : null);
+  const history = useApi<ConversationList>(userId.trim() ? `/chat/conversations/?refresh=${conversationRefresh}` : null);
+
+  useEffect(() => {
+    let active = true;
+    apiRequest<AccountEnvelope>("/auth/profile/")
+      .then((response) => {
+        if (!active) return;
+        setAccount(response.data);
+        setUserId(response.data.user_id);
+      })
+      .catch(() => {
+        if (active) {
+          setAccount(null);
+          setUserId("");
+        }
+      })
+      .finally(() => { if (active) setAuthLoading(false); });
+    return () => { active = false; };
+  }, []);
+
+  function onAuthenticated(nextAccount: Account) {
+    setAccount(nextAccount);
+    setUserId(nextAccount.user_id);
+    setConversationId(null);
+    setMessages([]);
+    setConversationRefresh((value) => value + 1);
+  }
+
+  async function signOut() {
+    try {
+      await apiRequest("/auth/logout/", { method: "POST", headers: { "Content-Type": "application/json" }, body: "{}" });
+    } catch {
+      // Clear local state even if the server cannot be reached; the server-side
+      // session still expires according to Django's configured session policy.
+    } finally {
+      setAccount(null);
+      setUserId("");
+      setProfileOpen(false);
+      setMessages([]);
+      setConversationId(null);
+      setHistoryOpen(false);
+    }
+  }
 
   function openAssistant(prompt = "") {
     setPage("assistant");
     setDraft(prompt);
+  }
+
+  function askAboutFund(fundName: string) {
+    setAssistantMode("chat");
+    setFundScope("");
+    openAssistant(`Research ${fundName}. Use MFapi.in for current or historical NAV and NAV-return questions, and use indexed factsheets for the scheme objective, benchmark, risk, fees, and holdings. Cite each source and say clearly when the indexed documents do not contain enough evidence.`);
   }
 
   function submitQuickSearch(event: FormEvent) {
@@ -192,7 +264,7 @@ function App() {
     setQuickSearch("");
   }
 
-  function openExplorer(tab: ExplorerTab = "scanner") {
+  function openExplorer(tab: ExplorerTab = "discover") {
     setPage("explorer");
     setExplorerTab(tab);
   }
@@ -202,10 +274,10 @@ function App() {
     setPortfolioTab(tab);
   }
 
-  function toggleFund(id: string) {
-    setSelectedFundIds((current) => current.includes(id)
-      ? current.filter((fundId) => fundId !== id)
-      : current.length === 5 ? current : [...current, id]);
+  function toggleScheme(scheme: MutualFundScheme) {
+    setSelectedSchemes((current) => current.some((item) => item.scheme_code === scheme.scheme_code)
+      ? current.filter((item) => item.scheme_code !== scheme.scheme_code)
+      : current.length === 5 ? current : [...current, scheme]);
   }
 
   function selectChatFiles(event: ChangeEvent<HTMLInputElement>) {
@@ -224,9 +296,17 @@ function App() {
     setHistoryLoading(true);
     setError("");
     try {
-      const conversation = await apiRequest<ConversationDetail>(`/chat/conversations/${id}/?user_id=${encodeURIComponent(userId.trim())}`);
+      const conversation = await apiRequest<ConversationDetail>(`/chat/conversations/${id}/`);
       setConversationId(conversation.id);
-      setMessages(conversation.messages.map((message) => ({ role: message.role, content: message.content })));
+      setMessages(conversation.messages.map((message) => ({
+        role: message.role,
+        content: message.content,
+        sources: message.metadata?.sources,
+        trace: message.metadata?.tool_trace,
+        evidence: message.metadata?.retrieved_chunks,
+        answerMethod: message.metadata?.answer_method,
+        usage: message.metadata?.usage,
+      })));
       setHistoryOpen(false);
       setPage("assistant");
     } catch (requestError) {
@@ -259,11 +339,10 @@ function App() {
         }]);
       } else {
         // Keep the existing portfolio-chat API contract unchanged.
-        const response = await fetch(`${apiBaseUrl}/chat/`, {
+        const response = await apiFetch("/chat/", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            user_id: userId.trim(),
             message,
             ...(conversationId ? { conversation_id: conversationId } : {}),
           }),
@@ -272,7 +351,7 @@ function App() {
         if (!response.ok || !payload.success) {
           throw new Error(payload.answer || payload.error_code || "The assistant could not answer right now.");
         }
-        setMessages([...nextMessages, { role: "assistant", content: payload.answer, sources: payload.sources, trace: payload.tool_trace }]);
+        setMessages([...nextMessages, { role: "assistant", content: payload.answer, sources: payload.sources, trace: payload.tool_trace, evidence: payload.retrieved_chunks, answerMethod: payload.answer_method, usage: payload.usage }]);
         setConversationId(payload.conversation_id ?? conversationId);
         setConversationRefresh((current) => current + 1);
         setChatFiles([]);
@@ -296,6 +375,9 @@ function App() {
     URL.revokeObjectURL(url);
   }
 
+  if (authLoading) return <main className="auth-page"><p>Loading your account…</p></main>;
+  if (!account) return <AuthScreen onAuthenticated={onAuthenticated} />;
+
   return <div className="app-shell">
     <a className="skip-link" href="#main-content">Skip to main content</a>
     {mobileMenuOpen && <button className="mobile-nav-backdrop" aria-label="Close navigation" onClick={() => setMobileMenuOpen(false)} />}
@@ -303,11 +385,11 @@ function App() {
       <div className="brand"><span>M</span><div><strong>MF Portfolio Agent</strong><small>Mutual Fund Intelligence</small></div></div>
       <p className="workspace-label">WORKSPACE</p>
       <nav aria-label="Main navigation">
-        {navigation.map((item) => <button key={item.id} className={page === item.id ? "nav-item active" : "nav-item"} onClick={() => setPage(item.id)}><b><Icon name={item.icon} /></b>{item.label}</button>)}
+        {navigation.map((item) => <button key={item.id} className={page === item.id ? "nav-item active" : "nav-item"} onClick={() => item.id === "explorer" ? openExplorer("discover") : setPage(item.id)}><b><Icon name={item.icon} /></b>{item.label}</button>)}
         <button className={page === "explorer" && explorerTab === "compare" ? "nav-item active" : "nav-item"} onClick={() => openExplorer("compare")}><b><Icon name="compare" /></b>Compare funds</button>
       </nav>
       <div className="sidebar-section"><div className="sidebar-section-heading"><span>PORTFOLIO</span><button aria-label="Add portfolio">+</button></div><button className="sidebar-link" onClick={() => openPortfolio("holdings")}>Holdings</button><button className="sidebar-link" onClick={() => openPortfolio("allocation")}>Allocation & exposure</button><button className="sidebar-link" onClick={() => openPortfolio("changes")}>Changes</button><button className="sidebar-link" onClick={() => openPortfolio("overview")}>Import holdings <span>→</span></button></div>
-      <div className="sidebar-section"><div className="sidebar-section-heading"><span>RESEARCH</span></div><button className="sidebar-link" onClick={() => openExplorer("scanner")}>Fund explorer</button><button className="sidebar-link" onClick={() => openExplorer("discovery")}>Fund list</button><button className="sidebar-link" onClick={() => openExplorer("compare")}>Fund compare</button><button className="sidebar-link" onClick={() => openExplorer("commentary")}>Manager commentary</button></div>
+      <div className="sidebar-section"><div className="sidebar-section-heading"><span>RESEARCH</span></div><button className="sidebar-link" onClick={() => openExplorer("discover")}>Fund explorer</button></div>
       <div className="sidebar-section"><div className="sidebar-section-heading"><span>MARKET</span></div><button className="sidebar-link" onClick={() => setPage("market")}>Market overview</button><button className="sidebar-link" onClick={() => setPage("market")}>Watchlist</button></div>
       <div className="sidebar-footer"><span className="status-dot" /> Research workspace <small>Evidence-led analysis</small></div>
     </aside>
@@ -317,24 +399,122 @@ function App() {
         <div className="topbar-brand"><strong>MF Portfolio Agent</strong><small>Mutual Fund Intelligence</small></div>
         <form className="universal-search" onSubmit={submitQuickSearch}><Icon name="search" size={17} /><input value={quickSearch} onChange={(event) => setQuickSearch(event.target.value)} placeholder="Search funds, companies, or ask a question" aria-label="Ask anything or search" /><button type="submit">Search</button></form>
         <button className="mobile-menu-toggle" aria-label="Open navigation" onClick={() => setMobileMenuOpen(true)}><Icon name="menu" /></button>
-        <div className="topbar-actions"><label className="user-select">Portfolio <input value={userId} onChange={(event) => { setUserId(event.target.value); setConversationId(null); setMessages([]); setHistoryOpen(false); }} aria-label="Portfolio user ID" /></label><button className="icon-button" aria-label="Settings"><Icon name="settings" /></button><button className="icon-button" aria-label="Notifications"><Icon name="bell" /></button><button className="avatar" aria-label="Account">MF</button></div>
+        <div className="topbar-actions"><button className="icon-button" aria-label="Settings"><Icon name="settings" /></button><button className="icon-button" aria-label="Notifications"><Icon name="bell" /></button><button className="account-button" onClick={() => setProfileOpen(true)} aria-label="Open account profile"><span className="avatar">{`${account.first_name[0] ?? ""}${account.last_name[0] ?? ""}`.toUpperCase() || "MF"}</span><span>{account.first_name || account.email}</span></button></div>
       </header>
       <main id="main-content" className={page === "assistant" ? "content" : "content app-content"} tabIndex={-1}>
         <div className="page-main">
           {page === "assistant" && <AssistantView userId={userId} messages={messages} conversationId={conversationId} history={history.data?.results ?? []} historyError={history.error} historyLoading={history.loading || historyLoading} historyOpen={historyOpen} draft={draft} setDraft={setDraft} files={chatFiles} error={error} isSending={isSending} assistantMode={assistantMode} setAssistantMode={setAssistantMode} fundScope={fundScope} setFundScope={setFundScope} onFiles={selectChatFiles} onSend={sendMessage} onExport={exportAnswer} onShortcut={openAssistant} onImport={() => openPortfolio("overview")} onNewConversation={startNewConversation} onOpenConversation={reopenConversation} onToggleHistory={() => setHistoryOpen((open) => !open)} />}
-          {page === "portfolio" && <PortfolioView userId={userId} tab={portfolioTab} onTab={setPortfolioTab} refreshKey={portfolioRefresh} onImported={() => setPortfolioRefresh((current) => current + 1)} onAsk={openAssistant} />}
-          {page === "explorer" && <ExplorerView tab={explorerTab} onTab={setExplorerTab} selectedIds={selectedFundIds} onToggle={toggleFund} onCompare={() => setExplorerTab("compare")} />}
-          {page === "overlap" && <OverlapView userId={userId} onImport={() => setPage("portfolio")} />}
-          {page === "calculators" && <CalculatorsView tab={calculatorTab} onTab={setCalculatorTab} onExplore={() => openExplorer("scanner")} />}
+          {page === "portfolio" && <PortfolioView userId={userId} tab={portfolioTab} onTab={setPortfolioTab} refreshKey={portfolioRefresh} onImported={() => { setPortfolioRefresh((current) => current + 1); setSelectedSchemes([]); }} onAsk={openAssistant} />}
+          {page === "explorer" && <ExplorerView tab={explorerTab} onTab={setExplorerTab} selectedSchemes={selectedSchemes} onToggle={toggleScheme} onAsk={askAboutFund} />}
+          {page === "overlap" && <OverlapView userId={userId} canManageDisclosures={account.is_staff} onImport={() => setPage("portfolio")} />}
+          {page === "calculators" && <CalculatorsView tab={calculatorTab} onTab={setCalculatorTab} onExplore={() => openExplorer("discover")} />}
           {page === "market" && <MarketView userId={userId} />}
         </div>
       </main>
     </section>
+    {profileOpen && <ProfileDialog account={account} onClose={() => setProfileOpen(false)} onUpdated={(nextAccount) => { setAccount(nextAccount); setUserId(nextAccount.user_id); }} onSignOut={signOut} />}
   </div>;
 }
 
 function normalizeMarkdown(content: string) {
   return content.replace(/\r\n/g, "\n").replaceAll("\\|", "|");
+}
+
+function AuthScreen({ onAuthenticated }: { onAuthenticated: (account: Account) => void }) {
+  const [mode, setMode] = useState<"login" | "signup">("login");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [error, setError] = useState("");
+  const [busy, setBusy] = useState(false);
+
+  async function submit(event: FormEvent) {
+    event.preventDefault();
+    setBusy(true);
+    setError("");
+    try {
+      const path = mode === "signup" ? "/auth/signup/" : "/auth/login/";
+      const payload = mode === "signup"
+        ? { email, password, first_name: firstName, last_name: lastName }
+        : { email, password };
+      const response = await apiRequest<AccountEnvelope>(path, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      onAuthenticated(response.data);
+    } catch (requestError) {
+      setError(requestError instanceof Error ? requestError.message : "Unable to authenticate right now.");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return <main className="auth-page">
+    <section className="auth-card" aria-labelledby="auth-title">
+      <div className="auth-brand"><span>M</span><div><strong>MF Portfolio Agent</strong><small>Mutual Fund Intelligence</small></div></div>
+      <p className="eyebrow">PRIVATE RESEARCH WORKSPACE</p>
+      <h1 id="auth-title">{mode === "signup" ? "Create your account" : "Welcome back"}</h1>
+      <p className="auth-intro">Your portfolio, saved chats, and watchlist stay tied to your account.</p>
+      <div className="auth-tabs" role="tablist" aria-label="Account access">
+        <button type="button" role="tab" aria-selected={mode === "login"} className={mode === "login" ? "active" : ""} onClick={() => { setMode("login"); setError(""); }}>Sign in</button>
+        <button type="button" role="tab" aria-selected={mode === "signup"} className={mode === "signup" ? "active" : ""} onClick={() => { setMode("signup"); setError(""); }}>Create account</button>
+      </div>
+      <form className="auth-form" onSubmit={submit}>
+        {mode === "signup" && <div className="auth-name-fields"><label>First name<input autoComplete="given-name" required value={firstName} onChange={(event) => setFirstName(event.target.value)} /></label><label>Last name <span>(optional)</span><input autoComplete="family-name" value={lastName} onChange={(event) => setLastName(event.target.value)} /></label></div>}
+        <label>Email address<input type="email" autoComplete="email" required value={email} onChange={(event) => setEmail(event.target.value)} /></label>
+        <label>Password<input type="password" autoComplete={mode === "signup" ? "new-password" : "current-password"} minLength={mode === "signup" ? 8 : undefined} required value={password} onChange={(event) => setPassword(event.target.value)} /></label>
+        {mode === "signup" && <small className="auth-hint">Use at least 8 characters. Choose a password that is not commonly used.</small>}
+        {error && <p className="form-error" role="alert">{error}</p>}
+        <button className="primary-button auth-submit" type="submit" disabled={busy}>{busy ? "Please wait…" : mode === "signup" ? "Create account" : "Sign in"}</button>
+      </form>
+      <p className="auth-disclaimer">This is an early-access product. Do not upload information you are not comfortable storing in this workspace.</p>
+    </section>
+  </main>;
+}
+
+function ProfileDialog({ account, onClose, onUpdated, onSignOut }: { account: Account; onClose: () => void; onUpdated: (account: Account) => void; onSignOut: () => void }) {
+  const [firstName, setFirstName] = useState(account.first_name);
+  const [lastName, setLastName] = useState(account.last_name);
+  const [error, setError] = useState("");
+  const [saved, setSaved] = useState(false);
+  const [busy, setBusy] = useState(false);
+
+  async function save(event: FormEvent) {
+    event.preventDefault();
+    setBusy(true);
+    setError("");
+    setSaved(false);
+    try {
+      const response = await apiRequest<AccountEnvelope>("/auth/profile/", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ first_name: firstName, last_name: lastName }),
+      });
+      onUpdated(response.data);
+      setSaved(true);
+    } catch (requestError) {
+      setError(requestError instanceof Error ? requestError.message : "Unable to update your profile.");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return <div className="dialog-backdrop" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
+    <section className="profile-dialog" role="dialog" aria-modal="true" aria-labelledby="profile-title">
+      <div className="profile-dialog-heading"><div><p className="eyebrow">ACCOUNT</p><h2 id="profile-title">Your profile</h2></div><button type="button" className="dialog-close" onClick={onClose} aria-label="Close profile">×</button></div>
+      <form className="auth-form" onSubmit={save}>
+        <label>Email address<input type="email" value={account.email} readOnly /></label>
+        <label>First name<input autoComplete="given-name" required value={firstName} onChange={(event) => setFirstName(event.target.value)} /></label>
+        <label>Last name<input autoComplete="family-name" value={lastName} onChange={(event) => setLastName(event.target.value)} /></label>
+        {error && <p className="form-error" role="alert">{error}</p>}
+        {saved && <p className="profile-saved" role="status">Profile saved.</p>}
+        <button className="primary-button auth-submit" type="submit" disabled={busy}>{busy ? "Saving…" : "Save profile"}</button>
+      </form>
+      <div className="profile-dialog-footer"><span>Signed in as <strong>{account.email}</strong></span><button type="button" className="outline-button" onClick={onSignOut}>Sign out</button></div>
+    </section>
+  </div>;
 }
 
 function markdownTableToCsv(content: string) {
@@ -499,23 +679,20 @@ function ChatMessage({ message, onExport }: { message: Message; onExport: (messa
     {message.role === "assistant" && <><div className="message-meta">{message.trace?.filter((step) => step.success).map((step) => <span key={step.activity}>✓ {step.activity}</span>)}</div>
       {message.answerMethod && <div className="message-meta"><span>Answer method: {message.answerMethod.replaceAll("_", " ")}</span>{typeof message.confidence === "number" && <span>Confidence: {Math.round(message.confidence * 100)}%</span>}</div>}
       {message.sources?.length ? <div className="sources">{message.sources.map((source, index) => source.url ? <a key={`${source.document ?? source.name}-${source.page ?? index}`} href={source.url} target="_blank" rel="noreferrer">Source: {source.document ?? source.name ?? "Source"}{source.page ? ` · page ${source.page}` : ""}{source.labels?.length ? ` · ${source.labels.join(", ")}` : ""}{source.data_as_of ? ` · As of ${source.data_as_of}` : ""}</a> : <span key={`${source.document ?? source.name}-${source.page ?? index}`}>Source: {source.document ?? source.name ?? "Source"}{source.page ? ` · page ${source.page}` : ""}{source.labels?.length ? ` · ${source.labels.join(", ")}` : ""}{source.data_as_of ? ` · As of ${source.data_as_of}` : ""}</span>)}</div> : null}
-      {message.evidence && <section className="rag-evidence" aria-label="Retrieved evidence"><h4>Retrieved chunks ({message.evidence.length})</h4>{message.evidence.length ? message.evidence.map((chunk, index) => <article className="evidence-chunk" key={`${chunk.document ?? "doc"}-${chunk.page ?? "page"}-${index}`}><div className="evidence-chunk-meta">Chunk {index + 1}{chunk.fund_name ? ` · ${chunk.fund_name}` : ""}{chunk.document ? ` · ${chunk.document}` : ""}{chunk.page ? ` · page ${chunk.page}` : ""}{typeof chunk.score === "number" ? ` · score ${chunk.score.toFixed(3)}` : ""}{chunk.visual_fallback ? " · visual fallback" : ""}</div><p>{chunk.text || "(No text in this retrieved chunk)"}</p></article>) : <p className="no-evidence">No chunks were retrieved for this answer.</p>}</section>}
-      {message.usage && <section className="rag-usage" aria-label="Model usage"><h4>Model usage and estimated cost</h4>{message.usage.length ? <div className="rag-usage-list">{message.usage.map((item, index) => <div className="rag-usage-row" key={`${item.role}-${item.model}-${index}`}><strong>{item.role === "vision" ? "Vision fallback" : "Answer model"}: {item.model}</strong><span>{item.requests} API request{item.requests === 1 ? "" : "s"}</span><span>{item.input_tokens} input · {item.output_tokens} output tokens</span><span>Estimated cost: {item.estimated_cost}</span></div>)}</div> : <p className="no-evidence">No model usage was reported for this answer.</p>}</section>}
       {exportable && <button className="text-action" onClick={() => onExport(message)}>Export CSV</button>}
     </>}
   </article>;
 }
 
 function HomeSnapshots({ userId, onImport }: { userId: string; onImport: () => void }) {
-  const summary = useApi<PortfolioSummary>(userId.trim() ? `/portfolio/summary/?user_id=${encodeURIComponent(userId.trim())}` : null);
+  const summary = useApi<PortfolioSummary>(userId.trim() ? "/portfolio/summary/" : null);
   return <section className="home-snapshots" aria-label="Portfolio and market snapshots"><article><p className="eyebrow">YOUR PORTFOLIO</p><h3>{summary.loading ? "Loading portfolio…" : summary.error ? "Portfolio unavailable" : money(summary.data?.current_value)}</h3><p>{summary.error ? summary.error : `${summary.data?.fund_count ?? 0} funds · invested ${money(summary.data?.total_invested)}`}</p><button className="text-action" type="button" onClick={onImport}>View portfolio</button></article><article><p className="eyebrow">MARKET</p><h3>Market data is currently unavailable</h3><p>India indices and a concise market summary will appear when a supported provider is connected.</p><div className="source-meta"><span>Source: —</span><span>As of: —</span></div></article></section>;
 }
 
 function PortfolioView({ userId, tab, onTab, refreshKey, onImported, onAsk }: { userId: string; tab: PortfolioTab; onTab: (tab: PortfolioTab) => void; refreshKey: number; onImported: () => void; onAsk: (prompt: string) => void }) {
-  const encodedUser = encodeURIComponent(userId);
-  const summary = useApi<PortfolioSummary>(userId ? `/portfolio/summary/?user_id=${encodedUser}&refresh=${refreshKey}` : null);
-  const holdings = useApi<{ results: Holding[]; total: number }>(userId ? `/portfolio/holdings/?user_id=${encodedUser}&refresh=${refreshKey}` : null);
-  const allocation = useApi<Allocation>(userId ? `/portfolio/allocation/?user_id=${encodedUser}&group_by=category&refresh=${refreshKey}` : null);
+  const summary = useApi<PortfolioSummary>(userId ? `/portfolio/summary/?refresh=${refreshKey}` : null);
+  const holdings = useApi<{ results: Holding[]; total: number }>(userId ? `/portfolio/holdings/?refresh=${refreshKey}` : null);
+  const allocation = useApi<Allocation>(userId ? `/portfolio/allocation/?group_by=category&refresh=${refreshKey}` : null);
   return <div className="view-stack">
     <ViewHeading eyebrow="YOUR PORTFOLIO" title="Understand the portfolio you already own" description="Verified portfolio values are supplied by the Django API." />
     <div className="segmented" role="tablist" aria-label="Portfolio sections"><TabButton active={tab === "overview"} onClick={() => onTab("overview")}>Overview</TabButton><TabButton active={tab === "holdings"} onClick={() => onTab("holdings")}>Holdings</TabButton><TabButton active={tab === "allocation"} onClick={() => onTab("allocation")}>Allocation & exposure</TabButton><TabButton active={tab === "changes"} onClick={() => onTab("changes")}>What changed?</TabButton></div>
@@ -549,10 +726,9 @@ function PortfolioImportPanel({ userId, onImported }: { userId: string; onImport
     setError("");
     try {
       const formData = new FormData();
-      formData.append("user_id", userId.trim());
       formData.append("file", file);
       if (asOfDate) formData.append("as_of_date", asOfDate);
-      const response = await fetch(`${apiBaseUrl}/portfolio/import/`, { method: "POST", body: formData });
+      const response = await apiFetch("/portfolio/import/", { method: "POST", body: formData });
       const payload = await response.json().catch(() => ({}));
       if (!response.ok || !payload.success) throw new Error(payload.message || "The statement could not be imported.");
       setResult(payload.data as PortfolioImportResult);
@@ -567,78 +743,202 @@ function PortfolioImportPanel({ userId, onImported }: { userId: string; onImport
   return <><section className="import-state"><div><span className="import-symbol">↓</span><h3>Import holdings</h3><p>Upload a portfolio statement for {userId || "the selected user"}. The newest snapshot date becomes this user’s active portfolio.</p><small>CSV or XLSX only · Required columns: <code>fund_name</code>, <code>invested_amount</code>, <code>current_value</code> · Optional: <code>units</code>, <code>category</code>. PDF statements are not supported yet.</small></div><div className="import-actions"><label className="snapshot-date">Snapshot date<input type="date" value={asOfDate} onChange={(event) => setAsOfDate(event.target.value)} /></label><label className="primary-button import-button"><input type="file" accept=".csv,.xlsx" onChange={chooseFile} />Choose a statement</label>{file && <button className="outline-button" type="button" onClick={uploadStatement} disabled={isUploading}>{isUploading ? "Importing…" : "Import statement"}</button>}</div></section>{file && <section className="upload-ready"><div className="upload-status"><span>{result ? "✓" : "↑"}</span><div><strong>{file.name}</strong><p>{result ? `Imported ${result.holding_count} holdings for ${userId}.` : "Ready to validate and import this statement."}</p></div></div>{result ? <div className="upload-detection"><span>{result.is_active ? "Active snapshot" : "Historical snapshot"}<b>{result.snapshot_date}</b></span><span>File type <b>{result.source_format.toUpperCase()}</b></span></div> : <div className="upload-detection"><span>Supported files <b>CSV, XLSX</b></span><span>Maximum size <b>2 MB</b></span></div>}{error && <p className="form-error">{error}</p>}{result && <small className="integration-note">{result.is_active ? "Overview, holdings, and category allocation now use this imported snapshot." : "This older statement is saved for comparison; the newer dated snapshot remains active."} Company-level overlap and the AI agent still need fund-disclosure mapping before they can use imported data.</small>}</section>}</>;
 }
 
+const portfolioChartPalette = ["#1d704f", "#4d8d67", "#c39342", "#4f7ea5", "#8b70a5", "#c27658"];
+
+function chartPercent(value: number) {
+  return Number.isFinite(value) ? Math.max(0, Math.min(100, value)) : 0;
+}
+
+function allocationDonutGradient(items: AllocationItem[]) {
+  const values = items.map((item) => Math.max(0, Number.isFinite(item.percentage) ? item.percentage : 0));
+  const total = values.reduce((sum, value) => sum + value, 0);
+  if (total <= 0) return "conic-gradient(#e7ece8 0% 100%)";
+  let start = 0;
+  const segments = values.map((value, index) => {
+    const end = start + (value / total) * 100;
+    const segment = value > 0 ? `${portfolioChartPalette[index % portfolioChartPalette.length]} ${start.toFixed(2)}% ${end.toFixed(2)}%` : "";
+    start = end;
+    return segment;
+  }).filter(Boolean);
+  return `conic-gradient(${segments.join(", ")})`;
+}
+
 function PortfolioTable({ holdings, loading, error }: { holdings: Holding[]; loading: boolean; error: string }) {
   const [query, setQuery] = useState("");
   const rows = holdings.filter((holding) => holding.fund_name.toLowerCase().includes(query.toLowerCase()));
-  return <section className="holdings-panel"><div className="holdings-toolbar"><div><p className="eyebrow">FUND HOLDINGS</p><h3>{holdings.length} funds in this portfolio</h3></div><div className="table-tools"><label>Search holdings<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search by fund" /></label></div></div><section className="table-shell"><table className="holdings-table"><thead><tr><th>Fund</th><th>Category</th><th>Units</th><th>Invested</th><th>Current value</th><th>Allocation</th></tr></thead><tbody>{loading ? <tr><td colSpan={6}>Loading holdings…</td></tr> : error ? <tr><td colSpan={6}>{error}</td></tr> : rows.length ? rows.map((holding) => <tr key={holding.fund_id}><td><strong>{holding.fund_name}</strong></td><td><span className="category-pill">{holding.category ?? "Not available"}</span></td><td className="numeric-cell">{new Intl.NumberFormat("en-IN", { maximumFractionDigits: 4 }).format(holding.units)}</td><td className="numeric-cell">{money(holding.invested_amount)}</td><td className="numeric-cell current-value">{money(holding.current_value)}</td><td className="numeric-cell"><span className="allocation-value">{holding.allocation_percent.toFixed(2)}%</span></td></tr>) : <tr><td colSpan={6}><div className="table-empty"><strong>No matching holdings</strong><span>Try a different fund name.</span></div></td></tr>}</tbody></table></section></section>;
+  const rankedHoldings = [...holdings].sort((left, right) => right.current_value - left.current_value);
+  const largestHoldings = rankedHoldings.slice(0, 5);
+  const otherHoldings = rankedHoldings.slice(5);
+  const positionBars = [
+    ...largestHoldings.map((holding) => ({ key: holding.fund_id, name: holding.fund_name, percentage: holding.allocation_percent })),
+    ...(otherHoldings.length ? [{ key: "other-holdings", name: "Other holdings", percentage: otherHoldings.reduce((total, holding) => total + holding.allocation_percent, 0) }] : []),
+  ];
+  const largestWeight = Math.max(0, ...positionBars.map((item) => item.percentage));
+  return <section className="holdings-panel"><div className="holdings-toolbar"><div><p className="eyebrow">FUND HOLDINGS</p><h3>{holdings.length} funds in this portfolio</h3></div><div className="table-tools"><label>Search holdings<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search by fund" /></label></div></div>{!loading && !error && positionBars.length > 0 && <section className="holdings-insight-chart" aria-label="Largest portfolio positions"><div className="chart-card-heading"><div><p className="eyebrow">PORTFOLIO WEIGHT</p><h4>Where your portfolio is concentrated</h4><p>Largest positions by current value. Bar lengths are relative; labels show each position’s share.</p></div><span className="chart-period-label">Top {largestHoldings.length}{otherHoldings.length ? " + rest" : ""}</span></div><div className="position-chart-list" role="list">{positionBars.map((item, index) => <div className="position-chart-row" key={item.key} role="listitem"><span className="position-chart-name" title={item.name}>{item.name}</span><div className="position-chart-track" aria-hidden="true"><span style={{ width: `${chartPercent(largestWeight > 0 ? Math.max(0, item.percentage) / largestWeight * 100 : 0)}%`, backgroundColor: portfolioChartPalette[index % portfolioChartPalette.length] }} /></div><strong>{item.percentage.toFixed(1)}%</strong></div>)}</div></section>}<section className="table-shell"><table className="holdings-table"><thead><tr><th>Fund</th><th>Category</th><th>Units</th><th>Invested</th><th>Current value</th><th>Allocation</th></tr></thead><tbody>{loading ? <tr><td colSpan={6}>Loading holdings…</td></tr> : error ? <tr><td colSpan={6}>{error}</td></tr> : rows.length ? rows.map((holding) => <tr key={holding.fund_id}><td><strong>{holding.fund_name}</strong></td><td><span className="category-pill">{holding.category ?? "Not available"}</span></td><td className="numeric-cell">{new Intl.NumberFormat("en-IN", { maximumFractionDigits: 4 }).format(holding.units)}</td><td className="numeric-cell">{money(holding.invested_amount)}</td><td className="numeric-cell current-value">{money(holding.current_value)}</td><td className="numeric-cell"><span className="allocation-value">{holding.allocation_percent.toFixed(2)}%</span></td></tr>) : <tr><td colSpan={6}><div className="table-empty"><strong>No matching holdings</strong><span>Try a different fund name.</span></div></td></tr>}</tbody></table></section></section>;
 }
 
 function PortfolioAllocation({ allocation, loading, error }: { allocation: Allocation | null; loading: boolean; error: string }) {
-  return <section className="sector-exposure"><div className="sector-heading"><div><p className="eyebrow">PORTFOLIO ALLOCATION</p><h3>See the categories behind your funds</h3><p>Allocation is calculated from the active portfolio snapshot. Company and sector exposure need verified fund-disclosure mappings.</p></div></div><div className="table-shell"><table className="sector-table"><thead><tr><th>Category</th><th>Value</th><th>Percentage</th><th>Underlying funds</th></tr></thead><tbody>{loading ? <tr><td colSpan={4}>Loading allocation…</td></tr> : error ? <tr><td colSpan={4}>{error}</td></tr> : allocation?.items.map((item) => <tr key={item.name}><td>{item.name}</td><td>{money(item.value)}</td><td>{item.percentage}%</td><td>{item.funds.length ? item.funds.join(", ") : "Not available"}</td></tr>)}</tbody></table></div></section>;
+  const items = allocation?.items ?? [];
+  const chartItems = [...items].sort((left, right) => right.percentage - left.percentage);
+  const totalValue = items.reduce((total, item) => total + item.value, 0);
+  const chartLabel = chartItems.map((item) => `${item.name}: ${item.percentage}%`).join("; ");
+  return <section className="sector-exposure"><div className="sector-heading"><div><p className="eyebrow">PORTFOLIO ALLOCATION</p><h3>See the categories behind your funds</h3><p>Allocation is calculated from the active portfolio snapshot. Company and sector exposure need verified fund-disclosure mappings.</p></div></div>{!loading && !error && items.length > 0 && <section className="allocation-visuals" aria-label="Portfolio allocation charts"><div className="allocation-donut-card"><div className="chart-card-heading"><div><p className="eyebrow">PORTFOLIO MIX</p><h4>Value by category</h4></div></div><div className="allocation-donut-wrap"><div className="allocation-donut" role="img" aria-label={`Portfolio allocation by category. ${chartLabel}`} style={{ background: allocationDonutGradient(items) }}><div className="allocation-donut-center"><strong>{items.length}</strong><span>categories</span></div></div><div className="allocation-total"><strong>{money(totalValue)}</strong><span>Current portfolio value</span></div></div></div><div className="allocation-breakdown-card"><div className="chart-card-heading"><div><p className="eyebrow">CATEGORY BREAKDOWN</p><h4>How each category contributes</h4></div></div><div className="allocation-breakdown-list" role="list">{chartItems.map((item, index) => <div className="allocation-breakdown-row" key={item.name} role="listitem"><div className="allocation-breakdown-heading"><span><i style={{ backgroundColor: portfolioChartPalette[index % portfolioChartPalette.length] }} />{item.name}</span><strong>{item.percentage.toFixed(1)}%</strong></div><div className="allocation-breakdown-track" aria-hidden="true"><span style={{ width: `${chartPercent(item.percentage)}%`, backgroundColor: portfolioChartPalette[index % portfolioChartPalette.length] }} /></div><small>{money(item.value)}</small></div>)}</div></div></section>}<div className="table-shell"><table className="sector-table"><thead><tr><th>Category</th><th>Value</th><th>Percentage</th><th>Underlying funds</th></tr></thead><tbody>{loading ? <tr><td colSpan={4}>Loading allocation…</td></tr> : error ? <tr><td colSpan={4}>{error}</td></tr> : allocation?.items.map((item) => <tr key={item.name}><td>{item.name}</td><td>{money(item.value)}</td><td>{item.percentage}%</td><td>{item.funds.length ? item.funds.join(", ") : "Not available"}</td></tr>)}</tbody></table></div></section>;
 }
 
 function PortfolioChanges({ userId, refreshKey, onAsk }: { userId: string; refreshKey: number; onAsk: (prompt: string) => void }) {
-  const snapshots = useApi<{ results: PortfolioSnapshot[] }>(userId ? `/portfolio/snapshots/?user_id=${encodeURIComponent(userId)}&refresh=${refreshKey}` : null);
+  const snapshots = useApi<{ results: PortfolioSnapshot[] }>(userId ? `/portfolio/snapshots/?refresh=${refreshKey}` : null);
   const [newerId, setNewerId] = useState("");
   const [olderId, setOlderId] = useState("");
   const availableSnapshots = snapshots.data?.results ?? [];
   useEffect(() => { if (availableSnapshots.length >= 2) { setNewerId((current) => availableSnapshots.some((item) => String(item.id) === current) ? current : String(availableSnapshots[0].id)); setOlderId((current) => availableSnapshots.some((item) => String(item.id) === current) && current !== String(availableSnapshots[0].id) ? current : String(availableSnapshots[1].id)); } }, [availableSnapshots]);
-  const comparison = useApi<PortfolioChangesData>(newerId && olderId && newerId !== olderId ? `/portfolio/changes/?user_id=${encodeURIComponent(userId)}&newer_snapshot_id=${newerId}&older_snapshot_id=${olderId}` : null);
+  const comparison = useApi<PortfolioChangesData>(newerId && olderId && newerId !== olderId ? `/portfolio/changes/?newer_snapshot_id=${newerId}&older_snapshot_id=${olderId}` : null);
   const formatSnapshot = (snapshot: PortfolioSnapshot) => `${snapshot.snapshot_date} · ${snapshot.source_file_name}`;
   return <><section className="changes-header"><div><p className="eyebrow">PORTFOLIO CHANGES</p><h3>Compare two portfolio snapshots</h3><p>Added, removed, increased, and decreased fund positions are calculated from your dated imported statements.</p></div><div className="snapshot-selectors"><label>Newer snapshot<select value={newerId} onChange={(event) => setNewerId(event.target.value)} disabled={availableSnapshots.length < 2}><option value="">Select snapshot</option>{availableSnapshots.map((snapshot) => <option key={snapshot.id} value={snapshot.id}>{formatSnapshot(snapshot)}</option>)}</select></label><label>Older snapshot<select value={olderId} onChange={(event) => setOlderId(event.target.value)} disabled={availableSnapshots.length < 2}><option value="">Select snapshot</option>{availableSnapshots.map((snapshot) => <option key={snapshot.id} value={snapshot.id}>{formatSnapshot(snapshot)}</option>)}</select></label></div></section>{snapshots.loading ? <section className="changes-empty">Loading snapshots…</section> : snapshots.error ? <section className="changes-empty form-error">{snapshots.error}</section> : availableSnapshots.length < 2 ? <section className="changes-empty"><strong>Import two dated statements to compare changes.</strong><span>Choose the correct snapshot date during import; the latest import remains your active portfolio.</span></section> : <><section className="change-flow" aria-label="Portfolio comparison flow"><span>Older snapshot</span><i>→</i><span>Newer snapshot</span><i>→</i><span>Holding-level difference</span><i>→</i><span>Review changes</span></section><section className="table-shell changes-table-shell"><table className="changes-table"><thead><tr><th>Change</th><th>Fund holding</th><th>Previous value</th><th>New value</th><th>Value change</th></tr></thead><tbody>{comparison.loading ? <tr><td colSpan={5}>Comparing imported snapshots…</td></tr> : comparison.error ? <tr><td colSpan={5}>{comparison.error}</td></tr> : comparison.data?.changes.length ? comparison.data.changes.map((change) => <tr key={change.fund_name}><td><span className={`change-badge ${change.change_type.toLowerCase()}`}>{change.change_type}</span></td><td><strong>{change.fund_name}</strong></td><td>{money(change.older_current_value)}</td><td>{money(change.newer_current_value)}</td><td className={change.current_value_change >= 0 ? "positive-value" : "negative-value"}>{change.current_value_change > 0 ? "+" : ""}{money(change.current_value_change)}</td></tr>) : <tr><td colSpan={5}><div className="table-empty"><strong>No value changes between these snapshots</strong><span>The same funds and values appear in both statements.</span></div></td></tr>}</tbody></table></section><section className="evidence-empty"><strong>Change values come directly from the two imported statements.</strong><span>Explanations, manager commentary, and company-level causes need verified fund disclosures and document evidence before they can be shown.</span><button className="outline-button" onClick={() => onAsk("How should I interpret changes between two mutual-fund portfolio snapshots?")}>Ask about interpreting changes</button></section></>}</>;
 }
 
-function ExplorerView({ tab, onTab, selectedIds, onToggle, onCompare }: { tab: ExplorerTab; onTab: (tab: ExplorerTab) => void; selectedIds: string[]; onToggle: (id: string) => void; onCompare: () => void }) {
-  const { data, loading, error } = useApi<FundList>("/funds/?page_size=100");
-  const funds = data?.results ?? [];
-  return <div className="view-stack"><ViewHeading eyebrow="FUND RESEARCH" title="Explore funds with context" description="Search, screen, and compare records provided by the Django fund API." />
-    <div className="segmented" role="tablist" aria-label="Fund explorer sections"><TabButton active={tab === "scanner"} onClick={() => onTab("scanner")}>Scanner</TabButton><TabButton active={tab === "discovery"} onClick={() => onTab("discovery")}>Fund list</TabButton><TabButton active={tab === "compare"} onClick={() => onTab("compare")}>Compare {selectedIds.length > 0 ? `(${selectedIds.length})` : ""}</TabButton><TabButton active={tab === "commentary"} onClick={() => onTab("commentary")}>Manager commentary</TabButton></div>
-    {tab === "scanner" && <Scanner funds={funds} loading={loading} error={error} selectedIds={selectedIds} onToggle={onToggle} onCompare={onCompare} />}
-    {tab === "discovery" && <FundDiscovery funds={funds} loading={loading} error={error} onExplore={() => onTab("scanner")} />}
-    {tab === "compare" && <Compare fundIds={selectedIds} onToggle={onToggle} onScan={() => onTab("scanner")} />}
-    {tab === "commentary" && <Commentary />}
+function ExplorerView({ tab, onTab, selectedSchemes, onToggle, onAsk }: { tab: ExplorerTab; onTab: (tab: ExplorerTab) => void; selectedSchemes: MutualFundScheme[]; onToggle: (scheme: MutualFundScheme) => void; onAsk: (fundName: string) => void }) {
+  return <div className="view-stack">
+    <ViewHeading eyebrow="MARKET-WIDE FUND RESEARCH" title="Find a fund, then compare its evidence" description="Search the public Indian mutual-fund scheme catalogue, inspect recent NAV and historical NAV returns, or send a precisely named scheme to the research assistant." />
+    <div className="explorer-provenance">Scheme names and NAV history are queried from MFapi.in. This market-wide catalogue is separate from your personal portfolio and indexed factsheets.</div>
+    <div className="segmented" role="tablist" aria-label="Fund explorer sections"><TabButton active={tab === "discover"} onClick={() => onTab("discover")}>Find funds</TabButton><TabButton active={tab === "compare"} onClick={() => onTab("compare")}>Compare selected{selectedSchemes.length ? ` (${selectedSchemes.length})` : ""}</TabButton></div>
+    {tab === "discover"
+      ? <FundSchemeDiscovery selectedSchemes={selectedSchemes} onToggle={onToggle} onCompare={() => onTab("compare")} onAsk={onAsk} />
+      : <FundSchemeCompare selectedSchemes={selectedSchemes} onToggle={onToggle} onBrowse={() => onTab("discover")} />}
   </div>;
 }
 
-function FundDiscovery({ funds, loading, error, onExplore }: { funds: Fund[]; loading: boolean; error: string; onExplore: () => void }) {
-  const [category, setCategory] = useState("All");
-  const categories = ["All", ...Array.from(new Set(funds.map((fund) => fund.category).filter((item): item is string => Boolean(item))))];
-  const rows = funds.filter((fund) => category === "All" || fund.category === category);
-  return <><section className="discovery-toolbar"><div><p className="eyebrow">FUND LIST</p><h3>Browse configured fund records</h3></div><button className="outline-button" onClick={onExplore}>Open full scanner</button></section><div className="discovery-filters" aria-label="Fund categories">{categories.map((item) => <button key={item} className={category === item ? "active" : ""} onClick={() => setCategory(item)}>{item}</button>)}</div><div className="table-shell"><table className="discovery-table"><thead><tr><th>Fund</th><th>Category</th><th>Risk level</th><th>3Y return</th><th>Expense ratio</th><th>Fund size</th></tr></thead><tbody>{loading ? <tr><td colSpan={6}>Loading fund records…</td></tr> : error ? <tr><td colSpan={6}>{error}</td></tr> : rows.length ? rows.map((fund) => <tr key={fund.fund_id}><td><strong>{fund.fund_name}</strong></td><td><span className="fund-category">{valueOrUnavailable(fund.category)}</span></td><td>{valueOrUnavailable(fund.risk_level)}</td><td className="positive-value">{valueOrUnavailable(fund.return_3y, "%")}</td><td>{valueOrUnavailable(fund.expense_ratio, "%")}</td><td>{valueOrUnavailable(fund.fund_size)}</td></tr>) : <tr><td colSpan={6}><div className="table-empty"><strong>No funds in this category</strong><span>Try another category, or add data to the configured fund source.</span></div></td></tr>}</tbody></table></div><details className="methodology"><summary>How are funds listed?</summary><p>This list displays the fund master data exposed by the backend. Missing return or rating fields are deliberately shown as unavailable instead of being estimated in the browser.</p></details></>;
+function FundSchemeDiscovery({ selectedSchemes, onToggle, onCompare, onAsk }: { selectedSchemes: MutualFundScheme[]; onToggle: (scheme: MutualFundScheme) => void; onCompare: () => void; onAsk: (fundName: string) => void }) {
+  const [query, setQuery] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
+  const [detailScheme, setDetailScheme] = useState<MutualFundScheme | null>(null);
+  useEffect(() => {
+    const timer = window.setTimeout(() => setSearchTerm(query.trim()), 350);
+    return () => window.clearTimeout(timer);
+  }, [query]);
+  const search = useApi<FundSchemeSearchData>(searchTerm.length >= 2 ? `/funds/search/?q=${encodeURIComponent(searchTerm)}&limit=12` : null);
+  const overview = useApi<FundNavOverviewData>(detailScheme ? `/funds/nav-overview/${detailScheme.scheme_code}/` : null);
+  const results = search.data?.query.toLowerCase() === searchTerm.toLowerCase() ? search.data.schemes : [];
+  const selected = (scheme: MutualFundScheme) => selectedSchemes.some((item) => item.scheme_code === scheme.scheme_code);
+  const nav = (value: number) => new Intl.NumberFormat("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 4 }).format(value);
+  const returnItems = overview.data?.returns ?? [];
+  const maxReturnMagnitude = Math.max(1, ...returnItems.map((item) => Math.abs(item.cagr_percent ?? 0)));
+  return <>
+    <section className="fund-discovery-search">
+      <form className="fund-discovery-search-row" onSubmit={(event) => { event.preventDefault(); setSearchTerm(query.trim()); }}>
+        <label className="search-field">Search by fund or AMC name<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Try: HDFC ELSS, SBI Bluechip, Nifty 50 index" autoComplete="off" /></label>
+        <button className="primary-button" type="submit" disabled={query.trim().length < 2}>Search schemes</button>
+      </form>
+      <div className="fund-discovery-meta"><span>Enter at least 2 characters · exact plan and option names are preserved</span><button className="text-action" type="button" onClick={onCompare} disabled={selectedSchemes.length < 2}>Compare selected ({selectedSchemes.length})</button></div>
+    </section>
+    {searchTerm.length < 2 ? <section className="fund-discovery-empty"><strong>Search beyond your own portfolio.</strong><span>Type an AMC or scheme name to search MFapi.in’s market-wide catalogue.</span></section>
+      : search.loading ? <section className="fund-discovery-empty">Searching scheme catalogue…</section>
+        : search.error ? <section className="fund-discovery-empty form-error"><strong>Could not search MFapi.in</strong><span>{search.error}</span><small>Try again in a moment; the public data provider can rate-limit requests.</small></section>
+          : results.length === 0 ? <section className="fund-discovery-empty"><strong>No matching schemes found.</strong><span>Try a shorter AMC name or a different spelling.</span></section>
+            : <section className="fund-scheme-results" aria-label="Mutual fund scheme search results">
+              <div className="fund-scheme-results-heading"><div><p className="eyebrow">MATCHING SCHEMES</p><h3>{results.length} result{results.length === 1 ? "" : "s"} for “{searchTerm}”</h3></div><span>MFapi.in</span></div>
+              {results.map((scheme) => <article className="fund-scheme-card" key={scheme.scheme_code}>
+                <div className="fund-scheme-copy"><h4>{scheme.scheme_name}</h4><small>Scheme code {scheme.scheme_code} · Exact plan/option variant</small></div>
+                <div className="fund-scheme-actions"><button className={selected(scheme) ? "outline-button selected" : "outline-button"} type="button" onClick={() => onToggle(scheme)} disabled={!selected(scheme) && selectedSchemes.length >= 5}>{selected(scheme) ? "Selected for compare" : "Add to compare"}</button><button className="text-action" type="button" onClick={() => setDetailScheme((current) => current?.scheme_code === scheme.scheme_code ? null : scheme)}>{detailScheme?.scheme_code === scheme.scheme_code ? "Hide NAV" : "NAV & returns"}</button><button className="text-action" type="button" onClick={() => onAsk(scheme.scheme_name)}>Ask assistant</button></div>
+              </article>)}
+              <small className="fund-provider-disclaimer">MFapi.in supplies scheme names and NAV history. It does not provide a verified risk rating, fund size, benchmark comparison, or investment recommendation here.</small>
+            </section>}
+    {detailScheme && <section className="fund-nav-overview"><div className="fund-scheme-results-heading"><div><p className="eyebrow">LIVE NAV SNAPSHOT</p><h3>{detailScheme.scheme_name}</h3></div><button className="text-action" type="button" onClick={() => setDetailScheme(null)}>Close</button></div>
+      {overview.loading ? <p>Loading latest available NAV and return history…</p> : overview.error ? <p className="form-error">{overview.error}</p> : overview.data && <>
+        <div className="fund-nav-highlight"><span>Latest NAV<strong>₹{nav(overview.data.latest_nav)}</strong></span><span>NAV date<strong>{overview.data.nav_date}</strong></span><span>History<strong>{overview.data.total_observations.toLocaleString("en-IN")} observations</strong></span></div>
+        <div className="fund-nav-return-grid">{overview.data.returns.map((item) => <span key={item.years}>{item.years}-year NAV CAGR<strong>{item.cagr_percent == null ? "Not enough history" : `${item.cagr_percent.toFixed(2)}%`}</strong>{item.end_date && <small>Through {item.end_date}</small>}</span>)}</div>
+        <section className="nav-return-chart" aria-label="Historical NAV CAGR by period"><div className="chart-card-heading"><div><p className="eyebrow">HISTORICAL NAV</p><h4>Return by period</h4><p>Bars show relative magnitude; the percentage labels are the reported annualized returns.</p></div></div><div className="nav-return-chart-list" role="list">{returnItems.map((item) => <div className="nav-return-chart-row" key={item.years} role="listitem"><span>{item.years}-year</span><div className="nav-return-track" aria-hidden="true"><i className={item.cagr_percent != null && item.cagr_percent < 0 ? "negative" : "positive"} style={{ width: `${item.cagr_percent == null ? 0 : Math.abs(item.cagr_percent) / maxReturnMagnitude * 100}%` }} /></div><strong>{item.cagr_percent == null ? "—" : `${item.cagr_percent.toFixed(2)}%`}</strong></div>)}</div></section>
+        <small>Trailing annualized NAV return, calculated against the latest available NAV; excludes benchmark comparison and does not predict future returns. Source: MFapi.in.</small>
+      </>}
+    </section>}
+  </>;
 }
 
-function Scanner({ funds, loading, error, selectedIds, onToggle, onCompare }: { funds: Fund[]; loading: boolean; error: string; selectedIds: string[]; onToggle: (id: string) => void; onCompare: () => void }) {
+function FundSchemeCompare({ selectedSchemes, onToggle, onBrowse }: { selectedSchemes: MutualFundScheme[]; onToggle: (scheme: MutualFundScheme) => void; onBrowse: () => void }) {
+  const [years, setYears] = useState(3);
+  const [comparison, setComparison] = useState<FundNavCompareData | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  useEffect(() => { setComparison(null); setError(""); }, [selectedSchemes, years]);
+  async function compare() {
+    setLoading(true);
+    setError("");
+    try {
+      const response = await apiRequest<ApiEnvelope<FundNavCompareData>>("/funds/nav-compare/", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ scheme_codes: selectedSchemes.map((scheme) => scheme.scheme_code), years }) });
+      setComparison(response.data);
+    } catch (requestError) {
+      setError(requestError instanceof Error ? requestError.message : "Could not compare NAV histories.");
+    } finally {
+      setLoading(false);
+    }
+  }
+  if (selectedSchemes.length < 2) return <section className="fund-discovery-empty"><strong>Select at least two exact schemes to compare.</strong><span>Use Find funds to search the market and add two to five scheme variants.</span><button className="primary-button" type="button" onClick={onBrowse}>Find funds</button></section>;
+  const metrics = comparison?.funds ?? [];
+  const maxCagrMagnitude = Math.max(1, ...metrics.map((fund) => Math.abs(fund.cagr_percent)));
+  return <section className="fund-nav-compare">
+    <div className="fund-nav-compare-heading"><div><p className="eyebrow">NAV-BASED COMPARISON</p><h3>Compare selected schemes</h3><p>Compare trailing return and historical NAV variability—not fund size, portfolio holdings, or benchmark alpha.</p></div><div className="fund-nav-controls"><label>Period<select value={years} onChange={(event) => setYears(Number(event.target.value))}><option value={1}>1 year</option><option value={3}>3 years</option><option value={5}>5 years</option><option value={10}>10 years</option></select></label><button className="primary-button" type="button" onClick={compare} disabled={loading}>{loading ? "Comparing…" : `Compare ${selectedSchemes.length} funds`}</button></div></div>
+    <div className="fund-selected-list">{selectedSchemes.map((scheme) => <span key={scheme.scheme_code}>{scheme.scheme_name}<button type="button" aria-label={`Remove ${scheme.scheme_name}`} onClick={() => onToggle(scheme)}>×</button></span>)}</div>
+    {error && <p className="form-error">{error}</p>}
+    {comparison && <section className="fund-compare-chart" aria-label={`${years}-year annualized return comparison`}><div className="chart-card-heading"><div><p className="eyebrow">RETURN COMPARISON</p><h4>{years}-year annualized return</h4><p>Historical NAV CAGR only. Bars show relative magnitude; negative returns are shown in red.</p></div></div><div className="fund-compare-chart-list" role="list">{selectedSchemes.map((scheme, index) => {
+      const fund = metrics.find((item) => item.scheme_code === scheme.scheme_code);
+      return <div className="fund-compare-chart-row" key={scheme.scheme_code} role="listitem"><span className="fund-compare-chart-name" title={scheme.scheme_name}>{scheme.scheme_name}</span><div className="fund-compare-track" aria-hidden="true"><i className={fund && fund.cagr_percent < 0 ? "negative" : "positive"} style={{ width: `${fund ? Math.abs(fund.cagr_percent) / maxCagrMagnitude * 100 : 0}%`, backgroundColor: fund && fund.cagr_percent < 0 ? undefined : portfolioChartPalette[index % portfolioChartPalette.length] }} /></div><strong>{fund ? `${fund.cagr_percent.toFixed(2)}%` : "—"}</strong></div>;
+    })}</div></section>}
+    {comparison && <div className="table-shell"><table className="fund-nav-compare-table"><thead><tr><th>Scheme</th><th>{years}-year CAGR</th><th>Annualized volatility</th><th>Maximum drawdown</th></tr></thead><tbody>{selectedSchemes.map((scheme) => {
+      const fund = metrics.find((item) => item.scheme_code === scheme.scheme_code);
+      return <tr key={scheme.scheme_code}><td><strong>{scheme.scheme_name}</strong><small>Code {scheme.scheme_code}{fund?.end_date ? ` · through ${fund.end_date}` : ""}</small></td><td>{fund ? `${fund.cagr_percent.toFixed(2)}%` : "Not available"}</td><td>{fund ? `${fund.annualized_volatility_percent.toFixed(2)}%` : "Not available"}</td><td>{fund ? `${fund.maximum_drawdown_percent.toFixed(2)}%` : "Not available"}</td></tr>;
+    })}</tbody></table></div>}
+    <small className="fund-provider-disclaimer">Calculated from daily NAV history provided by MFapi.in; historical volatility and drawdown are not forecasts. These figures are not benchmark-adjusted and are not investment advice.</small>
+  </section>;
+}
+
+function HoldingsScanner({ holdings, selectedIds, onToggle, onCompare, onAsk, asOf }: { holdings: Holding[]; selectedIds: string[]; onToggle: (id: string) => void; onCompare: () => void; onAsk: (fundName: string) => void; asOf: string | null }) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("All");
-  const [risk, setRisk] = useState("All");
-  const visibleFunds = useMemo(() => funds.filter((fund) => fund.fund_name.toLowerCase().includes(query.toLowerCase()) && (category === "All" || fund.category === category) && (risk === "All" || fund.risk_level === risk)), [funds, query, category, risk]);
-  const categories = ["All", ...Array.from(new Set(funds.map((fund) => fund.category).filter((item): item is string => Boolean(item))))];
-  const risks = ["All", ...Array.from(new Set(funds.map((fund) => fund.risk_level).filter((item): item is string => Boolean(item))))];
-  return <><div className="filter-bar"><label className="search-field">Search funds<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search by fund name" /></label><label>Category<select value={category} onChange={(event) => setCategory(event.target.value)}>{categories.map((item) => <option key={item}>{item}</option>)}</select></label><label>Risk<select value={risk} onChange={(event) => setRisk(event.target.value)}>{risks.map((item) => <option key={item}>{item}</option>)}</select></label><button className="primary-button" onClick={onCompare} disabled={selectedIds.length < 2}>Compare {selectedIds.length} funds</button></div><section className="rating-definition"><div><p className="eyebrow">AVAILABLE FUND METRICS</p><h3>Compare data without browser-generated values</h3><p>Returns and risk-adjusted ratings appear only when the connected fund source supplies them.</p></div></section><div className="scanner-result-summary"><span>{visibleFunds.length} configured funds match this screen</span><span>Choose 2–5 funds to compare</span></div><div className="table-shell"><table className="scanner-table"><thead><tr><th>Fund</th><th>Category</th><th>Risk</th><th>3Y return</th><th>Risk-adjusted return</th><th>Expense ratio</th><th>Fund size</th><th>Compare</th></tr></thead><tbody>{loading ? <tr><td colSpan={8}>Loading fund records…</td></tr> : error ? <tr><td colSpan={8}>{error}</td></tr> : visibleFunds.map((fund) => <tr key={fund.fund_id}><td><strong>{fund.fund_name}</strong></td><td><span className="fund-category">{valueOrUnavailable(fund.category)}</span></td><td>{valueOrUnavailable(fund.risk_level)}</td><td className="positive-value">{valueOrUnavailable(fund.return_3y, "%")}</td><td><StarRating score={fund.risk_adjusted_rating} /></td><td>{valueOrUnavailable(fund.expense_ratio, "%")}</td><td>{valueOrUnavailable(fund.fund_size)}</td><td><label className="compare-check"><input type="checkbox" checked={selectedIds.includes(fund.fund_id)} onChange={() => onToggle(fund.fund_id)} disabled={!selectedIds.includes(fund.fund_id) && selectedIds.length === 5} /><span className="sr-only">Compare {fund.fund_name}</span></label></td></tr>)}</tbody></table></div></>;
+  const [sort, setSort] = useState("-current_value");
+  const [page, setPage] = useState(1);
+  const [detailId, setDetailId] = useState<string | null>(null);
+  const pageSize = 20;
+  const categories = ["All", ...Array.from(new Set(holdings.map((holding) => holding.category).filter((item): item is string => Boolean(item))))];
+  const filtered = useMemo(() => holdings.filter((holding) => holding.fund_name.toLowerCase().includes(query.trim().toLowerCase()) && (category === "All" || holding.category === category)).sort((left, right) => {
+    const field = sort.replace(/^-/, "") as "fund_name" | "current_value" | "invested_amount" | "allocation_percent";
+    const comparison = field === "fund_name" ? left.fund_name.localeCompare(right.fund_name) : left[field] - right[field];
+    return sort.startsWith("-") ? -comparison : comparison;
+  }), [holdings, query, category, sort]);
+  useEffect(() => { setPage(1); }, [query, category, sort]);
+  const pageCount = Math.max(1, Math.ceil(filtered.length / pageSize));
+  const visibleHoldings = filtered.slice((page - 1) * pageSize, page * pageSize);
+  const detail = holdings.find((holding) => holding.fund_id === detailId);
+  const units = (value: number) => new Intl.NumberFormat("en-IN", { maximumFractionDigits: 4 }).format(value);
+  return <>
+    <div className="filter-bar explorer-filter-bar"><label className="search-field">Search your funds<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search by scheme name" /></label><label>Category<select value={category} onChange={(event) => setCategory(event.target.value)}>{categories.map((item) => <option key={item}>{item}</option>)}</select></label><label>Sort by<select value={sort} onChange={(event) => setSort(event.target.value)}><option value="-current_value">Current value: high to low</option><option value="current_value">Current value: low to high</option><option value="-invested_amount">Invested: high to low</option><option value="-allocation_percent">Portfolio weight: high to low</option><option value="fund_name">Fund name: A to Z</option></select></label><button className="primary-button" type="button" onClick={onCompare} disabled={selectedIds.length < 2}>Compare {selectedIds.length} selected</button></div>
+    <div className="scanner-result-summary"><span>{filtered.length} holding{filtered.length === 1 ? "" : "s"} in this snapshot{asOf ? ` · as of ${asOf}` : ""}</span><span>Select 2–5 to compare · values come from your imported statement</span></div>
+    <div className="table-shell"><table className="scanner-table holdings-explorer-table"><thead><tr><th>Fund</th><th>Category</th><th>Units</th><th>Invested</th><th>Current value</th><th>Portfolio weight</th><th>Compare</th><th>Details</th></tr></thead><tbody>{visibleHoldings.length ? visibleHoldings.map((holding) => <tr key={holding.fund_id}><td><strong>{holding.fund_name}</strong></td><td>{holding.category || "Not provided"}</td><td className="numeric-cell">{units(holding.units)}</td><td className="numeric-cell">{money(holding.invested_amount)}</td><td className="numeric-cell">{money(holding.current_value)}</td><td className="numeric-cell">{holding.allocation_percent.toFixed(2)}%</td><td><label className="compare-check"><input type="checkbox" aria-label={`Compare ${holding.fund_name}`} checked={selectedIds.includes(holding.fund_id)} onChange={() => onToggle(holding.fund_id)} disabled={!selectedIds.includes(holding.fund_id) && selectedIds.length >= 5} /></label></td><td><button className="text-action" type="button" onClick={() => setDetailId((current) => current === holding.fund_id ? null : holding.fund_id)}>{detailId === holding.fund_id ? "Close" : "Details"}</button></td></tr>) : <tr><td colSpan={8}><div className="table-empty"><strong>No matching holdings</strong><span>Change the search or category filter.</span></div></td></tr>}</tbody></table></div>
+    {filtered.length > pageSize && <nav className="explorer-pagination" aria-label="Fund holdings pages"><button className="outline-button" type="button" onClick={() => setPage((current) => Math.max(1, current - 1))} disabled={page === 1}>Previous</button><span>Page {page} of {pageCount}</span><button className="outline-button" type="button" onClick={() => setPage((current) => Math.min(pageCount, current + 1))} disabled={page === pageCount}>Next</button></nav>}
+    {detail && <section className="explorer-detail"><div className="explorer-detail-heading"><div><p className="eyebrow">PORTFOLIO HOLDING</p><h3>{detail.fund_name}</h3><p>{detail.category || "Category not provided"}{asOf ? ` · statement as of ${asOf}` : ""}</p></div><button className="primary-button" type="button" onClick={() => onAsk(detail.fund_name)}>Ask FundLens about this fund</button></div><div className="explorer-detail-metrics"><span>Units<strong>{units(detail.units)}</strong></span><span>Amount invested<strong>{money(detail.invested_amount)}</strong></span><span>Current value<strong>{money(detail.current_value)}</strong></span><span>Portfolio weight<strong>{detail.allocation_percent.toFixed(2)}%</strong></span></div><small>These values are from your imported statement, not a live NAV or return feed. FundLens can answer document questions only when a matching factsheet is indexed.</small></section>}
+  </>;
 }
 
-function Compare({ fundIds, onToggle, onScan }: { fundIds: string[]; onToggle: (id: string) => void; onScan: () => void }) {
-  const [funds, setFunds] = useState<Fund[]>([]); const [loading, setLoading] = useState(false); const [error, setError] = useState("");
-  useEffect(() => { let active = true; if (fundIds.length < 2) { setFunds([]); return () => { active = false; }; } setLoading(true); setError(""); apiRequest<ApiEnvelope<{ funds: Fund[] }>>("/funds/compare/", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ fund_ids: fundIds }) }).then((response) => { if (active) setFunds(response.data.funds); }).catch((requestError) => { if (active) setError(requestError instanceof Error ? requestError.message : "Unable to compare funds."); }).finally(() => { if (active) setLoading(false); }); return () => { active = false; }; }, [fundIds]);
-  if (fundIds.length < 2) return <section className="empty-state compact"><p className="eyebrow">COMPARE FUNDS</p><h2>Select 2–5 funds to compare</h2><p>Choose funds from the scanner to compare the backend-provided fields side by side.</p><button className="primary-button" onClick={onScan}>Open fund scanner</button></section>;
-  const rows: { label: string; value: (fund: Fund) => ReactNode }[] = [{ label: "Category", value: (fund) => valueOrUnavailable(fund.category) }, { label: "Risk level", value: (fund) => valueOrUnavailable(fund.risk_level) }, { label: "3Y return", value: (fund) => valueOrUnavailable(fund.return_3y, "%") }, { label: "Risk-adjusted return", value: (fund) => <StarRating score={fund.risk_adjusted_rating} /> }, { label: "Expense ratio", value: (fund) => valueOrUnavailable(fund.expense_ratio, "%") }, { label: "Fund size", value: (fund) => valueOrUnavailable(fund.fund_size) }, { label: "Manager", value: (fund) => valueOrUnavailable(fund.manager_name) }, { label: "As of", value: (fund) => valueOrUnavailable(fund.as_of) }];
-  return <>{error && <section className="empty-state compact"><strong>{error}</strong></section>}{loading ? <section className="empty-state compact">Loading comparison…</section> : funds.length > 0 && <div className="comparison-wrap"><table className="comparison-table"><thead><tr><th>Fund metric</th>{funds.map((fund) => <th key={fund.fund_id}><span className="fund-category">{valueOrUnavailable(fund.category)}</span><strong>{fund.fund_name}</strong><button className="remove-fund" onClick={() => onToggle(fund.fund_id)}>Remove</button></th>)}</tr></thead><tbody>{rows.map((row) => <tr key={row.label}><th>{row.label}</th>{funds.map((fund) => <td key={fund.fund_id}>{row.value(fund)}</td>)}</tr>)}</tbody></table></div>}</>;
+function HoldingsCompare({ holdings, selectedCount, onToggle, onBrowse, asOf }: { holdings: Holding[]; selectedCount: number; onToggle: (id: string) => void; onBrowse: () => void; asOf: string | null }) {
+  if (holdings.length < 2) return <section className="empty-state compact"><p className="eyebrow">COMPARE HOLDINGS</p><h2>Select 2–5 funds from your holdings</h2><p>Comparison uses values from the same imported portfolio snapshot; it does not compare historical fund performance.</p><button className="primary-button" type="button" onClick={onBrowse}>Choose funds</button>{selectedCount > 0 && <button className="text-action" type="button" onClick={() => holdings.forEach((holding) => onToggle(holding.fund_id))}>Clear selection</button>}</section>;
+  const rows: { label: string; value: (holding: Holding) => ReactNode }[] = [
+    { label: "Category", value: (holding) => holding.category || "Not provided" },
+    { label: "Units", value: (holding) => new Intl.NumberFormat("en-IN", { maximumFractionDigits: 4 }).format(holding.units) },
+    { label: "Amount invested", value: (holding) => money(holding.invested_amount) },
+    { label: "Current value", value: (holding) => money(holding.current_value) },
+    { label: "Portfolio weight", value: (holding) => `${holding.allocation_percent.toFixed(2)}%` },
+  ];
+  return <section className="holdings-comparison"><div className="comparison-heading"><div><p className="eyebrow">SAME PORTFOLIO SNAPSHOT</p><h3>Compare your selected funds</h3><p>Statement values only{asOf ? ` · as of ${asOf}` : ""}. Historical returns and risk data are not available here.</p></div><button className="outline-button" type="button" onClick={onBrowse}>Edit selection</button></div><div className="comparison-wrap"><table className="comparison-table"><thead><tr><th>Portfolio value</th>{holdings.map((holding) => <th key={holding.fund_id}><strong>{holding.fund_name}</strong><button className="remove-fund" type="button" onClick={() => onToggle(holding.fund_id)}>Remove</button></th>)}</tr></thead><tbody>{rows.map((row) => <tr key={row.label}><th>{row.label}</th>{holdings.map((holding) => <td key={holding.fund_id}>{row.value(holding)}</td>)}</tr>)}</tbody></table></div></section>;
 }
 
-function Commentary() {
-  return <section className="commentary-research"><div><p className="eyebrow">MANAGER COMMENTARY</p><h2>Research notes with source context</h2><p>Commentary is shown only when it can be connected to the relevant fund, publication date and original supporting document.</p></div><details open><summary>Commentary awaiting source data</summary><div className="commentary-grid"><span>Fund <b>Awaiting data</b></span><span>Date <b>Awaiting data</b></span><span>Source <b>Awaiting data</b></span><span>Supporting document <b>Awaiting data</b></span></div><p>No manager commentary is available from the connected data source yet. When it is, this section will present concise key observations and retain the original source for review.</p></details></section>;
-}
-
-function OverlapView({ userId, onImport }: { userId: string; onImport: () => void }) {
+function OverlapView({ userId, canManageDisclosures, onImport }: { userId: string; canManageDisclosures: boolean; onImport: () => void }) {
   const [refreshKey, setRefreshKey] = useState(0);
-  const { data, loading, error } = useApi<Overlap>(userId.trim() ? `/portfolio/overlap/?user_id=${encodeURIComponent(userId.trim())}&refresh=${refreshKey}` : null);
+  const { data, loading, error } = useApi<Overlap>(userId.trim() ? `/portfolio/overlap/?refresh=${refreshKey}` : null);
   const unavailable = Boolean(error);
   const overlapPercent = (data?.overall_overlap_percent ?? 0).toFixed(2);
   const status = loading ? "Loading" : unavailable ? "Unavailable" : `${overlapPercent}% shared`;
   return <div className="view-stack"><ViewHeading eyebrow="PORTFOLIO DIVERSIFICATION" title="Understand where your funds meet" description="Company-level overlap explains whether multiple funds truly diversify your portfolio." />
     <section className="explanation-panel"><span className={unavailable ? "risk-ring unavailable" : "risk-ring"}>{loading ? "…" : unavailable ? "—" : `${overlapPercent}%`}</span><div><h3>{unavailable ? "Overlap needs verified fund holdings" : "Shared-company exposure"}</h3><p>{unavailable ? "Your statement was imported successfully, but company-level overlap requires each fund to be matched with a verified holdings disclosure." : "This is the portion of your portfolio routed to companies held through two or more funds. It is an exposure measure, not a fund-similarity score."}</p></div></section>
     <section className="overlap-data-shell" aria-label="Portfolio overlap results"><div className="overlap-data-heading"><div><p className="eyebrow">COMPANY-LEVEL BREAKDOWN</p><h3>Top shared companies</h3><p>{unavailable ? "Overlap cannot be calculated from statement totals alone." : "Each result combines your weighted exposure to the same company across multiple funds."}</p></div><span>{status}</span></div>{unavailable ? <div className="overlap-unavailable"><strong>Company overlap is unavailable for this imported statement.</strong><p>{error}</p><span>Portfolio summary, holdings, allocation, and snapshot comparison still work from your imported CSV/XLSX data.</span><button className="outline-button" type="button" onClick={onImport}>View imported holdings</button></div> : <div className="table-shell"><table className="overlap-table"><thead><tr><th>Company</th><th>Funds holding it</th><th>Your shared exposure</th></tr></thead><tbody>{loading ? <tr><td colSpan={3}>Loading overlap results…</td></tr> : data?.companies.length ? data.companies.map((company) => <tr key={company.company}><td className="overlap-company"><strong>{company.company}</strong><small>{company.funds.length} funds</small></td><td><div className="overlap-fund-tags">{company.funds.map((fund) => <span key={fund.fund_name} title={`${fund.fund_name}${fund.portfolio_contribution_percent != null ? ` · ${fund.portfolio_contribution_percent.toFixed(2)}% of your portfolio` : ""}`}>{fund.fund_name}</span>)}</div></td><td className="overlap-exposure"><strong>{company.combined_exposure_percent.toFixed(2)}%</strong><small>of your portfolio</small></td></tr>) : <tr><td colSpan={3}><div className="table-empty"><strong>No shared-company exposure found</strong><span>No company is currently held in more than one fund for this portfolio.</span></div></td></tr>}</tbody></table></div>}</section>
-    <FundDisclosureUploadPanel onImported={() => setRefreshKey((current) => current + 1)} />
+    {canManageDisclosures && <FundDisclosureUploadPanel onImported={() => setRefreshKey((current) => current + 1)} />}
   </div>;
 }
 
@@ -746,13 +1046,12 @@ function MarketView({ userId }: { userId: string }) {
   const [symbol, setSymbol] = useState("C001");
   const [refresh, setRefresh] = useState(0);
   const [actionError, setActionError] = useState("");
-  const userQuery = encodeURIComponent(userId.trim());
-  const watchlist = useApi<{ items: WatchlistItem[] }>(userId.trim() ? `/watchlist/?user_id=${userQuery}&refresh=${refresh}` : null);
-  const company = useApi<CompanyExposure>(userId.trim() ? `/companies/${symbol}/fund-exposure/?user_id=${userQuery}` : null);
+  const watchlist = useApi<{ items: WatchlistItem[] }>(userId.trim() ? `/watchlist/?refresh=${refresh}` : null);
+  const company = useApi<CompanyExposure>(userId.trim() ? `/companies/${symbol}/fund-exposure/` : null);
   const marketOverview = useApi<MarketOverview>("/market/overview/");
   const marketConnected = Boolean(marketOverview.data?.configured && marketOverview.data.items.length);
-  async function addToWatchlist() { setActionError(""); try { await apiRequest<ApiEnvelope<{ id: number }>>("/watchlist/", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ user_id: userId.trim(), symbol }) }); setRefresh((value) => value + 1); } catch (requestError) { setActionError(requestError instanceof Error ? requestError.message : "Unable to add this company to the watchlist."); } }
-  async function removeFromWatchlist(itemId: number) { setActionError(""); try { await apiRequest<unknown>(`/watchlist/${itemId}/?user_id=${userQuery}`, { method: "DELETE" }); setRefresh((value) => value + 1); } catch (requestError) { setActionError(requestError instanceof Error ? requestError.message : "Unable to remove this watchlist item."); } }
+  async function addToWatchlist() { setActionError(""); try { await apiRequest<ApiEnvelope<{ id: number }>>("/watchlist/", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ symbol }) }); setRefresh((value) => value + 1); } catch (requestError) { setActionError(requestError instanceof Error ? requestError.message : "Unable to add this company to the watchlist."); } }
+  async function removeFromWatchlist(itemId: number) { setActionError(""); try { await apiRequest<unknown>(`/watchlist/${itemId}/`, { method: "DELETE" }); setRefresh((value) => value + 1); } catch (requestError) { setActionError(requestError instanceof Error ? requestError.message : "Unable to remove this watchlist item."); } }
   return <div className="view-stack"><ViewHeading eyebrow="MARKET" title="A focused market view" description="Market context should complement mutual-fund research, not turn this product into a trading app." />
     <div className="segmented" role="tablist" aria-label="Market regions"><TabButton active={tab === "india"} onClick={() => setTab("india")}>India</TabButton><TabButton active={tab === "us"} onClick={() => setTab("us")}>US</TabButton><TabButton active={tab === "europe"} onClick={() => setTab("europe")}>Europe</TabButton><TabButton active={tab === "currencies"} onClick={() => setTab("currencies")}>Currencies</TabButton><TabButton active={tab === "crypto"} onClick={() => setTab("crypto")}>Crypto</TabButton><TabButton active={tab === "futures"} onClick={() => setTab("futures")}>Futures</TabButton></div>
     <section className="market-search"><label>Configured NSE equities<input placeholder="Quote search will be added with a symbol-search endpoint" disabled /></label><span>{marketOverview.loading ? "Connecting to price feed…" : marketConnected ? `${marketOverview.data?.items.length ?? 0} of 5 configured quotes available` : "Price feed not configured"}</span></section>

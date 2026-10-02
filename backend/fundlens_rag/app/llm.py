@@ -1,5 +1,7 @@
 import json
 import os
+import re
+from urllib.parse import urlparse
 
 from dotenv import load_dotenv
 from langchain_ollama import ChatOllama
@@ -13,17 +15,32 @@ load_dotenv()
 
 def get_llm():
     """
-    Create the primary cloud LLM.
+    Create an Ollama chat model for a local server or Ollama Cloud.
     """
 
     model = os.getenv(
         "OLLAMA_MODEL",
         "gpt-oss:120b-cloud",
     )
+    base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434").strip().rstrip("/")
+    parsed_url = urlparse(base_url)
+    if parsed_url.scheme not in {"http", "https"} or not parsed_url.netloc:
+        raise ValueError("OLLAMA_BASE_URL must be an http(s) URL")
+
+    api_key = os.getenv("OLLAMA_API_KEY", "").strip()
+    client_kwargs: dict[str, dict[str, str]] = {}
+    if parsed_url.scheme == "https":
+        if not api_key:
+            raise RuntimeError("OLLAMA_API_KEY is required for HTTPS Ollama Cloud access")
+        client_kwargs = {"headers": {"Authorization": f"Bearer {api_key}"}}
+    elif parsed_url.hostname not in {"localhost", "127.0.0.1", "::1"}:
+        raise ValueError("Remote OLLAMA_BASE_URL must use HTTPS")
 
     return ChatOllama(
         model=model,
         temperature=0,
+        base_url=base_url,
+        client_kwargs=client_kwargs,
     )
 
 
@@ -67,13 +84,7 @@ def generate_response(
             str(item) for item in raw_content
         )
 
-    try:
-        parsed = json.loads(raw_content)
-
-    except json.JSONDecodeError as exc:
-        raise ValueError(
-            "LLM returned invalid JSON."
-        ) from exc
+    parsed = _parse_json_object(str(raw_content))
 
     if not isinstance(parsed, dict):
         raise ValueError("LLM response must be a JSON object.")
@@ -84,3 +95,43 @@ def generate_response(
     parsed.pop("sources", None)
 
     return LLMResponse.model_validate(parsed)
+
+
+def _parse_json_object(raw_content: str) -> dict:
+    """Read a model's requested JSON object without accepting arbitrary text.
+
+    Cloud models occasionally place an otherwise valid response inside a
+    Markdown JSON fence or introduce it with a short sentence.  The prompt
+    still requires JSON only, but accepting the first syntactically valid JSON
+    object makes the answer path robust to that presentation error.  The
+    Pydantic validation immediately afterwards remains the authority on the
+    required answer schema.
+    """
+    candidates = [raw_content.strip()]
+    candidates.extend(
+        match.group(1).strip()
+        for match in re.finditer(r"```(?:json)?\s*(\{.*?\})\s*```", raw_content, re.IGNORECASE | re.DOTALL)
+    )
+
+    decoder = json.JSONDecoder()
+    for candidate in candidates:
+        try:
+            parsed = json.loads(candidate)
+        except json.JSONDecodeError:
+            parsed = None
+        if isinstance(parsed, dict):
+            return parsed
+
+        # Only consider JSON objects, never arrays/scalars embedded in prose.
+        # ``raw_decode`` correctly handles braces inside quoted answer text.
+        for start, character in enumerate(candidate):
+            if character != "{":
+                continue
+            try:
+                parsed, _ = decoder.raw_decode(candidate[start:])
+            except json.JSONDecodeError:
+                continue
+            if isinstance(parsed, dict):
+                return parsed
+
+    raise ValueError("LLM returned invalid JSON.")

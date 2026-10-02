@@ -7,6 +7,7 @@ from drf_spectacular.utils import OpenApiParameter, OpenApiTypes, extend_schema
 from rest_framework import status
 from rest_framework.generics import GenericAPIView
 from rest_framework.parsers import FormParser, MultiPartParser
+from rest_framework.permissions import IsAdminUser, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -24,6 +25,8 @@ from .serializers import (
     ExpectedWealthRequestSerializer,
     FundDisclosureImportRequestSerializer,
     FundComparisonRequestSerializer,
+    FundNavComparisonRequestSerializer,
+    FundSchemeSearchSerializer,
     PortfolioImportRequestSerializer,
     SipRequestSerializer,
     WatchlistCreateSerializer,
@@ -80,11 +83,19 @@ def _tool_result(result: dict[str, Any], data: dict[str, Any] | list[Any]) -> Re
     return _success(data, _sources(result), result.get("message"))
 
 
-def _required_user_id(request) -> str | None:
-    return request.query_params.get("user_id") or request.data.get("user_id")
+class AuthenticatedAPIView(APIView):
+    """Base for endpoints that read or modify data owned by an account."""
+
+    permission_classes = [IsAuthenticated]
 
 
-class PortfolioImportView(APIView):
+def _required_user_id(request) -> str:
+    # Never trust a user ID supplied in a URL or request body. The session is
+    # the source of truth for ownership across all private portfolio APIs.
+    return request.user.get_username()
+
+
+class PortfolioImportView(AuthenticatedAPIView):
     """Import one CSV/XLSX statement into normalized, user-scoped holdings."""
 
     parser_classes = [MultiPartParser, FormParser]
@@ -94,7 +105,7 @@ class PortfolioImportView(APIView):
         request=PortfolioImportRequestSerializer,
         responses={201: ApiEnvelopeSerializer, 400: ApiEnvelopeSerializer},
         description=(
-            "Imports a CSV or XLSX statement for one portfolio user. The original "
+            "Imports a CSV or XLSX statement for the authenticated account. The original "
             "file is not retained; only validated holdings and import metadata are stored. "
             "Required columns: fund_name, invested_amount, current_value. Optional: units, category."
         ),
@@ -105,7 +116,7 @@ class PortfolioImportView(APIView):
         values = serializer.validated_data
         try:
             portfolio_import = create_portfolio_import(
-                user_id=values["user_id"],
+                user_id=request.user.get_username(),
                 uploaded_file=values["file"],
                 snapshot_date=values.get("as_of_date"),
             )
@@ -138,9 +149,10 @@ class PortfolioImportView(APIView):
         )
 
 
-class FundDisclosureImportView(APIView):
+class FundDisclosureImportView(AuthenticatedAPIView):
     """Development/admin upload for normalized, dated company-holding disclosures."""
 
+    permission_classes = [IsAdminUser]
     parser_classes = [MultiPartParser, FormParser]
 
     @extend_schema(
@@ -149,7 +161,7 @@ class FundDisclosureImportView(APIView):
         responses={201: ApiEnvelopeSerializer, 400: ApiEnvelopeSerializer},
         description=(
             "Imports a normalized fund disclosure CSV/XLSX for overlap analysis. "
-            "This is a development/admin workflow and should be protected by admin authentication in production. "
+            "This shared reference-data workflow is restricted to staff accounts. "
             "Required columns: fund_name, company_name, holding_weight. Optional: isin, sector. "
             "The original file is not retained."
         ),
@@ -190,14 +202,11 @@ class FundDisclosureImportView(APIView):
         )
 
 
-class PortfolioSnapshotsView(APIView):
+class PortfolioSnapshotsView(AuthenticatedAPIView):
     """List the dated statement snapshots available for one user."""
 
     @extend_schema(
         tags=["Portfolio"],
-        parameters=[
-            OpenApiParameter("user_id", OpenApiTypes.STR, OpenApiParameter.QUERY, required=True),
-        ],
         responses={200: ApiEnvelopeSerializer},
     )
     def get(self, request):
@@ -207,13 +216,12 @@ class PortfolioSnapshotsView(APIView):
         return _success({"results": list_portfolio_snapshots(user_id)})
 
 
-class PortfolioChangesView(APIView):
+class PortfolioChangesView(AuthenticatedAPIView):
     """Compare two dated, user-owned imported portfolio snapshots."""
 
     @extend_schema(
         tags=["Portfolio"],
         parameters=[
-            OpenApiParameter("user_id", OpenApiTypes.STR, OpenApiParameter.QUERY, required=True),
             OpenApiParameter("newer_snapshot_id", OpenApiTypes.INT, OpenApiParameter.QUERY),
             OpenApiParameter("older_snapshot_id", OpenApiTypes.INT, OpenApiParameter.QUERY),
         ],
@@ -239,8 +247,8 @@ class PortfolioChangesView(APIView):
         return _success(data)
 
 
-class PortfolioSummaryView(APIView):
-    @extend_schema(parameters=[OpenApiParameter("user_id", OpenApiTypes.STR, OpenApiParameter.QUERY, required=True)], responses={200: ApiEnvelopeSerializer})
+class PortfolioSummaryView(AuthenticatedAPIView):
+    @extend_schema(responses={200: ApiEnvelopeSerializer})
     def get(self, request):
         user_id = _required_user_id(request)
         if not user_id:
@@ -264,8 +272,8 @@ class PortfolioSummaryView(APIView):
         })
 
 
-class PortfolioHoldingsView(APIView):
-    @extend_schema(parameters=[OpenApiParameter("user_id", OpenApiTypes.STR, OpenApiParameter.QUERY, required=True), OpenApiParameter("search", OpenApiTypes.STR, OpenApiParameter.QUERY), OpenApiParameter("category", OpenApiTypes.STR, OpenApiParameter.QUERY), OpenApiParameter("sort", OpenApiTypes.STR, OpenApiParameter.QUERY)], responses={200: ApiEnvelopeSerializer})
+class PortfolioHoldingsView(AuthenticatedAPIView):
+    @extend_schema(parameters=[OpenApiParameter("search", OpenApiTypes.STR, OpenApiParameter.QUERY), OpenApiParameter("category", OpenApiTypes.STR, OpenApiParameter.QUERY), OpenApiParameter("sort", OpenApiTypes.STR, OpenApiParameter.QUERY)], responses={200: ApiEnvelopeSerializer})
     def get(self, request):
         user_id = _required_user_id(request)
         result = get_portfolio_data(user_id) if user_id else {"success": False, "error_code": "INVALID_INPUT", "message": "user_id is required."}
@@ -292,11 +300,18 @@ class PortfolioHoldingsView(APIView):
         field = sort.lstrip("-")
         if field in allowed:
             rows.sort(key=lambda row: row[field], reverse=sort.startswith("-"))
-        return _tool_result(result, {"results": rows, "total": len(rows)})
+        source = result.get("source") or {}
+        return _tool_result(result, {
+            "results": rows,
+            "total": len(rows),
+            "imported": bool(result.get("imported")),
+            "as_of": source.get("data_as_of"),
+            "source_name": source.get("name"),
+        })
 
 
-class PortfolioAllocationView(APIView):
-    @extend_schema(parameters=[OpenApiParameter("user_id", OpenApiTypes.STR, OpenApiParameter.QUERY, required=True), OpenApiParameter("group_by", OpenApiTypes.STR, OpenApiParameter.QUERY, required=True)], responses={200: ApiEnvelopeSerializer})
+class PortfolioAllocationView(AuthenticatedAPIView):
+    @extend_schema(parameters=[OpenApiParameter("group_by", OpenApiTypes.STR, OpenApiParameter.QUERY, required=True)], responses={200: ApiEnvelopeSerializer})
     def get(self, request):
         user_id = _required_user_id(request)
         group_by = request.query_params.get("group_by", "")
@@ -356,8 +371,8 @@ class PortfolioAllocationView(APIView):
         return _tool_result(portfolio, {"group_by": group_by, "items": items, "as_of": portfolio["source"].get("data_as_of")})
 
 
-class PortfolioOverlapView(APIView):
-    @extend_schema(parameters=[OpenApiParameter("user_id", OpenApiTypes.STR, OpenApiParameter.QUERY, required=True)], responses={200: ApiEnvelopeSerializer})
+class PortfolioOverlapView(AuthenticatedAPIView):
+    @extend_schema(responses={200: ApiEnvelopeSerializer})
     def get(self, request):
         user_id = _required_user_id(request)
         if user_id and active_import_for_user(user_id):
@@ -417,6 +432,68 @@ class FundsView(APIView):
         page_size = min(max(int(request.query_params.get("page_size", 20)), 1), 100)
         start = (page - 1) * page_size
         return _success({"results": rows[start:start + page_size], "total": len(rows), "page": page, "page_size": page_size}, [{"name": "Mock fund master", "data_as_of": date.today().isoformat()}])
+
+
+class FundSchemeSearchView(APIView):
+    """Search the public MFapi scheme catalogue, independent of portfolio holdings."""
+
+    @extend_schema(operation_id="fund-scheme-search", parameters=[OpenApiParameter("q", OpenApiTypes.STR, OpenApiParameter.QUERY, required=True), OpenApiParameter("limit", OpenApiTypes.INT, OpenApiParameter.QUERY)], responses={200: ApiEnvelopeSerializer})
+    def get(self, request):
+        serializer = FundSchemeSearchSerializer(data=request.query_params)
+        if not serializer.is_valid():
+            return Response(
+                {"success": False, "error_code": "INVALID_INPUT", "message": str(serializer.errors)},
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+        values = serializer.validated_data
+        result = tools.search_mutual_fund_schemes(values["q"], values["limit"])
+        if not result.get("success"):
+            return _tool_result(result, {})
+        return _tool_result(result, {"query": result["query"], "schemes": result["schemes"]})
+
+
+class FundNavOverviewView(APIView):
+    """Show the latest public NAV and available trailing NAV-based CAGRs."""
+
+    @extend_schema(operation_id="fund-nav-overview", responses={200: ApiEnvelopeSerializer})
+    def get(self, request, scheme_code: int):
+        history = tools.get_nav_history(scheme_code, limit=1)
+        if not history.get("success"):
+            return _tool_result(history, {})
+        latest = history["observations"][-1]
+        sources = _sources(history)
+        returns = []
+        for years in (1, 3, 5):
+            result = tools.calculate_cagr(scheme_code, years)
+            if result.get("success"):
+                returns.append({"years": years, "cagr_percent": result["cagr_percent"], "start_date": result["start_date"], "end_date": result["end_date"]})
+                sources.extend(_sources(result))
+            else:
+                returns.append({"years": years, "cagr_percent": None, "start_date": None, "end_date": None})
+        return _success(
+            {
+                "scheme_code": scheme_code,
+                "latest_nav": latest["nav"],
+                "nav_date": latest["date"],
+                "total_observations": history["total_observations"],
+                "returns": returns,
+            },
+            sources,
+        )
+
+
+class FundNavCompareView(APIView):
+    """Compare selected MFapi schemes using public NAV-series metrics."""
+
+    @extend_schema(request=FundNavComparisonRequestSerializer, responses={200: ApiEnvelopeSerializer})
+    def post(self, request):
+        serializer = FundNavComparisonRequestSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        values = serializer.validated_data
+        result = tools.compare_funds(values["scheme_codes"], values["years"])
+        if not result.get("success"):
+            return _tool_result(result, {})
+        return _tool_result(result, {"years": result["years"], "funds": result["funds"]})
 
 
 class FundDetailView(APIView):
@@ -526,8 +603,8 @@ class ExpectedWealthCalculatorView(APIView):
         })
 
 
-class CompanyFundExposureView(APIView):
-    @extend_schema(parameters=[OpenApiParameter("user_id", OpenApiTypes.STR, OpenApiParameter.QUERY, required=True)], responses={200: ApiEnvelopeSerializer})
+class CompanyFundExposureView(AuthenticatedAPIView):
+    @extend_schema(responses={200: ApiEnvelopeSerializer})
     def get(self, request, company_id):
         user_id = _required_user_id(request)
         company = tools.store.companies().get(company_id)
@@ -687,8 +764,8 @@ class MarketOverviewView(APIView):
         )
 
 
-class WatchlistView(APIView):
-    @extend_schema(parameters=[OpenApiParameter("user_id", OpenApiTypes.STR, OpenApiParameter.QUERY, required=True)], responses={200: ApiEnvelopeSerializer})
+class WatchlistView(AuthenticatedAPIView):
+    @extend_schema(responses={200: ApiEnvelopeSerializer})
     def get(self, request):
         user_id = _required_user_id(request)
         if not user_id:
@@ -708,15 +785,18 @@ class WatchlistView(APIView):
         values = serializer.validated_data
         if values["symbol"] not in tools.store.companies():
             return Response({"success": False, "error_code": "COMPANY_NOT_FOUND", "message": "Only configured company IDs can be added to the watchlist."}, status=404)
-        item, created = WatchlistItem.objects.get_or_create(**values)
+        item, created = WatchlistItem.objects.get_or_create(
+            user_id=request.user.get_username(),
+            symbol=values["symbol"],
+        )
         return _success(
             {"id": item.id, "symbol": item.symbol, "created": created},
             status_code=status.HTTP_201_CREATED if created else status.HTTP_200_OK,
         )
 
 
-class WatchlistItemView(APIView):
-    @extend_schema(parameters=[OpenApiParameter("user_id", OpenApiTypes.STR, OpenApiParameter.QUERY, required=True)], responses={204: None, 404: ApiEnvelopeSerializer})
+class WatchlistItemView(AuthenticatedAPIView):
+    @extend_schema(responses={204: None, 404: ApiEnvelopeSerializer})
     def delete(self, request, item_id):
         user_id = _required_user_id(request)
         deleted, _ = WatchlistItem.objects.filter(id=item_id, user_id=user_id).delete()

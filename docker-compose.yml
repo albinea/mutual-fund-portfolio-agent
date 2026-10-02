@@ -9,7 +9,7 @@ services:
       MYSQL_PASSWORD: ${DB_PASSWORD}
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     ports:
-      - "3306:3306"
+      - "127.0.0.1:3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
     healthcheck:
@@ -36,6 +36,58 @@ services:
       - "127.0.0.1:6333:6333"
     volumes:
       - qdrant_storage:/qdrant/storage
+
+  api:
+    build:
+      context: ./backend
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      DJANGO_DEBUG: "False"
+      DB_HOST: db
+      QDRANT_URL: http://qdrant:6333
+    command: >
+      sh -c "python manage.py migrate --noinput
+      && python manage.py collectstatic --noinput
+      && gunicorn config.wsgi:application --bind 0.0.0.0:8000 --workers 2
+      --timeout 120 --access-logfile - --error-logfile -"
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      qdrant:
+        condition: service_started
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - >-
+          from urllib.request import Request, urlopen;
+          request = Request('http://127.0.0.1:8000/api/v1/health/',
+          headers={'X-Forwarded-Proto': 'https'});
+          urlopen(request, timeout=5)
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  rag_worker:
+    build:
+      context: ./backend
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      DJANGO_DEBUG: "False"
+      DB_HOST: db
+      QDRANT_URL: http://qdrant:6333
+    command: python manage.py run_rag_worker
+    depends_on:
+      api:
+        condition: service_healthy
 
 volumes:
   mysql_data:

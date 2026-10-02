@@ -189,3 +189,32 @@ missing or ambiguous, the app asks for a selection and does not search across
 all funds. The `fundlens_documents_v6` collection carries this metadata. On
 migration, existing JSON chunks are enriched in memory and indexed without
 rewriting their Markdown or JSON files; older Qdrant collections are retained.
+
+## Retrieval evaluation
+
+From `backend/`, run the 20-question retrieval regression suite:
+
+```bash
+.venv/bin/python rag/evaluation/evaluate.py
+```
+
+By default, the evaluator builds a temporary in-memory Qdrant collection from
+the checked-in page-aware chunks, makes no model/API calls, and writes
+`rag/evaluation/results.json`. The suite is focused on HDFC Medium to Long Term
+Fund facts and includes the HDFC ELSS page that previously caused a wrong-fund
+citation; it checks top-five page retrieval, fund-scope purity, evidence-term
+recall, citation metadata, and retrieval latency. This focused suite is a
+regression baseline, not a substitute for evaluation across every indexed fund.
+
+To also evaluate generated answers, run the same command with
+`--with-answers`. This calls the configured Ollama model and may incur provider
+charges; the optional vision fallback is disabled so the report isolates the
+normal grounded text/table answer path. Generated-answer scores use the
+dataset's required facts and expected page citations. The composite
+`answer_grounded_accuracy` only counts an answer as correct when its expected
+facts, citation page, and runtime grounding check all pass. The report also
+includes a confidence Brier score and flags incorrect answers at or above 80%
+confidence, directly checking for overconfident citation mismatches. These
+answer and confidence metrics remain `null` in retrieval-only runs. Model token
+counts and estimated cost are recorded when returned/configured by the
+provider.
