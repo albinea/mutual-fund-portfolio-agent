@@ -27,6 +27,14 @@ tool, or explain the limitation. Never invent figures, evidence, URLs, or tool r
 present alternatives, assumptions, and risks rather than promising future returns. Call
 validate_analysis before completing complex scenario or externally sourced analysis.
 
+Use MFapi.in tools for scheme discovery and NAV data. They provide NAV observations, not official
+factsheet benchmark returns or SIP calculations. Do not use the lump-sum calculator for SIPs. Never
+choose among Direct/Regular or Growth/IDCW variants when the tool reports ambiguity; ask the user to
+specify the exact plan/option. When reporting NAV-derived values, state the selected scheme and the
+effective start/end NAV dates. If an IDCW plan is used, disclose that cash distributions are excluded
+from its NAV-only value. If both MFapi and a factsheet provide figures, keep their as-of dates and
+methodologies distinct rather than presenting them as interchangeable.
+
 For an active imported portfolio, use only the imported statement and matching uploaded disclosure
 results returned by portfolio tools. If a disclosure tool returns DATA_UNAVAILABLE, explain which
 data is missing; never substitute development fixtures or a different fund universe. For a question
@@ -34,6 +42,9 @@ about the company held through the most funds, rank by fund_count. For a questio
 exposure, rank by portfolio_weight_percentage.
 
 The final answer must be concise and evidence-based. Cite only source metadata returned by tools.
+For document-backed facts, cite the exact source document and page returned with the retrieved
+chunks. Never cite a different fund's chunk as support. If the retrieved chunks do not support the
+claim, say that the indexed documents do not provide enough evidence.
 Do not reveal private chain-of-thought. You may summarize activities, assumptions, errors, and
 evidence. This is decision support, not a guarantee of investment performance.
 """
@@ -47,7 +58,9 @@ ACTIVITY = {
     "get_market_data": "Retrieved market data", "research_company": "Researched company",
     "simulate_allocation": "Simulated allocation", "compare_scenarios": "Compared scenarios",
     "calculate_tax_impact": "Calculated tax impact", "analyze_goal": "Analyzed goal",
-    "validate_analysis": "Validated analysis", "get_nav_history": "Retrieved NAV history",
+    "validate_analysis": "Validated analysis", "search_mutual_fund_schemes": "Searched MFapi scheme directory",
+    "get_mutual_fund_nav": "Retrieved mutual-fund NAV", "calculate_lump_sum_value": "Calculated NAV-based lump-sum value",
+    "get_nav_history": "Retrieved NAV history",
     "calculate_cagr": "Calculated CAGR", "calculate_volatility": "Calculated volatility",
     "calculate_drawdown": "Calculated drawdown", "compare_funds": "Compared funds",
 }
@@ -104,7 +117,10 @@ class SingleAgentOrchestrator:
             attempts: dict[str, int] = {}
             for iteration in range(1, self.max_iterations + 1):
                 state.iterations = iteration
-                turn = session.next_turn(pending)
+                try:
+                    turn = session.next_turn(pending)
+                finally:
+                    self._capture_model_usage(state, session)
                 pending = None
                 if turn.tool_calls:
                     responses: list[ToolResponse] = []
@@ -160,6 +176,20 @@ class SingleAgentOrchestrator:
         return f"{call.name}:{json.dumps(call.arguments, sort_keys=True, separators=(',', ':'), default=str)}"
 
     @staticmethod
+    def _capture_model_usage(state: AgentState, session: AgentSession) -> None:
+        """Capture provider-reported counters when the adapter exposes them."""
+        snapshot = getattr(session, "usage_snapshot", None)
+        if not callable(snapshot):
+            return
+        try:
+            records = snapshot()
+        except Exception:
+            log.debug("model usage snapshot unavailable", exc_info=True)
+            return
+        if isinstance(records, list):
+            state.model_usage = records
+
+    @staticmethod
     def _error(code: str, message: str) -> dict[str, Any]:
         return {"success": False, "error_code": code, "message": message, "source": None}
 
@@ -208,8 +238,21 @@ class SingleAgentOrchestrator:
         })
         response = {
             "success": success, "answer": answer, "sources": state.sources, "tool_trace": trace,
+            "answer_method": (
+                "agent_plus_rag_and_mfapi" if state.rag_results and state.mfapi_used
+                else "agent_plus_rag" if state.rag_results
+                else "agent_plus_mfapi" if state.mfapi_used
+                else "agent_rag_and_mfapi_no_result" if state.rag_attempted and state.mfapi_attempted
+                else "agent_rag_no_evidence" if state.rag_attempted
+                else "agent_mfapi_no_result" if state.mfapi_attempted
+                else "agent_only"
+            ),
             "metadata": {"request_id": state.request_id, "iterations": state.iterations, "tool_calls": len(trace), "duration_ms": duration, "data_errors": state.errors},
         }
+        if state.rag_attempted:
+            response["retrieved_chunks"] = state.rag_results[:20]
+        if state.model_usage:
+            response["usage"] = state.model_usage
         if error_code:
             response["error_code"] = error_code
         return response

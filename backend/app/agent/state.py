@@ -35,6 +35,10 @@ class AgentState(BaseModel):
     fund_data: dict[str, dict[str, Any]] = Field(default_factory=dict)
     company_data: dict[str, Any] = Field(default_factory=dict)
     rag_results: list[dict[str, Any]] = Field(default_factory=list)
+    rag_attempted: bool = False
+    mfapi_attempted: bool = False
+    mfapi_used: bool = False
+    model_usage: list[dict[str, Any]] = Field(default_factory=list)
     web_results: list[dict[str, Any]] = Field(default_factory=list)
     analysis_results: dict[str, list[dict[str, Any]]] = Field(default_factory=dict)
     sources: list[dict[str, Any]] = Field(default_factory=list)
@@ -42,6 +46,15 @@ class AgentState(BaseModel):
 
     def record_result(self, tool: str, result: dict[str, Any]) -> None:
         self.tool_results.setdefault(tool, []).append(result)
+        if tool == "search_financial_documents":
+            self.rag_attempted = True
+        if tool in {
+            "search_mutual_fund_schemes", "get_mutual_fund_nav", "calculate_lump_sum_value",
+            "get_nav_history", "calculate_cagr", "calculate_volatility", "calculate_drawdown", "compare_funds",
+        }:
+            self.mfapi_attempted = True
+            if result.get("success", False):
+                self.mfapi_used = True
         if not result.get("success", True):
             self.errors.append(
                 {
@@ -82,18 +95,20 @@ class AgentState(BaseModel):
 
         walk(value)
         seen = {
-            (item.get("name") or item.get("source_name"), item.get("url"), item.get("data_as_of"))
+            (item.get("name") or item.get("source_name"), item.get("url"), item.get("data_as_of"), item.get("page"))
             for item in self.sources
         }
         for source in candidates:
             normalized = {
                 "name": source.get("name") or source.get("source_name") or "Source",
                 "url": source.get("url") or source.get("source_url"),
+                "document": source.get("document") or source.get("name") or source.get("source_name"),
+                "page": source.get("page"),
                 "published_date": source.get("published_date"),
                 "retrieved_at": source.get("retrieved_at"),
                 "data_as_of": source.get("data_as_of"),
             }
-            key = (normalized["name"], normalized["url"], normalized["data_as_of"])
+            key = (normalized["name"], normalized["url"], normalized["data_as_of"], normalized["page"])
             if key not in seen:
                 seen.add(key)
                 self.sources.append(normalized)

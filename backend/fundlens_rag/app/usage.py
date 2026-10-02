@@ -41,6 +41,13 @@ class UsageTracker:
     def snapshot(self) -> list[dict[str, Any]]:
         return [dict(record) for record in self._records.values()]
 
+    def api_snapshot(self) -> list[dict[str, Any]]:
+        """Return the frontend-safe counters plus configured cost estimates."""
+        return [
+            {**record, "estimated_cost": _cost_display(record)}
+            for record in self._records.values()
+        ]
+
     @staticmethod
     def merge_snapshots(
         existing: list[dict[str, Any]],

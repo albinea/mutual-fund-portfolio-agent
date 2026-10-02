@@ -11,7 +11,9 @@ from typing import Any, Iterable
 
 _HEADING = re.compile(r"^\s{0,3}#{1,3}\s+(.+?)\s*$")
 _FUND_TITLE = re.compile(
-    r"^HDFC\s+.+(?:\bFund(?:\s+of\s+Funds?)?|\bETF|\bFOF)$",
+    r"^(?:[A-Z][A-Za-z0-9&'()-]*|[A-Z0-9]{2,})"
+    r"(?:\s+(?:[A-Z][A-Za-z0-9&'()-]*|[A-Z0-9]{2,}|\d+)){1,4}"
+    r"(?:\s+.+)?\s+\b(?:Fund(?:\s+of\s+Funds?)?|ETF|FOF|BeES)$",
     re.IGNORECASE,
 )
 _GLOBAL_SECTION_HEADINGS = {
@@ -27,7 +29,7 @@ _GLOBAL_SECTION_HEADINGS = {
 
 
 def extract_fund_names(text: str) -> list[str]:
-    """Return unique HDFC scheme names found in Markdown headings."""
+    """Return unique mutual-fund, ETF, FOF, and BeES names in headings."""
     names: list[str] = []
     seen: set[str] = set()
     for line in text.splitlines():
@@ -193,6 +195,8 @@ def attach_fund_names_to_chunks(
 
 def _clean_fund_heading(heading: str) -> str | None:
     name = re.sub(r"\s+", " ", html.unescape(heading)).strip(" #\t")
+    if _normalize_name(name) == "name of mutual fund":
+        return None
     if _FUND_TITLE.fullmatch(name):
         return name
     return None

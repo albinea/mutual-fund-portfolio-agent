@@ -14,6 +14,7 @@ CATEGORY={
  "search_financial_documents":"rag","get_mutual_fund_details":"rag","get_historical_performance":"rag",
  "web_search":"external","search_company_news":"external","get_market_data":"external","research_company":"external",
  "simulate_allocation":"analysis","compare_scenarios":"analysis","calculate_tax_impact":"analysis","analyze_goal":"analysis","validate_analysis":"analysis",
+ "search_mutual_fund_schemes":"market_data","get_mutual_fund_nav":"market_data","calculate_lump_sum_value":"market_data",
  "get_nav_history":"market_data","calculate_cagr":"market_data","calculate_volatility":"market_data","calculate_drawdown":"market_data","compare_funds":"market_data"}
 TOOLS={fn.__name__:fn for fn in FUNCTIONS}
 
@@ -30,7 +31,30 @@ DESCRIPTIONS.update({
     "calculate_fund_overlap": "Calculate companies or issuers held through two or more funds in the authenticated user's active imported portfolio. Never infer overlap when a required fund disclosure is unavailable.",
     "calculate_sector_exposure": "Calculate sector exposure from matching uploaded disclosures for the authenticated user's active imported portfolio.",
     "calculate_portfolio_risk": "Calculate portfolio concentration and supplied historical-return risk metrics.",
-    "search_financial_documents": "Search trusted internal factsheets and financial documents; use for historical/document questions.",
+    "search_financial_documents": (
+        "Retrieve evidence chunks (do not generate an answer) from indexed factsheets for one "
+        "explicitly named fund. Use for a fund's objective, benchmark, returns, SIP/table values, "
+        "risk, expense ratio, or other document facts. Pass the exact fund name when known; "
+        "never search across the whole corpus or use another fund's evidence. Results include "
+        "document and page for citations."
+    ),
+    "search_mutual_fund_schemes": (
+        "Search MFapi.in for exact mutual-fund scheme names and scheme codes. Use this when a user asks "
+        "to identify a scheme or when the exact Direct/Regular and Growth/IDCW variant is unclear. "
+        "Never pick an arbitrary result from the list."
+    ),
+    "get_mutual_fund_nav": (
+        "Get the latest NAV or NAV on/just before a date from MFapi.in using the fund's name. "
+        "This resolves only one exact scheme variant; if Direct/Regular or Growth/IDCW variants are "
+        "ambiguous, it returns choices and no NAV. Use for NAV questions, not SIP or benchmark returns."
+    ),
+    "calculate_lump_sum_value": (
+        "Calculate the NAV-based value of a one-time investment from the earliest available NAV "
+        "observation (which may not be legal scheme inception) or a chosen start date to an end date. "
+        "This is not an SIP or benchmark calculation. Specify the "
+        "exact scheme variant; the tool refuses ambiguous Direct/Regular or Growth/IDCW choices. "
+        "Report the effective NAV dates, methodology, and source."
+    ),
     "web_search": "Search current external information; use for latest or recent questions, not calculations.",
     "simulate_allocation": "Simulate one additional-investment allocation using the actual current portfolio.",
     "compare_scenarios": "Calculate and compare multiple allocation scenarios without declaring a best investment.",
@@ -44,7 +68,7 @@ def _input_model(fn: Any, hide_user_id: bool = False) -> type:
     fields: dict[str, tuple[Any, Any]] = {}
     for name, parameter in signature.parameters.items():
         # Provider objects are server-side dependency-injection seams, not tool inputs.
-        if name == "provider" or (hide_user_id and name == "user_id"):
+        if name in {"provider", "fallback_provider"} or (hide_user_id and name == "user_id"):
             continue
         annotation = hints.get(name, Any)
         default = ... if parameter.default is inspect.Parameter.empty else parameter.default

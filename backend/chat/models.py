@@ -28,6 +28,7 @@ class ChatMessage(models.Model):
     )
     role = models.CharField(max_length=20, choices=Role.choices)
     content = models.TextField(max_length=4000)
+    metadata = models.JSONField(default=dict, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
@@ -46,6 +47,7 @@ class RagQuestionJob(models.Model):
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     question = models.CharField(max_length=4000)
+    user_id = models.CharField(max_length=255, null=True, blank=True, db_index=True)
     fund_scope = models.CharField(max_length=200, null=True, blank=True)
     top_k = models.PositiveSmallIntegerField(default=5)
     status = models.CharField(

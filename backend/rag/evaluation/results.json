@@ -1,16 +1,1369 @@
 {
-  "version": "v1",
-  "model": "llama3.1",
+  "version": "v2",
+  "generated_at": "2026-10-02T00:08:08.990895+00:00",
+  "evaluation_mode": "in_memory_retrieval_only",
+  "model": null,
   "embedding_model": "intfloat/multilingual-e5-base",
-  "vector_store": "qdrant",
+  "vector_store": "temporary in-memory Qdrant",
+  "corpus_chunks": 13,
+  "corpus_pages": [
+    {
+      "document": "HDFC MF Factsheet - August 2026.pdf",
+      "pages": [
+        63,
+        64,
+        86,
+        87
+      ]
+    }
+  ],
   "total_questions": 20,
-  "evaluated_questions": 0,
+  "evaluated_questions": 20,
+  "model_calls_made": 0,
   "metrics": {
-    "answer_accuracy": null,
-    "citation_accuracy": null,
+    "expected_page_recall_at_5": 1.0,
+    "expected_page_mean_reciprocal_rank_at_5": 0.8,
+    "expected_evidence_term_recall_at_5": 1.0,
+    "fund_scope_purity_at_5": 1.0,
+    "citation_metadata_coverage_at_5": 1.0,
+    "retrieval_latency_ms_p50": 27.71,
+    "retrieval_latency_ms_p95": 39.04,
+    "answer_fact_accuracy": null,
+    "citation_page_accuracy": null,
     "citation_completeness": null,
-    "groundedness": null,
-    "average_confidence": null
+    "grounding_pass_rate": null,
+    "answer_grounded_accuracy": null,
+    "confidence_brier_score": null,
+    "high_confidence_error_rate_at_80": null,
+    "mean_confidence_on_incorrect_answers": null,
+    "overconfident_answer_count_at_80": 0,
+    "average_confidence": null,
+    "answered_questions": 0
   },
-  "questions": []
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "What is the investment objective of HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 2,
+      "expected_page_reciprocal_rank": 0.5,
+      "expected_evidence_terms": [
+        "generate income",
+        "capital appreciation",
+        "debt and money market instruments"
+      ],
+      "found_evidence_terms": [
+        "generate income",
+        "capital appreciation",
+        "debt and money market instruments"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 27.71,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8434,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8428,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7998,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7948,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7904,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q02",
+      "question": "What portfolio Macaulay duration range is stated for HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 2,
+      "expected_page_reciprocal_rank": 0.5,
+      "expected_evidence_terms": [
+        "Macaulay Duration of the Portfolio is between 4 years to 7 years"
+      ],
+      "found_evidence_terms": [
+        "Macaulay Duration of the Portfolio is between 4 years to 7 years"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 39.04,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8535,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8446,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8071,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8007,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7812,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q03",
+      "question": "How does the factsheet classify the interest-rate and credit risks of HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 2,
+      "expected_page_reciprocal_rank": 0.5,
+      "expected_evidence_terms": [
+        "Relatively High Interest Rate Risk",
+        "Moderate Credit Risk"
+      ],
+      "found_evidence_terms": [
+        "Relatively High Interest Rate Risk",
+        "Moderate Credit Risk"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 32.27,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8379,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8293,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8279,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.825,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8061,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q04",
+      "question": "What is the allotment or inception date of HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 2,
+      "expected_page_reciprocal_rank": 0.5,
+      "expected_evidence_terms": [
+        "September 11, 2000"
+      ],
+      "found_evidence_terms": [
+        "September 11, 2000"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 35.89,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8368,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8347,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8057,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7944,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7925,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q05",
+      "question": "What was the August 31, 2026 NAV for the Regular Plan Growth Option of HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 1,
+      "expected_page_reciprocal_rank": 1.0,
+      "expected_evidence_terms": [
+        "Regular Plan - Growth Option",
+        "60.4807"
+      ],
+      "found_evidence_terms": [
+        "Regular Plan - Growth Option",
+        "60.4807"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 29.83,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.874,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8387,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8304,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8064,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8017,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q06",
+      "question": "What was the August 31, 2026 NAV for the Direct Plan Growth Option of HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 1,
+      "expected_page_reciprocal_rank": 1.0,
+      "expected_evidence_terms": [
+        "Direct Plan - Growth Option",
+        "67.3688"
+      ],
+      "found_evidence_terms": [
+        "Direct Plan - Growth Option",
+        "67.3688"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 30.44,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8789,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8375,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8323,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8026,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8009,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q07",
+      "question": "What was the scheme's average AUM for August 2026?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 1,
+      "expected_page_reciprocal_rank": 1.0,
+      "expected_evidence_terms": [
+        "Average for Month of August, 2026",
+        "834.46Cr"
+      ],
+      "found_evidence_terms": [
+        "Average for Month of August, 2026",
+        "834.46Cr"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 27.71,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7996,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7857,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.783,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7828,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7784,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q08",
+      "question": "What AUM does the factsheet report as of August 31, 2026?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 1,
+      "expected_page_reciprocal_rank": 1.0,
+      "expected_evidence_terms": [
+        "As on August 31, 2026",
+        "830.20Cr"
+      ],
+      "found_evidence_terms": [
+        "As on August 31, 2026",
+        "830.20Cr"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 27.75,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7886,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7696,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7561,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7556,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7495,
+          "text_preview": "| Company/Instrument                          | Rating           |   %to NAV |\n|---------------------------------------------|------------------|-----------|\n| DEBT &DEBTRELATED                           |                  |           |\n| Government Securities (Central/State)       |                  |           |\n| 7.24 GOI 2055                             "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q09",
+      "question": "What residual maturity is reported for HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 2,
+      "expected_page_reciprocal_rank": 0.5,
+      "expected_evidence_terms": [
+        "Residual Maturity",
+        "12.88 Years"
+      ],
+      "found_evidence_terms": [
+        "Residual Maturity",
+        "12.88 Years"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 27.56,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.847,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8335,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8258,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8071,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7941,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q10",
+      "question": "What Macaulay duration does the August 2026 factsheet report?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 1,
+      "expected_page_reciprocal_rank": 1.0,
+      "expected_evidence_terms": [
+        "Macaulay Duration",
+        "6.07 Years"
+      ],
+      "found_evidence_terms": [
+        "Macaulay Duration",
+        "6.07 Years"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 27.33,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7721,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7705,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7694,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7517,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7483,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q11",
+      "question": "What modified duration is reported for HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 2,
+      "expected_page_reciprocal_rank": 0.5,
+      "expected_evidence_terms": [
+        "Modified Duration",
+        "5.81 Years"
+      ],
+      "found_evidence_terms": [
+        "Modified Duration",
+        "5.81 Years"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 27.79,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8379,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8369,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.82,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7919,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7837,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q12",
+      "question": "What is the annualized portfolio YTM shown in the factsheet?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 1,
+      "expected_page_reciprocal_rank": 1.0,
+      "expected_evidence_terms": [
+        "Annualized Portfolio YTM",
+        "7.31%"
+      ],
+      "found_evidence_terms": [
+        "Annualized Portfolio YTM",
+        "7.31%"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 28.59,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8026,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7958,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7928,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7867,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7835,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q13",
+      "question": "What is the Regular Plan expense ratio for HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 1,
+      "expected_page_reciprocal_rank": 1.0,
+      "expected_evidence_terms": [
+        "Regular: 1.35%"
+      ],
+      "found_evidence_terms": [
+        "Regular: 1.35%"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 27.66,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8601,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8559,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8189,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8163,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8079,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q14",
+      "question": "What is the Direct Plan expense ratio for HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 1,
+      "expected_page_reciprocal_rank": 1.0,
+      "expected_evidence_terms": [
+        "Direct: 0.78%"
+      ],
+      "found_evidence_terms": [
+        "Direct: 0.78%"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 27.66,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8703,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8537,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8229,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8086,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8086,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q15",
+      "question": "Which benchmark index is used for HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 2,
+      "expected_page_reciprocal_rank": 0.5,
+      "expected_evidence_terms": [
+        "CRISIL Medium To Long Duration Debt A-III Index"
+      ],
+      "found_evidence_terms": [
+        "CRISIL Medium To Long Duration Debt A-III Index"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 26.47,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8423,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8245,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.813,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7998,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7934,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q16",
+      "question": "What additional benchmark index is listed for HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 86,
+      "expected_page_rank": 2,
+      "expected_page_reciprocal_rank": 0.5,
+      "expected_evidence_terms": [
+        "CRISIL 10 Year Gilt Index"
+      ],
+      "found_evidence_terms": [
+        "CRISIL 10 Year Gilt Index"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 27.1,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8338,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8158,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8101,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7946,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7901,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q17",
+      "question": "What was the market value of the 1-year SIP in the August 2026 factsheet?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 87,
+      "expected_page_rank": 1,
+      "expected_page_reciprocal_rank": 1.0,
+      "expected_evidence_terms": [
+        "Market Value as on August",
+        "1 year SIP",
+        "1.23"
+      ],
+      "found_evidence_terms": [
+        "Market Value as on August",
+        "1 year SIP",
+        "1.23"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 27.68,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8086,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.796,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7795,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7791,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7685,
+          "text_preview": "| Company/Instrument                          | Rating           |   %to NAV |\n|---------------------------------------------|------------------|-----------|\n| DEBT &DEBTRELATED                           |                  |           |\n| Government Securities (Central/State)       |                  |           |\n| 7.24 GOI 2055                             "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q18",
+      "question": "What return did the 1-year SIP show for HDFC Medium to Long Term Fund?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 87,
+      "expected_page_rank": 1,
+      "expected_page_reciprocal_rank": 1.0,
+      "expected_evidence_terms": [
+        "Returns (%)",
+        "1 year SIP",
+        "4.85"
+      ],
+      "found_evidence_terms": [
+        "Returns (%)",
+        "1 year SIP",
+        "4.85"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 27.11,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8607,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8201,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.79,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7868,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7857,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q19",
+      "question": "What were the Regular Plan Growth Option scheme and benchmark returns over the last 1 year?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 87,
+      "expected_page_rank": 1,
+      "expected_page_reciprocal_rank": 1.0,
+      "expected_evidence_terms": [
+        "Last 1 Year",
+        "Scheme Returns (%) = 4.76",
+        "Benchmark Returns (%) = 4.78"
+      ],
+      "found_evidence_terms": [
+        "Last 1 Year",
+        "Scheme Returns (%) = 4.76",
+        "Benchmark Returns (%) = 4.78"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 47.41,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8419,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8168,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.813,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7926,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.7925,
+          "text_preview": "This scheme has exposure to floating rate instruments and / or interest rate derivatives. The duration of these instruments is linked to the interest rate reset period. The interest rate risk in a floating rate instrument or in a fixed rate instrument  hedged with derivatives is likely to be lesser than that in an equivalent maturity fixed rate instrument. U"
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    },
+    {
+      "id": "Q20",
+      "question": "For HDFC Medium to Long Term Fund, what was the value of ₹10,000 invested since inception?",
+      "fund_scope": "HDFC Medium to Long Term Fund",
+      "expected_document": "HDFC MF Factsheet - August 2026.pdf",
+      "expected_page": 87,
+      "expected_page_rank": 1,
+      "expected_page_reciprocal_rank": 1.0,
+      "expected_evidence_terms": [
+        "Since Inception",
+        "Value of ₹ 10,000 invested - Scheme",
+        "60,481"
+      ],
+      "found_evidence_terms": [
+        "Since Inception",
+        "Value of ₹ 10,000 invested - Scheme",
+        "60,481"
+      ],
+      "expected_evidence_term_recall": 1.0,
+      "fund_scope_purity": 1.0,
+      "citation_metadata_coverage": 1.0,
+      "retrieval_latency_ms": 28.83,
+      "retrieved_chunks": [
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8552,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\n<!-- image -->\n\n| G ec L                     "
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8403,
+          "text_preview": "## HDFC Medium to Long Term Fund\n\n(Erstwhile HDFC Income Fund ) Scheme name changed w.e.f. August 26, 2026. An open ended medium term debt scheme investing in instruments such that the Macaulay Duration of the Portfolio is between 4 years to 7 years. A Relatively High Interest Rate Risk and Moderate Credit Risk.\n\nINVESTMENT OBJECTIVE: To generate income / ca"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 87,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8337,
+          "text_preview": "| Date       | Period          |   Scheme - Returns (%) |   Benchmark Returns - (%)# | Additional Benchmark Returns (%) - ##   |   Value of ₹ 10,000 invested - Scheme ( ₹ ) |   Value of ₹ 10,000 invested - Benchmark ( ₹ )# | Value of ₹ 10,000 invested - Additional Benchmark ( ₹ )##   |\n|------------|-----------------|------------------------|----------------"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8245,
+          "text_preview": "**Table values by row and column (derived from the table above):**\n- PORTFOLIO — Embassy Office Parks REIT Realty: Rating = Embassy Office Parks REIT Realty; Rating = Embassy Office Parks REIT Realty; %to NAV = 0.55\n- PORTFOLIO — Sub Total: Rating = Sub Total; Rating = Sub Total; %to NAV = 0.55\n- PORTFOLIO — Corporate Debt Market Development Fund: Rating = C"
+        },
+        {
+          "document": "HDFC MF Factsheet - August 2026.pdf",
+          "page": 86,
+          "fund_name": "HDFC Medium to Long Term Fund",
+          "score": 0.8035,
+          "text_preview": "| Company/Instrument                                                                                                                                                                                                                               | Rating                                                                                                             "
+        }
+      ],
+      "answer": null,
+      "answer_facts_match": null,
+      "citation_page_match": null,
+      "citation_present": null,
+      "grounding_pass": null,
+      "confidence": null,
+      "model_usage": [],
+      "error": null
+    }
+  ],
+  "notes": [
+    "The temporary collection is populated from the checked-in page-aware chunk JSON; the application Qdrant service and data are not modified.",
+    "Page 64 from HDFC ELSS - Tax Saver Fund is deliberately included as a wrong-fund citation distractor.",
+    "Answer generation, confidence, citation correctness, and model cost were not evaluated; no model/API requests were made. Pass --with-answers for that pass."
+  ],
+  "model_usage": []
 }

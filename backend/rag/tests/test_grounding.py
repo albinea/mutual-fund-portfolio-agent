@@ -112,6 +112,32 @@ class CitationGroundingTests(unittest.TestCase):
         self.assertTrue(answer.endswith("[SOURCE 1] [SOURCE 2]"))
         self.assertEqual(citations, [(1, chunks[0]), (2, chunks[1])])
 
+    def test_uses_indexed_fund_metadata_when_a_table_chunk_omits_its_heading(self):
+        chunks = [
+            {
+                "text": (
+                    "| Period | Value of ₹ 10,000 invested - Scheme |\n"
+                    "| Since Inception | 60,481 |"
+                ),
+                "fund_name": "HDFC Medium to Long Term Fund",
+                "document": "HDFC MF Factsheet - August 2026.pdf",
+                "page": 87,
+                "source_url": "file:///factsheet.pdf",
+            }
+        ]
+
+        answer, citations = ground_answer(
+            answer="The scheme value was ₹60,481. [SOURCE 1]",
+            retrieved_chunks=chunks,
+            question=(
+                "For HDFC Medium to Long Term Fund, what was the value of "
+                "₹10,000 invested since inception?"
+            ),
+        )
+
+        self.assertEqual(answer, "The scheme value was ₹60,481. [SOURCE 1]")
+        self.assertEqual(citations, [(1, chunks[0])])
+
     def test_does_not_require_question_dates_to_be_repeated_in_source_text(self):
         chunks = [
             {

@@ -9,6 +9,8 @@ from typing import Any
 import httpx
 from dotenv import load_dotenv
 
+from fundlens_rag.app.usage import UsageTracker, get_ollama_token_counts
+
 from .orchestrator import AgentTurn, RequestedToolCall, SingleAgentOrchestrator, ToolResponse
 
 load_dotenv(Path(__file__).resolve().parents[2] / ".env")
@@ -49,6 +51,10 @@ class OllamaSession:
             }
             for tool in tools
         ]
+        self.usage_tracker = UsageTracker()
+
+    def usage_snapshot(self) -> list[dict[str, Any]]:
+        return self.usage_tracker.api_snapshot()
 
     def next_turn(self, tool_responses: list[ToolResponse] | None = None) -> AgentTurn:
         if tool_responses:
@@ -60,6 +66,7 @@ class OllamaSession:
                 }
                 for item in tool_responses
             )
+        self.usage_tracker.record_request("answer", self.model)
         response = self.client.post(
             "/api/chat",
             json={
@@ -71,6 +78,13 @@ class OllamaSession:
         )
         response.raise_for_status()
         payload = response.json()
+        input_tokens, output_tokens = get_ollama_token_counts(payload)
+        self.usage_tracker.record_usage(
+            "answer",
+            self.model,
+            input_tokens=input_tokens,
+            output_tokens=output_tokens,
+        )
         message = payload.get("message")
         if not isinstance(message, dict):
             raise RuntimeError("Ollama returned an invalid chat response.")

@@ -96,6 +96,8 @@ def test_errors_and_validation():
 
 @patch("app.tools.nav.requests.get", return_value=_NavResponse())
 def test_public_nav_analytics(mock_get):
+    from app.tools import nav
+    nav._nav_cache.clear()
     cagr=t.calculate_cagr(119551,3)
     volatility=t.calculate_volatility(119551,3)
     drawdown=t.calculate_drawdown(119551,3)
@@ -104,7 +106,128 @@ def test_public_nav_analytics(mock_get):
     assert volatility["success"] and volatility["annualized_volatility_percent"]>0
     assert drawdown["success"] and drawdown["maximum_drawdown_percent"]==0
     assert comparison["success"] and len(comparison["funds"])==2
-    assert mock_get.call_count==5
+    # Several analytics in one process reuse the short-lived NAV history cache.
+    assert mock_get.call_count==2
+
+
+def test_mfapi_scheme_lookup_refuses_ambiguous_plan_variants(monkeypatch):
+    from app.tools import nav
+
+    nav._search_cache.clear()
+    calls = []
+
+    class Response:
+        def __init__(self, payload):
+            self.payload = payload
+
+        def raise_for_status(self):
+            return None
+
+        def json(self):
+            return self.payload
+
+    def fake_get(url, **kwargs):
+        calls.append((url, kwargs))
+        return Response([
+            {"schemeCode": 101, "schemeName": "HDFC ELSS Tax Saver Fund - Direct Plan - Growth"},
+            {"schemeCode": 102, "schemeName": "HDFC ELSS Tax Saver Fund - Regular Plan - Growth"},
+        ])
+
+    monkeypatch.setattr(nav.requests, "get", fake_get)
+    result = t.get_mutual_fund_nav("HDFC ELSS Tax Saver Fund")
+
+    assert result["error_code"] == "FUND_AMBIGUOUS"
+    assert [item["scheme_code"] for item in result["candidates"]] == [101, 102]
+    assert len(calls) == 1
+
+
+def test_mfapi_latest_nav_by_exact_scheme_name_has_provider_source(monkeypatch):
+    from app.tools import nav
+
+    nav._search_cache.clear()
+    nav._latest_cache.clear()
+    search_payload = [{
+        "schemeCode": 8001,
+        "schemeName": "HDFC ELSS Tax Saver Fund - Regular Plan - Growth",
+    }]
+
+    class Response:
+        def __init__(self, payload):
+            self.payload = payload
+
+        def raise_for_status(self):
+            return None
+
+        def json(self):
+            return self.payload
+
+    def fake_get(url, **kwargs):
+        if url.endswith("/search"):
+            return Response(search_payload)
+        assert url.endswith("/8001/latest")
+        return Response({
+            "meta": {"scheme_code": 8001, "scheme_name": search_payload[0]["schemeName"]},
+            "data": [{"date": "01-10-2026", "nav": "250.12500"}],
+            "status": "SUCCESS",
+        })
+
+    monkeypatch.setattr(nav.requests, "get", fake_get)
+    result = t.get_mutual_fund_nav("HDFC ELSS Tax Saver Fund - Regular Plan - Growth")
+
+    assert result["success"]
+    assert result["scheme_code"] == 8001
+    assert result["nav"] == 250.125
+    assert result["nav_date"] == "2026-10-01"
+    assert "MFapi.in" in result["source"]["name"]
+    assert result["source"]["data_as_of"] == "2026-10-01"
+
+
+def test_mfapi_calculates_lump_sum_value_from_inception_with_effective_dates(monkeypatch):
+    from app.tools import nav
+
+    nav._search_cache.clear()
+    nav._nav_cache.clear()
+    search_payload = [{
+        "schemeCode": 8002,
+        "schemeName": "HDFC ELSS Tax Saver Fund - Regular Plan - Growth",
+    }]
+
+    class Response:
+        def __init__(self, payload):
+            self.payload = payload
+
+        def raise_for_status(self):
+            return None
+
+        def json(self):
+            return self.payload
+
+    def fake_get(url, **kwargs):
+        if url.endswith("/search"):
+            return Response(search_payload)
+        return Response({
+            "meta": {"scheme_code": 8002, "scheme_name": search_payload[0]["schemeName"]},
+            "data": [
+                {"date": "01-01-2023", "nav": "100"},
+                {"date": "01-01-2024", "nav": "115"},
+                {"date": "01-10-2026", "nav": "140"},
+            ],
+        })
+
+    monkeypatch.setattr(nav.requests, "get", fake_get)
+    result = t.calculate_lump_sum_value("HDFC ELSS Tax Saver Fund - Regular Plan - Growth")
+
+    assert result["success"]
+    assert result["estimated_value"] == 14000
+    assert result["start_date"] == "2023-01-01"
+    assert result["end_date"] == "2026-10-01"
+    assert "not an SIP" in result["methodology"]
+    invalid_range = t.calculate_lump_sum_value(
+        "HDFC ELSS Tax Saver Fund - Regular Plan - Growth",
+        start_date="2026-10-02",
+        end_date="2026-10-01",
+    )
+    assert invalid_range["error_code"] == "INVALID_INPUT"
 
 
 @patch("app.tools.core.requests.get", return_value=_MarketResponse())

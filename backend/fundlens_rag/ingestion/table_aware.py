@@ -22,6 +22,13 @@ _MONTHS = (
 )
 _SIP_PERIOD = re.compile(r"\b(?P<years>\d+)\s*[- ]?\s*year\s+SIP\b", re.I)
 _WORDS = re.compile(r"[a-z]+|\d+", re.I)
+_AUM_VALUE = re.compile(
+    r"assets\s+under\s+management.*?as\s+on\s+(?P<date>"
+    r"(?:january|february|march|april|may|june|july|august|september|"
+    r"october|november|december)\s+\d{1,2},\s+20\d{2})"
+    r".*?₹\s*(?P<value>\d+(?:[,.]\d+)?)\s*(?P<unit>cr(?:ore)?s?\.?|crore(?:s)?)",
+    re.I | re.S,
+)
 _QUERY_STOP_WORDS = {
     "a", "an", "and", "as", "at", "be", "by", "for", "from", "give",
     "how", "i", "in", "is", "it", "me", "of", "on", "or", "please",
@@ -91,12 +98,24 @@ def answer_table_question(
     question: str,
     retrieved_chunks: list[dict[str, Any]],
 ) -> str | None:
-    """Answer an unambiguous SIP table row/period lookup from retrieved text.
+    """Answer an unambiguous structured-fact lookup from retrieved text.
 
-    This deliberately handles only an explicit ``N-year SIP`` column request
-    and a uniquely matching metric row. Anything ambiguous falls through to
-    the language model instead of guessing.
+    This deliberately handles only explicitly labelled AUM facts, performance
+    table values, and ``N-year SIP`` row/period lookups. Anything ambiguous
+    falls through to the language model instead of guessing.
     """
+    question = question or ""
+    return (
+        _answer_aum_question(question, retrieved_chunks)
+        or _answer_scheme_value_question(question, retrieved_chunks)
+        or _answer_sip_table_question(question, retrieved_chunks)
+    )
+
+
+def _answer_sip_table_question(
+    question: str,
+    retrieved_chunks: list[dict[str, Any]],
+) -> str | None:
     period = _SIP_PERIOD.search(question or "")
     if period is None:
         return None
@@ -184,6 +203,123 @@ def answer_table_question(
     return (
         f"The table reports {metric.lower()} of {display_value} for the "
         f"{period_label}. [SOURCE {source_index}]"
+    )
+
+
+def _answer_aum_question(
+    question: str,
+    retrieved_chunks: list[dict[str, Any]],
+) -> str | None:
+    """Read a dated assets-under-management fact when its labels are intact."""
+    question_terms = _terms(question, _QUERY_STOP_WORDS)
+    if not ({"aum", "assets", "management"} & question_terms):
+        return None
+
+    requested_date = _date_in(question)
+    is_average_request = "average" in question_terms
+    candidates: list[tuple[int, str, str, bool]] = []
+    for source_index, chunk in enumerate(retrieved_chunks, start=1):
+        text = str(chunk.get("text", ""))
+        match = _AUM_VALUE.search(text)
+        if not match:
+            continue
+        reported_date = re.sub(r"\s+", " ", match.group("date")).strip()
+        aum_block = re.split(r"\n\s*##\s+", text[match.start():], maxsplit=1)[0]
+        values = re.findall(
+            r"₹\s*(\d+(?:[,.]\d+)?)\s*(?:cr(?:ore)?s?\.?|crore(?:s)?)",
+            aum_block,
+            re.I,
+        )
+        if is_average_request:
+            average_period = re.search(
+                r"average\s+for\s+month\s+of\s+(?P<period>"
+                r"(?:january|february|march|april|may|june|july|august|september|"
+                r"october|november|december)\s*,?\s*20\d{2})",
+                aum_block,
+                re.I,
+            )
+            if average_period is None or len(values) < 2:
+                continue
+            period = re.sub(r"\s+", " ", average_period.group("period")).strip()
+            requested_years = re.findall(r"\b20\d{2}\b", question)
+            if (_month_in(question) and _month_in(question) != _month_in(period)) or any(
+                year not in period for year in requested_years
+            ):
+                continue
+            candidates.append((source_index, values[1].replace(",", ""), period, True))
+            continue
+        if requested_date and _normalize_date(requested_date) != _normalize_date(reported_date):
+            continue
+        candidates.append((source_index, match.group("value").replace(",", ""), reported_date, False))
+
+    if not candidates or len({(value, period, average) for _, value, period, average in candidates}) != 1:
+        return None
+
+    source_index, value, reported_date, is_average = candidates[0]
+    if is_average:
+        return (
+            f"The factsheet reports average assets under management of ₹{value} crore "
+            f"for {reported_date}. [SOURCE {source_index}]"
+        )
+    return (
+        f"The factsheet reports assets under management of ₹{value} crore "
+        f"as of {reported_date}. [SOURCE {source_index}]"
+    )
+
+
+def _answer_scheme_value_question(
+    question: str,
+    retrieved_chunks: list[dict[str, Any]],
+) -> str | None:
+    """Read a one-time ₹10,000 scheme-value cell from a performance table."""
+    question_terms = _terms(question, _QUERY_STOP_WORDS)
+    if not {"value", "invested"}.issubset(question_terms):
+        return None
+
+    period = _performance_period(question)
+    if period is None:
+        return None
+
+    candidates: list[tuple[int, str]] = []
+    for source_index, chunk in enumerate(retrieved_chunks, start=1):
+        for _heading, table_lines in _iter_markdown_tables(str(chunk.get("text", ""))):
+            rows = [_split_table_row(row) for row in table_lines]
+            rows = [row for row in rows if not _is_separator_row(row)]
+            if len(rows) < 2:
+                continue
+            headers = rows[0]
+            period_column = next(
+                (index for index, header in enumerate(headers) if _normalize_cell(header) == "period"),
+                None,
+            )
+            value_column = next(
+                (
+                    index
+                    for index, header in enumerate(headers)
+                    if _is_scheme_value_header(header)
+                ),
+                None,
+            )
+            if period_column is None or value_column is None:
+                continue
+            for row in rows[1:]:
+                if (
+                    len(row) != len(headers)
+                    or _normalize_cell(row[period_column]) != _normalize_cell(period)
+                ):
+                    continue
+                value = row[value_column].strip()
+                if _NUMBER.fullmatch(value.replace("₹", "").strip()):
+                    candidates.append((source_index, value))
+
+    if not candidates or len({value for _, value in candidates}) != 1:
+        return None
+
+    source_index, value = candidates[0]
+    period_label = "since inception" if period == "since inception" else period.lower()
+    return (
+        f"The factsheet reports a scheme value of ₹{value} for ₹10,000 "
+        f"invested {period_label}. [SOURCE {source_index}]"
     )
 
 
@@ -336,6 +472,40 @@ def _terms(text: str, stop_words: set[str]) -> set[str]:
         for word in _WORDS.findall(text)
         if word.lower() not in stop_words and not word.isdigit()
     }
+
+
+def _date_in(text: str) -> str | None:
+    match = re.search(
+        r"\b(?:january|february|march|april|may|june|july|august|september|"
+        r"october|november|december)\s+\d{1,2},\s+20\d{2}\b",
+        text,
+        re.I,
+    )
+    return match.group(0) if match else None
+
+
+def _normalize_date(value: str) -> str:
+    return re.sub(r"\s+", " ", value).casefold().strip()
+
+
+def _normalize_cell(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", value.casefold())
+
+
+def _performance_period(question: str) -> str | None:
+    if re.search(r"\bsince\s+inception\b", question, re.I):
+        return "since inception"
+    match = re.search(r"\blast\s+(\d+)\s*[- ]?year\b", question, re.I)
+    return f"last {match.group(1)} year" if match else None
+
+
+def _is_scheme_value_header(header: str) -> bool:
+    normalized = _normalize_cell(header)
+    return (
+        "valueof10000invested" in normalized
+        and "scheme" in normalized
+        and "benchmark" not in normalized
+    )
 
 
 def _month_in(text: str) -> str | None:

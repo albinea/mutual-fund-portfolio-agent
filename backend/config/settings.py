@@ -11,29 +11,50 @@ https://docs.djangoproject.com/en/6.1/ref/settings/
 """
 
 import os
+from pathlib import Path
 
 from dotenv import load_dotenv
-
-from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# A deployed container receives configuration through environment variables.
+# These files are only local-development conveniences and never override a
+# value supplied by the host/runtime.
+load_dotenv(BASE_DIR / ".env")
 load_dotenv(BASE_DIR.parent / ".env")
+
+
+def _env_flag(name: str, default: bool = False) -> bool:
+    return os.getenv(name, str(default)).strip().casefold() in {"1", "true", "yes", "on"}
+
+
+def _csv_env(name: str, default: str = "") -> list[str]:
+    return [value.strip() for value in os.getenv(name, default).split(",") if value.strip()]
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-kvt4+8!&sfks^h$j%xuo*xm%&(xtwyw#tc20oiv+ipv@-&5*vl'
+DEBUG = _env_flag("DJANGO_DEBUG", default=True)
+
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "")
+if not SECRET_KEY:
+    raise RuntimeError("DJANGO_SECRET_KEY must be set in the environment.")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+ALLOWED_HOSTS = _csv_env(
+    "DJANGO_ALLOWED_HOSTS",
+    "localhost,127.0.0.1" if DEBUG else "",
+)
+if not DEBUG and not ALLOWED_HOSTS:
+    raise RuntimeError("DJANGO_ALLOWED_HOSTS must be set when DEBUG is disabled.")
 
-ALLOWED_HOSTS = []
-
-
+CSRF_TRUSTED_ORIGINS = _csv_env(
+    "DJANGO_CSRF_TRUSTED_ORIGINS",
+    "http://localhost:5173,http://127.0.0.1:5173" if DEBUG else "",
+)
 # Application definition
 
 INSTALLED_APPS = [
@@ -48,12 +69,14 @@ INSTALLED_APPS = [
     'health',
     'chat',
     'portfolio_api',
+    'accounts',
     'drf_spectacular',
     
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -136,6 +159,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / "staticfiles"
+STORAGES = {
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+    },
+}
 
 
 # Email
@@ -149,7 +178,37 @@ MAILERS = {
 
 REST_FRAMEWORK = {
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.SessionAuthentication",
+    ],
+    "DEFAULT_THROTTLE_CLASSES": [
+        "rest_framework.throttling.AnonRateThrottle",
+        "rest_framework.throttling.UserRateThrottle",
+    ],
+    "DEFAULT_THROTTLE_RATES": {
+        "anon": os.getenv("DJANGO_ANON_RATE_LIMIT", "60/minute"),
+        "user": os.getenv("DJANGO_USER_RATE_LIMIT", "180/minute"),
+    },
 }
+
+SESSION_COOKIE_HTTPONLY = True
+SESSION_COOKIE_SAMESITE = "Lax"
+SESSION_COOKIE_SECURE = not DEBUG
+CSRF_COOKIE_SAMESITE = "Lax"
+CSRF_COOKIE_SECURE = not DEBUG
+SECURE_CONTENT_TYPE_NOSNIFF = True
+SECURE_REFERRER_POLICY = "same-origin"
+X_FRAME_OPTIONS = "DENY"
+# Enable this only behind an HTTPS-terminating reverse proxy. It is explicit
+# so local Docker development cannot accidentally redirect to unavailable TLS.
+SECURE_SSL_REDIRECT = _env_flag("DJANGO_SECURE_SSL_REDIRECT", default=False)
+if _env_flag("DJANGO_BEHIND_HTTPS_PROXY", default=False):
+    SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+SECURE_HSTS_SECONDS = int(os.getenv("DJANGO_HSTS_SECONDS", "0"))
+SECURE_HSTS_INCLUDE_SUBDOMAINS = _env_flag(
+    "DJANGO_HSTS_INCLUDE_SUBDOMAINS", default=False
+)
+SECURE_HSTS_PRELOAD = _env_flag("DJANGO_HSTS_PRELOAD", default=False)
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "Mutual Fund Portfolio Agent API",

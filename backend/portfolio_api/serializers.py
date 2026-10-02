@@ -9,6 +9,25 @@ class FundComparisonRequestSerializer(serializers.Serializer):
     )
 
 
+class FundSchemeSearchSerializer(serializers.Serializer):
+    q = serializers.CharField(min_length=2, max_length=200, trim_whitespace=True)
+    limit = serializers.IntegerField(required=False, default=12, min_value=1, max_value=20)
+
+
+class FundNavComparisonRequestSerializer(serializers.Serializer):
+    scheme_codes = serializers.ListField(
+        child=serializers.IntegerField(min_value=1),
+        min_length=2,
+        max_length=5,
+    )
+    years = serializers.ChoiceField(choices=[1, 3, 5, 10])
+
+    def validate_scheme_codes(self, value):
+        if len(set(value)) != len(value):
+            raise serializers.ValidationError("Select distinct schemes for comparison.")
+        return value
+
+
 class SipRequestSerializer(serializers.Serializer):
     monthly_investment = serializers.FloatField(min_value=0)
     duration_years = serializers.IntegerField(min_value=1, max_value=50)
@@ -24,12 +43,10 @@ class ExpectedWealthRequestSerializer(serializers.Serializer):
 
 
 class WatchlistCreateSerializer(serializers.Serializer):
-    user_id = serializers.CharField(max_length=255)
     symbol = serializers.CharField(max_length=40)
 
 
 class PortfolioImportRequestSerializer(serializers.Serializer):
-    user_id = serializers.CharField(max_length=255)
     file = serializers.FileField()
     as_of_date = serializers.DateField(required=False)
 

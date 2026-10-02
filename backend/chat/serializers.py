@@ -14,11 +14,6 @@ class ChatRequestSerializer(serializers.Serializer):
         allow_blank=False,
         max_length=4000,
     )
-    user_id = serializers.CharField(
-        required=True,
-        allow_blank=False,
-        max_length=255,
-    )
     conversation_context = serializers.ListField(
         child=serializers.DictField(),
         required=False,
@@ -46,23 +41,19 @@ class ChatResponseSerializer(serializers.Serializer):
     success = serializers.BooleanField()
     answer = serializers.CharField(required=False, allow_blank=True)
     sources = serializers.ListField(child=serializers.JSONField(), required=False)
+    retrieved_chunks = serializers.ListField(child=serializers.JSONField(), required=False)
+    answer_method = serializers.CharField(required=False)
+    usage = serializers.ListField(child=serializers.JSONField(), required=False)
     tool_trace = serializers.ListField(child=serializers.JSONField(), required=False)
     metadata = serializers.JSONField(required=False)
     error_code = serializers.CharField(required=False)
-
-
-class ConversationQuerySerializer(serializers.Serializer):
-    user_id = serializers.CharField(
-        required=True,
-        allow_blank=False,
-        max_length=255,
-    )
 
 
 class ConversationMessageSerializer(serializers.Serializer):
     role = serializers.ChoiceField(choices=["user", "assistant"])
     content = serializers.CharField()
     created_at = serializers.DateTimeField()
+    metadata = serializers.JSONField(required=False)
 
 
 class ConversationSummarySerializer(serializers.Serializer):

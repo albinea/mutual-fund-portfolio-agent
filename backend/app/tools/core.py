@@ -33,11 +33,11 @@ store = DataStore()
 def _err(code, message): return {"success":False,"error_code":code,"message":message,"source":None}
 def _source(name, url=None, published=None, asof=None):
     return {"name":name,"url":url,"published_date":published,"retrieved_at":datetime.utcnow().isoformat()+"Z","data_as_of":asof}
-def _run(name, fn, **kwargs):
+def _run(name, fn, *, data_source="mock_data", **kwargs):
     started=time.perf_counter()
     try:
         result=fn(); ok=result.get("success",True)
-        log.info("tool_call",extra={"tool_name":name,"user_id":kwargs.get("user_id"),"input_fields":sorted(k for k in kwargs if k!="user_id"),"execution_time_ms":round((time.perf_counter()-started)*1000,2),"success":ok,"data_source":"mock_data"})
+        log.info("tool_call",extra={"tool_name":name,"user_id":kwargs.get("user_id"),"input_fields":sorted(k for k in kwargs if k!="user_id"),"execution_time_ms":round((time.perf_counter()-started)*1000,2),"success":ok,"data_source":data_source})
         return result
     except (ValueError, ValidationError) as e: result=_err("INVALID_INPUT",str(e))
     except Exception: log.exception("tool failure: %s",name); result=_err("TOOL_FAILURE","Tool could not complete the request.")
@@ -263,9 +263,59 @@ def calculate_portfolio_risk(user_id:str, returns:dict[str,list[float]]|None=Non
         return {"success":True,"historical_metrics":{"annualized_volatility":vol,"maximum_drawdown":mdd,"sharpe_ratio":sharpe,"periods":len(returns.get(positions[0]["fund_id"],[])) if returns and positions else 0},"concentration":{"largest_company":{"name":max(cv,key=cv.get) if cv else None,"value":round(max(cv.values()),2) if cv else 0,"percentage":round(max(cv.values())/total*100,4) if cv and total else 0},"largest_sector":{"name":max(sv,key=sv.get) if sv else None,"value":round(max(sv.values()),2) if sv else 0,"percentage":round(max(sv.values())/total*100,4) if sv and total else 0},"hhi_company":round(sum((v/total*100)**2 for v in cv.values()),2) if total else 0},"fund_overlap_count":sum(1 for _,_,_,_,cf in [_exposures(positions)] for ids in cf.values() if len(ids)>1),"inputs":{"fund_values_inr":{p["fund_id"]:p["current_value"] for p in positions},"returns_supplied":bool(returns),"risk_free_rate_annual":risk_free_rate},"methodology":"Sample standard deviation annualized with sqrt(252); drawdown from cumulative daily total returns; HHI is sum of squared company portfolio percentages. Historical metrics omitted when return series unavailable; no forward-looking claims.","source":_source("Mock portfolio and fund disclosures")}
     return _run("calculate_portfolio_risk",f,user_id=user_id)
 
-def search_financial_documents(query:str,fund_id:str|None=None,company_id:str|None=None,top_k:int=5):
-    def f(): return {"success":True,"results":[],"message":"Vector database is not configured; no documents returned.","source":_source("Unconfigured vector store")}
-    return _run("search_financial_documents",f,query=query,fund_id=fund_id,company_id=company_id,top_k=top_k)
+def _fund_name_for_document_search(
+    fund_id: str | None,
+    fund_name: str | None,
+    user_id: str | None,
+) -> str | None:
+    """Translate portfolio identifiers to the canonical indexed scheme name."""
+    if fund_name and fund_name.strip():
+        return fund_name.strip()
+    if not fund_id:
+        return None
+
+    if user_id:
+        services = _active_imported_portfolio_services(user_id)
+        if services is not None:
+            portfolio = services.get_portfolio_data(user_id)
+            match = next(
+                (
+                    item for item in portfolio.get("funds", [])
+                    if str(item.get("fund_id")) == fund_id
+                    or str(item.get("fund_name", "")).casefold() == fund_id.casefold()
+                ),
+                None,
+            )
+            if match:
+                return str(match["fund_name"])
+
+    mock_fund = store.funds().get(fund_id)
+    if mock_fund and mock_fund.get("name"):
+        return str(mock_fund["name"])
+    # A model may provide the fund name in the legacy fund_id argument.
+    return fund_id
+
+
+def search_financial_documents(
+    query: str,
+    fund_id: str | None = None,
+    company_id: str | None = None,
+    top_k: int = 5,
+    fund_name: str | None = None,
+    user_id: str | None = None,
+):
+    """Retrieve evidence for one named fund without generating a second answer."""
+    def f():
+        from fundlens_rag.retrieval import retrieve_fund_documents
+
+        scope = _fund_name_for_document_search(fund_id, fund_name, user_id)
+        return retrieve_fund_documents(query, scope, top_k=top_k)
+
+    return _run(
+        "search_financial_documents", f, data_source="qdrant",
+        query=query, fund_id=fund_id, company_id=company_id, top_k=top_k,
+        fund_name=fund_name, user_id=user_id,
+    )
 
 def get_mutual_fund_details(fund_id:str):
     d=store.funds().get(fund_id)
@@ -620,7 +670,16 @@ def validate_analysis(claims:list[str],sources:list[dict],data_as_of_dates:list[
         if i>=len(sources) or not sources[i].get("source_url") and not sources[i].get("url") and not sources[i].get("source_name") and not sources[i].get("name"):problems.append({"claim_index":i,"issue":"MISSING_SOURCE"})
     return {"success":True,"valid":not problems,"issues":problems,"checks":["No guaranteed-return language","Each claim has source metadata"],"source":None}
 
-from .nav import get_nav_history, calculate_cagr, calculate_volatility, calculate_drawdown, compare_funds
+from .nav import (
+    search_mutual_fund_schemes,
+    get_mutual_fund_nav,
+    calculate_lump_sum_value,
+    get_nav_history,
+    calculate_cagr,
+    calculate_volatility,
+    calculate_drawdown,
+    compare_funds,
+)
 
-FUNCTIONS=[get_portfolio,get_fund_holdings,calculate_exposure,calculate_fund_overlap,calculate_sector_exposure,calculate_portfolio_risk,search_financial_documents,get_mutual_fund_details,get_historical_performance,web_search,search_company_news,get_market_data,research_company,simulate_allocation,compare_scenarios,calculate_tax_impact,analyze_goal,validate_analysis,get_nav_history,calculate_cagr,calculate_volatility,calculate_drawdown,compare_funds]
+FUNCTIONS=[get_portfolio,get_fund_holdings,calculate_exposure,calculate_fund_overlap,calculate_sector_exposure,calculate_portfolio_risk,search_financial_documents,get_mutual_fund_details,get_historical_performance,web_search,search_company_news,get_market_data,research_company,simulate_allocation,compare_scenarios,calculate_tax_impact,analyze_goal,validate_analysis,search_mutual_fund_schemes,get_mutual_fund_nav,calculate_lump_sum_value,get_nav_history,calculate_cagr,calculate_volatility,calculate_drawdown,compare_funds]
 DESCRIPTIONS={f.__name__:f.__doc__ or f.__name__.replace("_"," ").capitalize()+" using validated inputs; returns structured data and provenance." for f in FUNCTIONS}
