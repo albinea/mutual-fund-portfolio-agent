@@ -1,17 +1,17 @@
-# FundLens
+# Mutual Fund Portfolio Intelligence Agent
 
 > **Mutual-fund intelligence for a clearer investment conversation.**
 
-FundLens is a full-stack mutual-fund portfolio workspace. It brings together portfolio imports, holdings analysis, fund exploration, current NAV data, and evidence-backed factsheet research in one experience. Its agent chooses from bounded tools and returns the data sources behind its answers rather than inventing financial claims.
+Mutual Fund Portfolio Intelligence Agent is a full-stack mutual-fund portfolio workspace. It brings together portfolio imports, holdings analysis, fund exploration, current NAV data, and evidence-backed factsheet research in one experience. Its agent chooses from bounded tools and returns the data sources behind its answers rather than inventing financial claims.
 
 ![Python](https://img.shields.io/badge/backend-Django%20REST-0C4B33?logo=django&logoColor=white)
 ![React](https://img.shields.io/badge/frontend-React-149ECA?logo=react&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/vector%20search-Qdrant-DC244C)
 ![Docker](https://img.shields.io/badge/deployment-Docker-2496ED?logo=docker&logoColor=white)
 
-## Why FundLens?
+## Why this project?
 
-Mutual-fund questions normally force investors to jump between statements, factsheets, NAV portals, and spreadsheets. FundLens connects those sources while preserving the distinction between portfolio data, public market data, and document evidence.
+Mutual-fund questions normally force investors to jump between statements, factsheets, NAV portals, and spreadsheets. This project connects those sources while preserving the distinction between portfolio data, public market data, and document evidence.
 
 | Capability | What it does |
 | --- | --- |
@@ -22,7 +22,7 @@ Mutual-fund questions normally force investors to jump between statements, facts
 | Account privacy | Uses Django sessions and CSRF protection; portfolio and chat data are scoped to the signed-in user. |
 
 > [!IMPORTANT]
-> FundLens is a research and education product, not investment advice. NAV and factsheet answers are only as current as their stated source and retrieval date.
+> This project is a research and education product, not investment advice. NAV and factsheet answers are only as current as their stated source and retrieval date.
 
 ---
 
@@ -38,7 +38,7 @@ flowchart LR
     O --> T[Validated tool registry]
     T --> P[Portfolio, overlap & calculators]
     T --> N[MFapi.in NAV tools]
-    T --> R[FundLens retrieval]
+    T --> R[Factsheet RAG retrieval]
     R --> Q[(Qdrant)]
     R --> D[Indexed factsheets]
 
@@ -98,8 +98,8 @@ DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
 DJANGO_CSRF_TRUSTED_ORIGINS=http://localhost:5173,http://127.0.0.1:5173
 
 # MySQL
-DB_NAME=fundlens
-DB_USER=fundlens
+DB_NAME=portfolio_app
+DB_USER=portfolio_user
 DB_PASSWORD=choose-a-private-password
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -236,8 +236,8 @@ For a public domain, update private `.env` values:
 
 ```dotenv
 DJANGO_DEBUG=False
-DJANGO_ALLOWED_HOSTS=fundlens.example.com
-DJANGO_CSRF_TRUSTED_ORIGINS=https://fundlens.example.com
+DJANGO_ALLOWED_HOSTS=portfolio.example.com
+DJANGO_CSRF_TRUSTED_ORIGINS=https://portfolio.example.com
 DJANGO_BEHIND_HTTPS_PROXY=True
 DJANGO_SECURE_SSL_REDIRECT=True
 DJANGO_HSTS_SECONDS=31536000
@@ -295,7 +295,7 @@ backend/
 ├── accounts/          # Session authentication and profiles
 ├── app/               # Agent orchestration and registered tools
 ├── chat/              # Portfolio chat, RAG jobs, and response history
-├── fundlens_rag/      # Reusable RAG service and retrieval bridge
+├── fundlens_rag/      # Reusable RAG service and retrieval bridge (package path)
 ├── portfolio_api/     # Portfolio, imports, market, explorer, calculators
 ├── rag/               # Ingestion, factsheets, evaluation, test corpus
 └── config/            # Django settings and routes
