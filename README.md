@@ -287,6 +287,7 @@ pytest rag/tests tests -q
 ```
 
 RAG evaluation is documented in [backend/rag/README.md](backend/rag/README.md). It measures retrieval, page citation accuracy, evidence coverage, grounding, confidence calibration, and latency against a controlled factsheet dataset.
+See the measured [evaluation report](docs/evaluation-report.md) for accuracy, latency, failure-rate, and per-query cost results.
 
 ---
 
