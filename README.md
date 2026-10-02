@@ -28,6 +28,8 @@ Mutual-fund questions normally force investors to jump between statements, facts
 
 ## Product architecture
 
+For the standalone, submission-ready diagram, see [docs/architecture.md](docs/architecture.md).
+
 ```mermaid
 flowchart LR
     U[Investor] --> W[React workspace]
