@@ -290,6 +290,21 @@ RAG evaluation is documented in [backend/rag/README.md](backend/rag/README.md). 
 See the measured [evaluation report](docs/evaluation-report.md) for accuracy, latency, failure-rate, and per-query cost results.
 
 ---
+### Load testing
+
+The controlled RAG load test is documented in [docs/locust_report.md](docs/Locust_report.md). It covers API rate-limit behaviour and end-to-end asynchronous RAG performance with 1, 2, and 5 concurrent users.
+
+Run the RAG load test from `backend`:
+
+```bash
+export RAG_TEST_EMAIL="your-test-user@example.com"
+read -srp "Password: " RAG_TEST_PASSWORD; echo
+
+python rag/evaluation/load_test.py \
+  --users 5 \
+  --requests-per-user 1 \
+  --confirm-model-usage
+```
 
 ## Repository guide
 
